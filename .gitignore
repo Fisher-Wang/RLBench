@@ -117,3 +117,8 @@ dmypy.json
 .pyre/
 
 index.html
+
+.vscode/
+PyRep/
+outputs/
+*.ipynb
