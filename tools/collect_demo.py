@@ -4,6 +4,8 @@ from rlbench.observation_config import ObservationConfig
 from pyrep import PyRep
 from pyrep.robots.arms.panda import Panda
 from pyrep.robots.end_effectors.panda_gripper import PandaGripper
+from pyrep.objects.joint import Joint
+from pyrep.objects.object import Object
 from rlbench.backend.const import TTT_FILE
 from rlbench.backend.scene import Scene
 from rlbench.backend.utils import task_file_to_task_class
@@ -86,6 +88,22 @@ def get_env_setup_data(scene: Scene):
         'init_target_quat': init_robot_quat,  # XXX
     }
     
+    object_name = 'box_base'
+    object = Object.get_object(object_name)
+    object_init_pos = object.get_position()
+    object_init_quat = object.get_quaternion()
+    data_env_setup |= {
+        'init_box_pos': object_init_pos,
+        'init_box_quat': object_init_quat,
+    }
+    
+    joint_name = 'box_joint'
+    joint = Joint(joint_name)
+    joint_init_q = joint.get_joint_position()  # a float
+    data_env_setup |= {
+        'init_box_joint_q': joint_init_q,
+    }
+    
     return data_env_setup
 
 def get_demo_one_try(scene: Scene, variation_index) -> Tuple[Demo, dict]:
@@ -97,20 +115,23 @@ def get_demo_one_try(scene: Scene, variation_index) -> Tuple[Demo, dict]:
 
 def get_demo(scene: Scene, variation_index) -> Tuple[Demo, dict]:
     attempts = 10
+    error = None
     while attempts > 0:
         try:
             demo, data_env_setup = get_demo_one_try(scene, variation_index)
         except Exception as e:
             attempts -= 1
             print(f'[DEBUG] Failed to get task {scene.task.get_name()} (variation: {variation_index}). Rest attempts {attempts}. Retrying...')
+            error = e  # record the error
             continue
         break
     
     if attempts > 0:
-        print(f'[INFO] Successfully got task {scene.task.get_name()} (variation: {variation_index})')
+        print(f'[INFO] Successfully got task {scene.task.get_name()} (variation: {variation_index}), length: {len(demo)}')
         return demo, data_env_setup
     else:
-        raise Exception(f'[ERROR] Failed to get task {scene.task.get_name()} (variation: {variation_index})')
+        print(f'[ERROR] Failed to get task {scene.task.get_name()} (variation: {variation_index})')
+        raise error
 
 def get_demos(task: Task, scene: Scene, variation_num: int) -> List[Demo]:
     task_name = task.get_name()
@@ -175,6 +196,7 @@ def get_demo_data(demo: Demo, data_env_setup: dict, task_name: str, variation_in
 
 def save_demos(data_demos: List[dict], save_path: str):
     max_episode_len = max([data_demo['episode_len'] for data_demo in data_demos])
+    print(f'[INFO] Saving demos to {save_path}, max_episode_len: {max_episode_len}')
     
     full_data = {
         'max_episode_len': max_episode_len,
@@ -219,7 +241,7 @@ if __name__ == '__main__':
         DIR_PATH, '..', 'rlbench', TTT_FILE)
     sim.launch(ttt_file, headless=args.headless)
     sim.step_ui()
-    sim.set_simulation_timestep(0.005)
+    sim.set_simulation_timestep(1/60)  # Control frequency 60Hz
     sim.step_ui()
     sim.start()
     
