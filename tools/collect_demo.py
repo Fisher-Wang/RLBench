@@ -19,6 +19,7 @@ import json
 import yaml
 import pickle
 import argparse
+import quaternion
 
 ####################################
 ## Utils
@@ -68,41 +69,77 @@ def data_numpy_float32(data: dict) -> dict:
             data[k] = [data_numpy_float32(e) for e in v]
     return data
 
+def xyzw_to_wxyz(quat: np.ndarray):
+    '''
+    Convert a quaternion array from [x, y, z, w] to [w, x, y, z]
+    '''
+    assert quat.shape[-1] == 4
+    return np.stack([quat[..., 3], quat[..., 0], quat[..., 1], quat[..., 2]], axis=-1)
+
+def float_array_to_str(arr: np.ndarray):
+    '''
+    Convert a list or 1D array of float to a string with 2 decimal places
+    '''
+    assert type(arr) == list or (type(arr) == np.ndarray and len(arr.shape) == 1)
+    return '[' + ', '.join([f'{e:.2f}' for e in arr]) + ']'
+
 ####################################
 ## Functions for collecting demos
 ####################################
 def get_env_setup_data(scene: Scene):
+    ## Panda
     init_arm_q = scene.robot.arm.get_joint_positions()
     init_gripper_q = scene.robot.gripper.get_joint_positions()
     init_q = np.concatenate([init_arm_q, init_gripper_q])
     init_robot_pos = scene.robot.arm.get_position()
     init_robot_quat = scene.robot.arm.get_quaternion()
+    init_robot_quat = xyzw_to_wxyz(init_robot_quat)
+    
+    robot_name = 'Panda'
+    robot = Object.get_object(robot_name)
+    init_panda_pos = robot.get_position()
+    init_panda_quat = robot.get_quaternion()
+    init_panda_quat = xyzw_to_wxyz(init_panda_quat)
+    
+    assert np.allclose(init_robot_pos, init_panda_pos)
+    assert np.allclose(init_robot_quat, init_panda_quat)
+    
+    print(f'[DEBUG] Initial panda q: {float_array_to_str(init_q)}')
+    print(f'[DEBUG] Initial panda position: {float_array_to_str(init_panda_pos)}')
+    print(f'[DEBUG] Initial panda orientation: {float_array_to_str(init_panda_quat)}')
     
     data_env_setup = {
         'init_q': init_q,
         'init_robot_pos': init_robot_pos,
         'init_robot_quat': init_robot_quat,
-        'init_cube_pos': init_robot_pos,    # XXX
-        'init_cube_quat': init_robot_quat,  # XXX
         'init_target_pos': init_robot_pos + np.array([20,20,20]),    # XXX
         'init_target_quat': init_robot_quat,  # XXX
     }
     
-    object_name = 'box_base'
-    object = Object.get_object(object_name)
-    object_init_pos = object.get_position()
-    object_init_quat = object.get_quaternion()
-    data_env_setup |= {
-        'init_box_pos': object_init_pos,
-        'init_box_quat': object_init_quat,
-    }
-    
-    joint_name = 'box_joint'
-    joint = Joint(joint_name)
-    joint_init_q = joint.get_joint_position()  # a float
-    data_env_setup |= {
-        'init_box_joint_q': joint_init_q,
-    }
+    ## Objects
+    object_names = ['box_base']
+    for object_name in object_names:
+        object = Object.get_object(object_name)
+        init_object_pos = object.get_position()
+        init_object_quat = object.get_quaternion()
+        init_object_quat = xyzw_to_wxyz(init_object_quat)
+        data_env_setup |= {
+            f'init_{object_name}_pos': init_object_pos,
+            f'init_{object_name}_quat': init_object_quat,
+        }
+        print(f'[DEBUG] Initial {object_name} position: {float_array_to_str(init_object_pos)}')
+        print(f'[DEBUG] Initial {object_name} orientation: {float_array_to_str(init_object_quat)}')
+
+    ## Joints
+    joint_names = ['box_joint']
+    for joint_name in joint_names:
+        joint = Joint(joint_name)
+        init_joint_q = joint.get_joint_position()
+        init_joint_q = np.array([init_joint_q])  # float to array
+        data_env_setup |= {
+            f'init_{joint_name}_q': init_joint_q,
+        }
+        print(f'[DEBUG] Initial {joint_name} q: {float_array_to_str(init_joint_q)}')
     
     return data_env_setup
 
