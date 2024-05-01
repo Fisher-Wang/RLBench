@@ -1,0 +1,11 @@
+close_box:
+  objects:
+  - box_base
+  joints:
+  - box_joint
+empty_dishwasher:
+  objects:
+  - dishwasher
+  joints:
+  - dishwasher_tray_joint
+  - dishwasher_door_joint

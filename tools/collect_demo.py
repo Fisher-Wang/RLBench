@@ -29,6 +29,10 @@ def mkdir(path):
     os.makedirs(path, exist_ok=True)
     return path
 
+def read_yaml(path):
+    with open(path, 'r') as f:
+        return yaml.load(f, Loader=yaml.FullLoader)
+
 def write_yaml(path, data):
     with open(path, 'w+') as f:
         yaml.dump(data, f, default_flow_style=False)
@@ -86,7 +90,7 @@ def float_array_to_str(arr: np.ndarray):
 ####################################
 ## Functions for collecting demos
 ####################################
-def get_env_setup_data(scene: Scene):
+def get_env_setup_data(cfg: dict, scene: Scene):
     ## Panda
     init_arm_q = scene.robot.arm.get_joint_positions()
     init_gripper_q = scene.robot.gripper.get_joint_positions()
@@ -117,7 +121,7 @@ def get_env_setup_data(scene: Scene):
     }
     
     ## Objects
-    object_names = ['box_base']
+    object_names = cfg['objects']
     for object_name in object_names:
         object = Object.get_object(object_name)
         init_object_pos = object.get_position()
@@ -131,7 +135,7 @@ def get_env_setup_data(scene: Scene):
         print(f'[DEBUG] Initial {object_name} orientation: {float_array_to_str(init_object_quat)}')
 
     ## Joints
-    joint_names = ['box_joint']
+    joint_names = cfg['joints']
     for joint_name in joint_names:
         joint = Joint(joint_name)
         init_joint_q = joint.get_joint_position()
@@ -143,19 +147,19 @@ def get_env_setup_data(scene: Scene):
     
     return data_env_setup
 
-def get_demo_one_try(scene: Scene, variation_index) -> Tuple[Demo, dict]:
+def get_demo_one_try(cfg: dict, scene: Scene, variation_index) -> Tuple[Demo, dict]:
     scene.reset()
     desc = scene.init_episode(variation_index, max_attempts=10)
-    data_env_setup = get_env_setup_data(scene)
+    data_env_setup = get_env_setup_data(cfg, scene)
     demo = scene.get_demo(record=True)
     return demo, data_env_setup
 
-def get_demo(scene: Scene, variation_index) -> Tuple[Demo, dict]:
+def get_demo(cfg: dict, scene: Scene, variation_index) -> Tuple[Demo, dict]:
     attempts = 10
     error = None
     while attempts > 0:
         try:
-            demo, data_env_setup = get_demo_one_try(scene, variation_index)
+            demo, data_env_setup = get_demo_one_try(cfg, scene, variation_index)
         except Exception as e:
             attempts -= 1
             print(f'[DEBUG] Failed to get task {scene.task.get_name()} (variation: {variation_index}). Rest attempts {attempts}. Retrying...')
@@ -170,7 +174,7 @@ def get_demo(scene: Scene, variation_index) -> Tuple[Demo, dict]:
         print(f'[ERROR] Failed to get task {scene.task.get_name()} (variation: {variation_index})')
         raise error
 
-def get_demos(task: Task, scene: Scene, variation_num: int) -> List[Demo]:
+def get_demos(cfg: dict, task: Task, scene: Scene, variation_num: int) -> List[Demo]:
     task_name = task.get_name()
     save_dir = mkdir(os.path.join('outputs', f'{task_name}'))
     
@@ -179,7 +183,7 @@ def get_demos(task: Task, scene: Scene, variation_num: int) -> List[Demo]:
     
     data_demos = []
     for variation_index in range(variation_num):
-        demo, data_env_setup = get_demo(scene, variation_index)
+        demo, data_env_setup = get_demo(cfg, scene, variation_index)
         data_demo = get_demo_data(demo, data_env_setup, task_name, variation_index)    
         data_demos.append(data_demo)
     
@@ -188,19 +192,6 @@ def get_demos(task: Task, scene: Scene, variation_num: int) -> List[Demo]:
 
 def get_demo_data(demo: Demo, data_env_setup: dict, task_name: str, variation_index: int):
     data = {}
-    
-    ## Export all keys
-    # for obs in demo:
-    #     for key in dir(obs):
-    #         if key.startswith("__"):
-    #             continue
-
-    #         attr = getattr(obs, key)
-    #         if callable(attr):
-    #             continue
-    #         if type(attr) == np.ndarray:
-    #             attr = attr.tolist()
-    #         data[key] = attr
 
     ## Process trajectory
     qs = []
@@ -263,7 +254,10 @@ if __name__ == '__main__':
     parser.add_argument("task", help="The task file to test.")
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--variation_num", type=int, default=1)
+    parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
     args = parser.parse_args()
+    task_name = args.task.removesuffix('.py')
+    cfg = read_yaml(args.conf)[task_name]
 
     ## Task
     python_file = os.path.join(TASKS_PATH, args.task)
@@ -290,5 +284,5 @@ if __name__ == '__main__':
     scene = Scene(sim, robot, obs_config)
     
     ## Run task
-    demos = get_demos(active_task, scene, args.variation_num)
+    demos = get_demos(cfg, active_task, scene, args.variation_num)
     
