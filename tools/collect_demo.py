@@ -280,7 +280,9 @@ if __name__ == '__main__':
     robot = Robot(Panda(), PandaGripper())
     active_task = task_class(sim, robot)
     obs_config = ObservationConfig()
-    obs_config.set_all_low_dim(True)
+    obs_config.joint_positions = True
+    obs_config.gripper_joint_positions = True
+    obs_config.gripper_open = True
     scene = Scene(sim, robot, obs_config)
     
     ## Run task
