@@ -8,7 +8,6 @@ from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
 from rlbench.backend.const import TTT_FILE
 from rlbench.backend.scene import Scene
-from rlbench.backend.utils import task_file_to_task_class
 from rlbench.backend.task import TASKS_PATH
 from rlbench.backend.robot import Robot
 from rlbench.demo import Demo
@@ -225,13 +224,11 @@ class DemoWriter:
 ## Functions for collecting demos
 ####################################
 class DemoGetter:
-    def __init__(self, cfg: dict, writer: DemoWriter, task_class):
+    def __init__(self, writer: DemoWriter):
         self._launch_sim()
         self.robot = Robot(Panda(), PandaGripper())
         self._create_scene()
-        self._load_task(task_class)
         
-        self.cfg = cfg
         self.writer = writer
     
     def _launch_sim(self):
@@ -252,12 +249,21 @@ class DemoGetter:
         obs_config.gripper_open = True
         self.scene = Scene(self.sim, self.robot, obs_config)
     
-    def _load_task(self, task_class):
+    def load_task(self, task_name):
+        def task_name_to_task_class(name):
+            import importlib
+            class_name = ''.join([w[0].upper() + w[1:] for w in name.split('_')])
+            mod = importlib.import_module("rlbench.tasks.%s" % name)
+            mod = importlib.reload(mod)
+            task_class = getattr(mod, class_name)
+            return task_class
+        
+        task_class = task_name_to_task_class(task_name)
         self.task = task_class(self.sim, self.robot)
         self.scene.load(self.task)
         self.scene.init_task()
     
-    def try_get_demo(self, variation_index):
+    def _try_get_demo(self, variation_index):
         self.scene.reset()
         desc = self.scene.init_episode(variation_index, max_attempts=10)
         self.writer.capture_env_setup_data(self.scene)
@@ -269,7 +275,7 @@ class DemoGetter:
         error = None
         while attempts > 0:
             try:
-                demo = self.try_get_demo(variation_index)
+                demo = self._try_get_demo(variation_index)
             except Exception as e:
                 attempts -= 1
                 print(f'[DEBUG] Failed to get task {self.scene.task.get_name()} (variation: {variation_index}). Rest attempts {attempts}. Retrying...')
@@ -299,22 +305,21 @@ class DemoGetter:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("task", help="The task file to test.")
+    parser.add_argument("task", help="The task name to test.")
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--variation_num", type=int, default=1)
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
     args = parser.parse_args()
-    task_name = args.task.removesuffix('.py')
-    cfg = read_yaml(args.conf)[task_name]
+    cfg = read_yaml(args.conf)[args.task]
 
     ## Task
-    python_file = os.path.join(TASKS_PATH, args.task)
+    python_file = os.path.join(TASKS_PATH, f'{args.task}.py')
     if not os.path.isfile(python_file):
         raise RuntimeError('Could not find the task file: %s' % python_file)
-    task_class = task_file_to_task_class(args.task)
     
     ## Run task
-    save_dir = mkdir(os.path.join('outputs', task_name))
-    writer = DemoWriter(cfg, os.path.join(save_dir, f'{task_name}.pkl'))
-    getter = DemoGetter(cfg, writer, task_class)
+    save_dir = mkdir(os.path.join('outputs', args.task))
+    writer = DemoWriter(cfg, os.path.join(save_dir, f'{args.task}.pkl'))
+    getter = DemoGetter(writer)
+    getter.load_task(args.task)
     getter.get_demos(args.variation_num)
