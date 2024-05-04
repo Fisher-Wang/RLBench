@@ -165,7 +165,7 @@ class DemoWriter:
         
         return joint_data
     
-    def save_demo_data(self, demo: Demo, task_name: str, variation_index: int):
+    def save_demo_data(self, demo: Demo, task_name: str, episode_index: int):
         data = {}
 
         ## Process trajectory
@@ -188,7 +188,7 @@ class DemoWriter:
         
         ## All demo data
         demo_entry = {
-            'name': f'{task_name}_traj_{variation_index}',
+            'name': f'{task_name}_traj_{episode_index}',
             'asset_name': 'default_asset',
             'episode_len': len(qs),
             'env_setup': self.data_env_setup,
@@ -263,14 +263,14 @@ class DemoGetter:
         self.scene.load(self.task)
         self.scene.init_task()
     
-    def _try_get_demo(self, variation_index):
+    def _try_get_demo(self, variation_index=0):
         self.scene.reset()
         desc = self.scene.init_episode(variation_index, max_attempts=10)
         self.writer.capture_env_setup_data(self.scene)
         demo = self.scene.get_demo(record=True)
         return demo
 
-    def get_demo(self, variation_index):
+    def get_demo(self, episode_index, variation_index=0):
         attempts = 10
         error = None
         while attempts > 0:
@@ -278,24 +278,24 @@ class DemoGetter:
                 demo = self._try_get_demo(variation_index)
             except Exception as e:
                 attempts -= 1
-                print(f'[DEBUG] Failed to get task {self.scene.task.get_name()} (variation: {variation_index}). Rest attempts {attempts}. Retrying...')
+                print(f'[DEBUG] Failed to get task {self.scene.task.get_name()} (episode: {episode_index}). Rest attempts {attempts}. Retrying...')
                 error = e  # record the error
                 continue
             break
         
         if attempts > 0:
-            print(f'[INFO] Successfully got task {self.scene.task.get_name()} (variation: {variation_index}), length: {len(demo)}')
+            print(f'[INFO] Successfully got task {self.scene.task.get_name()} (episode: {episode_index}), length: {len(demo)}')
             return demo
         else:
-            print(f'[ERROR] Failed to get task {self.scene.task.get_name()} (variation: {variation_index})')
+            print(f'[ERROR] Failed to get task {self.scene.task.get_name()} (episode: {episode_index})')
             raise error
 
-    def get_demos(self, num_variations: int):
+    def get_demos(self, num_episodes: int):
         task_name = self.task.get_name()
         
-        for variation_index in range(num_variations):
-            demo = self.get_demo(variation_index)
-            self.writer.save_demo_data(demo, task_name, variation_index)    
+        for episode_index in range(num_episodes):
+            demo = self.get_demo(episode_index, variation_index=0)  # Always get the first variation
+            self.writer.save_demo_data(demo, task_name, episode_index)    
         
         self.writer.write()
 
@@ -307,7 +307,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("task", help="The task name to test.")
     parser.add_argument("--headless", action='store_true')
-    parser.add_argument("--variation_num", type=int, default=1)
+    parser.add_argument("--episode_num", type=int, default=1)
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
     args = parser.parse_args()
     cfg = read_yaml(args.conf)[args.task]
@@ -322,4 +322,4 @@ if __name__ == '__main__':
     writer = DemoWriter(cfg, os.path.join(save_dir, f'{args.task}.pkl'))
     getter = DemoGetter(writer)
     getter.load_task(args.task)
-    getter.get_demos(args.variation_num)
+    getter.get_demos(args.episode_num)
