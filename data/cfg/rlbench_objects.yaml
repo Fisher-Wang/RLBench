@@ -5,7 +5,26 @@ close_box:
   - box_joint
 empty_dishwasher:
   objects:
+  - empty_dishwasher
   - dishwasher
   joints:
   - dishwasher_tray_joint
   - dishwasher_door_joint
+open_drawer:
+  objects:
+  - drawer_frame
+  joints:
+  - drawer_joint_bottom
+  - drawer_joint_middle
+  - drawer_joint_top
+slide_block_to_target:
+  objects:
+  - block
+  - target
+  joints: []
+stack_cups:
+  objects:
+  - cup1
+  - cup2
+  - cup3
+  joints: []
