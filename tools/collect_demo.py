@@ -4,8 +4,15 @@ from rlbench.observation_config import ObservationConfig
 from pyrep import PyRep
 from pyrep.robots.arms.panda import Panda
 from pyrep.robots.end_effectors.panda_gripper import PandaGripper
+from pyrep.robots.arms.sawyer import Sawyer
+from pyrep.robots.end_effectors.baxter_gripper import BaxterGripper
+from pyrep.robots.arms.ur5 import UR5
+from pyrep.robots.end_effectors.robotiq85_gripper import Robotiq85Gripper
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
+from rlbench.action_modes.action_mode import MoveArmThenGripper
+from rlbench.action_modes.arm_action_modes import JointVelocity
+from rlbench.action_modes.gripper_action_modes import Discrete
 from rlbench.backend.const import TTT_FILE
 from rlbench.backend.scene import Scene
 from rlbench.backend.task import TASKS_PATH
@@ -19,6 +26,15 @@ import yaml
 import pickle
 import argparse
 import quaternion
+
+####################################
+## Consts
+####################################
+SUPPORTED_ROBOTS = {
+    'panda': (Panda, PandaGripper, 7),
+    'sawyer': (Sawyer, BaxterGripper, 7),
+    'ur5': (UR5, Robotiq85Gripper, 6),
+}
 
 ####################################
 ## Utils
@@ -84,7 +100,51 @@ def float_array_to_str(arr: np.ndarray):
     Convert a list or 1D array of float to a string with 2 decimal places
     '''
     assert type(arr) == list or (type(arr) == np.ndarray and len(arr.shape) == 1)
-    return '[' + ', '.join([f'{e:.2f}' for e in arr]) + ']'
+    return '[' + ', '.join([f'{e:.4f}' for e in arr]) + ']'
+
+def quat_multiply_numpy(q1, q2):
+    """
+    Multiply two quaternions or arrays of quaternions.
+
+    Args:
+        q1 (ndarray): The first quaternion or array of quaternions of shape (..., 4).
+        q2 (ndarray): The second quaternion or array of quaternions of shape (..., 4).
+
+    Returns:
+        ndarray: The result of quaternion multiplication, with shape (..., 4).
+
+    Notes:
+        The quaternions should be in the format [w, x, y, z].
+    """
+    w1, x1, y1, z1 = q1[..., 0], q1[..., 1], q1[..., 2], q1[..., 3]
+    w2, x2, y2, z2 = q2[..., 0], q2[..., 1], q2[..., 2], q2[..., 3]
+    return np.stack(
+        [w1 * w2 - x1 * x2 - y1 * y2 - z1 * z2,
+         w1 * x2 + x1 * w2 + y1 * z2 - z1 * y2,
+         w1 * y2 - x1 * z2 + y1 * w2 + z1 * x2,
+         w1 * z2 + x1 * y2 - y1 * x2 + z1 * w2],
+        axis=-1
+    )
+
+def quat_to_euler(q):
+    """
+    Converts quaternion (w in first place) to euler (roll, pitch, yaw)
+    """
+    w, x, y, z = q[..., 0], q[..., 1], q[..., 2], q[..., 3]
+
+    sinr_cosp = 2 * (w * x + y * z)
+    cosr_cosp = 1 - 2 * (x * x + y * y)
+    roll = np.arctan2(sinr_cosp, cosr_cosp)
+
+    sinp = 2 * (w * y - z * x)
+    sinp = np.clip(sinp, -1, 1)
+    pitch = np.arcsin(sinp)
+
+    siny_cosp = 2 * (w * z + x * y)
+    cosy_cosp = 1 - 2 * (y * y + z * z)
+    yaw = np.arctan2(siny_cosp, cosy_cosp)
+
+    return np.stack([roll, pitch, yaw], axis=-1)
 
 ####################################
 ## Demo writer
@@ -111,18 +171,22 @@ class DemoWriter:
         init_robot_quat = scene.robot.arm.get_quaternion()
         init_robot_quat = xyzw_to_wxyz(init_robot_quat)
         
-        robot_name = 'Panda'
-        robot = Object.get_object(robot_name)
-        init_panda_pos = robot.get_position()
-        init_panda_quat = robot.get_quaternion()
-        init_panda_quat = xyzw_to_wxyz(init_panda_quat)
+        # robot_name = 'Panda'
+        # robot = Object.get_object(robot_name)
+        # init_panda_pos = robot.get_position()
+        # init_panda_quat = robot.get_quaternion()
+        # init_panda_quat = xyzw_to_wxyz(init_panda_quat)
         
-        assert np.allclose(init_robot_pos, init_panda_pos)
-        assert np.allclose(init_robot_quat, init_panda_quat)
+        # assert np.allclose(init_robot_pos, init_panda_pos)
+        # assert np.allclose(init_robot_quat, init_panda_quat)
+        
+        # t = np.array([np.cos(np.pi/4), 0, np.sin(np.pi/4), 0])  # first rotate around Y axis by 90 degree
+        # t = quat_multiply_numpy(np.array([np.cos(np.pi/2), np.sin(np.pi/2), 0, 0]), t)  # then rotate around X axis by 180 degree
+        # init_robot_quat = quat_multiply_numpy(init_robot_quat, t)  # t is the transformation from RLBench to RoboVerse
         
         print(f'[DEBUG] Initial panda q: {float_array_to_str(init_q)}')
-        print(f'[DEBUG] Initial panda position: {float_array_to_str(init_panda_pos)}')
-        print(f'[DEBUG] Initial panda orientation: {float_array_to_str(init_panda_quat)}')
+        print(f'[DEBUG] Initial panda position: {float_array_to_str(init_robot_pos)}')
+        print(f'[DEBUG] Initial panda orientation: {float_array_to_str(init_robot_quat)}')
         
         panda_data = {
             'init_q': init_q,
@@ -147,7 +211,7 @@ class DemoWriter:
                 f'init_{object_name}_quat': init_object_quat,
             }
             print(f'[DEBUG] Initial {object_name} position: {float_array_to_str(init_object_pos)}')
-            print(f'[DEBUG] Initial {object_name} orientation: {float_array_to_str(init_object_quat)}')
+            print(f'[DEBUG] Initial {object_name} orientation: {float_array_to_str(init_object_quat)} or {float_array_to_str(quat_to_euler(init_object_quat))}')
         
         return object_data
     
@@ -224,24 +288,40 @@ class DemoWriter:
 ## Functions for collecting demos
 ####################################
 class DemoGetter:
-    def __init__(self, writer: DemoWriter):
-        self._launch_sim()
-        self.robot = Robot(Panda(), PandaGripper())
-        self._create_scene()
-        
+    def __init__(self, args, writer: DemoWriter):
+        self.args = args
         self.writer = writer
+        
+        self._launch_sim()
+        self._setup_robot()
+        self._create_scene()
     
     def _launch_sim(self):
         DIR_PATH = os.path.dirname(os.path.abspath(__file__))
         self.sim = PyRep()
-        ttt_file = os.path.join(
-            DIR_PATH, '..', 'rlbench', TTT_FILE)
-        self.sim.launch(ttt_file, headless=args.headless)
+        ttt_file = os.path.join(DIR_PATH, '..', 'rlbench', TTT_FILE)
+        self.sim.launch(ttt_file, headless=self.args.headless)
         self.sim.step_ui()
         self.sim.set_simulation_timestep(1/60)  # Control frequency 60Hz
         self.sim.step_ui()
         self.sim.start()
-    
+        
+    def _setup_robot(self):
+        DIR_PATH = os.path.dirname(os.path.abspath(__file__))
+        arm_class, gripper_class, _ = SUPPORTED_ROBOTS[self.args.robot]
+        # Default robot is Panda
+        if self.args.robot != 'panda':
+            panda_arm = Panda()
+            panda_pos = panda_arm.get_position()
+            panda_arm.remove()
+            arm_path = os.path.join(DIR_PATH, '..', 'rlbench', 'robot_ttms', f'{self.args.robot}.ttm')
+            self.sim.import_model(arm_path)
+            arm, gripper = arm_class(), gripper_class()
+            arm.set_position(panda_pos)
+        else:
+            arm, gripper = arm_class(), gripper_class()
+        self.robot = Robot(arm, gripper)
+        
     def _create_scene(self):
         obs_config = ObservationConfig()
         obs_config.joint_positions = True
@@ -309,6 +389,8 @@ if __name__ == '__main__':
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--episode_num", type=int, default=1)
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
+    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
     args = parser.parse_args()
     cfg = read_yaml(args.conf)[args.task]
 
@@ -318,8 +400,9 @@ if __name__ == '__main__':
         raise RuntimeError('Could not find the task file: %s' % python_file)
     
     ## Run task
+    np.random.seed(args.seed)
     save_dir = mkdir(os.path.join('outputs', args.task))
     writer = DemoWriter(cfg, os.path.join(save_dir, f'{args.task}.pkl'))
-    getter = DemoGetter(writer)
+    getter = DemoGetter(args, writer)
     getter.load_task(args.task)
     getter.get_demos(args.episode_num)
