@@ -324,6 +324,7 @@ class DemoGetter:
         
     def _create_scene(self):
         obs_config = ObservationConfig()
+        obs_config.set_all(False)  # Comment this to slow down the simulation
         obs_config.joint_positions = True
         obs_config.gripper_joint_positions = True
         obs_config.gripper_open = True
@@ -339,7 +340,8 @@ class DemoGetter:
             return task_class
         
         task_class = task_name_to_task_class(task_name)
-        self.task = task_class(self.sim, self.robot)
+        self.task : Task = task_class(self.sim, self.robot)
+        self.scene.unload()
         self.scene.load(self.task)
         self.scene.init_task()
     
@@ -350,8 +352,7 @@ class DemoGetter:
         demo = self.scene.get_demo(record=True)
         return demo
 
-    def get_demo(self, episode_index, variation_index=0):
-        attempts = 10
+    def get_demo(self, episode_index, variation_index=0, attempts=10, raise_error=True):
         error = None
         while attempts > 0:
             try:
@@ -368,7 +369,10 @@ class DemoGetter:
             return demo
         else:
             print(f'[ERROR] Failed to get task {self.scene.task.get_name()} (episode: {episode_index})')
-            raise error
+            if raise_error:
+                raise error
+            else:
+                print(f'[ERROR] Error: {error}')
 
     def get_demos(self, num_episodes: int):
         task_name = self.task.get_name()
@@ -392,7 +396,7 @@ if __name__ == '__main__':
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
     args = parser.parse_args()
-    cfg = read_yaml(args.conf)[args.task]
+    cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
 
     ## Task
     python_file = os.path.join(TASKS_PATH, f'{args.task}.py')

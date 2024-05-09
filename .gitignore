@@ -122,3 +122,8 @@ index.html
 PyRep/
 outputs/
 *.ipynb
+*.png
+*.avi
+*.mp4
+*.ttm
+*.ttt
