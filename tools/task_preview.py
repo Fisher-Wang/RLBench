@@ -1,16 +1,16 @@
-from rlbench.backend.task import Task
-from rlbench.observation_config import ObservationConfig, CameraConfig
-from rlbench.backend.scene import Scene
-from rlbench.backend.task import TASKS_PATH
-from rlbench.demo import Demo
-from typing import List, Tuple
-import numpy as np
-import os
 import argparse
-import cv2
+import os
+from typing import List, Tuple
 
-from tools.collect_demo import DemoGetter
-from tools.collect_demo import mkdir, read_yaml 
+import cv2
+import numpy as np
+
+from rlbench.backend.scene import Scene
+from rlbench.backend.task import TASKS_PATH, Task
+from rlbench.demo import Demo
+from rlbench.observation_config import CameraConfig, ObservationConfig
+from tools.collect_demo import DemoGetter, mkdir, read_yaml
+
 
 ####################################
 ## Functions

@@ -1,31 +1,31 @@
-from rlbench.backend.task import Task
-from rlbench.backend.scene import DemoError
-from rlbench.observation_config import ObservationConfig
+import argparse
+import json
+import os
+import pickle
+from typing import List, Tuple
+
+import numpy as np
+import quaternion
+import yaml
 from pyrep import PyRep
-from pyrep.robots.arms.panda import Panda
-from pyrep.robots.end_effectors.panda_gripper import PandaGripper
-from pyrep.robots.arms.sawyer import Sawyer
-from pyrep.robots.end_effectors.baxter_gripper import BaxterGripper
-from pyrep.robots.arms.ur5 import UR5
-from pyrep.robots.end_effectors.robotiq85_gripper import Robotiq85Gripper
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
+from pyrep.robots.arms.panda import Panda
+from pyrep.robots.arms.sawyer import Sawyer
+from pyrep.robots.arms.ur5 import UR5
+from pyrep.robots.end_effectors.baxter_gripper import BaxterGripper
+from pyrep.robots.end_effectors.panda_gripper import PandaGripper
+from pyrep.robots.end_effectors.robotiq85_gripper import Robotiq85Gripper
+
 from rlbench.action_modes.action_mode import MoveArmThenGripper
 from rlbench.action_modes.arm_action_modes import JointVelocity
 from rlbench.action_modes.gripper_action_modes import Discrete
 from rlbench.backend.const import TTT_FILE
-from rlbench.backend.scene import Scene
-from rlbench.backend.task import TASKS_PATH
 from rlbench.backend.robot import Robot
+from rlbench.backend.scene import DemoError, Scene
+from rlbench.backend.task import TASKS_PATH, Task
 from rlbench.demo import Demo
-from typing import List, Tuple
-import numpy as np
-import os
-import json
-import yaml
-import pickle
-import argparse
-import quaternion
+from rlbench.observation_config import ObservationConfig
 
 ####################################
 ## Consts
