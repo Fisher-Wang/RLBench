@@ -2,14 +2,16 @@ import argparse
 import json
 import os
 import pickle
-from typing import List, Tuple
+from typing import Dict, List, Tuple
 
 import numpy as np
 import quaternion
 import yaml
+from PIL import Image
 from pyrep import PyRep
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
+from pyrep.objects.vision_sensor import VisionSensor
 from pyrep.robots.arms.panda import Panda
 from pyrep.robots.arms.sawyer import Sawyer
 from pyrep.robots.arms.ur5 import UR5
@@ -17,15 +19,13 @@ from pyrep.robots.end_effectors.baxter_gripper import BaxterGripper
 from pyrep.robots.end_effectors.panda_gripper import PandaGripper
 from pyrep.robots.end_effectors.robotiq85_gripper import Robotiq85Gripper
 
-from rlbench.action_modes.action_mode import MoveArmThenGripper
-from rlbench.action_modes.arm_action_modes import JointVelocity
-from rlbench.action_modes.gripper_action_modes import Discrete
 from rlbench.backend.const import TTT_FILE
+from rlbench.backend.myscene import MyScene as Scene
+from rlbench.backend.observation import Observation
 from rlbench.backend.robot import Robot
-from rlbench.backend.scene import DemoError, Scene
 from rlbench.backend.task import TASKS_PATH, Task
 from rlbench.demo import Demo
-from rlbench.observation_config import ObservationConfig
+from rlbench.observation_config import CameraConfig, ObservationConfig
 
 ####################################
 ## Consts
@@ -236,6 +236,7 @@ class DemoWriter:
         qs = []
         ee_acts = []
         for obs in demo:
+            obs: Observation
             # collecting joint positions for q [L x q_len]
             q = obs.joint_positions.tolist() + obs.gripper_joint_positions.tolist()
             # collecting gripper open for ee_act [L x 1]
@@ -287,6 +288,34 @@ class DemoWriter:
 ####################################
 ## Functions for collecting demos
 ####################################
+def get_callable_when_reach_waypoint(scene: Scene):
+    sensor_left = VisionSensor('cam_over_shoulder_left')
+    sensor_right = VisionSensor('cam_over_shoulder_right')
+    sensor_overhead = VisionSensor('cam_overhead')
+    sensors = {
+        'left': sensor_left, 
+        'right': sensor_right, 
+        'overhead': sensor_overhead,
+    }
+    snapshot_save_dir = mkdir(os.path.join(save_dir, 'snapshots'))
+    
+    def func(waypoint_index: int):
+        ## Capture robot joint positions
+        arm_q = scene.robot.arm.get_joint_positions()
+        gripper_q = scene.robot.gripper.get_joint_positions()
+        q = np.concatenate([arm_q, gripper_q])
+        print(f'[INFO] Reached waypoint {waypoint_index}, q: {float_array_to_str(q)}')
+        write_yaml(os.path.join(snapshot_save_dir, f'waypoint{waypoint_index}.yaml'), {'q': q.tolist()})
+
+        ## Capture snapshot
+        for sensor_name, sensor in sensors.items():
+            sensor.handle_explicitly()
+            rgb = sensor.capture_rgb()
+            rgb = np.clip((rgb * 255.).astype(np.uint8), 0, 255)
+            rgb = Image.fromarray(rgb)
+            rgb.save(os.path.join(snapshot_save_dir, f'waypoint{waypoint_index}_{sensor_name}.png'))
+    return func
+
 class DemoGetter:
     def __init__(self, args, writer: DemoWriter):
         self.args = args
@@ -325,6 +354,10 @@ class DemoGetter:
     def _create_scene(self):
         obs_config = ObservationConfig()
         obs_config.set_all(False)  # Comment this to slow down the simulation
+        if self.args.snapshot:
+            obs_config.overhead_camera = CameraConfig(image_size=(256, 256))
+            obs_config.left_shoulder_camera = CameraConfig(image_size=(256, 256))
+            obs_config.right_shoulder_camera = CameraConfig(image_size=(256, 256))
         obs_config.joint_positions = True
         obs_config.gripper_joint_positions = True
         obs_config.gripper_open = True
@@ -349,7 +382,10 @@ class DemoGetter:
         self.scene.reset()
         desc = self.scene.init_episode(variation_index, max_attempts=10)
         self.writer.capture_env_setup_data(self.scene)
-        demo = self.scene.get_demo(record=True)
+        demo = self.scene.get_demo(
+            record=True, 
+            callable_when_reach_waypoint=get_callable_when_reach_waypoint(self.scene) if self.args.snapshot else None
+        )
         return demo
 
     def get_demo(self, episode_index, variation_index=0, attempts=10, raise_error=True):
@@ -361,6 +397,7 @@ class DemoGetter:
                 attempts -= 1
                 print(f'[DEBUG] Failed to get task {self.scene.task.get_name()} (episode: {episode_index}). Rest attempts {attempts}. Retrying...')
                 error = e  # record the error
+                # raise e  # for debug
                 continue
             break
         
@@ -395,8 +432,10 @@ if __name__ == '__main__':
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
+    parser.add_argument("--snapshot", action='store_true')
     args = parser.parse_args()
     cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
+    cfg['objects'] += ['diningTable']
 
     ## Task
     python_file = os.path.join(TASKS_PATH, f'{args.task}.py')
