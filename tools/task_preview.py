@@ -9,7 +9,7 @@ from rlbench.backend.scene import Scene
 from rlbench.backend.task import TASKS_PATH, Task
 from rlbench.demo import Demo
 from rlbench.observation_config import CameraConfig, ObservationConfig
-from tools.collect_demo import DemoGetter, mkdir, read_yaml
+from tools.collect_demo import DemoGetter, mkdir, read_yaml, write_yaml
 
 
 ####################################
@@ -25,8 +25,8 @@ class DemoPreviewGetter(DemoGetter):
         cam_config.rgb = True
         obs_config = ObservationConfig()
         obs_config.set_all(False)
-        obs_config.front_camera = cam_config
-        obs_config.overhead_camera = cam_config
+        # obs_config.front_camera = cam_config
+        # obs_config.overhead_camera = cam_config
         self.scene = Scene(self.sim, self.robot, obs_config)
 
     def _try_get_demo(self, variation_index=0):
@@ -38,20 +38,20 @@ class DemoPreviewGetter(DemoGetter):
     def save_demo(self, demo: Demo):
         save_dir = mkdir('preview')
         
-        h, w, _ = demo[0].front_rgb.shape
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-        videos = {
-            'front_rgb': cv2.VideoWriter(os.path.join(save_dir, f'{self.task.get_name()}_front_rgb.mp4'), fourcc, 30, (w, h)),
-            'overhead_rgb': cv2.VideoWriter(os.path.join(save_dir, f'{self.task.get_name()}_overhead_rgb.mp4'), fourcc, 30, (w, h))
-        }
+        # h, w, _ = demo[0].front_rgb.shape
+        # fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        # videos = {
+        #     'front_rgb': cv2.VideoWriter(os.path.join(save_dir, f'{self.task.get_name()}_front_rgb.mp4'), fourcc, 30, (w, h)),
+        #     'overhead_rgb': cv2.VideoWriter(os.path.join(save_dir, f'{self.task.get_name()}_overhead_rgb.mp4'), fourcc, 30, (w, h))
+        # }
 
-        for key, video in videos.items():
-            for i, obs in enumerate(demo):
-                frame = getattr(obs, key)
-                frame = frame[:, :, ::-1]
-                video.write(frame)
+        # for key, video in videos.items():
+        #     for i, obs in enumerate(demo):
+        #         frame = getattr(obs, key)
+        #         frame = frame[:, :, ::-1]
+        #         video.write(frame)
 
-            video.release()
+        #     video.release()
 
 ####################################
 ## Main
@@ -76,13 +76,19 @@ if __name__ == '__main__':
     task_names_py = [n.removesuffix('.py') for n in os.listdir('rlbench/tasks')]
     task_names = sorted(list(set(task_names_ttm) & set(task_names_py)))
     print('Task names:', task_names)
+    
+    summary = {}
     for task_name in task_names:
-        if os.path.exists(os.path.join('preview', f'{task_name}_overhead_rgb.mp4')):
-            print(f'Skipping {task_name} as it already exists.')
-            continue
+        # if os.path.exists(os.path.join('preview', f'{task_name}_overhead_rgb.mp4')):
+        #     print(f'Skipping {task_name} as it already exists.')
+        #     continue
         print(f'==== Task: {task_name} ====')
         np.random.seed(args.seed)
         getter.load_task(task_name)
         demo = getter.get_demo(episode_index=0, attempts=3, raise_error=False)
         if demo is not None:
+            print('Demo length:', len(demo))
+            summary[task_name] = len(demo)
             getter.save_demo(demo) 
+    
+    write_yaml('preview/summary.yaml', summary)

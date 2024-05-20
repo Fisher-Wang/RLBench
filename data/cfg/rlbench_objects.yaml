@@ -5,11 +5,10 @@ close_box:
   - box_joint
 empty_dishwasher:
   objects:
-  - empty_dishwasher
   - dishwasher
   joints:
-  - dishwasher_tray_joint
   - dishwasher_door_joint
+  - dishwasher_tray_joint
 open_drawer:
   objects:
   - drawer_frame
@@ -28,3 +27,115 @@ stack_cups:
   - cup2
   - cup3
   joints: []
+put_shoes_in_box:
+  objects:
+  - box_base
+  - shoe1
+  - shoe2
+  joints:
+  - box_joint
+take_shoes_out_of_box:
+  objects:
+  - box_base
+  - shoe1
+  - shoe2
+  joints:
+  - box_joint
+basketball_in_hoop:
+  objects:
+  - basket_ball_hoop_visual
+  - ball
+  joints: []
+set_the_table:
+  objects:
+  - holder
+  - glass_visual
+  - fork_visual
+  - knife_visual
+  - plate_visual
+  - spoon_visual
+  joints: []
+put_books_on_bookshelf:
+  objects:
+  - bookshelf
+  joints: []
+put_bottle_in_fridge:
+  objects:
+  - fridge_base
+  joints:
+  - bottom_joint
+  - top_joint
+place_cups:
+  objects:
+  - mug0
+  - mug1
+  - mug2
+  - mug3
+  - place_cups_holder_base
+  - place_cups_holder_spoke0
+  - place_cups_holder_spoke1
+  - place_cups_holder_spoke2
+  - place_cups_holder_spoke3
+  joints: []
+  types:
+    mug0: rigid
+    mug1: rigid
+    mug2: rigid
+    mug3: rigid
+    place_cups_holder_base: xform 
+    place_cups_holder_spoke0: xform 
+    place_cups_holder_spoke1: xform 
+    place_cups_holder_spoke2: xform 
+    place_cups_holder_spoke3: xform 
+empty_container:
+  objects:
+  - large_container
+  - small_container0
+  - small_container1
+  joints: [] 
+  types:
+    large_container: xform
+    small_container0: xform
+    small_container1: xform
+put_plate_in_colored_dish_rack:
+  objects:
+  - plate_stand
+  - plate
+  - dish_rack
+  joints: []
+  types:
+    plate_stand: xform
+    plate: rigid
+    dish_rack: xform
+put_item_in_drawer:
+  objects:
+  - drawer_frame
+  - item
+  joints:
+  - drawer_joint_bottom
+  - drawer_joint_middle
+  - drawer_joint_top
+  types:
+    drawer_frame: articulation
+    item: rigid
+take_item_out_of_drawer:
+  objects:
+  - drawer_frame
+  - item
+  joints:
+  - drawer_joint_bottom
+  - drawer_joint_middle
+  - drawer_joint_top
+  types:
+    drawer_frame: articulation
+    item: rigid
+screw_nail:
+stack_chairs:
+hockey:
+put_knife_on_chopping_board:
+straighten_rope:
+put_toilet_roll_on_stand:
+hang_frame_on_hanger:
+toilet_seat_up:
+stack_wine:
+put_knife_in_knife_block:
