@@ -6,6 +6,8 @@ close_box:
 empty_dishwasher:
   objects:
   - dishwasher
+  - dishwasher_plate
+  - dishwasher_plate_visual
   joints:
   - dishwasher_door_joint
   - dishwasher_tray_joint
@@ -58,10 +60,18 @@ set_the_table:
 put_books_on_bookshelf:
   objects:
   - bookshelf
+  - book0
+  - book0_visual
+  - book1
+  - book1_visual
+  - book2
+  - book2_visual
   joints: []
 put_bottle_in_fridge:
   objects:
   - fridge_base
+  - bottle
+  - bottle_visual
   joints:
   - bottom_joint
   - top_joint
@@ -130,12 +140,94 @@ take_item_out_of_drawer:
     drawer_frame: articulation
     item: rigid
 screw_nail:
+  objects:
+  - block
+  - screw_visual
+  - screw_driver
+  joints: []
+  types:
+    block: xform
+    screw_visual: xform
+    screw_driver: rigid
 stack_chairs:
+  objects:
+  - chair1
+  - chair2
+  - chair3
+  joints: []
+  types:
+    chair1: rigid
+    chair2: rigid
+    chair3: rigid
 hockey:
+  objects:
+  - hockey_goal_visual
+  - hockey_stick
+  - hockey_ball
+  joints: []
+  types:
+    hockey_goal_visual: xform
+    hockey_stick: rigid
+    hockey_ball: rigid
 put_knife_on_chopping_board:
-straighten_rope:
+  objects:
+  - chopping_board_visual
+  - knife_visual
+  - knife_block_visual
+  joints: []
+  types:
+    chopping_board_visual: rigid
+    knife_visual: rigid
+    knife_block_visual: rigid
 put_toilet_roll_on_stand:
+  objects:
+  - stand_base
+  - holder_visual
+  - toilet_roll_visual
+  - toilet_roll_box
+  joints: []
+  types:
+    holder_visual: xform
+    stand_base: xform
+    toilet_roll_visual: rigid
+    toilet_roll_box: rigid
 hang_frame_on_hanger:
-toilet_seat_up:
+  objects:
+  - frame
+  - task_wall
+  - hanger
+  joints: []
+  types:
+    frame: rigid
+    task_wall: xform
+    hanger: xform
 stack_wine:
+  objects:
+  - wine_bottle_visual
+  - rack_bottom_visual
+  - rack_top_visual
+  joints: []
+  types:
+    wine_bottle_visual: rigid
+    rack_bottom_visual: rigid
+    rack_top_visual: rigid
 put_knife_in_knife_block:
+  objects:
+  - chopping_board_visual
+  - knife_visual
+  - knife_block_visual
+  joints: []
+  types:
+    chopping_board_visual: rigid
+    knife_visual: rigid
+    knife_block_visual: rigid
+take_frame_off_hanger:
+  objects:
+  - frame
+  - task_wall
+  - hanger
+  joints: []
+  types:
+    frame: rigid
+    task_wall: xform
+    hanger: xform

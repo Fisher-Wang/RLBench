@@ -336,7 +336,7 @@ class DemoGetter:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("task", help="The task name to test.")
+    parser.add_argument("--task", required=True)
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--episode_num", type=int, default=1)
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
@@ -354,8 +354,10 @@ if __name__ == '__main__':
     
     ## Run task
     np.random.seed(args.seed)
-    save_dir = mkdir(os.path.join('outputs', args.task))
-    writer = DemoWriter(cfg, os.path.join(save_dir, f'{args.task}.pkl'))
+    TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
+    # save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v{args.episode_num}')
+    save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0')
+    writer = DemoWriter(cfg, os.path.join(save_dir, 'trajectory-unified.pkl'))
     getter = DemoGetter(args, writer)
     getter.load_task(args.task)
     getter.get_demos(args.episode_num)
