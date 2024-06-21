@@ -231,3 +231,71 @@ take_frame_off_hanger:
     frame: rigid
     task_wall: xform
     hanger: xform
+get_ice_from_fridge:
+  objects:
+  - fridge_base
+  - cup_visual
+  joints: []
+  types:
+    fridge_base: xform
+    cup_visual: rigid
+meat_off_grill:
+  objects:
+  - chicken_visual
+  - steak_visual
+  - grill_visual
+  joints: []
+  types:
+    chicken_visual: rigid
+    steak_visual: rigid
+    grill_visual: geometry
+meat_on_grill:
+  objects:
+  - chicken_visual
+  - steak_visual
+  - grill_visual
+  joints: []
+  types:
+    chicken_visual: rigid
+    steak_visual: rigid
+    grill_visual: geometry
+phone_on_base:
+  objects:
+  - phone_case_visual
+  - phone_visual
+  joints: []
+  types:
+    phone_case_visual: rigid
+    phone_visual: rigid
+  collider_types:
+    phone_case_visual: convex_decomposition
+    phone_visual: convex_decomposition
+put_all_groceries_in_cupboard:
+  objects:
+  - chocolate_jello_visual
+  - strawberry_jello_visual
+  - spam_visual
+  - sugar_visual
+  - crackers_visual
+  - mustard_visual
+  - soup_visual
+  - cupboard
+  joints: []
+  types:
+    chocolate_jello_visual: rigid
+    strawberry_jello_visual: rigid
+    spam_visual: rigid
+    sugar_visual: rigid
+    crackers_visual: rigid
+    mustard_visual: rigid
+    soup_visual: rigid
+    cupboard: geometry
+  collider_types:
+    chocolate_jello_visual: convex_hull
+    strawberry_jello_visual: convex_hull
+    spam_visual: convex_hull
+    sugar_visual: convex_hull
+    crackers_visual: convex_decomposition
+    mustard_visual: convex_hull
+    soup_visual: convex_hull
+    cupboard: convex_decomposition

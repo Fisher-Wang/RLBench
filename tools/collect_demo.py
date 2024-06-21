@@ -121,10 +121,10 @@ class DemoWriter:
         
         return joint_data
     
-    def save_demo_data(self, demo: Demo, task_name: str, episode_index: int):
-        data = {}
-
-        ## Process trajectory
+    def _process_traj(self, demo: Demo):
+        if demo is None:
+            return None
+        
         qs = []
         ee_acts = []
         ee_poses = []
@@ -151,20 +151,23 @@ class DemoWriter:
             'ee_quat': np.array(ee_quats),
             'success': np.ones(len(qs), dtype=bool)
         }
+        return data_traj
+    
+    def save_demo_data(self, demo: Demo, task_name: str, episode_index: int):
+        data_traj = self._process_traj(demo)
         
         ## All demo data
         demo_entry = {
             'name': f'{task_name}_traj_{episode_index}',
             'asset_name': 'default_asset',
-            'episode_len': len(qs),
+            'episode_len': len(demo) if demo else 0,
             'env_setup': self.data_env_setup,
             'robot_traj': data_traj
         }
-    
         self.demo_entries.append(demo_entry)
     
     def write(self):
-        max_episode_len = max([data_demo['episode_len'] for data_demo in self.demo_entries])
+        max_episode_len = max([data_demo['episode_len'] for data_demo in self.demo_entries], default=0)
         print(f'[INFO] Saving demos to {self.save_path}, max_episode_len: {max_episode_len}')
         
         full_data = {
@@ -281,21 +284,24 @@ class DemoGetter:
         self.scene.load(self.task)
         self.scene.init_task()
     
-    def _try_get_demo(self, variation_index=0):
+    def _try_get_demo(self, variation_index=0, only_setup=False):
         self.scene.reset()
-        desc = self.scene.init_episode(variation_index, max_attempts=10)
+        self.scene.init_episode(variation_index, max_attempts=10)
         self.writer.capture_env_setup_data(self.scene)
-        demo = self.scene.get_demo(
-            record=True, 
-            callable_when_reach_waypoint=get_callable_when_reach_waypoint(self.scene) if self.args.snapshot else None
-        )
+        if only_setup:
+            demo = None
+        else:
+            demo = self.scene.get_demo(
+                record=True, 
+                callable_when_reach_waypoint=get_callable_when_reach_waypoint(self.scene) if self.args.snapshot else None
+            )
         return demo
 
-    def get_demo(self, episode_index, variation_index=0, attempts=10, raise_error=True):
+    def get_demo(self, episode_index, variation_index=0, attempts=10, raise_error=True, only_setup=False):
         error = None
         while attempts > 0:
             try:
-                demo = self._try_get_demo(variation_index)
+                demo = self._try_get_demo(variation_index, only_setup=only_setup)
             except Exception as e:
                 attempts -= 1
                 print(f'[DEBUG] Failed to get task {self.scene.task.get_name()} (episode: {episode_index}). Rest attempts {attempts}. Retrying...')
@@ -305,7 +311,7 @@ class DemoGetter:
             break
         
         if attempts > 0:
-            print(f'[INFO] Successfully got task {self.scene.task.get_name()} (episode: {episode_index}), length: {len(demo)}')
+            print(f'[INFO] Successfully got task {self.scene.task.get_name()} (episode: {episode_index}), length: {len(demo) if demo else 0}')
             return demo
         else:
             print(f'[ERROR] Failed to get task {self.scene.task.get_name()} (episode: {episode_index})')
@@ -313,21 +319,24 @@ class DemoGetter:
                 raise error
             else:
                 print(f'[ERROR] Error: {error}')
-
-    def get_demos(self, num_episodes: int):
+    
+    def _get_one_demo(self, episode_index: int, only_setup=False):
+        # np.random.seed(0)  # Make all the demo the same
         task_name = self.task.get_name()
+        demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup)  # Always get the first variation
+        self.writer.save_demo_data(demo, task_name, episode_index)
+    
+    def get_demos(self, num_episodes: int, only_setup=False):
         start_time = time.time()
         
         for episode_index in range(num_episodes):
-            # np.random.seed(0)  # Make all the demo the same
-            demo = self.get_demo(episode_index, variation_index=0)  # Always get the first variation
-            self.writer.save_demo_data(demo, task_name, episode_index)
+            self._get_one_demo(episode_index, only_setup=only_setup)
             
             elapsed_time = time.time() - start_time
             average_time = elapsed_time / (episode_index + 1)
             remaining_time = (num_episodes - episode_index - 1) * average_time
             print(f"Episode {episode_index+1}/{num_episodes} - Elapsed Time: {elapsed_time:.2f}s ({average_time:.2f}s per episode) - Estimated Remaining Time: {remaining_time:.2f}s")
-        
+
         self.writer.write()
 
 ####################################
@@ -343,6 +352,7 @@ if __name__ == '__main__':
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
     parser.add_argument("--snapshot", action='store_true')
+    parser.add_argument("--only_setup", action='store_true')
     args = parser.parse_args()
     cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
     cfg['objects'] += ['diningTable']
@@ -357,7 +367,11 @@ if __name__ == '__main__':
     TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
     # save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v{args.episode_num}')
     save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0')
-    writer = DemoWriter(cfg, os.path.join(save_dir, 'trajectory-unified.pkl'))
+    if args.only_setup:
+        pkl_filename = 'trajectory-unified_no_demo.pkl'
+    else:
+        pkl_filename = 'trajectory-unified.pkl'
+    writer = DemoWriter(cfg, os.path.join(save_dir, pkl_filename))
     getter = DemoGetter(args, writer)
     getter.load_task(args.task)
-    getter.get_demos(args.episode_num)
+    getter.get_demos(args.episode_num, only_setup=args.only_setup)
