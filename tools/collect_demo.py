@@ -153,7 +153,7 @@ class DemoWriter:
         }
         return data_traj
     
-    def save_demo_data(self, demo: Demo, task_name: str, episode_index: int):
+    def save_demo_data(self, demo: Demo, task_name: str, episode_index: int, object_states:list=None):
         data_traj = self._process_traj(demo)
         
         ## All demo data
@@ -162,7 +162,8 @@ class DemoWriter:
             'asset_name': 'default_asset',
             'episode_len': len(demo) if demo else 0,
             'env_setup': self.data_env_setup,
-            'robot_traj': data_traj
+            'robot_traj': data_traj,
+            'object_states': object_states.copy() if object_states else None,
         }
         self.demo_entries.append(demo_entry)
     
@@ -221,10 +222,45 @@ def get_callable_when_reach_waypoint(scene: Scene):
             rgb.save(os.path.join(snapshot_save_dir, f'waypoint{waypoint_index}_{sensor_name}.png'))
     return func
 
+def get_callable_each_step(cfg: dict, object_states: list):
+    object_names = cfg['objects']
+    joint_names = cfg['joints']
+    
+    def record_objects(observation: Observation):
+        object_state_this_step = {}
+        for object_name in object_names:
+            object = Object.get_object(object_name)
+            object_pos = object.get_position()
+            object_quat = object.get_quaternion()
+            # object_vel = object.get_velocity()
+            object_quat = xyzw_to_wxyz(object_quat)
+            object_state_this_step |= {
+                f'{object_name}_pos': object_pos,
+                f'{object_name}_quat': object_quat,
+                # f'{object_name}_vel': object_vel,
+            }
+            print(f'[DEBUG] {object_name} position: {float_array_to_str(object_pos)}')
+            print(f'[DEBUG] {object_name} orientation: {float_array_to_str(object_quat)} or {float_array_to_str(quat_to_euler(object_quat))}')
+        for joint_name in joint_names:
+            joint = Joint(joint_name)
+            joint_q = joint.get_joint_position()
+            joint_v = joint.get_joint_velocity()
+            object_state_this_step |= {
+                f'{joint_name}_q': joint_q,
+                f'{joint_name}_v': joint_v,
+            }
+            
+            print(f'[DEBUG] {joint_name} q: {joint_q}')
+        object_states.append(object_state_this_step)
+    
+    return record_objects
+
 class DemoGetter:
-    def __init__(self, args, writer: DemoWriter):
+    def __init__(self, args, cfg: dict, writer: DemoWriter):
         self.args = args
+        self.cfg = cfg
         self.writer = writer
+        self.object_states = [] if self.args.record_object_states else None
         
         self._launch_sim()
         self._setup_robot()
@@ -292,7 +328,8 @@ class DemoGetter:
             demo = None
         else:
             demo = self.scene.get_demo(
-                record=True, 
+                record=True,
+                callable_each_step=get_callable_each_step(self.cfg, self.object_states) if self.args.record_object_states else None,
                 callable_when_reach_waypoint=get_callable_when_reach_waypoint(self.scene) if self.args.snapshot else None
             )
         return demo
@@ -324,7 +361,9 @@ class DemoGetter:
         # np.random.seed(0)  # Make all the demo the same
         task_name = self.task.get_name()
         demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup)  # Always get the first variation
-        self.writer.save_demo_data(demo, task_name, episode_index)
+        self.writer.save_demo_data(demo, task_name, episode_index, object_states=self.object_states)
+        if self.args.record_object_states:
+            self.object_states.clear()
     
     def get_demos(self, num_episodes: int, only_setup=False):
         start_time = time.time()
@@ -353,6 +392,7 @@ if __name__ == '__main__':
     parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
     parser.add_argument("--snapshot", action='store_true')
     parser.add_argument("--only_setup", action='store_true')
+    parser.add_argument("--record_object_states", action='store_true')
     args = parser.parse_args()
     cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
     cfg['objects'] += ['diningTable']
@@ -367,11 +407,13 @@ if __name__ == '__main__':
     TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
     # save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v{args.episode_num}')
     save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0')
-    if args.only_setup:
+    if args.record_object_states:
+        pkl_filename = 'trajectory-unified_with_object_states.pkl'
+    elif args.only_setup:
         pkl_filename = 'trajectory-unified_no_demo.pkl'
     else:
         pkl_filename = 'trajectory-unified.pkl'
     writer = DemoWriter(cfg, os.path.join(save_dir, pkl_filename))
-    getter = DemoGetter(args, writer)
+    getter = DemoGetter(args, cfg, writer)
     getter.load_task(args.task)
     getter.get_demos(args.episode_num, only_setup=args.only_setup)
