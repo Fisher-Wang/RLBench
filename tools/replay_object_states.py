@@ -197,101 +197,114 @@ def save_camera_matrix(cameras: list[VisionSensor], save_dir):
 
 
 ####################################
-## Main
+## Replay demo
 ####################################
 
-## Parse arguments
-parser = argparse.ArgumentParser()
-parser.add_argument("--headless", action="store_true")
-parser.add_argument("--gravity", type=bool, default=False)
-parser.add_argument("--task", required=True)
-args = parser.parse_args()
-cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
 
-## Launch PyRep
-sim = PyRep()
-DIR_PATH = os.path.dirname(os.path.abspath(__file__))
-ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design_wo_franka.ttt")
-sim.launch(ttt_file, headless=args.headless)
-if not args.gravity:
-    sim.script_call(
-        "setGravity@PyRep", simConst.sim_scripttype_addonscript, floats=[0, 0, 0]
-    )
-sim.set_simulation_timestep(1 / 60)  # Control frequency 60Hz
-
-## Load task
-ttm_file = os.path.join(DIR_PATH, "../rlbench/task_ttms", f"{args.task}.ttm")
-base_object = sim.import_model(ttm_file)
-
-## Load demo
-TaskName = "".join([x.capitalize() for x in args.task.split("_")])
-demo_path = f"/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
-demo_data = read_pickle(demo_path)
-demo = demo_data["demos"]["franka"][0]
-env_setup = demo["env_setup"]
-object_states = demo["object_states"]
-assert len(object_states) == demo["episode_len"]
-
-## Environment setup
-for object_name in cfg["objects"]:
-    pos = env_setup[f"init_{object_name}_pos"]
-    quat = env_setup[f"init_{object_name}_quat"]
-    object = Object.get_object(object_name)
-    object.set_position(pos)
-    object.set_orientation(quat_to_euler(quat))
-    print(
-        "Initially set object",
-        object_name,
-        "to",
-        float_array_to_str(pos),
-        float_array_to_str(quat_to_euler(quat)),
-    )
-
-for joint_name in cfg["joints"]:
-    q = env_setup[f"init_{joint_name}_q"]
-    joint = Joint(joint_name)
-    joint.set_joint_position(q)
-    print("Initially set joint", joint_name, "to", float_array_to_str(q))
-
-## Replay and capture observations
-sim.start()
-sim.step()
-
-cams = init_cameras()
-observations = []
-for i, object_state in enumerate(object_states):
+def replay_demo(demo: dict):
+    ## Environment setup
     for object_name in cfg["objects"]:
+        pos = env_setup[f"init_{object_name}_pos"]
+        quat = env_setup[f"init_{object_name}_quat"]
         object = Object.get_object(object_name)
-        object_pos = object_state[f"{object_name}_pos"]
-        object_quat = object_state[f"{object_name}_quat"]
-        object.set_position(object_pos)
-        object.set_quaternion(wxyz_to_xyzw(object_quat))
-
+        object.set_position(pos)
+        object.set_orientation(quat_to_euler(quat))
         print(
-            "[DEBUG] Set object",
+            "Initially set object",
             object_name,
             "to",
-            float_array_to_str(object_pos),
-            float_array_to_str(quat_to_euler(object_quat)),
+            float_array_to_str(pos),
+            float_array_to_str(quat_to_euler(quat)),
         )
 
     for joint_name in cfg["joints"]:
+        q = env_setup[f"init_{joint_name}_q"]
         joint = Joint(joint_name)
-        joint.set_joint_position(object_state[f"{joint_name}_q"])
-        # joint.set_joint_target_velocity(object_state[f'{joint_name}_v'])
+        joint.set_joint_position(q)
+        print("Initially set joint", joint_name, "to", float_array_to_str(q))
 
-        print("[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"])
-
-    obs = get_observations(cams)
-    observations.append(obs)
-
+    ## Replay and capture observations
+    sim.start()
     sim.step()
 
-## Save
-save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
-save_camera_matrix(cams, save_dir)
-save_observations(observations, save_dir, cams)
+    cams = init_cameras()
+    observations = []
+    for i, object_state in enumerate(object_states):
+        for object_name in cfg["objects"]:
+            object = Object.get_object(object_name)
+            object_pos = object_state[f"{object_name}_pos"]
+            object_quat = object_state[f"{object_name}_quat"]
+            object.set_position(object_pos)
+            object.set_quaternion(wxyz_to_xyzw(object_quat))
 
-## Shutdown
-sim.stop()
-sim.shutdown()
+            print(
+                "[DEBUG] Set object",
+                object_name,
+                "to",
+                float_array_to_str(object_pos),
+                float_array_to_str(quat_to_euler(object_quat)),
+            )
+
+        for joint_name in cfg["joints"]:
+            joint = Joint(joint_name)
+            joint.set_joint_position(object_state[f"{joint_name}_q"])
+            # joint.set_joint_target_velocity(object_state[f'{joint_name}_v'])
+
+            print(
+                "[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"]
+            )
+
+        obs = get_observations(cams)
+        observations.append(obs)
+
+        sim.step()
+
+    ## Save
+    save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
+    save_camera_matrix(cams, save_dir)
+    save_observations(observations, save_dir, cams)
+
+    ## Shutdown
+    sim.stop()
+    sim.shutdown()
+
+
+####################################
+## Main
+####################################
+
+if __name__ == "__main__":
+    ## Parse arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--headless", action="store_true")
+    parser.add_argument("--gravity", type=bool, default=False)
+    parser.add_argument("--task", required=True)
+    args = parser.parse_args()
+    cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
+
+    ## Launch PyRep
+    sim = PyRep()
+    DIR_PATH = os.path.dirname(os.path.abspath(__file__))
+    ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design_wo_franka.ttt")
+    sim.launch(ttt_file, headless=args.headless)
+    if not args.gravity:
+        sim.script_call(
+            "setGravity@PyRep", simConst.sim_scripttype_addonscript, floats=[0, 0, 0]
+        )
+    sim.set_simulation_timestep(1 / 60)  # Control frequency 60Hz
+
+    ## Load task
+    ttm_file = os.path.join(DIR_PATH, "../rlbench/task_ttms", f"{args.task}.ttm")
+    base_object = sim.import_model(ttm_file)
+
+    ## Load demo
+    TaskName = "".join([x.capitalize() for x in args.task.split("_")])
+    demo_path = f"/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
+    demo_data = read_pickle(demo_path)
+    demo = demo_data["demos"]["franka"][0]
+    env_setup = demo["env_setup"]
+    object_states = demo["object_states"]
+    assert len(object_states) == demo["episode_len"]
+
+    ## Replay demo
+    replay_demo(demo)
