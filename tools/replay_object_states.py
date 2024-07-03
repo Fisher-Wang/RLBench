@@ -2,17 +2,24 @@ import argparse
 import os
 import pickle
 import time
+from os.path import join as pjoin
 
+import cv2
 import numpy as np
 import yaml
+from PIL import Image
 from pyrep import PyRep
 from pyrep.backend import simConst
+from pyrep.const import RenderMode
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
+from pyrep.objects.vision_sensor import VisionSensor
 from pyrep.robots.arms.panda import Panda
 from pyrep.robots.end_effectors.panda_gripper import PandaGripper
+from utils import mkdir
 
 from rlbench.backend.robot import Robot
+from rlbench.noise_model import Identity, NoiseModel
 from tools.collect_demo import float_array_to_str, quat_to_euler, read_yaml
 
 
@@ -20,89 +27,271 @@ from tools.collect_demo import float_array_to_str, quat_to_euler, read_yaml
 ## Utils
 ####################################
 def read_pickle(path):
-    with open(path, 'rb') as f:
+    with open(path, "rb") as f:
         return pickle.load(f)
 
+
 def read_yaml(path):
-    with open(path, 'r') as f:
+    with open(path, "r") as f:
         return yaml.load(f, Loader=yaml.FullLoader)
 
+
 def wxyz_to_xyzw(quat: np.ndarray):
-    '''
+    """
     Convert a quaternion array from [w, x, y, z] to [x, y, z, w]
-    '''
+    """
     assert quat.shape[-1] == 4
     return np.stack([quat[..., 1], quat[..., 2], quat[..., 3], quat[..., 0]], axis=-1)
+
+
+def write_mp4(frames: list[np.ndarray], save_path: str, fps: int = 30):
+    h, w = frames[0].shape[:2]
+    isColor = len(frames[0].shape) == 3 and frames[0].shape[2] > 1
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    video = cv2.VideoWriter(save_path, fourcc, fps, (w, h), isColor)
+    for frame in frames:
+        video.write(frame)
+    video.release()
+
+
+####################################
+## Functions
+####################################
+def get_mask(sensor: VisionSensor, mask_fn):
+    mask = None
+    if sensor is not None:
+        sensor.handle_explicitly()
+        mask = mask_fn(sensor.capture_rgb())
+    return mask
+
+
+def get_rgb_depth(
+    sensor: VisionSensor,
+    get_rgb: bool,
+    get_depth: bool,
+    get_pcd: bool,
+    rgb_noise: NoiseModel,
+    depth_noise: NoiseModel,
+    depth_in_meters: bool,
+):
+    """
+    depth: Returned values are in the range of 0-1 (0=closest to sensor (i.e. close clipping plane), 1=farthest from sensor (i.e. far clipping plane)). If depth_in_meters was specified, then individual values are expressed as distances in meters.
+    """
+    rgb = depth = pcd = None
+    if sensor is not None and (get_rgb or get_depth):
+        sensor.handle_explicitly()
+        if get_rgb:
+            rgb = sensor.capture_rgb()
+            if rgb_noise is not None:
+                rgb = rgb_noise.apply(rgb)
+            rgb = np.clip((rgb * 255.0).astype(np.uint8), 0, 255)
+        if get_depth or get_pcd:
+            depth = sensor.capture_depth(depth_in_meters)
+            if depth_noise is not None:
+                depth = depth_noise.apply(depth)
+        if get_pcd:
+            depth_m = depth
+            if not depth_in_meters:
+                near = sensor.get_near_clipping_plane()
+                far = sensor.get_far_clipping_plane()
+                depth_m = near + depth * (far - near)
+            pcd = sensor.pointcloud_from_depth(depth_m)
+            if not get_depth:
+                depth = None
+    return rgb, depth, pcd
+
+
+def _set_camemra_properties(cameras: list[VisionSensor]):
+    for cam in cameras:
+        cam.set_explicit_handling(1)
+        cam.set_render_mode(RenderMode.OPENGL3)
+
+
+def init_cameras():
+    cam_over_shoulder_left = VisionSensor("cam_over_shoulder_left")
+    cam_over_shoulder_right = VisionSensor("cam_over_shoulder_right")
+    cam_overhead = VisionSensor("cam_overhead")
+    cam_front = VisionSensor("cam_front")
+    cams = [cam_over_shoulder_left, cam_over_shoulder_right, cam_overhead, cam_front]
+    _set_camemra_properties(cams)
+    return cams
+
+
+def get_observations(cams: list[VisionSensor]):
+
+    rst = {}
+    for cam in cams:
+        rgb, depth, pcd = get_rgb_depth(
+            cam, True, True, True, Identity(), Identity(), False
+        )
+        rst[cam.get_name()] = {"rgb": rgb, "depth": depth, "pcd": pcd}
+
+    return rst
+
+
+def save_observations(
+    observations: list[dict[str, dict]],
+    save_dir,
+    cams: list[VisionSensor],
+    save_frame=False,
+):
+    data = {
+        f"{cam.get_name()}_{vis_type}": []
+        for cam in cams
+        for vis_type in ["rgb", "depth", "pcd"]
+    }
+
+    frame_save_dir = mkdir(pjoin(save_dir, "frames"))
+    for frame_idx, obs in enumerate(observations):
+        for cam_name, visual_obs in obs.items():
+            rgb = visual_obs["rgb"]  # (H, W, 3)
+            depth = visual_obs["depth"]  # (H, W)
+            pcd = visual_obs["pcd"]  # (H*W, 3)
+
+            if rgb is not None:
+                rgb = np.clip((rgb * 255).astype(np.uint8), 0, 255)
+            if depth is not None:
+                depth = np.clip((depth * 255).astype(np.uint8), 0, 255)
+
+            data[f"{cam_name}_rgb"].append(rgb)
+            data[f"{cam_name}_depth"].append(depth)
+            data[f"{cam_name}_pcd"].append(pcd)
+
+            if save_frame:
+                if rgb is not None:
+                    # rgb = rgb[:, :, ::-1]
+                    rgb = Image.fromarray(rgb)
+                    rgb.save(
+                        pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_rgb.png")
+                    )
+
+                if depth is not None:
+                    depth = np.clip((depth * 255).astype(np.uint8), 0, 255)
+                    depth = Image.fromarray(depth)
+                    depth.save(
+                        pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_depth.png")
+                    )
+
+            if pcd is not None:
+                pcd = pcd.reshape(-1, 3)
+                np.savetxt(
+                    pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_pcd.xyz"),
+                    pcd,
+                )
+
+    cam_names = [cam.get_name() for cam in cams]
+    for cam_name in cam_names:
+        for vis_type in ["rgb", "depth"]:
+            write_mp4(
+                data[f"{cam_name}_{vis_type}"],
+                pjoin(save_dir, f"{cam_name}_{vis_type}.mp4"),
+            )
+
+
+def save_camera_matrix(cameras: list[VisionSensor], save_dir):
+    for cam in cameras:
+        intrinsics = cam.get_intrinsic_matrix()
+        extrinsics = cam.get_matrix()
+        np.savetxt(pjoin(save_dir, f"{cam.get_name()}_intrinsics.txt"), intrinsics)
+        np.savetxt(pjoin(save_dir, f"{cam.get_name()}_extrinsics.txt"), extrinsics)
+
 
 ####################################
 ## Main
 ####################################
 
-## Parse arguments 
+## Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--task', required=True)
-parser.add_argument('--gravity', type=bool, default=False)
+parser.add_argument("--headless", action="store_true")
+parser.add_argument("--gravity", type=bool, default=False)
+parser.add_argument("--task", required=True)
 args = parser.parse_args()
-cfg = read_yaml('data/cfg/rlbench_objects.yaml')[args.task]
+cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
 
 ## Launch PyRep
 sim = PyRep()
 DIR_PATH = os.path.dirname(os.path.abspath(__file__))
-ttt_file = os.path.join(DIR_PATH, '../rlbench', 'task_design_wo_franka.ttt')
-sim.launch(ttt_file, headless=False)
+ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design_wo_franka.ttt")
+sim.launch(ttt_file, headless=args.headless)
 if not args.gravity:
-    sim.script_call('setGravity@PyRep', simConst.sim_scripttype_addonscript, floats=[0, 0, 0])
-sim.set_simulation_timestep(1/60)  # Control frequency 60Hz
+    sim.script_call(
+        "setGravity@PyRep", simConst.sim_scripttype_addonscript, floats=[0, 0, 0]
+    )
+sim.set_simulation_timestep(1 / 60)  # Control frequency 60Hz
 
 ## Load task
-ttm_file = os.path.join(DIR_PATH, '../rlbench/task_ttms', f'{args.task}.ttm')
+ttm_file = os.path.join(DIR_PATH, "../rlbench/task_ttms", f"{args.task}.ttm")
 base_object = sim.import_model(ttm_file)
 
 ## Load demo
-TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
-demo_path = f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl'
+TaskName = "".join([x.capitalize() for x in args.task.split("_")])
+demo_path = f"/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
 demo_data = read_pickle(demo_path)
-demo = demo_data['demos']['franka'][0]
-env_setup = demo['env_setup']
-object_states = demo['object_states']
+demo = demo_data["demos"]["franka"][0]
+env_setup = demo["env_setup"]
+object_states = demo["object_states"]
+assert len(object_states) == demo["episode_len"]
 
 ## Environment setup
-for object_name in cfg['objects']:
-    pos = env_setup[f'init_{object_name}_pos']
-    quat = env_setup[f'init_{object_name}_quat']
+for object_name in cfg["objects"]:
+    pos = env_setup[f"init_{object_name}_pos"]
+    quat = env_setup[f"init_{object_name}_quat"]
     object = Object.get_object(object_name)
     object.set_position(pos)
     object.set_orientation(quat_to_euler(quat))
-    print('Initially set object', object_name, 'to', float_array_to_str(pos), float_array_to_str(quat_to_euler(quat)))
+    print(
+        "Initially set object",
+        object_name,
+        "to",
+        float_array_to_str(pos),
+        float_array_to_str(quat_to_euler(quat)),
+    )
 
-for joint_name in cfg['joints']:
-    q = env_setup[f'init_{joint_name}_q']
+for joint_name in cfg["joints"]:
+    q = env_setup[f"init_{joint_name}_q"]
     joint = Joint(joint_name)
     joint.set_joint_position(q)
-    print('Initially set joint', joint_name, 'to', float_array_to_str(q))
+    print("Initially set joint", joint_name, "to", float_array_to_str(q))
 
-## Replay
+## Replay and capture observations
 sim.start()
 sim.step()
 
+cams = init_cameras()
+observations = []
 for i, object_state in enumerate(object_states):
-    for object_name in cfg['objects']:
+    for object_name in cfg["objects"]:
         object = Object.get_object(object_name)
-        object_pos = object_state[f'{object_name}_pos']
-        object_quat = object_state[f'{object_name}_quat']
+        object_pos = object_state[f"{object_name}_pos"]
+        object_quat = object_state[f"{object_name}_quat"]
         object.set_position(object_pos)
         object.set_quaternion(wxyz_to_xyzw(object_quat))
-        
-        print('[DEBUG] Set object', object_name, 'to', float_array_to_str(object_pos), float_array_to_str(quat_to_euler(object_quat)))
-    
-    for joint_name in cfg['joints']:
+
+        print(
+            "[DEBUG] Set object",
+            object_name,
+            "to",
+            float_array_to_str(object_pos),
+            float_array_to_str(quat_to_euler(object_quat)),
+        )
+
+    for joint_name in cfg["joints"]:
         joint = Joint(joint_name)
-        joint.set_joint_position(object_state[f'{joint_name}_q'])
+        joint.set_joint_position(object_state[f"{joint_name}_q"])
         # joint.set_joint_target_velocity(object_state[f'{joint_name}_v'])
-        
-        print('[DEBUG] Set joint', joint_name, 'to', object_state[f'{joint_name}_q'])
-    
+
+        print("[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"])
+
+    obs = get_observations(cams)
+    observations.append(obs)
+
     sim.step()
-    
+
+## Save
+save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
+save_camera_matrix(cams, save_dir)
+save_observations(observations, save_dir, cams)
+
+## Shutdown
 sim.stop()
 sim.shutdown()

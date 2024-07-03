@@ -248,8 +248,7 @@ def get_callable_each_step(cfg: dict, object_states: list):
             object_state_this_step |= {
                 f'{joint_name}_q': joint_q,
                 f'{joint_name}_v': joint_v,
-            }
-            
+            }            
             print(f'[DEBUG] {joint_name} q: {joint_q}')
         object_states.append(object_state_this_step)
     

@@ -51,7 +51,7 @@ class MyScene(Scene):
             self.pyrep.step()  # Need this here or get_force doesn't work...
             self._joint_position_action = None
             gripper_open = 1.0 if self.robot.gripper.get_open_amount()[0] > 0.9 else 0.0
-            demo.append(self.get_observation())
+            self._demo_record_step(demo, record, callable_each_step)
         while True:
             success = False
             for i, point in enumerate(waypoints):
