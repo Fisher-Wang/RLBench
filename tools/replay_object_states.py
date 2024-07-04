@@ -6,6 +6,7 @@ from os.path import join as pjoin
 
 import cv2
 import numpy as np
+import open3d as o3d
 import yaml
 from PIL import Image
 from pyrep import PyRep
@@ -14,9 +15,7 @@ from pyrep.const import RenderMode
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
 from pyrep.objects.vision_sensor import VisionSensor
-from pyrep.robots.arms.panda import Panda
-from pyrep.robots.end_effectors.panda_gripper import PandaGripper
-from utils import mkdir
+from utils import mkdir, write_pickle
 
 from rlbench.backend.robot import Robot
 from rlbench.noise_model import Identity, NoiseModel
@@ -52,6 +51,15 @@ def write_mp4(frames: list[np.ndarray], save_path: str, fps: int = 30):
     for frame in frames:
         video.write(frame)
     video.release()
+
+
+def write_pointcloud(xyz: np.ndarray, save_path: str):
+    """
+    xyz: ndarray of shape (N, 3)
+    """
+    pcd = o3d.geometry.PointCloud()
+    pcd.points = o3d.utility.Vector3dVector(xyz)
+    o3d.io.write_point_cloud(save_path, pcd)
 
 
 ####################################
@@ -172,12 +180,12 @@ def save_observations(
                         pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_depth.png")
                     )
 
-            if pcd is not None:
-                pcd = pcd.reshape(-1, 3)
-                np.savetxt(
-                    pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_pcd.xyz"),
-                    pcd,
-                )
+                if pcd is not None:
+                    pcd = pcd.reshape(-1, 3)
+                    write_pointcloud(
+                        pcd,
+                        pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_pcd.pcd"),
+                    )
 
     cam_names = [cam.get_name() for cam in cams]
     for cam_name in cam_names:
@@ -186,6 +194,7 @@ def save_observations(
                 data[f"{cam_name}_{vis_type}"],
                 pjoin(save_dir, f"{cam_name}_{vis_type}.mp4"),
             )
+        write_pickle(pjoin(save_dir, f"{cam_name}_pcd.pkl"), data[f"{cam_name}_pcd"])
 
 
 def save_camera_matrix(cameras: list[VisionSensor], save_dir):
@@ -201,7 +210,9 @@ def save_camera_matrix(cameras: list[VisionSensor], save_dir):
 ####################################
 
 
-def replay_demo(demo: dict):
+def replay_demo(
+    cfg: dict, object_states: dict, cams: list[VisionSensor], save_dir: str
+):
     ## Environment setup
     for object_name in cfg["objects"]:
         pos = env_setup[f"init_{object_name}_pos"]
@@ -227,7 +238,6 @@ def replay_demo(demo: dict):
     sim.start()
     sim.step()
 
-    cams = init_cameras()
     observations = []
     for i, object_state in enumerate(object_states):
         for object_name in cfg["objects"]:
@@ -260,13 +270,10 @@ def replay_demo(demo: dict):
         sim.step()
 
     ## Save
-    save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
-    save_camera_matrix(cams, save_dir)
     save_observations(observations, save_dir, cams)
 
     ## Shutdown
     sim.stop()
-    sim.shutdown()
 
 
 ####################################
@@ -301,10 +308,25 @@ if __name__ == "__main__":
     TaskName = "".join([x.capitalize() for x in args.task.split("_")])
     demo_path = f"/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
     demo_data = read_pickle(demo_path)
-    demo = demo_data["demos"]["franka"][0]
-    env_setup = demo["env_setup"]
-    object_states = demo["object_states"]
-    assert len(object_states) == demo["episode_len"]
 
-    ## Replay demo
-    replay_demo(demo)
+    ####################################
+    ## Main
+    ####################################
+    base_save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
+
+    ## Init cameras
+    cams = init_cameras()
+    save_camera_matrix(cams, base_save_dir)
+
+    ## Start replay
+    for i, demo in enumerate(demo_data["demos"]["franka"]):
+        env_setup = demo["env_setup"]
+        object_states = demo["object_states"]
+        assert len(object_states) == demo["episode_len"]
+
+        ## Replay demo
+        cur_save_dir = mkdir(pjoin(base_save_dir, f"demo_{i:04d}"))
+        replay_demo(cfg, object_states, cams, cur_save_dir)
+
+    ## Exit CoppeliaSim
+    sim.shutdown()

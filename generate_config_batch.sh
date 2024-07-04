@@ -1,11 +1,7 @@
 #!/bin/bash
 
-EPISODE_NUM=10
+EPISODE_NUM=500
 tasks=(
-    # close_box
-    # put_shoes_in_box
-    # take_shoes_out_of_box
-    # basketball_in_hoop
     # set_the_table
     # empty_dishwasher
     # put_books_on_bookshelf
@@ -22,7 +18,13 @@ tasks=(
     # hockey
     # stack_chairs
 
-    ## New pick&place only
+    ## Easy tasks
+    close_box
+    put_shoes_in_box
+    take_shoes_out_of_box
+
+    ## Pick&place only
+    basketball_in_hoop
     get_ice_from_fridge
     meat_off_grill
     meat_on_grill
@@ -47,5 +49,5 @@ echo "windows:"
 for task in "${tasks[@]}"; do
     echo "  - $task:"
     echo "      panes:"
-    echo "        - python tools/collect_demo.py --episode_num=$EPISODE_NUM --headless --task=$task"
+    echo "        - python tools/collect_demo.py --episode_num=$EPISODE_NUM --headless --task=$task --record_object_states"
 done
