@@ -10,6 +10,10 @@ def mkdir(path):
     os.makedirs(path, exist_ok=True)
     return path
 
+def read_pickle(path):
+    with open(path, "rb") as f:
+        return pickle.load(f)
+
 def read_yaml(path):
     with open(path, 'r') as f:
         return yaml.load(f, Loader=yaml.FullLoader)
@@ -60,6 +64,13 @@ def xyzw_to_wxyz(quat: np.ndarray):
     '''
     assert quat.shape[-1] == 4
     return np.stack([quat[..., 3], quat[..., 0], quat[..., 1], quat[..., 2]], axis=-1)
+
+def wxyz_to_xyzw(quat: np.ndarray):
+    """
+    Convert a quaternion array from [w, x, y, z] to [x, y, z, w]
+    """
+    assert quat.shape[-1] == 4
+    return np.stack([quat[..., 1], quat[..., 2], quat[..., 3], quat[..., 0]], axis=-1)
 
 def float_array_to_str(arr: np.ndarray):
     '''

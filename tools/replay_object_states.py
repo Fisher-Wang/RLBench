@@ -1,13 +1,11 @@
 import argparse
 import os
-import pickle
 import time
 from os.path import join as pjoin
 
 import cv2
 import numpy as np
 import open3d as o3d
-import yaml
 from PIL import Image
 from pyrep import PyRep
 from pyrep.backend import simConst
@@ -15,9 +13,8 @@ from pyrep.const import RenderMode
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
 from pyrep.objects.vision_sensor import VisionSensor
-from utils import mkdir, write_pickle
+from utils import mkdir, read_pickle, read_yaml, write_pickle, wxyz_to_xyzw
 
-from rlbench.backend.robot import Robot
 from rlbench.noise_model import Identity, NoiseModel
 from tools.collect_demo import float_array_to_str, quat_to_euler, read_yaml
 
@@ -25,24 +22,6 @@ from tools.collect_demo import float_array_to_str, quat_to_euler, read_yaml
 ####################################
 ## Utils
 ####################################
-def read_pickle(path):
-    with open(path, "rb") as f:
-        return pickle.load(f)
-
-
-def read_yaml(path):
-    with open(path, "r") as f:
-        return yaml.load(f, Loader=yaml.FullLoader)
-
-
-def wxyz_to_xyzw(quat: np.ndarray):
-    """
-    Convert a quaternion array from [w, x, y, z] to [x, y, z, w]
-    """
-    assert quat.shape[-1] == 4
-    return np.stack([quat[..., 1], quat[..., 2], quat[..., 3], quat[..., 0]], axis=-1)
-
-
 def write_mp4(frames: list[np.ndarray], save_path: str, fps: int = 30):
     h, w = frames[0].shape[:2]
     isColor = len(frames[0].shape) == 3 and frames[0].shape[2] > 1
@@ -126,14 +105,12 @@ def init_cameras():
 
 
 def get_observations(cams: list[VisionSensor]):
-
     rst = {}
     for cam in cams:
         rgb, depth, pcd = get_rgb_depth(
             cam, True, True, True, Identity(), Identity(), False
         )
         rst[cam.get_name()] = {"rgb": rgb, "depth": depth, "pcd": pcd}
-
     return rst
 
 
@@ -208,8 +185,6 @@ def save_camera_matrix(cameras: list[VisionSensor], save_dir):
 ####################################
 ## Replay demo
 ####################################
-
-
 def replay_demo(
     cfg: dict, object_states: dict, cams: list[VisionSensor], save_dir: str
 ):
