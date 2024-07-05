@@ -233,14 +233,6 @@ def save_observations(
             )
 
 
-def save_camera_matrix(cameras: list[VisionSensor], save_dir):
-    for cam in cameras:
-        intrinsics = cam.get_intrinsic_matrix()
-        extrinsics = cam.get_matrix()
-        np.savetxt(pjoin(save_dir, f"{cam.get_name()}_intrinsics.txt"), intrinsics)
-        np.savetxt(pjoin(save_dir, f"{cam.get_name()}_extrinsics.txt"), extrinsics)
-
-
 def save_metadata(cameras: list[VisionSensor], save_dir):
     data = {}
     for cam in cameras:
@@ -317,7 +309,6 @@ def replay_demo(
         sim.step()
 
     ## Save
-    save_metadata(cams, save_dir)
     save_observations(observations, save_dir, cams)
 
     ## Shutdown
@@ -365,7 +356,7 @@ if __name__ == "__main__":
 
     ## Init cameras
     cams = init_cameras()
-    save_camera_matrix(cams, base_save_dir)
+    save_metadata(cams, base_save_dir)
 
     ## Start replay
     for i, demo in enumerate(demo_data["demos"]["franka"]):

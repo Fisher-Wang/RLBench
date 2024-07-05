@@ -26,9 +26,11 @@ def write_pickle(path, data):
     with open(path, 'wb') as f:
         pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
 
-def write_json(path, data):
+def write_json(path, data, **kargs):
+    default_kargs = {'indent': 4}
+    default_kargs |= kargs
     with open(path, 'w+') as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, **default_kargs)
 
 def ensure_numpy_as_list(data: dict) -> dict:
     '''
