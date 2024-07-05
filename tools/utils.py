@@ -28,7 +28,7 @@ def write_pickle(path, data):
 
 def write_json(path, data):
     with open(path, 'w+') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=4)
 
 def ensure_numpy_as_list(data: dict) -> dict:
     '''

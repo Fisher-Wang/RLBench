@@ -13,23 +13,80 @@ from pyrep.const import RenderMode
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
 from pyrep.objects.vision_sensor import VisionSensor
-from utils import mkdir, read_pickle, read_yaml, write_pickle, wxyz_to_xyzw
+from utils import (
+    ensure_numpy_as_list,
+    mkdir,
+    read_pickle,
+    read_yaml,
+    write_json,
+    write_pickle,
+    wxyz_to_xyzw,
+)
 
 from rlbench.noise_model import Identity, NoiseModel
 from tools.collect_demo import float_array_to_str, quat_to_euler, read_yaml
+
+####################################
+## Consts
+####################################
+CAMERA_NAMES = [
+    "cam_over_shoulder_left",
+    "cam_over_shoulder_right",
+    "cam_overhead",
+    "cam_front",
+]
 
 
 ####################################
 ## Utils
 ####################################
-def write_mp4(frames: list[np.ndarray], save_path: str, fps: int = 30):
+def write_uint16_monochrome_mkv(
+    frames: list[np.ndarray], save_path: str, fps: int = 30
+):
+    ## ref: https://stackoverflow.com/a/77028617
+    assert len(frames[0].shape) == 2
+    assert save_path.endswith(".mkv")
+    h, w = frames[0].shape[:2]
+    video_writer = cv2.VideoWriter(
+        filename=save_path,
+        apiPreference=cv2.CAP_FFMPEG,
+        fourcc=cv2.VideoWriter_fourcc(*"FFV1"),
+        fps=fps,
+        frameSize=(w, h),
+        params=[
+            cv2.VIDEOWRITER_PROP_DEPTH,
+            cv2.CV_16U,
+            cv2.VIDEOWRITER_PROP_IS_COLOR,
+            0,  # false
+        ],
+    )
+    for frame in frames:
+        video_writer.write(frame)
+    video_writer.release()
+
+
+def write_uint8_mp4(frames: list[np.ndarray], save_path: str, fps: int = 30):
+    assert save_path.endswith(".mp4")
     h, w = frames[0].shape[:2]
     isColor = len(frames[0].shape) == 3 and frames[0].shape[2] > 1
-    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-    video = cv2.VideoWriter(save_path, fourcc, fps, (w, h), isColor)
+    video = cv2.VideoWriter(
+        save_path, cv2.VideoWriter_fourcc(*"mp4v"), fps, (w, h), isColor
+    )
     for frame in frames:
         video.write(frame)
     video.release()
+
+
+def write_video(frames: list[np.ndarray], save_path: str, fps: int = 30):
+    if frames[0].dtype == np.uint8:
+        write_uint8_mp4(frames, save_path, fps)
+    elif frames[0].dtype == np.uint16:
+        if len(frames[0].shape) == 2:
+            write_uint16_monochrome_mkv(frames, save_path, fps)
+        else:
+            raise Exception("You can only write uint16 video with monocolor")
+    else:
+        raise Exception(f"Unsupported dtype: {frames[0].dtype}")
 
 
 def write_pointcloud(xyz: np.ndarray, save_path: str):
@@ -88,20 +145,13 @@ def get_rgb_depth(
     return rgb, depth, pcd
 
 
-def _set_camemra_properties(cameras: list[VisionSensor]):
-    for cam in cameras:
-        cam.set_explicit_handling(1)
-        cam.set_resolution((512, 512))
-        cam.set_render_mode(RenderMode.OPENGL3)
-
-
 def init_cameras():
-    cam_over_shoulder_left = VisionSensor("cam_over_shoulder_left")
-    cam_over_shoulder_right = VisionSensor("cam_over_shoulder_right")
-    cam_overhead = VisionSensor("cam_overhead")
-    cam_front = VisionSensor("cam_front")
-    cams = [cam_over_shoulder_left, cam_over_shoulder_right, cam_overhead, cam_front]
-    _set_camemra_properties(cams)
+    cams = [VisionSensor(name) for name in CAMERA_NAMES]
+    ## Set camera properties same as RLBench
+    for cam in cams:
+        cam.set_explicit_handling(1)
+        cam.set_resolution((512, 512))  # change to your desired resolution
+        cam.set_render_mode(RenderMode.OPENGL3)
     return cams
 
 
@@ -109,7 +159,13 @@ def get_observations(cams: list[VisionSensor]):
     rst = {}
     for cam in cams:
         rgb, depth, pcd = get_rgb_depth(
-            cam, True, True, True, Identity(), Identity(), False
+            cam,
+            get_rgb=True,
+            get_depth=True,
+            get_pcd=args.get_pcd,
+            rgb_noise=Identity(),
+            depth_noise=Identity(),
+            depth_in_meters=False,
         )
         rst[cam.get_name()] = {"rgb": rgb, "depth": depth, "pcd": pcd}
     return rst
@@ -137,7 +193,7 @@ def save_observations(
             if rgb is not None:
                 rgb = np.clip((rgb * 255).astype(np.uint8), 0, 255)
             if depth is not None:
-                depth = np.clip((depth * 255).astype(np.uint8), 0, 255)
+                depth = np.clip((depth * 65535).astype(np.uint16), 0, 65535)
 
             data[f"{cam_name}_rgb"].append(rgb)
             data[f"{cam_name}_depth"].append(depth)
@@ -152,13 +208,12 @@ def save_observations(
                     )
 
                 if depth is not None:
-                    depth = np.clip((depth * 255).astype(np.uint8), 0, 255)
                     depth = Image.fromarray(depth)
                     depth.save(
                         pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_depth.png")
                     )
 
-                if pcd is not None:
+                if pcd is not None and args.get_pcd:
                     pcd = pcd.reshape(-1, 3)
                     write_pointcloud(
                         pcd,
@@ -167,12 +222,15 @@ def save_observations(
 
     cam_names = [cam.get_name() for cam in cams]
     for cam_name in cam_names:
-        for vis_type in ["rgb", "depth"]:
-            write_mp4(
+        for vis_type, ext in [("rgb", "mp4"), ("depth", "mkv")]:
+            write_video(
                 data[f"{cam_name}_{vis_type}"],
-                pjoin(save_dir, f"{cam_name}_{vis_type}.mp4"),
+                pjoin(save_dir, f"{cam_name}_{vis_type}.{ext}"),
             )
-        write_pickle(pjoin(save_dir, f"{cam_name}_pcd.pkl"), data[f"{cam_name}_pcd"])
+        if args.get_pcd:
+            write_pickle(
+                pjoin(save_dir, f"{cam_name}_pcd.pkl"), data[f"{cam_name}_pcd"]
+            )
 
 
 def save_camera_matrix(cameras: list[VisionSensor], save_dir):
@@ -181,6 +239,19 @@ def save_camera_matrix(cameras: list[VisionSensor], save_dir):
         extrinsics = cam.get_matrix()
         np.savetxt(pjoin(save_dir, f"{cam.get_name()}_intrinsics.txt"), intrinsics)
         np.savetxt(pjoin(save_dir, f"{cam.get_name()}_extrinsics.txt"), extrinsics)
+
+
+def save_metadata(cameras: list[VisionSensor], save_dir):
+    data = {}
+    for cam in cameras:
+        data |= {
+            f"depth_min_{cam.get_name()}": cam.get_near_clipping_plane(),
+            f"depth_max_{cam.get_name()}": cam.get_far_clipping_plane(),
+            f"cam_intr_{cam.get_name()}": cam.get_intrinsic_matrix(),
+            f"cam_extr_{cam.get_name()}": cam.get_matrix(),
+        }
+    data = ensure_numpy_as_list(data)
+    write_json(pjoin(save_dir, "metadata.json"), data)
 
 
 ####################################
@@ -246,6 +317,7 @@ def replay_demo(
         sim.step()
 
     ## Save
+    save_metadata(cams, save_dir)
     save_observations(observations, save_dir, cams)
 
     ## Shutdown
@@ -262,6 +334,7 @@ if __name__ == "__main__":
     parser.add_argument("--headless", action="store_true")
     parser.add_argument("--gravity", type=bool, default=False)
     parser.add_argument("--task", required=True)
+    parser.add_argument("--get_pcd", action="store_true")
     args = parser.parse_args()
     cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
 
@@ -298,7 +371,7 @@ if __name__ == "__main__":
     for i, demo in enumerate(demo_data["demos"]["franka"]):
         env_setup = demo["env_setup"]
         object_states = demo["object_states"]
-        assert len(object_states) == demo["episode_len"]
+        assert len(object_states) == demo["episode_len"]  # TODO: Check
 
         ## Replay demo
         cur_save_dir = mkdir(pjoin(base_save_dir, f"demo_{i:04d}"))
