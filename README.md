@@ -47,3 +47,12 @@ Note: PyRep (CoppeliaSim) will launch Qt even if in headless mode. To ensure it 
     cat data/cfg/rlbench_objects.yaml | yq "to_entries | map({key: .key, subkeys: .value | keys})"
     ```
     Each task should have 'objects' and 'joints' properties.
+
+### Pipeline Usage
+
+Change tasks in `generate_config_batch.sh` and run the following commands to generate and start tmux sessions.
+
+```bash
+bash generate_config_batch.sh > config_batch.yml
+tmuxinator start -p config_batch.yml
+```
