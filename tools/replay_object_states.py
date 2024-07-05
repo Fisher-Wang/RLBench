@@ -91,6 +91,7 @@ def get_rgb_depth(
 def _set_camemra_properties(cameras: list[VisionSensor]):
     for cam in cameras:
         cam.set_explicit_handling(1)
+        cam.set_resolution((512, 512))
         cam.set_render_mode(RenderMode.OPENGL3)
 
 

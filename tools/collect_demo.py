@@ -393,6 +393,7 @@ if __name__ == '__main__':
     parser.add_argument("--only_setup", action='store_true')
     parser.add_argument("--record_object_states", action='store_true')
     args = parser.parse_args()
+    assert os.path.exists(args.conf), f"Config file not found: {args.conf}"
     cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
     cfg['objects'] += ['diningTable']
 

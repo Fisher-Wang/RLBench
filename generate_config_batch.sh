@@ -25,21 +25,22 @@ tasks=(
 
     ## Pick&place only
     basketball_in_hoop
-    get_ice_from_fridge
-    meat_off_grill
-    meat_on_grill
-    phone_on_base
-    put_all_groceries_in_cupboard
-    put_groceries_in_cupboard
-    put_money_in_safe
-    put_rubbish_in_bin
-    setup_checkers
-    setup_chess
-    solve_puzzle
+    # get_ice_from_fridge
+    # meat_off_grill
+    # meat_on_grill
+    # phone_on_base
+
+    # put_all_groceries_in_cupboard
+    # put_groceries_in_cupboard
+    # put_money_in_safe
+    # put_rubbish_in_bin
+    # setup_checkers
+    # setup_chess
+    # solve_puzzle
 )
 
 # Start the YAML configuration file
-echo "name: tasks"
+echo "name: tasks_replay"
 echo "root: .  # Adjust this to your project's root directory if necessary"
 echo ""
 echo "# Define a separate window for each task, each running in its own session"
@@ -49,5 +50,6 @@ echo "windows:"
 for task in "${tasks[@]}"; do
     echo "  - $task:"
     echo "      panes:"
-    echo "        - python tools/collect_demo.py --episode_num=$EPISODE_NUM --headless --task=$task --record_object_states"
+    # echo "        - python tools/collect_demo.py --episode_num=$EPISODE_NUM --headless --task=$task --record_object_states"
+    echo "        - python tools/replay_object_states.py --headless --task $task "
 done

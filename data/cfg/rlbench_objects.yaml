@@ -299,3 +299,137 @@ put_all_groceries_in_cupboard:
     mustard_visual: convex_hull
     soup_visual: convex_hull
     cupboard: convex_decomposition
+put_groceries_in_cupboard:
+  objects:
+  - chocolate_jello_visual
+  - coffee_visual
+  - crackers_visual
+  - mustard_visual
+  - soup_visual
+  - spam_visual
+  - strawberry_jello_visual
+  - sugar_visual
+  - tuna_visual
+  - cupboard
+  joints: []
+  types:
+    chocolate_jello_visual: rigid
+    coffee_visual: rigid
+    crackers_visual: rigid
+    mustard_visual: rigid
+    soup_visual: rigid
+    spam_visual: rigid
+    strawberry_jello_visual: rigid
+    sugar_visual: rigid
+    tuna_visual: rigid
+    cupboard: geometry
+put_money_in_safe:
+  objects:
+  - safe_body
+  - dollar_stack
+  joints:
+  - safe_joint
+put_rubbish_in_bin:
+  objects:
+  - tomato1_visual
+  - tomato2_visual
+  - bin_visual
+  - rubbish_visual
+  joints: []
+  types:
+    tomato1_visual: rigid
+    tomato2_visual: rigid
+    bin_visual: rigid
+    rubbish_visual: rigid
+setup_checkers:
+  objects:
+  - chess_board_base_visual
+  - checker0
+  - checker1
+  - checker2
+  - checker3
+  - checker4
+  - checker5
+  - checker6
+  - checker7
+  - checker8
+  - checker9
+  - checker10
+  - checker11
+  - checker12
+  - checker13
+  - checker14
+  - checker15
+  - checker16
+  - checker17
+  - checker18
+  - checker19
+  - checker20
+  - checker21
+  - checker22
+  - checker23
+  joints: []
+setup_chess:
+  objects:
+  - chess_board_base_visual
+  - black_king
+  - black_queen
+  - black_kingside_bishop
+  - black_queenside_bishop
+  - black_kingside_knight
+  - black_queenside_knight
+  - black_kingside_rook
+  - black_queenside_rook
+  - black_pawn_a
+  - black_pawn_b
+  - black_pawn_c
+  - black_pawn_d
+  - black_pawn_e
+  - black_pawn_f
+  - black_pawn_g
+  - black_pawn_h
+  - white_king
+  - white_queen
+  - white_kingside_bishop
+  - white_queenside_bishop
+  - white_kingside_knight
+  - white_queenside_knight
+  - white_kingside_rook
+  - white_queenside_rook
+  - white_pawn_a
+  - white_pawn_b
+  - white_pawn_c
+  - white_pawn_d
+  - white_pawn_e
+  - white_pawn_f
+  - white_pawn_g
+  - white_pawn_h
+  joints: []
+solve_puzzle:
+  objects:
+  - solve_puzzle_base
+  - solve_puzzle_piece1
+  - solve_puzzle_piece2
+  - solve_puzzle_piece3
+  - solve_puzzle_piece4
+  - solve_puzzle_piece5
+  - solve_puzzle_piece6
+  - solve_puzzle_piece7
+  - solve_puzzle_piece8
+  - solve_puzzle_piece9
+  - solve_puzzle_piece10
+  - solve_puzzle_piece11
+  - solve_puzzle_piece12
+  - solve_puzzle_piece13
+  - solve_puzzle_piece14
+  - solve_puzzle_piece15
+  - solve_puzzle_piece16
+  - solve_puzzle_piece17
+  - solve_puzzle_piece18
+  - solve_puzzle_piece19
+  - solve_puzzle_piece20
+  - solve_puzzle_piece21
+  - solve_puzzle_piece22
+  - solve_puzzle_piece23
+  - solve_puzzle_piece24
+  joints: []
