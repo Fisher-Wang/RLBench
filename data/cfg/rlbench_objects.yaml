@@ -407,7 +407,6 @@ setup_chess:
   joints: []
 solve_puzzle:
   objects:
-  - solve_puzzle_base
   - solve_puzzle_piece1
   - solve_puzzle_piece2
   - solve_puzzle_piece3
