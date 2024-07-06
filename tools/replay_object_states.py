@@ -346,7 +346,7 @@ if __name__ == "__main__":
 
     ## Load demo
     TaskName = "".join([x.capitalize() for x in args.task.split("_")])
-    demo_path = f"/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
+    demo_path = f"trajectories/{TaskName}-v0/trajectory-unified_with_object_states.pkl"
     demo_data = read_pickle(demo_path)
 
     ####################################

@@ -3,6 +3,7 @@ import json
 import os
 import pickle
 import time
+from os.path import join as pjoin
 from typing import Dict, List, Tuple
 
 import numpy as np
@@ -405,8 +406,9 @@ if __name__ == '__main__':
     ## Run task
     np.random.seed(args.seed)
     TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
-    # save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v{args.episode_num}')
-    save_dir = mkdir(f'/home/fs/cod/UniRobo/IsaacSimInfra/omniisaacgymenvs/data/demos/rlbench/{TaskName}-v0')
+    base_save_dir = 'trajectories'
+    # save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v{args.episode_num}'))
+    save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v0'))
     if args.record_object_states:
         pkl_filename = 'trajectory-unified_with_object_states.pkl'
     elif args.only_setup:

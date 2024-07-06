@@ -120,6 +120,7 @@ index.html
 
 .vscode/
 PyRep/
+trajectories
 outputs/
 *.ipynb
 *.png
