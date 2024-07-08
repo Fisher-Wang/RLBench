@@ -20,1388 +20,484 @@ Skipping outputs/slide_block_to_target/norobot_replay/demo_0016 as the demo file
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0017 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0018 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0019 as the demo files exist
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0020
-Initially set object block to [0.2350, 0.1633, 0.7781] [0.0000, -0.0000, -0.8317]
-Initially set object target to [0.3643, 0.2812, 0.7530] [0.0000, 0.0000, -0.8317]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0021
-Initially set object block to [0.3316, 0.3608, 0.7781] [-0.0000, 0.0000, 2.6344]
-Initially set object target to [0.2466, 0.2078, 0.7530] [0.0000, 0.0000, 2.6344]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0022
-Initially set object block to [0.1106, 0.1962, 0.7781] [-0.0000, -0.0000, 0.7257]
-Initially set object target to [-0.0056, 0.3271, 0.7530] [0.0000, 0.0000, 0.7257]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0023
-Initially set object block to [0.3365, 0.0060, 0.7781] [0.0000, 0.0000, -2.7056]
-Initially set object target to [0.4104, -0.1526, 0.7530] [0.0000, -0.0000, -2.7056]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0024
-Initially set object block to [0.0834, -0.0120, 0.7781] [-0.0000, 0.0000, 2.2344]
-Initially set object target to [-0.0545, -0.1198, 0.7530] [0.0000, 0.0000, 2.2344]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0025
-Initially set object block to [0.1198, -0.2327, 0.7781] [0.0000, 0.0000, -2.7988]
-Initially set object target to [0.1786, -0.3975, 0.7530] [0.0000, -0.0000, -2.7988]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0026
-Initially set object block to [0.3308, -0.1909, 0.7781] [-0.0000, 0.0000, 2.6884]
-Initially set object target to [0.2542, -0.3482, 0.7530] [0.0000, 0.0000, 2.6884]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0027
-Initially set object block to [0.2273, -0.2692, 0.7781] [0.0000, -0.0000, -1.1810]
-Initially set object target to [0.3891, -0.2027, 0.7530] [0.0000, 0.0000, -1.1810]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0028
-Initially set object block to [0.1060, -0.2025, 0.7781] [0.0000, -0.0000, -0.0599]
-Initially set object target to [0.1165, -0.0278, 0.7530] [0.0000, 0.0000, -0.0599]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0029
-Initially set object block to [0.2044, -0.1984, 0.7781] [-0.0000, -0.0000, 1.2330]
-Initially set object target to [0.0393, -0.1405, 0.7530] [0.0000, 0.0000, 1.2330]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0030
-Initially set object block to [0.2694, 0.1526, 0.7781] [0.0000, -0.0000, -0.2908]
-Initially set object target to [0.3195, 0.3202, 0.7530] [0.0000, 0.0000, -0.2908]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0031
-Initially set object block to [0.1100, 0.1473, 0.7781] [0.0000, -0.0000, -1.4863]
-Initially set object target to [0.2844, 0.1621, 0.7530] [0.0000, 0.0000, -1.4863]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0032
-Initially set object block to [0.2823, 0.3187, 0.7781] [-0.0000, 0.0000, 2.0790]
-Initially set object target to [0.1294, 0.2336, 0.7530] [0.0000, 0.0000, 2.0790]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0033
-Initially set object block to [0.3330, -0.0892, 0.7781] [-0.0000, 0.0000, 2.8435]
-Initially set object target to [0.2816, -0.2565, 0.7530] [0.0000, 0.0000, 2.8435]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0034
-Initially set object block to [0.1459, -0.0198, 0.7781] [0.0000, -0.0000, -0.2287]
-Initially set object target to [0.1856, 0.1506, 0.7530] [0.0000, 0.0000, -0.2287]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0035
-Initially set object block to [0.3298, -0.0608, 0.7781] [0.0000, 0.0000, -2.3106]
-Initially set object target to [0.4590, -0.1788, 0.7530] [0.0000, -0.0000, -2.3106]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0036
-Initially set object block to [0.1748, 0.1891, 0.7781] [0.0000, -0.0000, -0.0750]
-Initially set object target to [0.1879, 0.3636, 0.7530] [0.0000, 0.0000, -0.0750]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0037
-Initially set object block to [0.2752, 0.0743, 0.7781] [0.0000, 0.0000, -2.6161]
-Initially set object target to [0.3630, -0.0771, 0.7530] [0.0000, -0.0000, -2.6161]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0038
-Initially set object block to [0.0748, 0.2685, 0.7781] [0.0000, 0.0000, -2.5102]
-Initially set object target to [0.1781, 0.1272, 0.7530] [0.0000, -0.0000, -2.5102]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0039
-Initially set object block to [0.0740, -0.0329, 0.7781] [-0.0000, -0.0000, 0.5427]
-Initially set object target to [-0.0163, 0.1169, 0.7530] [0.0000, 0.0000, 0.5427]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0040
-Initially set object block to [0.1209, 0.3225, 0.7781] [-0.0000, 0.0000, 2.8987]
-Initially set object target to [0.0788, 0.1527, 0.7530] [0.0000, 0.0000, 2.8987]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0041
-Initially set object block to [0.1725, 0.2883, 0.7781] [-0.0000, 0.0000, 2.3505]
-Initially set object target to [0.0481, 0.1652, 0.7530] [0.0000, 0.0000, 2.3505]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0042
-Initially set object block to [0.2172, -0.1260, 0.7781] [0.0000, 0.0000, -2.6307]
-Initially set object target to [0.3028, -0.2787, 0.7530] [0.0000, -0.0000, -2.6307]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0043
-Initially set object block to [0.3930, -0.1466, 0.7781] [0.0000, 0.0000, -3.0682]
-Initially set object target to [0.4058, -0.3212, 0.7530] [0.0000, -0.0000, -3.0682]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0044
-Initially set object block to [0.2339, -0.0024, 0.7781] [0.0000, 0.0000, -1.5991]
-Initially set object target to [0.4088, -0.0073, 0.7530] [0.0000, 0.0000, -1.5991]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0045
-Initially set object block to [0.1064, -0.1182, 0.7781] [0.0000, 0.0000, -2.3143]
-Initially set object target to [0.2352, -0.2367, 0.7530] [0.0000, -0.0000, -2.3143]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0046
-Initially set object block to [0.1758, -0.0573, 0.7781] [-0.0000, -0.0000, 1.2285]
-Initially set object target to [0.0110, 0.0015, 0.7530] [0.0000, 0.0000, 1.2285]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0047
-Initially set object block to [0.3261, 0.2240, 0.7781] [-0.0000, -0.0000, 1.2371]
-Initially set object target to [0.1608, 0.2813, 0.7530] [0.0000, 0.0000, 1.2371]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0048
-Initially set object block to [0.2192, -0.2892, 0.7781] [0.0000, -0.0000, -1.4267]
-Initially set object target to [0.3924, -0.2641, 0.7530] [0.0000, 0.0000, -1.4267]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0049
-Initially set object block to [0.2618, -0.0812, 0.7781] [0.0000, 0.0000, -2.6567]
-Initially set object target to [0.3434, -0.2360, 0.7530] [0.0000, -0.0000, -2.6567]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0050
-Initially set object block to [0.2187, 0.0521, 0.7781] [0.0000, 0.0000, -2.9179]
-Initially set object target to [0.2575, -0.1186, 0.7530] [0.0000, -0.0000, -2.9179]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0051
-Initially set object block to [0.2200, 0.2822, 0.7781] [0.0000, 0.0000, -2.3308]
-Initially set object target to [0.3468, 0.1617, 0.7530] [0.0000, -0.0000, -2.3308]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0052
-Initially set object block to [0.4300, -0.0935, 0.7781] [0.0000, -0.0000, -0.2706]
-Initially set object target to [0.4768, 0.0751, 0.7530] [0.0000, 0.0000, -0.2706]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0053
-Initially set object block to [0.3024, -0.0949, 0.7781] [-0.0000, -0.0000, 1.1934]
-Initially set object target to [0.1398, -0.0304, 0.7530] [0.0000, 0.0000, 1.1934]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0020 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0021 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0022 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0023 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0024 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0025 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0026 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0027 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0028 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0029 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0030 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0031 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0032 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0033 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0034 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0035 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0036 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0037 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0038 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0039 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0040 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0041 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0042 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0043 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0044 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0045 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0046 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0047 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0048 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0049 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0050 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0051 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0052 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0053 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0053 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0055
-Initially set object block to [0.2983, -0.0761, 0.7781] [0.0000, 0.0000, -2.1389]
-Initially set object target to [0.4458, -0.1703, 0.7530] [0.0000, -0.0000, -2.1389]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0056
-Initially set object block to [0.0925, 0.3666, 0.7781] [-0.0000, 0.0000, 2.1920]
-Initially set object target to [-0.0498, 0.2648, 0.7530] [0.0000, 0.0000, 2.1920]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0057
-Initially set object block to [0.2281, 0.2723, 0.7781] [0.0000, 0.0000, -1.9767]
-Initially set object target to [0.3889, 0.2032, 0.7530] [0.0000, 0.0000, -1.9767]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0058
-Initially set object block to [0.1729, -0.2213, 0.7781] [0.0000, -0.0000, -0.2879]
-Initially set object target to [0.2225, -0.0535, 0.7530] [0.0000, 0.0000, -0.2879]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0059
-Initially set object block to [0.0741, -0.2155, 0.7781] [0.0000, -0.0000, -0.4472]
-Initially set object target to [0.1498, -0.0577, 0.7530] [0.0000, 0.0000, -0.4472]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0060
-Initially set object block to [0.0489, 0.1226, 0.7781] [0.0000, 0.0000, -3.0644]
-Initially set object target to [0.0624, -0.0519, 0.7530] [0.0000, -0.0000, -3.0644]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0061
-Initially set object block to [0.3013, -0.0184, 0.7781] [0.0000, 0.0000, -2.1166]
-Initially set object target to [0.4508, -0.1093, 0.7530] [0.0000, -0.0000, -2.1166]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0062
-Initially set object block to [0.1802, 0.0565, 0.7781] [0.0000, -0.0000, -1.3289]
-Initially set object target to [0.3501, 0.0984, 0.7530] [0.0000, 0.0000, -1.3289]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0063
-Initially set object block to [0.2765, -0.1965, 0.7781] [0.0000, -0.0000, -0.4767]
-Initially set object target to [0.3568, -0.0410, 0.7530] [0.0000, 0.0000, -0.4767]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0064
-Initially set object block to [0.3739, -0.2298, 0.7781] [-0.0000, 0.0000, 2.0640]
-Initially set object target to [0.2198, -0.3127, 0.7530] [0.0000, 0.0000, 2.0640]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0065
-Initially set object block to [0.1639, 0.0049, 0.7781] [-0.0000, 0.0000, 2.3972]
-Initially set object target to [0.0454, -0.1238, 0.7530] [0.0000, 0.0000, 2.3972]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0066
-Initially set object block to [0.2422, -0.1465, 0.7781] [0.0000, 0.0000, -2.0608]
-Initially set object target to [0.3966, -0.2288, 0.7530] [0.0000, 0.0000, -2.0608]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0067
-Initially set object block to [0.3056, 0.2800, 0.7781] [-0.0000, 0.0000, 2.7794]
-Initially set object target to [0.2436, 0.1164, 0.7530] [0.0000, 0.0000, 2.7794]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0068
-Initially set object block to [0.4881, 0.0406, 0.7781] [-0.0000, 0.0000, 2.9388]
-Initially set object target to [0.4528, -0.1308, 0.7530] [0.0000, 0.0000, 2.9388]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0069
-Initially set object block to [0.1075, -0.0164, 0.7781] [0.0000, -0.0000, -0.5182]
-Initially set object target to [0.1941, 0.1356, 0.7530] [0.0000, 0.0000, -0.5182]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0070
-Initially set object block to [0.1443, 0.0100, 0.7781] [-0.0000, -0.0000, 0.2944]
-Initially set object target to [0.0935, 0.1775, 0.7530] [0.0000, 0.0000, 0.2944]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0071
-Initially set object block to [0.2452, -0.1328, 0.7781] [0.0000, -0.0000, -1.4340]
-Initially set object target to [0.4186, -0.1090, 0.7530] [0.0000, 0.0000, -1.4340]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0072
-Initially set object block to [0.2650, 0.0750, 0.7781] [0.0000, -0.0000, -0.7973]
-Initially set object target to [0.3902, 0.1973, 0.7530] [0.0000, 0.0000, -0.7973]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0073
-Initially set object block to [0.1408, 0.0107, 0.7781] [0.0000, 0.0000, -2.8342]
-Initially set object target to [0.1938, -0.1561, 0.7530] [0.0000, -0.0000, -2.8342]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0074
-Initially set object block to [0.2794, 0.1632, 0.7781] [-0.0000, -0.0000, 1.1336]
-Initially set object target to [0.1209, 0.2373, 0.7530] [0.0000, 0.0000, 1.1336]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0075
-Initially set object block to [0.2591, -0.0533, 0.7781] [-0.0000, 0.0000, 2.3816]
-Initially set object target to [0.1385, -0.1801, 0.7530] [0.0000, 0.0000, 2.3816]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0076
-Initially set object block to [0.2669, 0.1792, 0.7781] [0.0000, -0.0000, -0.7996]
-Initially set object target to [0.3924, 0.3012, 0.7530] [0.0000, 0.0000, -0.7996]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0077
-Initially set object block to [0.2963, -0.2164, 0.7781] [0.0000, -0.0000, -0.9884]
-Initially set object target to [0.4425, -0.1202, 0.7530] [0.0000, 0.0000, -0.9884]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0078
-Initially set object block to [0.2938, 0.3430, 0.7781] [-0.0000, -0.0000, 1.2263]
-Initially set object target to [0.1291, 0.4021, 0.7530] [0.0000, 0.0000, 1.2263]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0079
-Initially set object block to [0.1498, -0.0292, 0.7781] [0.0000, 0.0000, -2.5692]
-Initially set object target to [0.2445, -0.1763, 0.7530] [0.0000, -0.0000, -2.5692]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0080
-Initially set object block to [0.4187, -0.1955, 0.7781] [0.0000, -0.0000, -0.6962]
-Initially set object target to [0.5309, -0.0612, 0.7530] [0.0000, 0.0000, -0.6962]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0081
-Initially set object block to [0.1145, 0.1698, 0.7781] [-0.0000, 0.0000, 2.5615]
-Initially set object target to [0.0186, 0.0234, 0.7530] [0.0000, 0.0000, 2.5615]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0082
-Initially set object block to [0.1133, -0.4033, 0.7781] [0.0000, 0.0000, -1.5863]
-Initially set object target to [0.2883, -0.4060, 0.7530] [0.0000, 0.0000, -1.5863]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0083
-Initially set object block to [0.3087, 0.0941, 0.7781] [-0.0000, 0.0000, 2.4998]
-Initially set object target to [0.2039, -0.0461, 0.7530] [0.0000, 0.0000, 2.4998]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0084
-Initially set object block to [0.1919, 0.2039, 0.7781] [0.0000, -0.0000, -0.1843]
-Initially set object target to [0.2240, 0.3759, 0.7530] [0.0000, 0.0000, -0.1843]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0085
-Initially set object block to [0.2995, 0.0223, 0.7781] [0.0000, 0.0000, -2.7431]
-Initially set object target to [0.3674, -0.1390, 0.7530] [0.0000, -0.0000, -2.7431]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0086
-Initially set object block to [0.2419, -0.1762, 0.7781] [0.0000, -0.0000, -0.8294]
-Initially set object target to [0.3710, -0.0580, 0.7530] [0.0000, 0.0000, -0.8294]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0087
-Initially set object block to [0.2864, 0.0280, 0.7781] [0.0000, -0.0000, -0.9835]
-Initially set object target to [0.4321, 0.1250, 0.7530] [0.0000, 0.0000, -0.9835]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0055 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0056 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0057 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0058 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0059 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0060 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0061 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0062 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0063 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0064 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0065 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0066 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0067 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0068 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0069 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0070 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0071 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0072 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0073 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0074 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0075 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0076 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0077 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0078 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0079 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0080 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0081 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0082 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0083 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0084 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0085 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0086 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0087 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0087 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0089
-Initially set object block to [0.3867, 0.2087, 0.7781] [-0.0000, -0.0000, 0.1381]
-Initially set object target to [0.3626, 0.3821, 0.7530] [0.0000, 0.0000, 0.1381]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0090
-Initially set object block to [0.3171, 0.0942, 0.7781] [0.0000, 0.0000, -2.2118]
-Initially set object target to [0.4574, -0.0105, 0.7530] [0.0000, -0.0000, -2.2118]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0091
-Initially set object block to [0.1420, -0.2162, 0.7781] [-0.0000, -0.0000, 0.5092]
-Initially set object target to [0.0567, -0.0634, 0.7530] [0.0000, 0.0000, 0.5092]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0092
-Initially set object block to [0.2408, 0.2966, 0.7781] [0.0000, 0.0000, -2.4126]
-Initially set object target to [0.3573, 0.1661, 0.7530] [0.0000, -0.0000, -2.4126]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0093
-Initially set object block to [0.2293, -0.1342, 0.7781] [0.0000, -0.0000, -1.4365]
-Initially set object target to [0.4027, -0.1108, 0.7530] [0.0000, 0.0000, -1.4365]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0094
-Initially set object block to [0.2097, -0.0418, 0.7781] [-0.0000, -0.0000, 0.8741]
-Initially set object target to [0.0755, 0.0705, 0.7530] [0.0000, 0.0000, 0.8741]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0089 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0090 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0091 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0092 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0093 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0094 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0094 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0096
-Initially set object block to [0.2022, -0.1043, 0.7781] [-0.0000, 0.0000, 2.1526]
-Initially set object target to [0.0560, -0.2005, 0.7530] [0.0000, 0.0000, 2.1526]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0097
-Initially set object block to [0.1675, -0.2346, 0.7781] [0.0000, 0.0000, -2.5119]
-Initially set object target to [0.2705, -0.3760, 0.7530] [0.0000, -0.0000, -2.5119]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0098
-Initially set object block to [0.3658, -0.0612, 0.7781] [-0.0000, -0.0000, 0.3748]
-Initially set object target to [0.3017, 0.1017, 0.7530] [0.0000, 0.0000, 0.3748]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0099
-Initially set object block to [0.1742, 0.1100, 0.7781] [-0.0000, -0.0000, 0.1773]
-Initially set object target to [0.1433, 0.2822, 0.7530] [0.0000, 0.0000, 0.1773]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0100
-Initially set object block to [0.2050, 0.2989, 0.7781] [-0.0000, 0.0000, 2.4849]
-Initially set object target to [0.0981, 0.1603, 0.7530] [0.0000, 0.0000, 2.4849]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0101
-Initially set object block to [0.2571, -0.1526, 0.7781] [0.0000, -0.0000, -0.8507]
-Initially set object target to [0.3887, -0.0372, 0.7530] [0.0000, 0.0000, -0.8507]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0102
-Initially set object block to [0.1736, 0.0375, 0.7781] [-0.0000, -0.0000, 1.1413]
-Initially set object target to [0.0145, 0.1104, 0.7530] [0.0000, 0.0000, 1.1413]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0103
-Initially set object block to [0.0050, -0.1145, 0.7781] [-0.0000, 0.0000, 2.9562]
-Initially set object target to [-0.0273, -0.2865, 0.7530] [0.0000, 0.0000, 2.9562]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0104
-Initially set object block to [0.3834, 0.0436, 0.7781] [-0.0000, -0.0000, 1.3792]
-Initially set object target to [0.2116, 0.0769, 0.7530] [0.0000, 0.0000, 1.3792]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0105
-Initially set object block to [0.1306, 0.1623, 0.7781] [-0.0000, -0.0000, 0.1304]
-Initially set object target to [0.1079, 0.3358, 0.7530] [0.0000, 0.0000, 0.1304]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0106
-Initially set object block to [0.3681, -0.0983, 0.7781] [0.0000, -0.0000, -1.1415]
-Initially set object target to [0.5272, -0.0254, 0.7530] [0.0000, 0.0000, -1.1415]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0107
-Initially set object block to [0.4649, 0.0030, 0.7781] [-0.0000, 0.0000, 2.7948]
-Initially set object target to [0.4054, -0.1616, 0.7530] [0.0000, 0.0000, 2.7948]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0108
-Initially set object block to [0.1697, -0.3152, 0.7781] [0.0000, -0.0000, -1.6021]
-Initially set object target to [0.3446, -0.3207, 0.7530] [0.0000, 0.0000, -1.6021]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0109
-Initially set object block to [0.3998, 0.1369, 0.7781] [0.0000, -0.0000, -0.0379]
-Initially set object target to [0.4065, 0.3118, 0.7530] [0.0000, 0.0000, -0.0379]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0110
-Initially set object block to [0.1200, -0.1643, 0.7781] [-0.0000, 0.0000, 1.9972]
-Initially set object target to [-0.0393, -0.2367, 0.7530] [0.0000, 0.0000, 1.9972]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0111
-Initially set object block to [0.2805, -0.1346, 0.7781] [0.0000, 0.0000, -2.4642]
-Initially set object target to [0.3901, -0.2709, 0.7530] [0.0000, -0.0000, -2.4642]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0112
-Initially set object block to [0.2006, -0.0717, 0.7781] [-0.0000, 0.0000, 2.7165]
-Initially set object target to [0.1285, -0.2311, 0.7530] [0.0000, 0.0000, 2.7165]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0113
-Initially set object block to [0.2128, -0.0754, 0.7781] [-0.0000, -0.0000, 0.8773]
-Initially set object target to [0.0782, 0.0365, 0.7530] [0.0000, 0.0000, 0.8773]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0114
-Initially set object block to [0.1104, -0.0970, 0.7781] [-0.0000, 0.0000, 2.3512]
-Initially set object target to [-0.0139, -0.2202, 0.7530] [0.0000, 0.0000, 2.3512]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0115
-Initially set object block to [0.2424, -0.3323, 0.7781] [-0.0000, -0.0000, 0.1690]
-Initially set object target to [0.2130, -0.1598, 0.7530] [0.0000, 0.0000, 0.1690]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0116
-Initially set object block to [0.1263, 0.2773, 0.7781] [-0.0000, 0.0000, 2.7154]
-Initially set object target to [0.0539, 0.1179, 0.7530] [0.0000, 0.0000, 2.7154]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0096 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0097 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0098 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0099 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0100 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0101 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0102 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0103 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0104 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0105 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0106 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0107 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0108 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0109 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0110 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0111 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0112 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0113 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0114 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0115 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0116 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0116 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0118
-Initially set object block to [0.2336, 0.3308, 0.7781] [-0.0000, 0.0000, 1.9929]
-Initially set object target to [0.0740, 0.2591, 0.7530] [0.0000, 0.0000, 1.9929]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0119
-Initially set object block to [0.4506, 0.0814, 0.7781] [-0.0000, -0.0000, 0.0982]
-Initially set object target to [0.4335, 0.2556, 0.7530] [0.0000, 0.0000, 0.0982]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0118 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0119 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0119 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0121
-Initially set object block to [0.2012, -0.1071, 0.7781] [0.0000, -0.0000, -1.0910]
-Initially set object target to [0.3565, -0.0263, 0.7530] [0.0000, 0.0000, -1.0910]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0122
-Initially set object block to [0.3113, -0.1194, 0.7781] [-0.0000, -0.0000, 1.4554]
-Initially set object target to [0.1375, -0.0992, 0.7530] [0.0000, 0.0000, 1.4554]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0123
-Initially set object block to [0.3438, 0.0768, 0.7781] [0.0000, -0.0000, -0.9763]
-Initially set object target to [0.4888, 0.1748, 0.7530] [0.0000, 0.0000, -0.9763]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0124
-Initially set object block to [0.2238, -0.0243, 0.7781] [0.0000, -0.0000, -0.0853]
-Initially set object target to [0.2387, 0.1501, 0.7530] [0.0000, 0.0000, -0.0853]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0125
-Initially set object block to [0.2099, -0.0556, 0.7781] [-0.0000, -0.0000, 0.8022]
-Initially set object target to [0.0841, 0.0660, 0.7530] [0.0000, 0.0000, 0.8022]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0126
-Initially set object block to [0.4170, 0.2728, 0.7781] [0.0000, 0.0000, -2.7671]
-Initially set object target to [0.4810, 0.1099, 0.7530] [0.0000, -0.0000, -2.7671]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0127
-Initially set object block to [0.1904, -0.1228, 0.7781] [-0.0000, -0.0000, 0.4177]
-Initially set object target to [0.1194, 0.0371, 0.7530] [0.0000, 0.0000, 0.4177]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0128
-Initially set object block to [0.2413, 0.1751, 0.7781] [-0.0000, -0.0000, 0.1088]
-Initially set object target to [0.2223, 0.3491, 0.7530] [0.0000, 0.0000, 0.1088]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0121 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0122 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0123 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0124 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0125 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0126 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0127 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0128 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0128 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0130
-Initially set object block to [0.1320, -0.1187, 0.7781] [-0.0000, 0.0000, 1.9712]
-Initially set object target to [-0.0292, -0.1869, 0.7530] [0.0000, 0.0000, 1.9712]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0131
-Initially set object block to [0.3249, -0.1821, 0.7781] [0.0000, -0.0000, -1.1879]
-Initially set object target to [0.4873, -0.1167, 0.7530] [0.0000, 0.0000, -1.1879]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0132
-Initially set object block to [0.0809, -0.0520, 0.7781] [-0.0000, 0.0000, 2.9756]
-Initially set object target to [0.0520, -0.2246, 0.7530] [0.0000, 0.0000, 2.9756]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0133
-Initially set object block to [0.4273, 0.1695, 0.7781] [-0.0000, -0.0000, 0.1393]
-Initially set object target to [0.4030, 0.3428, 0.7530] [0.0000, 0.0000, 0.1393]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0134
-Initially set object block to [0.1690, -0.1732, 0.7781] [0.0000, -0.0000, -0.2577]
-Initially set object target to [0.2136, -0.0039, 0.7530] [0.0000, 0.0000, -0.2577]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0135
-Initially set object block to [0.3257, -0.1171, 0.7781] [-0.0000, 0.0000, 2.3812]
-Initially set object target to [0.2051, -0.2439, 0.7530] [0.0000, 0.0000, 2.3812]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0136
-Initially set object block to [0.2691, -0.1766, 0.7781] [0.0000, 0.0000, -1.9012]
-Initially set object target to [0.4346, -0.2334, 0.7530] [0.0000, 0.0000, -1.9012]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0137
-Initially set object block to [0.3096, 0.1087, 0.7781] [-0.0000, 0.0000, 1.9171]
-Initially set object target to [0.1450, 0.0493, 0.7530] [0.0000, 0.0000, 1.9171]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0138
-Initially set object block to [0.1528, 0.2510, 0.7781] [-0.0000, 0.0000, 2.0974]
-Initially set object target to [0.0015, 0.1630, 0.7530] [0.0000, 0.0000, 2.0974]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0139
-Initially set object block to [0.3765, -0.2877, 0.7781] [-0.0000, -0.0000, 0.0431]
-Initially set object target to [0.3690, -0.1128, 0.7530] [0.0000, 0.0000, 0.0431]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0140
-Initially set object block to [0.2706, -0.3112, 0.7781] [-0.0000, -0.0000, 1.1124]
-Initially set object target to [0.1136, -0.2337, 0.7530] [0.0000, 0.0000, 1.1124]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0141
-Initially set object block to [0.2508, -0.2045, 0.7781] [-0.0000, 0.0000, 2.3834]
-Initially set object target to [0.1305, -0.3315, 0.7530] [0.0000, 0.0000, 2.3834]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0142
-Initially set object block to [0.1783, -0.0108, 0.7781] [0.0000, 0.0000, -2.4651]
-Initially set object target to [0.2878, -0.1473, 0.7530] [0.0000, -0.0000, -2.4651]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0143
-Initially set object block to [0.2868, 0.1542, 0.7781] [0.0000, 0.0000, -1.6097]
-Initially set object target to [0.4617, 0.1474, 0.7530] [0.0000, 0.0000, -1.6097]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0144
-Initially set object block to [0.3722, 0.2681, 0.7781] [-0.0000, 0.0000, 2.8168]
-Initially set object target to [0.3163, 0.1022, 0.7530] [0.0000, 0.0000, 2.8168]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0145
-Initially set object block to [0.2468, -0.2590, 0.7781] [0.0000, 0.0000, -2.3276]
-Initially set object target to [0.3740, -0.3792, 0.7530] [0.0000, -0.0000, -2.3276]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0146
-Initially set object block to [0.1780, -0.2239, 0.7781] [0.0000, -0.0000, -0.9420]
-Initially set object target to [0.3195, -0.1210, 0.7530] [0.0000, 0.0000, -0.9420]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0147
-Initially set object block to [0.2970, 0.0858, 0.7781] [0.0000, -0.0000, -1.1509]
-Initially set object target to [0.4568, 0.1571, 0.7530] [0.0000, 0.0000, -1.1509]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0148
-Initially set object block to [0.2348, 0.3710, 0.7781] [-0.0000, 0.0000, 2.2184]
-Initially set object target to [0.0953, 0.2654, 0.7530] [0.0000, 0.0000, 2.2184]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0149
-Initially set object block to [0.3366, -0.0832, 0.7781] [-0.0000, -0.0000, 0.3646]
-Initially set object target to [0.2742, 0.0803, 0.7530] [0.0000, 0.0000, 0.3646]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0150
-Initially set object block to [0.0762, 0.2925, 0.7781] [0.0000, 0.0000, -2.6169]
-Initially set object target to [0.1639, 0.1410, 0.7530] [0.0000, -0.0000, -2.6169]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0151
-Initially set object block to [0.1498, -0.1042, 0.7781] [-0.0000, 0.0000, 2.7737]
-Initially set object target to [0.0869, -0.2675, 0.7530] [0.0000, 0.0000, 2.7737]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0152
-Initially set object block to [0.3182, 0.0778, 0.7781] [-0.0000, 0.0000, 2.9836]
-Initially set object target to [0.2906, -0.0950, 0.7530] [0.0000, 0.0000, 2.9836]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0153
-Initially set object block to [0.4229, 0.1344, 0.7781] [-0.0000, 0.0000, 2.9349]
-Initially set object target to [0.3870, -0.0369, 0.7530] [0.0000, 0.0000, 2.9349]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0154
-Initially set object block to [0.1757, -0.2657, 0.7781] [-0.0000, -0.0000, 0.1543]
-Initially set object target to [0.1488, -0.0928, 0.7530] [0.0000, 0.0000, 0.1543]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0155
-Initially set object block to [0.0899, 0.4230, 0.7781] [-0.0000, 0.0000, 1.6264]
-Initially set object target to [-0.0848, 0.4132, 0.7530] [0.0000, 0.0000, 1.6264]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0156
-Initially set object block to [0.1486, 0.2609, 0.7781] [-0.0000, 0.0000, 2.6960]
-Initially set object target to [0.0732, 0.1030, 0.7530] [0.0000, 0.0000, 2.6960]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0157
-Initially set object block to [0.2419, -0.0012, 0.7781] [0.0000, 0.0000, -2.7251]
-Initially set object target to [0.3127, -0.1613, 0.7530] [0.0000, -0.0000, -2.7251]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0158
-Initially set object block to [0.2393, -0.1674, 0.7781] [0.0000, 0.0000, -2.1121]
-Initially set object target to [0.3893, -0.2576, 0.7530] [0.0000, -0.0000, -2.1121]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0159
-Initially set object block to [0.2579, 0.3103, 0.7781] [-0.0000, 0.0000, 1.9868]
-Initially set object target to [0.0978, 0.2396, 0.7530] [0.0000, 0.0000, 1.9868]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0160
-Initially set object block to [0.1887, 0.2651, 0.7781] [-0.0000, -0.0000, 1.4353]
-Initially set object target to [0.0153, 0.2887, 0.7530] [0.0000, 0.0000, 1.4353]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0130 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0131 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0132 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0133 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0134 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0135 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0136 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0137 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0138 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0139 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0140 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0141 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0142 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0143 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0144 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0145 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0146 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0147 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0148 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0149 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0150 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0151 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0152 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0153 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0154 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0155 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0156 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0157 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0158 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0159 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0160 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0160 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0162
-Initially set object block to [0.1628, 0.2546, 0.7781] [-0.0000, 0.0000, 2.8610]
-Initially set object target to [0.1143, 0.0864, 0.7530] [0.0000, 0.0000, 2.8610]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0163
-Initially set object block to [0.2339, 0.2435, 0.7781] [0.0000, 0.0000, -2.1605]
-Initially set object target to [0.3793, 0.1461, 0.7530] [0.0000, -0.0000, -2.1605]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0164
-Initially set object block to [0.3812, 0.1655, 0.7781] [0.0000, -0.0000, -0.4049]
-Initially set object target to [0.4501, 0.3264, 0.7530] [0.0000, 0.0000, -0.4049]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0165
-Initially set object block to [0.4342, 0.0896, 0.7781] [-0.0000, -0.0000, 0.5536]
-Initially set object target to [0.3422, 0.2384, 0.7530] [0.0000, 0.0000, 0.5536]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0162 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0163 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0164 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0165 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0165 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0167
-Initially set object block to [0.1582, 0.0014, 0.7781] [-0.0000, 0.0000, 2.5839]
-Initially set object target to [0.0655, -0.1471, 0.7530] [0.0000, 0.0000, 2.5839]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0168
-Initially set object block to [0.1127, -0.1364, 0.7781] [0.0000, -0.0000, -1.3394]
-Initially set object target to [0.2831, -0.0963, 0.7530] [0.0000, 0.0000, -1.3394]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0169
-Initially set object block to [0.2937, -0.0206, 0.7781] [-0.0000, 0.0000, 2.2628]
-Initially set object target to [0.1589, -0.1322, 0.7530] [0.0000, 0.0000, 2.2628]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0170
-Initially set object block to [0.1023, 0.2909, 0.7781] [-0.0000, 0.0000, 1.8908]
-Initially set object target to [-0.0638, 0.2358, 0.7530] [0.0000, 0.0000, 1.8908]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0171
-Initially set object block to [0.0699, -0.2609, 0.7781] [-0.0000, -0.0000, 0.0154]
-Initially set object target to [0.0673, -0.0859, 0.7530] [0.0000, 0.0000, 0.0154]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0172
-Initially set object block to [0.1481, 0.1054, 0.7781] [-0.0000, 0.0000, 1.6165]
-Initially set object target to [-0.0268, 0.0974, 0.7530] [0.0000, 0.0000, 1.6165]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0173
-Initially set object block to [0.0943, -0.1228, 0.7781] [0.0000, -0.0000, -0.8940]
-Initially set object target to [0.2307, -0.0132, 0.7530] [0.0000, 0.0000, -0.8940]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0167 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0168 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0169 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0170 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0171 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0172 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0173 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0173 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0175
-Initially set object block to [0.2007, 0.2183, 0.7781] [-0.0000, -0.0000, 0.3472]
-Initially set object target to [0.1412, 0.3829, 0.7530] [0.0000, 0.0000, 0.3472]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0176
-Initially set object block to [0.3003, 0.3715, 0.7781] [-0.0000, 0.0000, 1.7683]
-Initially set object target to [0.1287, 0.3372, 0.7530] [0.0000, 0.0000, 1.7683]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0177
-Initially set object block to [0.4337, 0.2418, 0.7781] [-0.0000, -0.0000, 0.4623]
-Initially set object target to [0.3556, 0.3985, 0.7530] [0.0000, 0.0000, 0.4623]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0178
-Initially set object block to [0.2199, -0.2874, 0.7781] [-0.0000, -0.0000, 0.8705]
-Initially set object target to [0.0861, -0.1746, 0.7530] [0.0000, 0.0000, 0.8705]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0179
-Initially set object block to [0.3340, -0.1114, 0.7781] [-0.0000, -0.0000, 1.5576]
-Initially set object target to [0.1590, -0.1091, 0.7530] [0.0000, 0.0000, 1.5576]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0175 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0176 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0177 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0178 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0179 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0179 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0181
-Initially set object block to [0.0883, 0.1203, 0.7781] [0.0000, -0.0000, -0.7362]
-Initially set object target to [0.2058, 0.2500, 0.7530] [0.0000, 0.0000, -0.7362]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0182
-Initially set object block to [0.3924, -0.1018, 0.7781] [0.0000, 0.0000, -2.5105]
-Initially set object target to [0.4956, -0.2431, 0.7530] [0.0000, -0.0000, -2.5105]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0183
-Initially set object block to [0.2988, -0.1536, 0.7781] [-0.0000, 0.0000, 2.7498]
-Initially set object target to [0.2319, -0.3153, 0.7530] [0.0000, 0.0000, 2.7498]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0184
-Initially set object block to [0.2068, -0.1484, 0.7781] [0.0000, 0.0000, -2.8026]
-Initially set object target to [0.2650, -0.3135, 0.7530] [0.0000, -0.0000, -2.8026]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0185
-Initially set object block to [0.1689, 0.1097, 0.7781] [-0.0000, 0.0000, 2.5954]
-Initially set object target to [0.0780, -0.0399, 0.7530] [0.0000, 0.0000, 2.5954]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0186
-Initially set object block to [0.3558, -0.0609, 0.7781] [0.0000, -0.0000, -0.6225]
-Initially set object target to [0.4579, 0.0812, 0.7530] [0.0000, 0.0000, -0.6225]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0187
-Initially set object block to [0.3468, 0.2060, 0.7781] [-0.0000, -0.0000, 0.2030]
-Initially set object target to [0.3115, 0.3774, 0.7530] [0.0000, 0.0000, 0.2030]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0188
-Initially set object block to [0.2268, 0.0358, 0.7781] [0.0000, -0.0000, -0.7909]
-Initially set object target to [0.3512, 0.1589, 0.7530] [0.0000, 0.0000, -0.7909]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0189
-Initially set object block to [0.2653, -0.2268, 0.7781] [-0.0000, 0.0000, 1.9487]
-Initially set object target to [0.1026, -0.2913, 0.7530] [0.0000, 0.0000, 1.9487]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0190
-Initially set object block to [0.3051, 0.2091, 0.7781] [-0.0000, -0.0000, 1.1849]
-Initially set object target to [0.1429, 0.2750, 0.7530] [0.0000, 0.0000, 1.1849]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0191
-Initially set object block to [0.3836, -0.1290, 0.7781] [-0.0000, -0.0000, 1.5049]
-Initially set object target to [0.2090, -0.1175, 0.7530] [0.0000, 0.0000, 1.5049]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0192
-Initially set object block to [0.3772, -0.2935, 0.7781] [-0.0000, 0.0000, 1.7262]
-Initially set object target to [0.2043, -0.3206, 0.7530] [0.0000, 0.0000, 1.7262]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0193
-Initially set object block to [0.1043, -0.1822, 0.7781] [-0.0000, -0.0000, 0.1013]
-Initially set object target to [0.0866, -0.0081, 0.7530] [0.0000, 0.0000, 0.1013]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0194
-Initially set object block to [0.2541, -0.0499, 0.7781] [0.0000, -0.0000, -0.3487]
-Initially set object target to [0.3139, 0.1145, 0.7530] [0.0000, 0.0000, -0.3487]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0195
-Initially set object block to [0.1564, -0.0318, 0.7781] [0.0000, -0.0000, -1.1406]
-Initially set object target to [0.3155, 0.0412, 0.7530] [0.0000, 0.0000, -1.1406]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0196
-Initially set object block to [0.2849, 0.2823, 0.7781] [-0.0000, -0.0000, 0.7544]
-Initially set object target to [0.1651, 0.4098, 0.7530] [0.0000, 0.0000, 0.7544]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0197
-Initially set object block to [0.1565, -0.0844, 0.7781] [0.0000, -0.0000, -0.8444]
-Initially set object target to [0.2874, 0.0318, 0.7530] [0.0000, 0.0000, -0.8444]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0198
-Initially set object block to [0.4501, 0.0713, 0.7781] [0.0000, 0.0000, -2.9818]
-Initially set object target to [0.4780, -0.1015, 0.7530] [0.0000, -0.0000, -2.9818]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0199
-Initially set object block to [0.1727, -0.2570, 0.7781] [0.0000, 0.0000, -2.3733]
-Initially set object target to [0.2943, -0.3829, 0.7530] [0.0000, -0.0000, -2.3733]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0181 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0182 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0183 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0184 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0185 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0186 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0187 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0188 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0189 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0190 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0191 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0192 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0193 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0194 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0195 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0196 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0197 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0198 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0199 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0199 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0201
-Initially set object block to [0.1762, -0.2539, 0.7781] [-0.0000, -0.0000, 1.2836]
-Initially set object target to [0.0083, -0.2043, 0.7530] [0.0000, 0.0000, 1.2836]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0202
-Initially set object block to [0.3432, 0.0517, 0.7781] [-0.0000, 0.0000, 1.8369]
-Initially set object target to [0.1743, 0.0057, 0.7530] [0.0000, 0.0000, 1.8369]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0203
-Initially set object block to [0.2541, 0.0076, 0.7781] [-0.0000, -0.0000, 0.6754]
-Initially set object target to [0.1447, 0.1441, 0.7530] [0.0000, 0.0000, 0.6754]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0204
-Initially set object block to [0.2293, 0.2615, 0.7781] [-0.0000, 0.0000, 2.5254]
-Initially set object target to [0.1281, 0.1187, 0.7530] [0.0000, 0.0000, 2.5254]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0205
-Initially set object block to [0.3105, 0.2144, 0.7781] [0.0000, 0.0000, -1.9063]
-Initially set object target to [0.4758, 0.1568, 0.7530] [0.0000, 0.0000, -1.9063]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0206
-Initially set object block to [0.1784, 0.0621, 0.7781] [-0.0000, 0.0000, 2.5000]
-Initially set object target to [0.0736, -0.0781, 0.7530] [0.0000, 0.0000, 2.5000]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0207
-Initially set object block to [0.1047, -0.0658, 0.7781] [-0.0000, 0.0000, 2.0754]
-Initially set object target to [-0.0485, -0.1504, 0.7530] [0.0000, 0.0000, 2.0754]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0208
-Initially set object block to [0.2630, 0.2390, 0.7781] [-0.0000, 0.0000, 2.9152]
-Initially set object target to [0.2238, 0.0685, 0.7530] [0.0000, 0.0000, 2.9152]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0209
-Initially set object block to [0.1979, 0.2676, 0.7781] [-0.0000, -0.0000, 0.9914]
-Initially set object target to [0.0514, 0.3634, 0.7530] [0.0000, 0.0000, 0.9914]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0210
-Initially set object block to [0.0918, -0.1489, 0.7781] [0.0000, 0.0000, -2.4351]
-Initially set object target to [0.2054, -0.2820, 0.7530] [0.0000, -0.0000, -2.4351]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0211
-Initially set object block to [0.4812, 0.0352, 0.7781] [0.0000, -0.0000, -0.0380]
-Initially set object target to [0.4879, 0.2101, 0.7530] [0.0000, 0.0000, -0.0380]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0201 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0202 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0203 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0204 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0205 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0206 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0207 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0208 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0209 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0210 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0211 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0211 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0213
-Initially set object block to [0.2635, 0.2219, 0.7781] [-0.0000, 0.0000, 2.3927]
-Initially set object target to [0.1444, 0.0937, 0.7530] [0.0000, 0.0000, 2.3927]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0214
-Initially set object block to [0.2154, 0.2016, 0.7781] [-0.0000, -0.0000, 0.3660]
-Initially set object target to [0.1528, 0.3650, 0.7530] [0.0000, 0.0000, 0.3660]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0215
-Initially set object block to [0.2503, 0.1539, 0.7781] [0.0000, 0.0000, -2.6764]
-Initially set object target to [0.3288, -0.0025, 0.7530] [0.0000, -0.0000, -2.6764]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0216
-Initially set object block to [0.2578, 0.0714, 0.7781] [0.0000, -0.0000, -1.1874]
-Initially set object target to [0.4201, 0.1369, 0.7530] [0.0000, 0.0000, -1.1874]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0217
-Initially set object block to [0.4395, 0.0102, 0.7781] [-0.0000, 0.0000, 3.1297]
-Initially set object target to [0.4375, -0.1648, 0.7530] [0.0000, 0.0000, 3.1297]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0218
-Initially set object block to [0.2736, -0.1454, 0.7781] [-0.0000, -0.0000, 0.0909]
-Initially set object target to [0.2577, 0.0289, 0.7530] [0.0000, 0.0000, 0.0909]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0219
-Initially set object block to [0.2923, 0.0518, 0.7781] [0.0000, -0.0000, -0.4073]
-Initially set object target to [0.3617, 0.2125, 0.7530] [0.0000, 0.0000, -0.4073]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0220
-Initially set object block to [0.1388, 0.1796, 0.7781] [0.0000, 0.0000, -2.8833]
-Initially set object target to [0.1835, 0.0104, 0.7530] [0.0000, -0.0000, -2.8833]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0221
-Initially set object block to [0.3151, 0.3755, 0.7781] [-0.0000, 0.0000, 2.2392]
-Initially set object target to [0.1778, 0.2671, 0.7530] [0.0000, 0.0000, 2.2392]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0222
-Initially set object block to [0.1367, 0.1478, 0.7781] [0.0000, 0.0000, -1.9038]
-Initially set object target to [0.3021, 0.0906, 0.7530] [0.0000, 0.0000, -1.9038]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0223
-Initially set object block to [0.2079, -0.1372, 0.7781] [0.0000, -0.0000, -0.5191]
-Initially set object target to [0.2947, 0.0148, 0.7530] [0.0000, 0.0000, -0.5191]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0224
-Initially set object block to [0.1111, -0.1795, 0.7781] [0.0000, 0.0000, -2.8038]
-Initially set object target to [0.1691, -0.3446, 0.7530] [0.0000, -0.0000, -2.8038]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0225
-Initially set object block to [0.3224, 0.2334, 0.7781] [-0.0000, -0.0000, 0.8130]
-Initially set object target to [0.1953, 0.3537, 0.7530] [0.0000, 0.0000, 0.8130]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0226
-Initially set object block to [0.1823, 0.3426, 0.7781] [-0.0000, 0.0000, 1.7461]
-Initially set object target to [0.0100, 0.3121, 0.7530] [0.0000, 0.0000, 1.7461]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0227
-Initially set object block to [0.3178, -0.2936, 0.7781] [0.0000, -0.0000, -0.2380]
-Initially set object target to [0.3590, -0.1235, 0.7530] [0.0000, 0.0000, -0.2380]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0228
-Initially set object block to [0.2625, -0.1038, 0.7781] [0.0000, -0.0000, -0.5330]
-Initially set object target to [0.3514, 0.0469, 0.7530] [0.0000, 0.0000, -0.5330]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0229
-Initially set object block to [0.3330, -0.0660, 0.7781] [-0.0000, -0.0000, 0.1778]
-Initially set object target to [0.3021, 0.1063, 0.7530] [0.0000, 0.0000, 0.1778]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0230
-Initially set object block to [0.2645, 0.0501, 0.7781] [-0.0000, 0.0000, 2.3247]
-Initially set object target to [0.1370, -0.0697, 0.7530] [0.0000, 0.0000, 2.3247]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0231
-Initially set object block to [0.2149, 0.0357, 0.7781] [0.0000, -0.0000, -0.5217]
-Initially set object target to [0.3021, 0.1875, 0.7530] [0.0000, 0.0000, -0.5217]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0232
-Initially set object block to [0.1739, -0.0369, 0.7781] [-0.0000, 0.0000, 1.7024]
-Initially set object target to [0.0004, -0.0598, 0.7530] [0.0000, 0.0000, 1.7024]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0233
-Initially set object block to [0.1196, -0.0905, 0.7781] [0.0000, 0.0000, -1.7490]
-Initially set object target to [0.2918, -0.1215, 0.7530] [0.0000, 0.0000, -1.7490]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0234
-Initially set object block to [0.1281, -0.0434, 0.7781] [0.0000, 0.0000, -2.9342]
-Initially set object target to [0.1641, -0.2147, 0.7530] [0.0000, -0.0000, -2.9342]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0213 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0214 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0215 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0216 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0217 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0218 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0219 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0220 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0221 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0222 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0223 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0224 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0225 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0226 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0227 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0228 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0229 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0230 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0231 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0232 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0233 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0234 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0234 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0236
-Initially set object block to [0.1996, 0.3011, 0.7781] [0.0000, 0.0000, -1.6877]
-Initially set object target to [0.3734, 0.2807, 0.7530] [0.0000, 0.0000, -1.6877]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0237
-Initially set object block to [0.1324, -0.1151, 0.7781] [-0.0000, 0.0000, 2.1671]
-Initially set object target to [-0.0124, -0.2134, 0.7530] [0.0000, 0.0000, 2.1671]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0238
-Initially set object block to [0.1936, -0.2627, 0.7781] [0.0000, 0.0000, -1.9091]
-Initially set object target to [0.3587, -0.3208, 0.7530] [0.0000, 0.0000, -1.9091]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0239
-Initially set object block to [0.2355, -0.3918, 0.7781] [0.0000, -0.0000, -1.1197]
-Initially set object target to [0.3930, -0.3155, 0.7530] [0.0000, 0.0000, -1.1197]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0240
-Initially set object block to [0.3404, -0.2094, 0.7781] [-0.0000, 0.0000, 2.0456]
-Initially set object target to [0.1848, -0.2894, 0.7530] [0.0000, 0.0000, 2.0456]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0241
-Initially set object block to [0.3628, 0.2947, 0.7781] [-0.0000, 0.0000, 1.6449]
-Initially set object target to [0.1882, 0.2818, 0.7530] [0.0000, 0.0000, 1.6449]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0242
-Initially set object block to [0.2947, -0.1461, 0.7781] [0.0000, -0.0000, -1.4414]
-Initially set object target to [0.4682, -0.1235, 0.7530] [0.0000, 0.0000, -1.4414]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0243
-Initially set object block to [0.1245, 0.1757, 0.7781] [-0.0000, 0.0000, 2.4312]
-Initially set object target to [0.0104, 0.0431, 0.7530] [0.0000, 0.0000, 2.4312]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0244
-Initially set object block to [0.2636, 0.0591, 0.7781] [-0.0000, 0.0000, 2.1466]
-Initially set object target to [0.1168, -0.0362, 0.7530] [0.0000, 0.0000, 2.1466]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0245
-Initially set object block to [0.1404, -0.2067, 0.7781] [-0.0000, 0.0000, 1.6293]
-Initially set object target to [-0.0343, -0.2169, 0.7530] [0.0000, 0.0000, 1.6293]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0246
-Initially set object block to [0.3291, 0.1026, 0.7781] [-0.0000, 0.0000, 2.1633]
-Initially set object target to [0.1839, 0.0049, 0.7530] [0.0000, 0.0000, 2.1633]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0247
-Initially set object block to [0.2183, -0.2737, 0.7781] [0.0000, -0.0000, -1.4672]
-Initially set object target to [0.3923, -0.2556, 0.7530] [0.0000, 0.0000, -1.4672]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0248
-Initially set object block to [0.1034, 0.2134, 0.7781] [-0.0000, -0.0000, 1.0147]
-Initially set object target to [-0.0452, 0.3058, 0.7530] [0.0000, 0.0000, 1.0147]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0249
-Initially set object block to [0.3923, -0.1613, 0.7781] [-0.0000, -0.0000, 0.3838]
-Initially set object target to [0.3268, 0.0010, 0.7530] [0.0000, 0.0000, 0.3838]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0250
-Initially set object block to [0.1103, -0.1734, 0.7781] [0.0000, 0.0000, -1.7195]
-Initially set object target to [0.2834, -0.1993, 0.7530] [0.0000, 0.0000, -1.7195]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0251
-Initially set object block to [0.3140, 0.1515, 0.7781] [-0.0000, 0.0000, 2.3505]
-Initially set object target to [0.1895, 0.0284, 0.7530] [0.0000, 0.0000, 2.3505]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0252
-Initially set object block to [0.2399, -0.3011, 0.7781] [-0.0000, -0.0000, 0.6766]
-Initially set object target to [0.1303, -0.1646, 0.7530] [0.0000, 0.0000, 0.6766]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0253
-Initially set object block to [0.1474, 0.1098, 0.7781] [0.0000, -0.0000, -1.0010]
-Initially set object target to [0.2948, 0.2042, 0.7530] [0.0000, 0.0000, -1.0010]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0254
-Initially set object block to [0.0706, -0.0476, 0.7781] [-0.0000, -0.0000, 0.3496]
-Initially set object target to [0.0106, 0.1168, 0.7530] [0.0000, 0.0000, 0.3496]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0255
-Initially set object block to [0.3574, -0.0380, 0.7781] [-0.0000, 0.0000, 2.2722]
-Initially set object target to [0.2237, -0.1510, 0.7530] [0.0000, 0.0000, 2.2722]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0236 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0237 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0238 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0239 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0240 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0241 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0242 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0243 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0244 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0245 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0246 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0247 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0248 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0249 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0250 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0251 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0252 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0253 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0254 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0255 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0255 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0257
-Initially set object block to [0.1919, -0.1081, 0.7781] [0.0000, -0.0000, -1.1215]
-Initially set object target to [0.3495, -0.0321, 0.7530] [0.0000, 0.0000, -1.1215]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0258
-Initially set object block to [0.4025, -0.2293, 0.7781] [-0.0000, -0.0000, 0.7260]
-Initially set object target to [0.2863, -0.0984, 0.7530] [0.0000, 0.0000, 0.7260]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0259
-Initially set object block to [0.1188, -0.1566, 0.7781] [0.0000, -0.0000, -0.2852]
-Initially set object target to [0.1680, 0.0114, 0.7530] [0.0000, 0.0000, -0.2852]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0260
-Initially set object block to [0.4382, 0.0089, 0.7781] [-0.0000, -0.0000, 0.1189]
-Initially set object target to [0.4174, 0.1826, 0.7530] [0.0000, 0.0000, 0.1189]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0261
-Initially set object block to [0.0193, -0.2521, 0.7781] [-0.0000, -0.0000, 0.1433]
-Initially set object target to [-0.0057, -0.0789, 0.7530] [0.0000, 0.0000, 0.1433]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0262
-Initially set object block to [0.1356, -0.3495, 0.7781] [0.0000, -0.0000, -1.0868]
-Initially set object target to [0.2905, -0.2680, 0.7530] [0.0000, 0.0000, -1.0868]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0263
-Initially set object block to [0.1615, 0.1789, 0.7781] [-0.0000, 0.0000, 2.2775]
-Initially set object target to [0.0284, 0.0653, 0.7530] [0.0000, 0.0000, 2.2775]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0257 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0258 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0259 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0260 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0261 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0262 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0263 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0263 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0265
-Initially set object block to [0.1329, -0.1828, 0.7781] [-0.0000, -0.0000, 0.0052]
-Initially set object target to [0.1320, -0.0078, 0.7530] [0.0000, 0.0000, 0.0052]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0266
-Initially set object block to [0.1711, -0.2314, 0.7781] [-0.0000, -0.0000, 1.1530]
-Initially set object target to [0.0111, -0.1604, 0.7530] [0.0000, 0.0000, 1.1530]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0267
-Initially set object block to [0.4774, 0.0772, 0.7781] [0.0000, 0.0000, -3.0819]
-Initially set object target to [0.4878, -0.0975, 0.7530] [0.0000, -0.0000, -3.0819]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0268
-Initially set object block to [0.0470, -0.2872, 0.7781] [0.0000, -0.0000, -0.3228]
-Initially set object target to [0.1026, -0.1213, 0.7530] [0.0000, 0.0000, -0.3228]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0269
-Initially set object block to [0.0924, 0.0425, 0.7781] [-0.0000, 0.0000, 2.0347]
-Initially set object target to [-0.0641, -0.0358, 0.7530] [0.0000, 0.0000, 2.0347]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0270
-Initially set object block to [0.0968, 0.2020, 0.7781] [-0.0000, 0.0000, 2.7909]
-Initially set object target to [0.0366, 0.0377, 0.7530] [0.0000, 0.0000, 2.7909]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0271
-Initially set object block to [0.2676, 0.3094, 0.7781] [0.0000, 0.0000, -3.0817]
-Initially set object target to [0.2780, 0.1347, 0.7530] [0.0000, -0.0000, -3.0817]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0272
-Initially set object block to [0.0963, 0.1887, 0.7781] [-0.0000, -0.0000, 0.5143]
-Initially set object target to [0.0102, 0.3410, 0.7530] [0.0000, 0.0000, 0.5143]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0273
-Initially set object block to [0.1438, 0.3134, 0.7781] [0.0000, 0.0000, -1.7143]
-Initially set object target to [0.3170, 0.2884, 0.7530] [0.0000, 0.0000, -1.7143]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0274
-Initially set object block to [0.1176, -0.2702, 0.7781] [0.0000, -0.0000, -0.5415]
-Initially set object target to [0.2078, -0.1203, 0.7530] [0.0000, 0.0000, -0.5415]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0275
-Initially set object block to [0.2381, -0.1813, 0.7781] [0.0000, 0.0000, -2.6652]
-Initially set object target to [0.3183, -0.3368, 0.7530] [0.0000, -0.0000, -2.6652]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0276
-Initially set object block to [0.3017, -0.2049, 0.7781] [-0.0000, -0.0000, 1.3943]
-Initially set object target to [0.1294, -0.1742, 0.7530] [0.0000, 0.0000, 1.3943]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0277
-Initially set object block to [0.3117, -0.0816, 0.7781] [-0.0000, -0.0000, 1.3140]
-Initially set object target to [0.1424, -0.0372, 0.7530] [0.0000, 0.0000, 1.3140]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0278
-Initially set object block to [0.1224, 0.2956, 0.7781] [-0.0000, 0.0000, 2.5146]
-Initially set object target to [0.0198, 0.1539, 0.7530] [0.0000, 0.0000, 2.5146]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0279
-Initially set object block to [0.3084, 0.0489, 0.7781] [-0.0000, 0.0000, 1.8292]
-Initially set object target to [0.1393, 0.0042, 0.7530] [0.0000, 0.0000, 1.8292]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0280
-Initially set object block to [0.2630, -0.2072, 0.7781] [0.0000, -0.0000, -0.1502]
-Initially set object target to [0.2891, -0.0341, 0.7530] [0.0000, 0.0000, -0.1502]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0281
-Initially set object block to [0.1520, -0.0703, 0.7781] [0.0000, 0.0000, -2.0744]
-Initially set object target to [0.3053, -0.1547, 0.7530] [0.0000, 0.0000, -2.0744]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0265 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0266 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0267 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0268 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0269 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0270 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0271 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0272 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0273 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0274 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0275 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0276 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0277 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0278 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0279 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0280 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0281 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0281 as inconsistent episode length
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0281 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0284
-Initially set object block to [0.4760, -0.1044, 0.7781] [-0.0000, -0.0000, 0.2324]
-Initially set object target to [0.4357, 0.0659, 0.7530] [0.0000, 0.0000, 0.2324]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0285
-Initially set object block to [0.1613, 0.3738, 0.7781] [-0.0000, -0.0000, 1.3973]
-Initially set object target to [-0.0111, 0.4040, 0.7530] [0.0000, 0.0000, 1.3973]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0286
-Initially set object block to [0.1150, 0.2028, 0.7781] [0.0000, 0.0000, -3.1395]
-Initially set object target to [0.1154, 0.0278, 0.7530] [0.0000, -0.0000, -3.1395]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0287
-Initially set object block to [0.2798, 0.0244, 0.7781] [0.0000, -0.0000, -0.7816]
-Initially set object target to [0.4031, 0.1486, 0.7530] [0.0000, 0.0000, -0.7816]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0284 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0285 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0286 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0287 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0287 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0289
-Initially set object block to [0.2383, -0.1780, 0.7781] [-0.0000, 0.0000, 2.0077]
-Initially set object target to [0.0798, -0.2521, 0.7530] [0.0000, 0.0000, 2.0077]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0290
-Initially set object block to [0.3834, -0.1161, 0.7781] [-0.0000, -0.0000, 1.2853]
-Initially set object target to [0.2154, -0.0668, 0.7530] [0.0000, 0.0000, 1.2853]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0289 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0290 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0290 as inconsistent episode length
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0290 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0293
-Initially set object block to [0.3282, 0.1344, 0.7781] [-0.0000, -0.0000, 0.2253]
-Initially set object target to [0.2891, 0.3050, 0.7530] [0.0000, 0.0000, 0.2253]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0294
-Initially set object block to [0.0839, -0.1155, 0.7781] [0.0000, -0.0000, -0.6735]
-Initially set object target to [0.1931, 0.0213, 0.7530] [0.0000, 0.0000, -0.6735]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0295
-Initially set object block to [0.3256, -0.0144, 0.7781] [-0.0000, 0.0000, 3.0742]
-Initially set object target to [0.3138, -0.1890, 0.7530] [0.0000, 0.0000, 3.0742]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0296
-Initially set object block to [0.1313, -0.1439, 0.7781] [-0.0000, 0.0000, 2.6496]
-Initially set object target to [0.0486, -0.2982, 0.7530] [0.0000, 0.0000, 2.6496]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0297
-Initially set object block to [0.3554, -0.0435, 0.7781] [0.0000, -0.0000, -1.1316]
-Initially set object target to [0.5138, 0.0309, 0.7530] [0.0000, 0.0000, -1.1316]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0298
-Initially set object block to [0.2822, -0.2005, 0.7781] [-0.0000, -0.0000, 0.2410]
-Initially set object target to [0.2404, -0.0305, 0.7530] [0.0000, 0.0000, 0.2410]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0299
-Initially set object block to [0.2122, 0.2810, 0.7781] [-0.0000, 0.0000, 3.0261]
-Initially set object target to [0.1920, 0.1072, 0.7530] [0.0000, 0.0000, 3.0261]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0300
-Initially set object block to [0.1816, -0.2222, 0.7781] [0.0000, -0.0000, -1.1841]
-Initially set object target to [0.3437, -0.1563, 0.7530] [0.0000, 0.0000, -1.1841]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0301
-Initially set object block to [0.3415, 0.3140, 0.7781] [-0.0000, 0.0000, 1.8151]
-Initially set object target to [0.1717, 0.2717, 0.7530] [0.0000, 0.0000, 1.8151]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0293 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0294 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0295 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0296 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0297 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0298 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0299 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0300 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0301 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0301 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0303
-Initially set object block to [0.2867, -0.0643, 0.7781] [0.0000, 0.0000, -3.0192]
-Initially set object target to [0.3081, -0.2379, 0.7530] [0.0000, -0.0000, -3.0192]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0304
-Initially set object block to [0.2702, 0.0897, 0.7781] [0.0000, 0.0000, -2.4204]
-Initially set object target to [0.3858, -0.0417, 0.7530] [0.0000, -0.0000, -2.4204]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0305
-Initially set object block to [0.3189, 0.0726, 0.7781] [-0.0000, 0.0000, 2.8989]
-Initially set object target to [0.2768, -0.0973, 0.7530] [0.0000, 0.0000, 2.8989]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0306
-Initially set object block to [0.1140, 0.1642, 0.7781] [0.0000, 0.0000, -2.4253]
-Initially set object target to [0.2289, 0.0322, 0.7530] [0.0000, -0.0000, -2.4253]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0307
-Initially set object block to [0.2671, 0.0089, 0.7781] [0.0000, -0.0000, -0.7170]
-Initially set object target to [0.3821, 0.1408, 0.7530] [0.0000, 0.0000, -0.7170]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0308
-Initially set object block to [0.4442, 0.0488, 0.7781] [0.0000, 0.0000, -2.7139]
-Initially set object target to [0.5168, -0.1104, 0.7530] [0.0000, -0.0000, -2.7139]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0309
-Initially set object block to [0.1858, 0.1792, 0.7781] [0.0000, -0.0000, -1.5262]
-Initially set object target to [0.3607, 0.1870, 0.7530] [0.0000, 0.0000, -1.5262]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0310
-Initially set object block to [0.4695, -0.0908, 0.7781] [-0.0000, 0.0000, 2.9197]
-Initially set object target to [0.4310, -0.2615, 0.7530] [0.0000, 0.0000, 2.9197]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0311
-Initially set object block to [0.2780, -0.0366, 0.7781] [-0.0000, 0.0000, 2.5773]
-Initially set object target to [0.1844, -0.1844, 0.7530] [0.0000, 0.0000, 2.5773]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0312
-Initially set object block to [0.1715, -0.1331, 0.7781] [0.0000, 0.0000, -2.3166]
-Initially set object target to [0.3000, -0.2519, 0.7530] [0.0000, -0.0000, -2.3166]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0313
-Initially set object block to [0.1090, -0.3118, 0.7781] [-0.0000, -0.0000, 1.0600]
-Initially set object target to [-0.0436, -0.2262, 0.7530] [0.0000, 0.0000, 1.0600]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0314
-Initially set object block to [0.1938, 0.1734, 0.7781] [-0.0000, 0.0000, 2.9328]
-Initially set object target to [0.1575, 0.0022, 0.7530] [0.0000, 0.0000, 2.9328]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0315
-Initially set object block to [0.1826, 0.2640, 0.7781] [0.0000, 0.0000, -2.6497]
-Initially set object target to [0.2653, 0.1098, 0.7530] [0.0000, -0.0000, -2.6497]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0316
-Initially set object block to [0.2665, -0.0503, 0.7781] [0.0000, -0.0000, -0.8395]
-Initially set object target to [0.3967, 0.0665, 0.7530] [0.0000, 0.0000, -0.8395]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0317
-Initially set object block to [0.2124, 0.4112, 0.7781] [-0.0000, 0.0000, 1.7173]
-Initially set object target to [0.0392, 0.3857, 0.7530] [0.0000, 0.0000, 1.7173]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0318
-Initially set object block to [0.4097, -0.2148, 0.7781] [-0.0000, -0.0000, 0.4542]
-Initially set object target to [0.3330, -0.0576, 0.7530] [0.0000, 0.0000, 0.4542]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0303 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0304 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0305 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0306 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0307 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0308 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0309 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0310 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0311 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0312 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0313 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0314 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0315 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0316 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0317 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0318 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0318 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0320
-Initially set object block to [0.2585, -0.2024, 0.7781] [-0.0000, 0.0000, 2.5756]
-Initially set object target to [0.1647, -0.3501, 0.7530] [0.0000, 0.0000, 2.5756]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0321
-Initially set object block to [0.2095, -0.0337, 0.7781] [-0.0000, 0.0000, 3.0154]
-Initially set object target to [0.1875, -0.2073, 0.7530] [0.0000, 0.0000, 3.0154]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0322
-Initially set object block to [0.2936, 0.0126, 0.7781] [-0.0000, 0.0000, 1.9198]
-Initially set object target to [0.1292, -0.0472, 0.7530] [0.0000, 0.0000, 1.9198]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0323
-Initially set object block to [0.4190, -0.0738, 0.7781] [0.0000, -0.0000, -0.5094]
-Initially set object target to [0.5043, 0.0789, 0.7530] [0.0000, 0.0000, -0.5094]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0324
-Initially set object block to [0.1666, -0.0744, 0.7781] [0.0000, -0.0000, -0.4738]
-Initially set object target to [0.2465, 0.0813, 0.7530] [0.0000, 0.0000, -0.4738]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0325
-Initially set object block to [0.2085, -0.2852, 0.7781] [0.0000, 0.0000, -1.6670]
-Initially set object target to [0.3827, -0.3021, 0.7530] [0.0000, 0.0000, -1.6670]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0326
-Initially set object block to [0.2049, 0.2474, 0.7781] [0.0000, 0.0000, -2.5230]
-Initially set object target to [0.3063, 0.1048, 0.7530] [0.0000, -0.0000, -2.5230]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0327
-Initially set object block to [0.3611, 0.2548, 0.7781] [-0.0000, -0.0000, 0.7711]
-Initially set object target to [0.2391, 0.3803, 0.7530] [0.0000, 0.0000, 0.7711]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0328
-Initially set object block to [0.0145, -0.0993, 0.7781] [0.0000, 0.0000, -3.1343]
-Initially set object target to [0.0158, -0.2743, 0.7530] [0.0000, -0.0000, -3.1343]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0329
-Initially set object block to [0.1718, -0.0314, 0.7781] [-0.0000, 0.0000, 1.7354]
-Initially set object target to [-0.0009, -0.0601, 0.7530] [0.0000, 0.0000, 1.7354]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0330
-Initially set object block to [0.2136, -0.2266, 0.7781] [0.0000, 0.0000, -1.6817]
-Initially set object target to [0.3876, -0.2460, 0.7530] [0.0000, 0.0000, -1.6817]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0331
-Initially set object block to [0.1720, 0.0014, 0.7781] [-0.0000, 0.0000, 2.4358]
-Initially set object target to [0.0585, -0.1317, 0.7530] [0.0000, 0.0000, 2.4358]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0332
-Initially set object block to [0.1259, 0.0324, 0.7781] [-0.0000, 0.0000, 1.7408]
-Initially set object target to [-0.0466, 0.0028, 0.7530] [0.0000, 0.0000, 1.7408]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0333
-Initially set object block to [0.2175, 0.2006, 0.7781] [0.0000, -0.0000, -0.8679]
-Initially set object target to [0.3511, 0.3138, 0.7530] [0.0000, 0.0000, -0.8679]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0334
-Initially set object block to [0.3183, -0.0761, 0.7781] [-0.0000, 0.0000, 1.9821]
-Initially set object target to [0.1579, -0.1460, 0.7530] [0.0000, 0.0000, 1.9821]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0335
-Initially set object block to [0.3556, -0.0588, 0.7781] [0.0000, -0.0000, -0.4029]
-Initially set object target to [0.4242, 0.1022, 0.7530] [0.0000, 0.0000, -0.4029]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0336
-Initially set object block to [0.2922, 0.2287, 0.7781] [-0.0000, -0.0000, 0.4297]
-Initially set object target to [0.2193, 0.3878, 0.7530] [0.0000, 0.0000, 0.4297]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0337
-Initially set object block to [0.2919, 0.1927, 0.7781] [0.0000, 0.0000, -2.8030]
-Initially set object target to [0.3501, 0.0276, 0.7530] [0.0000, -0.0000, -2.8030]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0338
-Initially set object block to [0.1360, -0.1302, 0.7781] [0.0000, 0.0000, -2.8605]
-Initially set object target to [0.1846, -0.2983, 0.7530] [0.0000, -0.0000, -2.8605]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0339
-Initially set object block to [0.1779, 0.2913, 0.7781] [-0.0000, 0.0000, 2.9031]
-Initially set object target to [0.1365, 0.1213, 0.7530] [0.0000, 0.0000, 2.9031]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0340
-Initially set object block to [0.0168, 0.1060, 0.7781] [0.0000, -0.0000, -0.2339]
-Initially set object target to [0.0574, 0.2762, 0.7530] [0.0000, 0.0000, -0.2339]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0341
-Initially set object block to [0.1978, 0.3697, 0.7781] [-0.0000, 0.0000, 1.7198]
-Initially set object target to [0.0248, 0.3437, 0.7530] [0.0000, 0.0000, 1.7198]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0342
-Initially set object block to [0.0929, -0.0006, 0.7781] [-0.0000, -0.0000, 0.9856]
-Initially set object target to [-0.0529, 0.0961, 0.7530] [0.0000, 0.0000, 0.9856]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0343
-Initially set object block to [0.3102, 0.0992, 0.7781] [-0.0000, 0.0000, 1.5957]
-Initially set object target to [0.1352, 0.0949, 0.7530] [0.0000, 0.0000, 1.5957]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0344
-Initially set object block to [0.3853, -0.1890, 0.7781] [0.0000, -0.0000, -0.7440]
-Initially set object target to [0.5038, -0.0603, 0.7530] [0.0000, 0.0000, -0.7440]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0345
-Initially set object block to [0.1261, 0.1478, 0.7781] [0.0000, -0.0000, -1.5454]
-Initially set object target to [0.3010, 0.1523, 0.7530] [0.0000, 0.0000, -1.5454]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0346
-Initially set object block to [0.4194, 0.1410, 0.7781] [-0.0000, 0.0000, 2.8392]
-Initially set object target to [0.3673, -0.0261, 0.7530] [0.0000, 0.0000, 2.8392]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0320 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0321 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0322 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0323 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0324 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0325 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0326 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0327 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0328 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0329 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0330 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0331 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0332 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0333 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0334 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0335 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0336 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0337 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0338 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0339 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0340 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0341 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0342 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0343 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0344 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0345 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0346 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0346 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0348
-Initially set object block to [0.2516, 0.1290, 0.7781] [-0.0000, -0.0000, 0.3708]
-Initially set object target to [0.1882, 0.2921, 0.7530] [0.0000, 0.0000, 0.3708]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0349
-Initially set object block to [0.2002, 0.1366, 0.7781] [-0.0000, 0.0000, 2.4941]
-Initially set object target to [0.0946, -0.0029, 0.7530] [0.0000, 0.0000, 2.4941]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0350
-Initially set object block to [0.3153, -0.0942, 0.7781] [0.0000, -0.0000, -0.7697]
-Initially set object target to [0.4371, 0.0315, 0.7530] [0.0000, 0.0000, -0.7697]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0351
-Initially set object block to [0.3530, -0.1604, 0.7781] [-0.0000, -0.0000, 1.0185]
-Initially set object target to [0.2040, -0.0686, 0.7530] [0.0000, 0.0000, 1.0185]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0352
-Initially set object block to [0.1510, -0.2019, 0.7781] [0.0000, -0.0000, -1.5057]
-Initially set object target to [0.3257, -0.1905, 0.7530] [0.0000, 0.0000, -1.5057]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0353
-Initially set object block to [0.1539, 0.2547, 0.7781] [-0.0000, -0.0000, 1.0656]
-Initially set object target to [0.0008, 0.3393, 0.7530] [0.0000, 0.0000, 1.0656]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0354
-Initially set object block to [0.1312, -0.1823, 0.7781] [-0.0000, -0.0000, 0.0043]
-Initially set object target to [0.1305, -0.0073, 0.7530] [0.0000, 0.0000, 0.0043]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0355
-Initially set object block to [0.2304, -0.0068, 0.7781] [-0.0000, 0.0000, 2.2507]
-Initially set object target to [0.0943, -0.1168, 0.7530] [0.0000, 0.0000, 2.2507]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0356
-Initially set object block to [0.1159, 0.0973, 0.7781] [0.0000, 0.0000, -2.7978]
-Initially set object target to [0.1749, -0.0675, 0.7530] [0.0000, -0.0000, -2.7978]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0357
-Initially set object block to [0.3910, 0.0410, 0.7781] [-0.0000, 0.0000, 3.0986]
-Initially set object target to [0.3835, -0.1338, 0.7530] [0.0000, 0.0000, 3.0986]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0358
-Initially set object block to [0.0840, 0.2161, 0.7781] [-0.0000, -0.0000, 0.1152]
-Initially set object target to [0.0639, 0.3899, 0.7530] [0.0000, 0.0000, 0.1152]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0359
-Initially set object block to [0.0433, 0.1261, 0.7781] [-0.0000, -0.0000, 0.0420]
-Initially set object target to [0.0359, 0.3010, 0.7530] [0.0000, 0.0000, 0.0420]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0360
-Initially set object block to [0.1961, 0.2374, 0.7781] [-0.0000, 0.0000, 2.2197]
-Initially set object target to [0.0567, 0.1316, 0.7530] [0.0000, 0.0000, 2.2197]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0361
-Initially set object block to [0.3548, 0.2584, 0.7781] [0.0000, 0.0000, -3.0479]
-Initially set object target to [0.3712, 0.0842, 0.7530] [0.0000, -0.0000, -3.0479]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0362
-Initially set object block to [0.0839, -0.0137, 0.7781] [0.0000, 0.0000, -2.6873]
-Initially set object target to [0.1607, -0.1710, 0.7530] [0.0000, -0.0000, -2.6873]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0363
-Initially set object block to [0.4714, -0.1384, 0.7781] [-0.0000, 0.0000, 2.9910]
-Initially set object target to [0.4451, -0.3114, 0.7530] [0.0000, 0.0000, 2.9910]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0364
-Initially set object block to [0.2156, 0.1465, 0.7781] [0.0000, 0.0000, -2.1106]
-Initially set object target to [0.3657, 0.0565, 0.7530] [0.0000, -0.0000, -2.1106]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0365
-Initially set object block to [0.2618, 0.2432, 0.7781] [-0.0000, 0.0000, 2.7810]
-Initially set object target to [0.2001, 0.0795, 0.7530] [0.0000, 0.0000, 2.7810]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0366
-Initially set object block to [0.1004, -0.0655, 0.7781] [0.0000, -0.0000, -0.5594]
-Initially set object target to [0.1933, 0.0828, 0.7530] [0.0000, 0.0000, -0.5594]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0367
-Initially set object block to [0.1555, -0.2660, 0.7781] [0.0000, -0.0000, -0.3159]
-Initially set object target to [0.2099, -0.0997, 0.7530] [0.0000, 0.0000, -0.3159]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0368
-Initially set object block to [0.3419, 0.1649, 0.7781] [-0.0000, -0.0000, 0.8338]
-Initially set object target to [0.2123, 0.2825, 0.7530] [0.0000, 0.0000, 0.8338]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0369
-Initially set object block to [0.2458, 0.0522, 0.7781] [-0.0000, 0.0000, 2.2744]
-Initially set object target to [0.1124, -0.0610, 0.7530] [0.0000, 0.0000, 2.2744]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0370
-Initially set object block to [0.3653, -0.1018, 0.7781] [0.0000, -0.0000, -1.0637]
-Initially set object target to [0.5182, -0.0168, 0.7530] [0.0000, 0.0000, -1.0637]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0371
-Initially set object block to [0.0347, -0.0090, 0.7781] [0.0000, -0.0000, -0.3248]
-Initially set object target to [0.0905, 0.1568, 0.7530] [0.0000, 0.0000, -0.3248]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0372
-Initially set object block to [0.3689, 0.0755, 0.7781] [-0.0000, 0.0000, 2.6024]
-Initially set object target to [0.2790, -0.0747, 0.7530] [0.0000, 0.0000, 2.6024]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0373
-Initially set object block to [0.3735, 0.0075, 0.7781] [0.0000, 0.0000, -2.7747]
-Initially set object target to [0.4362, -0.1559, 0.7530] [0.0000, -0.0000, -2.7747]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0374
-Initially set object block to [0.2289, -0.2832, 0.7781] [0.0000, 0.0000, -2.1445]
-Initially set object target to [0.3758, -0.3782, 0.7530] [0.0000, -0.0000, -2.1445]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0375
-Initially set object block to [0.2862, -0.1929, 0.7781] [0.0000, -0.0000, -0.6921]
-Initially set object target to [0.3978, -0.0582, 0.7530] [0.0000, 0.0000, -0.6921]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0376
-Initially set object block to [0.2016, -0.2573, 0.7781] [0.0000, 0.0000, -1.7552]
-Initially set object target to [0.3736, -0.2894, 0.7530] [0.0000, 0.0000, -1.7552]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0348 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0349 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0350 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0351 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0352 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0353 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0354 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0355 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0356 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0357 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0358 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0359 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0360 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0361 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0362 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0363 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0364 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0365 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0366 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0367 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0368 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0369 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0370 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0371 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0372 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0373 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0374 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0375 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0376 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0376 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0378
-Initially set object block to [0.3893, 0.2524, 0.7781] [-0.0000, 0.0000, 2.9279]
-Initially set object target to [0.3522, 0.0814, 0.7530] [0.0000, 0.0000, 2.9279]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0379
-Initially set object block to [0.2943, 0.3438, 0.7781] [-0.0000, -0.0000, 1.2158]
-Initially set object target to [0.1302, 0.4046, 0.7530] [0.0000, 0.0000, 1.2158]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0380
-Initially set object block to [0.1515, 0.1156, 0.7781] [-0.0000, 0.0000, 1.8796]
-Initially set object target to [-0.0152, 0.0624, 0.7530] [0.0000, 0.0000, 1.8796]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0381
-Initially set object block to [0.2324, 0.1143, 0.7781] [-0.0000, -0.0000, 0.4735]
-Initially set object target to [0.1526, 0.2700, 0.7530] [0.0000, 0.0000, 0.4735]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0382
-Initially set object block to [0.3443, -0.2639, 0.7781] [-0.0000, -0.0000, 0.6856]
-Initially set object target to [0.2335, -0.1285, 0.7530] [0.0000, 0.0000, 0.6856]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0383
-Initially set object block to [0.4337, -0.0242, 0.7781] [-0.0000, -0.0000, 0.5539]
-Initially set object target to [0.3417, 0.1247, 0.7530] [0.0000, 0.0000, 0.5539]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0384
-Initially set object block to [0.2629, 0.2302, 0.7781] [-0.0000, -0.0000, 0.5678]
-Initially set object target to [0.1688, 0.3777, 0.7530] [0.0000, 0.0000, 0.5678]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0385
-Initially set object block to [0.2882, 0.0418, 0.7781] [0.0000, 0.0000, -1.6015]
-Initially set object target to [0.4632, 0.0364, 0.7530] [0.0000, 0.0000, -1.6015]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0386
-Initially set object block to [0.3916, -0.0869, 0.7781] [0.0000, -0.0000, -0.2945]
-Initially set object target to [0.4424, 0.0806, 0.7530] [0.0000, 0.0000, -0.2945]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0387
-Initially set object block to [0.1426, 0.0476, 0.7781] [-0.0000, 0.0000, 2.0354]
-Initially set object target to [-0.0138, -0.0309, 0.7530] [0.0000, 0.0000, 2.0354]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0388
-Initially set object block to [0.4345, 0.0098, 0.7781] [0.0000, 0.0000, -2.6439]
-Initially set object target to [0.5180, -0.1440, 0.7530] [0.0000, -0.0000, -2.6439]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0378 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0379 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0380 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0381 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0382 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0383 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0384 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0385 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0386 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0387 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0388 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0388 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0390
-Initially set object block to [0.3410, -0.1593, 0.7781] [0.0000, 0.0000, -1.8167]
-Initially set object target to [0.5108, -0.2019, 0.7530] [0.0000, 0.0000, -1.8167]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0390 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0390 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0392
-Initially set object block to [0.1839, 0.1301, 0.7781] [0.0000, 0.0000, -2.4863]
-Initially set object target to [0.2905, -0.0087, 0.7530] [0.0000, -0.0000, -2.4863]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0393
-Initially set object block to [0.2225, -0.1957, 0.7781] [0.0000, -0.0000, -0.2933]
-Initially set object target to [0.2731, -0.0281, 0.7530] [0.0000, 0.0000, -0.2933]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0394
-Initially set object block to [0.1647, 0.3609, 0.7781] [-0.0000, 0.0000, 2.3066]
-Initially set object target to [0.0350, 0.2435, 0.7530] [0.0000, 0.0000, 2.3066]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0395
-Initially set object block to [0.4278, -0.0233, 0.7781] [-0.0000, 0.0000, 2.5221]
-Initially set object target to [0.3262, -0.1658, 0.7530] [0.0000, 0.0000, 2.5221]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0396
-Initially set object block to [0.2744, -0.2990, 0.7781] [0.0000, -0.0000, -0.6739]
-Initially set object target to [0.3836, -0.1623, 0.7530] [0.0000, 0.0000, -0.6739]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0397
-Initially set object block to [0.3576, -0.1213, 0.7781] [-0.0000, -0.0000, 0.5825]
-Initially set object target to [0.2613, 0.0248, 0.7530] [0.0000, 0.0000, 0.5825]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0398
-Initially set object block to [0.1969, -0.3129, 0.7781] [-0.0000, 0.0000, 1.7015]
-Initially set object target to [0.0234, -0.3357, 0.7530] [0.0000, 0.0000, 1.7015]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0399
-Initially set object block to [0.4566, -0.0559, 0.7781] [-0.0000, 0.0000, 2.7116]
-Initially set object target to [0.3836, -0.2150, 0.7530] [0.0000, 0.0000, 2.7116]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0400
-Initially set object block to [0.3109, 0.2894, 0.7781] [-0.0000, 0.0000, 2.2975]
-Initially set object target to [0.1801, 0.1731, 0.7530] [0.0000, 0.0000, 2.2975]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0401
-Initially set object block to [0.3169, -0.1348, 0.7781] [0.0000, -0.0000, -1.3727]
-Initially set object target to [0.4885, -0.1004, 0.7530] [0.0000, 0.0000, -1.3727]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0402
-Initially set object block to [0.2151, -0.0163, 0.7781] [0.0000, 0.0000, -2.4627]
-Initially set object target to [0.3250, -0.1525, 0.7530] [0.0000, -0.0000, -2.4627]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0403
-Initially set object block to [0.2358, 0.1989, 0.7781] [-0.0000, 0.0000, 2.7063]
-Initially set object target to [0.1620, 0.0402, 0.7530] [0.0000, 0.0000, 2.7063]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0404
-Initially set object block to [0.1731, 0.2844, 0.7781] [-0.0000, -0.0000, 1.2429]
-Initially set object target to [0.0074, 0.3407, 0.7530] [0.0000, 0.0000, 1.2429]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0405
-Initially set object block to [0.1629, -0.0415, 0.7781] [-0.0000, 0.0000, 2.0429]
-Initially set object target to [0.0071, -0.1210, 0.7530] [0.0000, 0.0000, 2.0429]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0406
-Initially set object block to [0.2863, -0.0282, 0.7781] [0.0000, 0.0000, -2.6766]
-Initially set object target to [0.3648, -0.1846, 0.7530] [0.0000, -0.0000, -2.6766]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0407
-Initially set object block to [0.1062, 0.2775, 0.7781] [-0.0000, 0.0000, 1.6387]
-Initially set object target to [-0.0684, 0.2656, 0.7530] [0.0000, 0.0000, 1.6387]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0408
-Initially set object block to [0.2826, -0.1232, 0.7781] [0.0000, 0.0000, -2.3638]
-Initially set object target to [0.4054, -0.2479, 0.7530] [0.0000, -0.0000, -2.3638]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0409
-Initially set object block to [0.2227, -0.0625, 0.7781] [-0.0000, -0.0000, 1.2252]
-Initially set object target to [0.0581, -0.0032, 0.7530] [0.0000, 0.0000, 1.2252]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0410
-Initially set object block to [0.3641, 0.0093, 0.7781] [0.0000, -0.0000, -0.6227]
-Initially set object target to [0.4662, 0.1515, 0.7530] [0.0000, 0.0000, -0.6227]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0411
-Initially set object block to [0.2478, -0.1205, 0.7781] [0.0000, -0.0000, -0.8236]
-Initially set object target to [0.3762, -0.0015, 0.7530] [0.0000, 0.0000, -0.8236]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0412
-Initially set object block to [0.0673, -0.2181, 0.7781] [0.0000, 0.0000, -2.9955]
-Initially set object target to [0.0927, -0.3912, 0.7530] [0.0000, -0.0000, -2.9955]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0413
-Initially set object block to [0.2793, -0.1973, 0.7781] [0.0000, -0.0000, -1.5283]
-Initially set object target to [0.4541, -0.1899, 0.7530] [0.0000, 0.0000, -1.5283]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0414
-Initially set object block to [0.0076, -0.0516, 0.7781] [-0.0000, 0.0000, 3.0757]
-Initially set object target to [-0.0039, -0.2262, 0.7530] [0.0000, 0.0000, 3.0757]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0415
-Initially set object block to [0.3244, 0.0061, 0.7781] [-0.0000, -0.0000, 1.0066]
-Initially set object target to [0.1765, 0.0997, 0.7530] [0.0000, 0.0000, 1.0066]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0392 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0393 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0394 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0395 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0396 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0397 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0398 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0399 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0400 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0401 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0402 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0403 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0404 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0405 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0406 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0407 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0408 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0409 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0410 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0411 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0412 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0413 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0414 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0415 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0415 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0417
-Initially set object block to [0.3576, -0.0935, 0.7781] [-0.0000, -0.0000, 1.0331]
-Initially set object target to [0.2073, -0.0039, 0.7530] [0.0000, 0.0000, 1.0331]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0418
-Initially set object block to [0.2480, 0.1400, 0.7781] [-0.0000, 0.0000, 2.5221]
-Initially set object target to [0.1464, -0.0025, 0.7530] [0.0000, 0.0000, 2.5221]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0419
-Initially set object block to [0.1060, 0.2794, 0.7781] [-0.0000, 0.0000, 2.5434]
-Initially set object target to [0.0075, 0.1348, 0.7530] [0.0000, 0.0000, 2.5434]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0417 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0418 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0419 as the demo files exist
 Skipping outputs/slide_block_to_target/norobot_replay/demo_0419 as inconsistent episode length
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0421
-Initially set object block to [0.2426, -0.3079, 0.7781] [-0.0000, -0.0000, 1.2474]
-Initially set object target to [0.0767, -0.2523, 0.7530] [0.0000, 0.0000, 1.2474]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0422
-Initially set object block to [0.1451, 0.1491, 0.7781] [0.0000, -0.0000, -0.1557]
-Initially set object target to [0.1722, 0.3219, 0.7530] [0.0000, 0.0000, -0.1557]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0423
-Initially set object block to [0.3547, 0.0616, 0.7781] [0.0000, -0.0000, -1.1077]
-Initially set object target to [0.5112, 0.1398, 0.7530] [0.0000, 0.0000, -1.1077]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0424
-Initially set object block to [0.3452, -0.1358, 0.7781] [-0.0000, 0.0000, 2.2078]
-Initially set object target to [0.2045, -0.2399, 0.7530] [0.0000, 0.0000, 2.2078]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0425
-Initially set object block to [0.1101, 0.0549, 0.7781] [-0.0000, -0.0000, 0.7720]
-Initially set object target to [-0.0119, 0.1803, 0.7530] [0.0000, 0.0000, 0.7720]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0426
-Initially set object block to [0.2542, 0.2948, 0.7781] [0.0000, 0.0000, -2.6993]
-Initially set object target to [0.3291, 0.1366, 0.7530] [0.0000, -0.0000, -2.6993]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0427
-Initially set object block to [0.3269, 0.0019, 0.7781] [0.0000, -0.0000, -0.6956]
-Initially set object target to [0.4391, 0.1363, 0.7530] [0.0000, 0.0000, -0.6956]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0428
-Initially set object block to [0.3765, 0.2572, 0.7781] [0.0000, 0.0000, -2.6019]
-Initially set object target to [0.4664, 0.1071, 0.7530] [0.0000, -0.0000, -2.6019]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0429
-Initially set object block to [0.1518, 0.0378, 0.7781] [0.0000, 0.0000, -1.7596]
-Initially set object target to [0.3237, 0.0049, 0.7530] [0.0000, 0.0000, -1.7596]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0430
-Initially set object block to [0.2659, -0.0952, 0.7781] [-0.0000, -0.0000, 1.1129]
-Initially set object target to [0.1090, -0.0179, 0.7530] [0.0000, 0.0000, 1.1129]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0431
-Initially set object block to [0.2372, -0.0670, 0.7781] [-0.0000, -0.0000, 0.3765]
-Initially set object target to [0.1729, 0.0958, 0.7530] [0.0000, 0.0000, 0.3765]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0432
-Initially set object block to [0.3406, 0.1798, 0.7781] [0.0000, -0.0000, -0.6771]
-Initially set object target to [0.4503, 0.3162, 0.7530] [0.0000, 0.0000, -0.6771]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0433
-Initially set object block to [0.2139, -0.0635, 0.7781] [-0.0000, -0.0000, 1.5480]
-Initially set object target to [0.0390, -0.0595, 0.7530] [0.0000, 0.0000, 1.5480]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0434
-Initially set object block to [0.3449, 0.0057, 0.7781] [0.0000, -0.0000, -1.1518]
-Initially set object target to [0.5048, 0.0769, 0.7530] [0.0000, 0.0000, -1.1518]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0435
-Initially set object block to [0.0963, -0.0475, 0.7781] [0.0000, -0.0000, -0.5746]
-Initially set object target to [0.1914, 0.0994, 0.7530] [0.0000, 0.0000, -0.5746]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0436
-Initially set object block to [0.0933, -0.1476, 0.7781] [0.0000, -0.0000, -0.7357]
-Initially set object target to [0.2108, -0.0179, 0.7530] [0.0000, 0.0000, -0.7357]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0437
-Initially set object block to [0.3717, 0.0157, 0.7781] [-0.0000, -0.0000, 1.1358]
-Initially set object target to [0.2130, 0.0895, 0.7530] [0.0000, 0.0000, 1.1358]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0438
-Initially set object block to [0.4014, -0.0624, 0.7781] [-0.0000, 0.0000, 3.0033]
-Initially set object target to [0.3773, -0.2358, 0.7530] [0.0000, 0.0000, 3.0033]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0439
-Initially set object block to [0.1379, 0.1982, 0.7781] [0.0000, 0.0000, -2.6577]
-Initially set object target to [0.2193, 0.0433, 0.7530] [0.0000, -0.0000, -2.6577]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0440
-Initially set object block to [0.2868, -0.0026, 0.7781] [0.0000, -0.0000, -0.1430]
-Initially set object target to [0.3117, 0.1706, 0.7530] [0.0000, 0.0000, -0.1430]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0441
-Initially set object block to [0.1624, 0.3044, 0.7781] [-0.0000, -0.0000, 1.3162]
-Initially set object target to [-0.0070, 0.3485, 0.7530] [0.0000, 0.0000, 1.3162]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0442
-Initially set object block to [0.3685, -0.1515, 0.7781] [-0.0000, -0.0000, 0.6003]
-Initially set object target to [0.2696, -0.0071, 0.7530] [0.0000, 0.0000, 0.6003]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0443
-Initially set object block to [0.2740, -0.1999, 0.7781] [-0.0000, -0.0000, 0.4561]
-Initially set object target to [0.1969, -0.0428, 0.7530] [0.0000, 0.0000, 0.4561]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0444
-Initially set object block to [0.1489, -0.0823, 0.7781] [0.0000, 0.0000, -2.1994]
-Initially set object target to [0.2904, -0.1852, 0.7530] [0.0000, -0.0000, -2.1994]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0445
-Initially set object block to [0.2951, 0.3657, 0.7781] [-0.0000, 0.0000, 1.5820]
-Initially set object target to [0.1201, 0.3637, 0.7530] [0.0000, 0.0000, 1.5820]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0446
-Initially set object block to [0.1390, -0.1521, 0.7781] [-0.0000, 0.0000, 1.8823]
-Initially set object target to [-0.0276, -0.2057, 0.7530] [0.0000, 0.0000, 1.8823]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0447
-Initially set object block to [0.3563, 0.1421, 0.7781] [-0.0000, 0.0000, 2.1488]
-Initially set object target to [0.2098, 0.0464, 0.7530] [0.0000, 0.0000, 2.1488]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0448
-Initially set object block to [0.1539, -0.2022, 0.7781] [-0.0000, -0.0000, 0.7465]
-Initially set object target to [0.0350, -0.0738, 0.7530] [0.0000, 0.0000, 0.7465]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0449
-Initially set object block to [0.3182, -0.1338, 0.7781] [-0.0000, 0.0000, 2.9195]
-Initially set object target to [0.2797, -0.3045, 0.7530] [0.0000, 0.0000, 2.9195]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0450
-Initially set object block to [0.3723, 0.2096, 0.7781] [-0.0000, -0.0000, 0.6151]
-Initially set object target to [0.2713, 0.3525, 0.7530] [0.0000, 0.0000, 0.6151]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0451
-Initially set object block to [0.2875, -0.2939, 0.7781] [0.0000, -0.0000, -1.1802]
-Initially set object target to [0.4493, -0.2273, 0.7530] [0.0000, 0.0000, -1.1802]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0452
-Initially set object block to [0.2307, -0.2271, 0.7781] [0.0000, -0.0000, -0.6480]
-Initially set object target to [0.3364, -0.0876, 0.7530] [0.0000, 0.0000, -0.6480]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0453
-Initially set object block to [0.3083, 0.1096, 0.7781] [-0.0000, -0.0000, 1.4714]
-Initially set object target to [0.1341, 0.1270, 0.7530] [0.0000, 0.0000, 1.4714]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0454
-Initially set object block to [0.1755, -0.0947, 0.7781] [0.0000, 0.0000, -3.0259]
-Initially set object target to [0.1957, -0.2686, 0.7530] [0.0000, -0.0000, -3.0259]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0455
-Initially set object block to [0.3804, 0.1600, 0.7781] [-0.0000, 0.0000, 1.6790]
-Initially set object target to [0.2065, 0.1411, 0.7530] [0.0000, 0.0000, 1.6790]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0456
-Initially set object block to [0.3618, 0.0128, 0.7781] [0.0000, -0.0000, -0.7027]
-Initially set object target to [0.4750, 0.1464, 0.7530] [0.0000, 0.0000, -0.7027]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0457
-Initially set object block to [0.2656, -0.1312, 0.7781] [-0.0000, -0.0000, 1.2559]
-Initially set object target to [0.0992, -0.0770, 0.7530] [0.0000, 0.0000, 1.2559]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0458
-Initially set object block to [0.2185, -0.0502, 0.7781] [0.0000, -0.0000, -0.4253]
-Initially set object target to [0.2907, 0.1092, 0.7530] [0.0000, 0.0000, -0.4253]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0459
-Initially set object block to [0.0575, -0.0120, 0.7781] [0.0000, 0.0000, -2.7178]
-Initially set object target to [0.1295, -0.1715, 0.7530] [0.0000, -0.0000, -2.7178]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0460
-Initially set object block to [0.1084, 0.0038, 0.7781] [-0.0000, 0.0000, 2.6891]
-Initially set object target to [0.0319, -0.1535, 0.7530] [0.0000, 0.0000, 2.6891]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0461
-Initially set object block to [0.3620, 0.1629, 0.7781] [0.0000, -0.0000, -0.6426]
-Initially set object target to [0.4669, 0.3030, 0.7530] [0.0000, 0.0000, -0.6426]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0462
-Initially set object block to [0.2648, 0.1594, 0.7781] [-0.0000, -0.0000, 0.5827]
-Initially set object target to [0.1685, 0.3055, 0.7530] [0.0000, 0.0000, 0.5827]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0463
-Initially set object block to [0.3188, -0.1570, 0.7781] [-0.0000, 0.0000, 2.0634]
-Initially set object target to [0.1646, -0.2397, 0.7530] [0.0000, 0.0000, 2.0634]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0464
-Initially set object block to [0.3845, -0.2268, 0.7781] [0.0000, 0.0000, -3.0819]
-Initially set object target to [0.3949, -0.4015, 0.7530] [0.0000, -0.0000, -3.0819]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0465
-Initially set object block to [0.1868, -0.1892, 0.7781] [0.0000, -0.0000, -0.8306]
-Initially set object target to [0.3160, -0.0711, 0.7530] [0.0000, 0.0000, -0.8306]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0466
-Initially set object block to [0.4270, 0.2580, 0.7781] [-0.0000, -0.0000, 0.5688]
-Initially set object target to [0.3327, 0.4054, 0.7530] [0.0000, 0.0000, 0.5688]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0467
-Initially set object block to [0.2854, 0.2467, 0.7781] [-0.0000, 0.0000, 2.2626]
-Initially set object target to [0.1506, 0.1350, 0.7530] [0.0000, 0.0000, 2.2626]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0468
-Initially set object block to [0.0860, -0.2687, 0.7781] [-0.0000, -0.0000, 1.4939]
-Initially set object target to [-0.0885, -0.2552, 0.7530] [0.0000, 0.0000, 1.4939]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0469
-Initially set object block to [0.4074, -0.0377, 0.7781] [0.0000, -0.0000, -0.6935]
-Initially set object target to [0.5192, 0.0969, 0.7530] [0.0000, 0.0000, -0.6935]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0470
-Initially set object block to [0.1331, 0.2394, 0.7781] [0.0000, 0.0000, -3.1277]
-Initially set object target to [0.1355, 0.0644, 0.7530] [0.0000, -0.0000, -3.1277]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0471
-Initially set object block to [0.1850, 0.1620, 0.7781] [-0.0000, 0.0000, 2.6659]
-Initially set object target to [0.1048, 0.0064, 0.7530] [0.0000, 0.0000, 2.6659]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0472
-Initially set object block to [0.2941, -0.0904, 0.7781] [-0.0000, 0.0000, 2.6579]
-Initially set object target to [0.2127, -0.2453, 0.7530] [0.0000, 0.0000, 2.6579]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0473
-Initially set object block to [0.3261, -0.2284, 0.7781] [-0.0000, -0.0000, 0.3718]
-Initially set object target to [0.2625, -0.0654, 0.7530] [0.0000, 0.0000, 0.3718]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0474
-Initially set object block to [0.2534, -0.2567, 0.7781] [0.0000, 0.0000, -1.9495]
-Initially set object target to [0.4160, -0.3214, 0.7530] [0.0000, 0.0000, -1.9495]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0475
-Initially set object block to [0.4161, 0.0024, 0.7781] [0.0000, -0.0000, -0.4325]
-Initially set object target to [0.4895, 0.1613, 0.7530] [0.0000, 0.0000, -0.4325]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0476
-Initially set object block to [0.3170, -0.0738, 0.7781] [0.0000, -0.0000, -1.1137]
-Initially set object target to [0.4740, 0.0034, 0.7530] [0.0000, 0.0000, -1.1137]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0477
-Initially set object block to [0.1457, 0.0361, 0.7781] [-0.0000, -0.0000, 0.3915]
-Initially set object target to [0.0789, 0.1979, 0.7530] [0.0000, 0.0000, 0.3915]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0478
-Initially set object block to [0.4734, -0.0446, 0.7781] [-0.0000, 0.0000, 2.8684]
-Initially set object target to [0.4262, -0.2131, 0.7530] [0.0000, 0.0000, 2.8684]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0479
-Initially set object block to [0.1991, -0.2067, 0.7781] [0.0000, -0.0000, -1.4514]
-Initially set object target to [0.3728, -0.1858, 0.7530] [0.0000, 0.0000, -1.4514]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0480
-Initially set object block to [0.3755, -0.0355, 0.7781] [0.0000, 0.0000, 3.1396]
-Initially set object target to [0.3751, -0.2105, 0.7530] [0.0000, 0.0000, 3.1396]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0481
-Initially set object block to [0.1127, 0.3201, 0.7781] [-0.0000, -0.0000, 1.3063]
-Initially set object target to [-0.0563, 0.3658, 0.7530] [0.0000, 0.0000, 1.3063]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0482
-Initially set object block to [0.3053, -0.0123, 0.7781] [0.0000, -0.0000, -1.4847]
-Initially set object target to [0.4797, 0.0027, 0.7530] [0.0000, 0.0000, -1.4847]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0483
-Initially set object block to [0.3364, 0.2168, 0.7781] [-0.0000, 0.0000, 1.9605]
-Initially set object target to [0.1745, 0.1503, 0.7530] [0.0000, 0.0000, 1.9605]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0484
-Initially set object block to [0.4288, -0.0063, 0.7781] [0.0000, -0.0000, -0.1801]
-Initially set object target to [0.4602, 0.1659, 0.7530] [0.0000, 0.0000, -0.1801]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0485
-Initially set object block to [0.1033, 0.1654, 0.7781] [-0.0000, -0.0000, 0.7951]
-Initially set object target to [-0.0216, 0.2879, 0.7530] [0.0000, 0.0000, 0.7951]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0486
-Initially set object block to [0.2401, 0.4120, 0.7781] [-0.0000, 0.0000, 1.8089]
-Initially set object target to [0.0700, 0.3707, 0.7530] [0.0000, 0.0000, 1.8089]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0487
-Initially set object block to [0.2213, -0.0171, 0.7781] [-0.0000, -0.0000, 1.5301]
-Initially set object target to [0.0464, -0.0100, 0.7530] [0.0000, 0.0000, 1.5301]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0488
-Initially set object block to [0.3164, -0.2702, 0.7781] [-0.0000, 0.0000, 1.9060]
-Initially set object target to [0.1511, -0.3278, 0.7530] [0.0000, 0.0000, 1.9060]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0489
-Initially set object block to [0.2005, -0.0453, 0.7781] [-0.0000, 0.0000, 2.5732]
-Initially set object target to [0.1063, -0.1927, 0.7530] [0.0000, 0.0000, 2.5732]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0490
-Initially set object block to [0.1389, -0.1584, 0.7781] [-0.0000, 0.0000, 2.2399]
-Initially set object target to [0.0016, -0.2669, 0.7530] [0.0000, 0.0000, 2.2399]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0491
-Initially set object block to [0.2041, -0.0673, 0.7781] [0.0000, -0.0000, -0.8068]
-Initially set object target to [0.3305, 0.0538, 0.7530] [0.0000, 0.0000, -0.8068]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0492
-Initially set object block to [0.3830, -0.2672, 0.7781] [0.0000, -0.0000, -0.7516]
-Initially set object target to [0.5025, -0.1393, 0.7530] [0.0000, 0.0000, -0.7516]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0493
-Initially set object block to [0.1760, -0.1919, 0.7781] [-0.0000, -0.0000, 1.0560]
-Initially set object target to [0.0237, -0.1057, 0.7530] [0.0000, 0.0000, 1.0560]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0494
-Initially set object block to [0.2041, -0.4185, 0.7781] [0.0000, 0.0000, -1.7244]
-Initially set object target to [0.3771, -0.4452, 0.7530] [0.0000, 0.0000, -1.7244]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0495
-Initially set object block to [0.4182, -0.1267, 0.7781] [0.0000, 0.0000, -2.9823]
-Initially set object target to [0.4460, -0.2995, 0.7530] [0.0000, -0.0000, -2.9823]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0496
-Initially set object block to [0.2600, -0.1273, 0.7781] [0.0000, -0.0000, -1.4908]
-Initially set object target to [0.4345, -0.1133, 0.7530] [0.0000, 0.0000, -1.4908]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0497
-Initially set object block to [0.2492, 0.3095, 0.7781] [-0.0000, 0.0000, 1.6448]
-Initially set object target to [0.0747, 0.2965, 0.7530] [0.0000, 0.0000, 1.6448]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0498
-Initially set object block to [0.2186, -0.3191, 0.7781] [-0.0000, 0.0000, 1.6865]
-Initially set object target to [0.0448, -0.3393, 0.7530] [0.0000, 0.0000, 1.6865]
-Replaying demo -> outputs/slide_block_to_target/norobot_replay/demo_0499
-Initially set object block to [0.3747, 0.2647, 0.7781] [-0.0000, 0.0000, 1.7692]
-Initially set object target to [0.2031, 0.2302, 0.7530] [0.0000, 0.0000, 1.7692]
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0421 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0422 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0423 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0424 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0425 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0426 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0427 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0428 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0429 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0430 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0431 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0432 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0433 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0434 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0435 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0436 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0437 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0438 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0439 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0440 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0441 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0442 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0443 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0444 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0445 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0446 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0447 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0448 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0449 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0450 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0451 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0452 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0453 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0454 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0455 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0456 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0457 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0458 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0459 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0460 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0461 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0462 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0463 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0464 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0465 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0466 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0467 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0468 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0469 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0470 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0471 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0472 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0473 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0474 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0475 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0476 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0477 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0478 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0479 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0480 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0481 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0482 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0483 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0484 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0485 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0486 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0487 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0488 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0489 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0490 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0491 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0492 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0493 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0494 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0495 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0496 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0497 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0498 as the demo files exist
+Skipping outputs/slide_block_to_target/norobot_replay/demo_0499 as the demo files exist
 [CoppeliaSim:loadinfo]   done.

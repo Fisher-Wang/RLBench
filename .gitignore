@@ -131,3 +131,4 @@ outputs/
 
 logs/
 *.out
+*.so*

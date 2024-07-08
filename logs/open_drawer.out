@@ -26,2258 +26,478 @@ Skipping outputs/open_drawer/norobot_replay/demo_0022 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0023 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0024 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0025 as the demo files exist
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0026
-Initially set object drawer_frame to [0.2104, -0.2290, 1.0295] [0.0000, -0.0003, -1.5515]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0027
-Initially set object drawer_frame to [0.1855, -0.1452, 1.0295] [0.0000, -0.0003, -1.6193]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0028
-Initially set object drawer_frame to [0.1589, -0.1040, 1.0295] [0.0000, -0.0003, -1.4896]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0029
-Initially set object drawer_frame to [0.1883, -0.1593, 1.0295] [0.0000, -0.0003, -1.6312]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0030
-Initially set object drawer_frame to [0.1696, -0.2285, 1.0295] [0.0000, -0.0003, -1.5187]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0031
-Initially set object drawer_frame to [0.2572, -0.1219, 1.0295] [0.0000, -0.0003, -1.5032]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0032
-Initially set object drawer_frame to [0.2387, -0.0786, 1.0295] [0.0000, -0.0003, -1.5324]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0033
-Initially set object drawer_frame to [0.1757, -0.1875, 1.0295] [0.0000, -0.0003, -1.5581]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0034
-Initially set object drawer_frame to [0.1716, -0.0784, 1.0295] [0.0000, -0.0003, -1.5416]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0035
-Initially set object drawer_frame to [0.2563, -0.2234, 1.0295] [0.0000, -0.0003, -1.5911]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0036
-Initially set object drawer_frame to [0.1393, -0.2021, 1.0295] [0.0000, -0.0003, -1.5012]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0037
-Initially set object drawer_frame to [0.2608, -0.1695, 1.0295] [0.0000, -0.0003, -1.5594]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0038
-Initially set object drawer_frame to [0.2315, -0.1525, 1.0295] [0.0000, -0.0003, -1.6357]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0039
-Initially set object drawer_frame to [0.3735, -0.2234, 1.0295] [0.0000, -0.0003, -1.5576]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0040
-Initially set object drawer_frame to [0.3635, -0.2396, 1.0295] [0.0000, -0.0003, -1.5363]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0041
-Initially set object drawer_frame to [0.2368, -0.2467, 1.0295] [0.0000, -0.0003, -1.4862]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0042
-Initially set object drawer_frame to [0.2033, -0.1219, 1.0295] [0.0000, -0.0003, -1.5838]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0043
-Initially set object drawer_frame to [0.1776, -0.1307, 1.0295] [0.0000, -0.0003, -1.4846]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0044
-Initially set object drawer_frame to [0.1833, -0.1660, 1.0295] [0.0000, -0.0003, -1.6065]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0045
-Initially set object drawer_frame to [0.1311, -0.2222, 1.0295] [0.0000, -0.0003, -1.5529]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0046
-Initially set object drawer_frame to [0.1702, -0.2521, 1.0295] [0.0000, -0.0003, -1.5113]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0047
-Initially set object drawer_frame to [0.1516, -0.0664, 1.0295] [0.0000, -0.0003, -1.5286]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0048
-Initially set object drawer_frame to [0.3234, -0.1638, 1.0295] [0.0000, -0.0003, -1.5099]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0049
-Initially set object drawer_frame to [0.2909, -0.2175, 1.0295] [0.0000, -0.0003, -1.5563]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0050
-Initially set object drawer_frame to [0.1590, -0.1412, 1.0295] [0.0000, -0.0003, -1.6550]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0051
-Initially set object drawer_frame to [0.2689, -0.2370, 1.0295] [0.0000, -0.0003, -1.5114]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0052
-Initially set object drawer_frame to [0.2985, -0.1208, 1.0295] [0.0000, -0.0003, -1.5372]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0053
-Initially set object drawer_frame to [0.3346, -0.2092, 1.0295] [0.0000, -0.0003, -1.5140]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0054
-Initially set object drawer_frame to [0.1951, -0.0873, 1.0295] [0.0000, -0.0003, -1.5564]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0055
-Initially set object drawer_frame to [0.3329, -0.1460, 1.0295] [0.0000, -0.0003, -1.5078]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0056
-Initially set object drawer_frame to [0.3572, -0.1945, 1.0295] [0.0000, -0.0003, -1.5118]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0057
-Initially set object drawer_frame to [0.1688, -0.0850, 1.0295] [0.0000, -0.0003, -1.6420]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0026 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0027 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0028 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0029 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0030 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0031 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0032 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0033 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0034 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0035 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0036 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0037 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0038 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0039 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0040 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0041 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0042 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0043 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0044 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0045 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0046 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0047 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0048 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0049 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0050 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0051 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0052 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0053 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0054 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0055 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0056 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0057 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0057 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0059
-Initially set object drawer_frame to [0.1921, -0.1852, 1.0295] [0.0000, -0.0003, -1.5703]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0060
-Initially set object drawer_frame to [0.2750, -0.1045, 1.0295] [0.0000, -0.0003, -1.4891]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0061
-Initially set object drawer_frame to [0.3370, -0.2278, 1.0295] [0.0000, -0.0003, -1.5982]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0062
-Initially set object drawer_frame to [0.1477, -0.0365, 1.0295] [0.0000, -0.0003, -1.5655]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0063
-Initially set object drawer_frame to [0.2400, -0.2576, 1.0295] [0.0000, -0.0003, -1.5501]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0059 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0060 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0061 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0062 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0063 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0063 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0065
-Initially set object drawer_frame to [0.2027, -0.2170, 1.0295] [0.0000, -0.0003, -1.6103]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0066
-Initially set object drawer_frame to [0.1544, -0.1373, 1.0295] [0.0000, -0.0003, -1.6058]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0067
-Initially set object drawer_frame to [0.2008, -0.0950, 1.0295] [0.0000, -0.0003, -1.5255]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0068
-Initially set object drawer_frame to [0.3005, -0.1634, 1.0295] [0.0000, -0.0003, -1.5158]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0069
-Initially set object drawer_frame to [0.2986, -0.2308, 1.0295] [0.0000, -0.0003, -1.4851]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0070
-Initially set object drawer_frame to [0.2464, -0.1383, 1.0295] [0.0000, -0.0003, -1.5793]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0071
-Initially set object drawer_frame to [0.2807, -0.2104, 1.0295] [0.0000, -0.0003, -1.5983]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0072
-Initially set object drawer_frame to [0.2119, -0.2292, 1.0295] [0.0000, -0.0003, -1.5958]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0073
-Initially set object drawer_frame to [0.1702, -0.1003, 1.0295] [0.0000, -0.0003, -1.6106]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0074
-Initially set object drawer_frame to [0.1543, -0.0841, 1.0295] [0.0000, -0.0003, -1.5593]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0075
-Initially set object drawer_frame to [0.2385, -0.1843, 1.0295] [0.0000, -0.0003, -1.6075]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0076
-Initially set object drawer_frame to [0.2717, -0.2193, 1.0295] [0.0000, -0.0003, -1.6551]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0077
-Initially set object drawer_frame to [0.3061, -0.1688, 1.0295] [0.0000, -0.0003, -1.4979]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0078
-Initially set object drawer_frame to [0.1447, -0.1317, 1.0295] [0.0000, -0.0003, -1.5234]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0079
-Initially set object drawer_frame to [0.1981, -0.1426, 1.0295] [0.0000, -0.0003, -1.4896]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0080
-Initially set object drawer_frame to [0.2389, -0.1394, 1.0295] [0.0000, -0.0003, -1.5237]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0081
-Initially set object drawer_frame to [0.3001, -0.1470, 1.0295] [0.0000, -0.0003, -1.4842]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0082
-Initially set object drawer_frame to [0.2339, -0.1909, 1.0295] [0.0000, -0.0003, -1.5311]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0083
-Initially set object drawer_frame to [0.2585, -0.2024, 1.0295] [0.0000, -0.0003, -1.5138]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0084
-Initially set object drawer_frame to [0.2540, -0.1058, 1.0295] [0.0000, -0.0003, -1.4880]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0085
-Initially set object drawer_frame to [0.1445, -0.2511, 1.0295] [0.0000, -0.0003, -1.5188]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0086
-Initially set object drawer_frame to [0.2969, -0.1638, 1.0295] [0.0000, -0.0003, -1.5280]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0087
-Initially set object drawer_frame to [0.1487, -0.1752, 1.0295] [0.0000, -0.0003, -1.6346]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0088
-Initially set object drawer_frame to [0.2960, -0.1564, 1.0295] [0.0000, -0.0003, -1.5189]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0089
-Initially set object drawer_frame to [0.2336, -0.2024, 1.0295] [0.0000, -0.0003, -1.5076]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0090
-Initially set object drawer_frame to [0.3729, -0.2494, 1.0295] [0.0000, -0.0003, -1.5891]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0091
-Initially set object drawer_frame to [0.3362, -0.2495, 1.0295] [0.0000, -0.0003, -1.5008]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0065 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0066 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0067 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0068 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0069 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0070 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0071 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0072 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0073 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0074 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0075 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0076 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0077 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0078 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0079 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0080 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0081 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0082 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0083 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0084 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0085 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0086 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0087 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0088 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0089 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0090 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0091 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0091 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0093
-Initially set object drawer_frame to [0.1661, -0.0479, 1.0295] [0.0000, -0.0003, -1.5213]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0094
-Initially set object drawer_frame to [0.2775, -0.1751, 1.0295] [0.0000, -0.0003, -1.5381]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0095
-Initially set object drawer_frame to [0.2747, -0.2230, 1.0295] [0.0000, -0.0003, -1.5183]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0096
-Initially set object drawer_frame to [0.1327, -0.0752, 1.0295] [0.0000, -0.0003, -1.5559]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0097
-Initially set object drawer_frame to [0.1690, -0.2244, 1.0295] [0.0000, -0.0003, -1.5667]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0098
-Initially set object drawer_frame to [0.1659, -0.0687, 1.0295] [0.0000, -0.0003, -1.6017]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0099
-Initially set object drawer_frame to [0.2273, -0.2047, 1.0295] [0.0000, -0.0003, -1.5902]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0100
-Initially set object drawer_frame to [0.1734, -0.1947, 1.0295] [0.0000, -0.0003, -1.6567]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0101
-Initially set object drawer_frame to [0.1696, -0.2373, 1.0295] [0.0000, -0.0003, -1.4973]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0102
-Initially set object drawer_frame to [0.2836, -0.1962, 1.0295] [0.0000, -0.0003, -1.6539]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0103
-Initially set object drawer_frame to [0.1908, -0.1454, 1.0295] [0.0000, -0.0003, -1.6439]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0104
-Initially set object drawer_frame to [0.2262, -0.2330, 1.0295] [0.0000, -0.0003, -1.5510]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0105
-Initially set object drawer_frame to [0.2090, -0.2342, 1.0295] [0.0000, -0.0003, -1.6249]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0106
-Initially set object drawer_frame to [0.3099, -0.2172, 1.0295] [0.0000, -0.0003, -1.5387]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0107
-Initially set object drawer_frame to [0.1403, -0.1786, 1.0295] [0.0000, -0.0003, -1.6103]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0108
-Initially set object drawer_frame to [0.2792, -0.2040, 1.0295] [0.0000, -0.0003, -1.4948]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0109
-Initially set object drawer_frame to [0.2006, -0.2181, 1.0295] [0.0000, -0.0003, -1.5353]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0110
-Initially set object drawer_frame to [0.1655, -0.0659, 1.0295] [0.0000, -0.0003, -1.5395]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0111
-Initially set object drawer_frame to [0.2854, -0.1860, 1.0295] [0.0000, -0.0003, -1.5173]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0112
-Initially set object drawer_frame to [0.2637, -0.2038, 1.0295] [0.0000, -0.0003, -1.5233]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0113
-Initially set object drawer_frame to [0.1806, -0.1459, 1.0295] [0.0000, -0.0003, -1.4924]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0114
-Initially set object drawer_frame to [0.2965, -0.1540, 1.0295] [0.0000, -0.0003, -1.5266]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0115
-Initially set object drawer_frame to [0.1780, -0.2091, 1.0295] [0.0000, -0.0003, -1.5626]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0116
-Initially set object drawer_frame to [0.1481, -0.1244, 1.0295] [0.0000, -0.0003, -1.5595]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0117
-Initially set object drawer_frame to [0.2326, -0.1434, 1.0295] [0.0000, -0.0003, -1.5731]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0118
-Initially set object drawer_frame to [0.3103, -0.2145, 1.0295] [0.0000, -0.0003, -1.5056]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0119
-Initially set object drawer_frame to [0.1326, -0.1261, 1.0295] [0.0000, -0.0003, -1.5182]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0120
-Initially set object drawer_frame to [0.3400, -0.2362, 1.0295] [0.0000, -0.0003, -1.5962]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0121
-Initially set object drawer_frame to [0.1460, -0.2361, 1.0295] [0.0000, -0.0003, -1.4959]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0093 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0094 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0095 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0096 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0097 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0098 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0099 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0100 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0101 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0102 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0103 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0104 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0105 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0106 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0107 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0108 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0109 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0110 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0111 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0112 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0113 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0114 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0115 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0116 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0117 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0118 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0119 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0120 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0121 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0121 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0123
-Initially set object drawer_frame to [0.1491, -0.0904, 1.0295] [0.0000, -0.0003, -1.5926]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0124
-Initially set object drawer_frame to [0.2513, -0.1538, 1.0295] [0.0000, -0.0003, -1.5158]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0125
-Initially set object drawer_frame to [0.1283, -0.1454, 1.0295] [0.0000, -0.0003, -1.5687]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0126
-Initially set object drawer_frame to [0.1265, -0.2316, 1.0295] [0.0000, -0.0003, -1.5370]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0127
-Initially set object drawer_frame to [0.1241, -0.0618, 1.0295] [0.0000, -0.0003, -1.5623]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0128
-Initially set object drawer_frame to [0.1977, -0.2498, 1.0295] [0.0000, -0.0003, -1.5957]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0129
-Initially set object drawer_frame to [0.2952, -0.2084, 1.0295] [0.0000, -0.0003, -1.5912]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0130
-Initially set object drawer_frame to [0.2320, -0.2367, 1.0295] [0.0000, -0.0003, -1.6044]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0131
-Initially set object drawer_frame to [0.1836, -0.1965, 1.0295] [0.0000, -0.0003, -1.5555]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0132
-Initially set object drawer_frame to [0.3328, -0.2298, 1.0295] [0.0000, -0.0003, -1.6002]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0133
-Initially set object drawer_frame to [0.2178, -0.1018, 1.0295] [0.0000, -0.0003, -1.6089]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0134
-Initially set object drawer_frame to [0.1420, -0.0068, 1.0295] [0.0000, -0.0003, -1.4980]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0123 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0124 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0125 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0126 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0127 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0128 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0129 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0130 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0131 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0132 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0133 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0134 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0134 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0136
-Initially set object drawer_frame to [0.2915, -0.1776, 1.0295] [0.0000, -0.0003, -1.5759]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0137
-Initially set object drawer_frame to [0.1768, -0.1175, 1.0295] [0.0000, -0.0003, -1.4939]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0138
-Initially set object drawer_frame to [0.1590, -0.0479, 1.0295] [0.0000, -0.0003, -1.5423]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0139
-Initially set object drawer_frame to [0.2621, -0.1972, 1.0295] [0.0000, -0.0003, -1.6542]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0140
-Initially set object drawer_frame to [0.2180, -0.2176, 1.0295] [0.0000, -0.0003, -1.5519]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0141
-Initially set object drawer_frame to [0.1451, -0.0588, 1.0295] [0.0000, -0.0003, -1.5450]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0136 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0137 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0138 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0139 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0140 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0141 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0141 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0143
-Initially set object drawer_frame to [0.1393, -0.2128, 1.0295] [0.0000, -0.0003, -1.5429]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0144
-Initially set object drawer_frame to [0.1488, -0.1128, 1.0295] [0.0000, -0.0003, -1.5196]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0145
-Initially set object drawer_frame to [0.1578, -0.0501, 1.0295] [0.0000, -0.0003, -1.5424]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0146
-Initially set object drawer_frame to [0.2597, -0.1744, 1.0295] [0.0000, -0.0003, -1.5060]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0147
-Initially set object drawer_frame to [0.1583, -0.1883, 1.0295] [0.0000, -0.0003, -1.5381]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0148
-Initially set object drawer_frame to [0.2525, -0.1793, 1.0295] [0.0000, -0.0003, -1.6350]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0149
-Initially set object drawer_frame to [0.1381, -0.2567, 1.0295] [0.0000, -0.0003, -1.5940]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0150
-Initially set object drawer_frame to [0.3244, -0.1879, 1.0295] [0.0000, -0.0003, -1.5865]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0151
-Initially set object drawer_frame to [0.2420, -0.2226, 1.0295] [0.0000, -0.0003, -1.6266]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0152
-Initially set object drawer_frame to [0.2949, -0.2576, 1.0295] [0.0000, -0.0003, -1.5924]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0153
-Initially set object drawer_frame to [0.1889, -0.2189, 1.0295] [0.0000, -0.0003, -1.5749]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0154
-Initially set object drawer_frame to [0.3470, -0.1905, 1.0295] [0.0000, -0.0003, -1.5108]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0155
-Initially set object drawer_frame to [0.1523, -0.1510, 1.0295] [0.0000, -0.0003, -1.5097]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0143 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0144 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0145 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0146 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0147 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0148 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0149 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0150 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0151 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0152 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0153 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0154 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0155 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0155 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0157
-Initially set object drawer_frame to [0.3459, -0.1446, 1.0295] [0.0000, -0.0003, -1.4918]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0158
-Initially set object drawer_frame to [0.2861, -0.2507, 1.0295] [0.0000, -0.0003, -1.4939]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0159
-Initially set object drawer_frame to [0.1868, -0.2433, 1.0295] [0.0000, -0.0003, -1.5686]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0160
-Initially set object drawer_frame to [0.2415, -0.1572, 1.0295] [0.0000, -0.0003, -1.5612]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0161
-Initially set object drawer_frame to [0.2367, -0.1599, 1.0295] [0.0000, -0.0003, -1.5045]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0162
-Initially set object drawer_frame to [0.1382, -0.0895, 1.0295] [0.0000, -0.0003, -1.6037]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0163
-Initially set object drawer_frame to [0.3538, -0.2294, 1.0295] [0.0000, -0.0003, -1.5089]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0164
-Initially set object drawer_frame to [0.3695, -0.2192, 1.0295] [0.0000, -0.0003, -1.5662]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0165
-Initially set object drawer_frame to [0.2607, -0.1969, 1.0295] [0.0000, -0.0003, -1.5895]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0166
-Initially set object drawer_frame to [0.1298, -0.1442, 1.0295] [0.0000, -0.0003, -1.5530]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0167
-Initially set object drawer_frame to [0.2794, -0.2345, 1.0295] [0.0000, -0.0003, -1.4895]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0168
-Initially set object drawer_frame to [0.2333, -0.1919, 1.0295] [0.0000, -0.0003, -1.5137]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0169
-Initially set object drawer_frame to [0.2255, -0.2248, 1.0295] [0.0000, -0.0003, -1.4922]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0170
-Initially set object drawer_frame to [0.1461, -0.2113, 1.0295] [0.0000, -0.0003, -1.4915]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0171
-Initially set object drawer_frame to [0.1404, -0.0258, 1.0295] [0.0000, -0.0003, -1.5550]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0172
-Initially set object drawer_frame to [0.1375, -0.1790, 1.0295] [0.0000, -0.0003, -1.5726]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0173
-Initially set object drawer_frame to [0.2658, -0.1689, 1.0295] [0.0000, -0.0003, -1.5000]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0174
-Initially set object drawer_frame to [0.2085, -0.1405, 1.0295] [0.0000, -0.0003, -1.5284]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0175
-Initially set object drawer_frame to [0.1382, -0.0581, 1.0295] [0.0000, -0.0003, -1.4846]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0176
-Initially set object drawer_frame to [0.1768, -0.0990, 1.0295] [0.0000, -0.0003, -1.6030]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0177
-Initially set object drawer_frame to [0.3356, -0.2303, 1.0295] [0.0000, -0.0003, -1.5425]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0178
-Initially set object drawer_frame to [0.2492, -0.2517, 1.0295] [0.0000, -0.0003, -1.5111]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0179
-Initially set object drawer_frame to [0.2088, -0.2088, 1.0295] [0.0000, -0.0003, -1.5634]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0157 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0158 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0159 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0160 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0161 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0162 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0163 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0164 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0165 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0166 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0167 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0168 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0169 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0170 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0171 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0172 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0173 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0174 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0175 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0176 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0177 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0178 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0179 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0179 as inconsistent episode length
 Skipping outputs/open_drawer/norobot_replay/demo_0179 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0182
-Initially set object drawer_frame to [0.1768, -0.0937, 1.0295] [0.0000, -0.0003, -1.5898]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0183
-Initially set object drawer_frame to [0.1855, -0.1043, 1.0295] [0.0000, -0.0003, -1.6447]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0184
-Initially set object drawer_frame to [0.2424, -0.0816, 1.0295] [0.0000, -0.0003, -1.4928]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0185
-Initially set object drawer_frame to [0.1612, -0.1612, 1.0295] [0.0000, -0.0003, -1.6058]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0186
-Initially set object drawer_frame to [0.2935, -0.1421, 1.0295] [0.0000, -0.0003, -1.5430]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0187
-Initially set object drawer_frame to [0.3250, -0.2630, 1.0295] [0.0000, -0.0003, -1.5668]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0188
-Initially set object drawer_frame to [0.1531, -0.1876, 1.0295] [0.0000, -0.0003, -1.5525]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0189
-Initially set object drawer_frame to [0.1683, -0.2058, 1.0295] [0.0000, -0.0003, -1.5118]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0182 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0183 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0184 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0185 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0186 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0187 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0188 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0189 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0189 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0191
-Initially set object drawer_frame to [0.2697, -0.1216, 1.0295] [0.0000, -0.0003, -1.5310]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0192
-Initially set object drawer_frame to [0.1333, -0.1194, 1.0295] [0.0000, -0.0003, -1.5788]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0193
-Initially set object drawer_frame to [0.1772, -0.1571, 1.0295] [0.0000, -0.0003, -1.5149]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0194
-Initially set object drawer_frame to [0.1415, -0.0997, 1.0295] [0.0000, -0.0003, -1.5578]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0195
-Initially set object drawer_frame to [0.2310, -0.1999, 1.0295] [0.0000, -0.0003, -1.5775]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0196
-Initially set object drawer_frame to [0.2543, -0.2402, 1.0295] [0.0000, -0.0003, -1.6193]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0197
-Initially set object drawer_frame to [0.2160, -0.1701, 1.0295] [0.0000, -0.0003, -1.4973]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0198
-Initially set object drawer_frame to [0.1622, -0.2083, 1.0295] [0.0000, -0.0003, -1.4955]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0199
-Initially set object drawer_frame to [0.2259, -0.2494, 1.0295] [0.0000, -0.0003, -1.5075]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0200
-Initially set object drawer_frame to [0.1909, -0.2336, 1.0295] [0.0000, -0.0003, -1.5649]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0201
-Initially set object drawer_frame to [0.1343, -0.1275, 1.0295] [0.0000, -0.0003, -1.5145]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0202
-Initially set object drawer_frame to [0.1416, -0.0769, 1.0295] [0.0000, -0.0003, -1.5887]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0191 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0192 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0193 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0194 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0195 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0196 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0197 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0198 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0199 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0200 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0201 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0202 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0202 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0204
-Initially set object drawer_frame to [0.1359, -0.1997, 1.0295] [0.0000, -0.0003, -1.6127]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0205
-Initially set object drawer_frame to [0.2466, -0.1682, 1.0295] [0.0000, -0.0003, -1.5732]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0206
-Initially set object drawer_frame to [0.2179, -0.1445, 1.0295] [0.0000, -0.0003, -1.5010]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0207
-Initially set object drawer_frame to [0.2230, -0.2305, 1.0295] [0.0000, -0.0003, -1.6131]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0208
-Initially set object drawer_frame to [0.1505, -0.2392, 1.0295] [0.0000, -0.0003, -1.5447]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0209
-Initially set object drawer_frame to [0.1722, -0.1468, 1.0295] [0.0000, -0.0003, -1.6453]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0210
-Initially set object drawer_frame to [0.1603, -0.1222, 1.0295] [0.0000, -0.0003, -1.5393]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0211
-Initially set object drawer_frame to [0.2644, -0.1311, 1.0295] [0.0000, -0.0003, -1.5343]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0212
-Initially set object drawer_frame to [0.1728, -0.0588, 1.0295] [0.0000, -0.0003, -1.5295]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0213
-Initially set object drawer_frame to [0.3070, -0.1989, 1.0295] [0.0000, -0.0003, -1.5446]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0204 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0205 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0206 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0207 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0208 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0209 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0210 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0211 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0212 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0213 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0213 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0215
-Initially set object drawer_frame to [0.1606, -0.1070, 1.0295] [0.0000, -0.0003, -1.4972]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0216
-Initially set object drawer_frame to [0.2572, -0.2077, 1.0295] [0.0000, -0.0003, -1.5029]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0217
-Initially set object drawer_frame to [0.1530, -0.1918, 1.0295] [0.0000, -0.0003, -1.4930]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0218
-Initially set object drawer_frame to [0.2361, -0.1480, 1.0295] [0.0000, -0.0003, -1.5262]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0219
-Initially set object drawer_frame to [0.2237, -0.2447, 1.0295] [0.0000, -0.0003, -1.5680]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0220
-Initially set object drawer_frame to [0.2323, -0.1154, 1.0295] [0.0000, -0.0003, -1.5431]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0221
-Initially set object drawer_frame to [0.2978, -0.1843, 1.0295] [0.0000, -0.0003, -1.5885]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0222
-Initially set object drawer_frame to [0.3503, -0.2594, 1.0295] [0.0000, -0.0003, -1.5463]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0223
-Initially set object drawer_frame to [0.1921, -0.1738, 1.0295] [0.0000, -0.0003, -1.5627]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0224
-Initially set object drawer_frame to [0.3209, -0.2091, 1.0295] [0.0000, -0.0003, -1.5113]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0215 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0216 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0217 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0218 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0219 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0220 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0221 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0222 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0223 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0224 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0224 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0226
-Initially set object drawer_frame to [0.2791, -0.2219, 1.0295] [0.0000, -0.0003, -1.6005]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0227
-Initially set object drawer_frame to [0.2907, -0.1328, 1.0295] [0.0000, -0.0003, -1.4887]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0228
-Initially set object drawer_frame to [0.1712, -0.1771, 1.0295] [0.0000, -0.0003, -1.5810]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0229
-Initially set object drawer_frame to [0.2762, -0.1791, 1.0295] [0.0000, -0.0003, -1.5157]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0230
-Initially set object drawer_frame to [0.2833, -0.2107, 1.0295] [0.0000, -0.0003, -1.6051]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0231
-Initially set object drawer_frame to [0.3114, -0.2118, 1.0295] [0.0000, -0.0003, -1.5168]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0232
-Initially set object drawer_frame to [0.1873, -0.1016, 1.0295] [0.0000, -0.0003, -1.5120]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0233
-Initially set object drawer_frame to [0.1962, -0.2355, 1.0295] [0.0000, -0.0003, -1.6184]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0234
-Initially set object drawer_frame to [0.2496, -0.2355, 1.0295] [0.0000, -0.0003, -1.6508]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0235
-Initially set object drawer_frame to [0.2269, -0.2474, 1.0295] [0.0000, -0.0003, -1.6205]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0226 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0227 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0228 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0229 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0230 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0231 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0232 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0233 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0234 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0235 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0235 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0237
-Initially set object drawer_frame to [0.1978, -0.2525, 1.0295] [0.0000, -0.0003, -1.6320]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0238
-Initially set object drawer_frame to [0.3147, -0.1728, 1.0295] [0.0000, -0.0003, -1.5426]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0239
-Initially set object drawer_frame to [0.1238, -0.0530, 1.0295] [0.0000, -0.0003, -1.5337]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0240
-Initially set object drawer_frame to [0.2610, -0.2551, 1.0295] [0.0000, -0.0003, -1.5298]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0241
-Initially set object drawer_frame to [0.2103, -0.2246, 1.0295] [0.0000, -0.0003, -1.6560]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0242
-Initially set object drawer_frame to [0.2804, -0.2082, 1.0295] [0.0000, -0.0003, -1.5867]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0243
-Initially set object drawer_frame to [0.1659, -0.0261, 1.0295] [0.0000, -0.0003, -1.5006]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0244
-Initially set object drawer_frame to [0.1368, -0.1501, 1.0295] [0.0000, -0.0003, -1.5647]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0245
-Initially set object drawer_frame to [0.2234, -0.2213, 1.0295] [0.0000, -0.0003, -1.5376]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0246
-Initially set object drawer_frame to [0.2458, -0.2242, 1.0295] [0.0000, -0.0003, -1.5599]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0247
-Initially set object drawer_frame to [0.2001, -0.1473, 1.0295] [0.0000, -0.0003, -1.6324]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0248
-Initially set object drawer_frame to [0.2687, -0.2089, 1.0295] [0.0000, -0.0003, -1.6376]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0249
-Initially set object drawer_frame to [0.2668, -0.2111, 1.0295] [0.0000, -0.0003, -1.6139]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0250
-Initially set object drawer_frame to [0.1781, -0.2206, 1.0295] [0.0000, -0.0003, -1.5179]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0251
-Initially set object drawer_frame to [0.2538, -0.1872, 1.0295] [0.0000, -0.0003, -1.5154]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0252
-Initially set object drawer_frame to [0.1499, -0.2275, 1.0295] [0.0000, -0.0003, -1.5241]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0253
-Initially set object drawer_frame to [0.2412, -0.1105, 1.0295] [0.0000, -0.0003, -1.5258]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0254
-Initially set object drawer_frame to [0.1473, -0.1676, 1.0295] [0.0000, -0.0003, -1.5163]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0255
-Initially set object drawer_frame to [0.2516, -0.2165, 1.0295] [0.0000, -0.0003, -1.6116]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0256
-Initially set object drawer_frame to [0.1447, -0.1453, 1.0295] [0.0000, -0.0003, -1.4946]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0237 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0238 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0239 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0240 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0241 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0242 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0243 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0244 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0245 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0246 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0247 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0248 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0249 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0250 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0251 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0252 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0253 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0254 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0255 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0256 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0256 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0258
-Initially set object drawer_frame to [0.1847, -0.1205, 1.0295] [0.0000, -0.0003, -1.4927]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0259
-Initially set object drawer_frame to [0.2219, -0.1133, 1.0295] [0.0000, -0.0003, -1.5352]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0260
-Initially set object drawer_frame to [0.1937, -0.1908, 1.0295] [0.0000, -0.0003, -1.6130]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0261
-Initially set object drawer_frame to [0.3523, -0.2342, 1.0295] [0.0000, -0.0003, -1.5101]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0262
-Initially set object drawer_frame to [0.2118, -0.1577, 1.0295] [0.0000, -0.0003, -1.4869]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0263
-Initially set object drawer_frame to [0.2867, -0.1768, 1.0295] [0.0000, -0.0003, -1.4855]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0264
-Initially set object drawer_frame to [0.3501, -0.2181, 1.0295] [0.0000, -0.0003, -1.4963]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0265
-Initially set object drawer_frame to [0.1338, -0.2097, 1.0295] [0.0000, -0.0003, -1.5824]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0266
-Initially set object drawer_frame to [0.3033, -0.2289, 1.0295] [0.0000, -0.0003, -1.5436]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0258 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0259 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0260 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0261 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0262 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0263 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0264 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0265 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0266 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0266 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0268
-Initially set object drawer_frame to [0.1505, -0.2388, 1.0295] [0.0000, -0.0003, -1.5198]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0269
-Initially set object drawer_frame to [0.3274, -0.1943, 1.0295] [0.0000, -0.0003, -1.5865]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0270
-Initially set object drawer_frame to [0.2365, -0.2624, 1.0295] [0.0000, -0.0003, -1.5545]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0271
-Initially set object drawer_frame to [0.1474, -0.1834, 1.0295] [0.0000, -0.0003, -1.6048]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0272
-Initially set object drawer_frame to [0.1577, -0.1852, 1.0295] [0.0000, -0.0003, -1.4934]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0273
-Initially set object drawer_frame to [0.2181, -0.1362, 1.0295] [0.0000, -0.0003, -1.5786]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0274
-Initially set object drawer_frame to [0.1835, -0.1830, 1.0295] [0.0000, -0.0003, -1.5647]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0275
-Initially set object drawer_frame to [0.1380, -0.0522, 1.0295] [0.0000, -0.0003, -1.4909]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0276
-Initially set object drawer_frame to [0.2549, -0.2524, 1.0295] [0.0000, -0.0003, -1.5796]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0277
-Initially set object drawer_frame to [0.1361, -0.1646, 1.0295] [0.0000, -0.0003, -1.5015]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0278
-Initially set object drawer_frame to [0.2239, -0.2272, 1.0295] [0.0000, -0.0003, -1.5231]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0279
-Initially set object drawer_frame to [0.3359, -0.2548, 1.0295] [0.0000, -0.0003, -1.5645]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0280
-Initially set object drawer_frame to [0.3355, -0.1875, 1.0295] [0.0000, -0.0003, -1.5396]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0281
-Initially set object drawer_frame to [0.2156, -0.0937, 1.0295] [0.0000, -0.0003, -1.5305]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0282
-Initially set object drawer_frame to [0.1882, -0.2003, 1.0295] [0.0000, -0.0003, -1.6082]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0283
-Initially set object drawer_frame to [0.1373, -0.2001, 1.0295] [0.0000, -0.0003, -1.5669]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0284
-Initially set object drawer_frame to [0.1239, -0.2030, 1.0295] [0.0000, -0.0003, -1.5385]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0285
-Initially set object drawer_frame to [0.3311, -0.2220, 1.0295] [0.0000, -0.0003, -1.5773]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0268 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0269 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0270 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0271 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0272 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0273 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0274 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0275 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0276 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0277 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0278 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0279 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0280 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0281 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0282 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0283 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0284 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0285 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0285 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0287
-Initially set object drawer_frame to [0.2226, -0.2360, 1.0295] [0.0000, -0.0003, -1.6067]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0288
-Initially set object drawer_frame to [0.2670, -0.2362, 1.0295] [0.0000, -0.0003, -1.6225]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0289
-Initially set object drawer_frame to [0.2544, -0.2375, 1.0295] [0.0000, -0.0003, -1.5884]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0287 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0288 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0289 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0289 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0291
-Initially set object drawer_frame to [0.2488, -0.2094, 1.0295] [0.0000, -0.0003, -1.6450]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0292
-Initially set object drawer_frame to [0.3028, -0.2324, 1.0295] [0.0000, -0.0003, -1.5589]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0293
-Initially set object drawer_frame to [0.2762, -0.1696, 1.0295] [0.0000, -0.0003, -1.5006]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0294
-Initially set object drawer_frame to [0.2320, -0.1224, 1.0295] [0.0000, -0.0003, -1.5732]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0295
-Initially set object drawer_frame to [0.1570, -0.2132, 1.0295] [0.0000, -0.0003, -1.5795]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0296
-Initially set object drawer_frame to [0.1343, -0.0362, 1.0295] [0.0000, -0.0003, -1.5182]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0297
-Initially set object drawer_frame to [0.3234, -0.1514, 1.0295] [0.0000, -0.0003, -1.5245]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0291 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0292 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0293 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0294 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0295 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0296 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0297 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0297 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0299
-Initially set object drawer_frame to [0.1576, -0.0263, 1.0295] [0.0000, -0.0003, -1.5077]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0300
-Initially set object drawer_frame to [0.1776, -0.0920, 1.0295] [0.0000, -0.0003, -1.5716]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0301
-Initially set object drawer_frame to [0.2694, -0.1547, 1.0295] [0.0000, -0.0003, -1.5609]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0302
-Initially set object drawer_frame to [0.1685, -0.0675, 1.0295] [0.0000, -0.0003, -1.5035]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0303
-Initially set object drawer_frame to [0.1382, -0.0249, 1.0295] [0.0000, -0.0003, -1.5158]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0304
-Initially set object drawer_frame to [0.1732, -0.2533, 1.0295] [0.0000, -0.0003, -1.5270]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0305
-Initially set object drawer_frame to [0.1870, -0.1316, 1.0295] [0.0000, -0.0003, -1.5781]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0299 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0300 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0301 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0302 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0303 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0304 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0305 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0305 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0307
-Initially set object drawer_frame to [0.1536, -0.2189, 1.0295] [0.0000, -0.0003, -1.5802]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0308
-Initially set object drawer_frame to [0.2195, -0.2354, 1.0295] [0.0000, -0.0003, -1.5904]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0309
-Initially set object drawer_frame to [0.2280, -0.1937, 1.0295] [0.0000, -0.0003, -1.5039]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0310
-Initially set object drawer_frame to [0.2354, -0.2156, 1.0295] [0.0000, -0.0003, -1.6042]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0311
-Initially set object drawer_frame to [0.1279, -0.0325, 1.0295] [0.0000, -0.0003, -1.5686]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0312
-Initially set object drawer_frame to [0.3529, -0.2612, 1.0295] [0.0000, -0.0003, -1.5552]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0313
-Initially set object drawer_frame to [0.2950, -0.1979, 1.0295] [0.0000, -0.0003, -1.5181]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0314
-Initially set object drawer_frame to [0.3282, -0.2319, 1.0295] [0.0000, -0.0003, -1.5022]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0315
-Initially set object drawer_frame to [0.2881, -0.1616, 1.0295] [0.0000, -0.0003, -1.5105]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0316
-Initially set object drawer_frame to [0.1570, -0.1555, 1.0295] [0.0000, -0.0003, -1.6113]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0317
-Initially set object drawer_frame to [0.2030, -0.1947, 1.0295] [0.0000, -0.0003, -1.5299]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0318
-Initially set object drawer_frame to [0.1501, -0.1187, 1.0295] [0.0000, -0.0003, -1.6237]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0319
-Initially set object drawer_frame to [0.2235, -0.1863, 1.0295] [0.0000, -0.0003, -1.5407]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0320
-Initially set object drawer_frame to [0.2423, -0.0894, 1.0295] [0.0000, -0.0003, -1.5574]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0321
-Initially set object drawer_frame to [0.1826, -0.2320, 1.0295] [0.0000, -0.0003, -1.5216]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0322
-Initially set object drawer_frame to [0.3504, -0.1929, 1.0295] [0.0000, -0.0003, -1.5317]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0323
-Initially set object drawer_frame to [0.1775, -0.1482, 1.0295] [0.0000, -0.0003, -1.4973]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0324
-Initially set object drawer_frame to [0.2530, -0.1291, 1.0295] [0.0000, -0.0003, -1.5054]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0307 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0308 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0309 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0310 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0311 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0312 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0313 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0314 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0315 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0316 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0317 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0318 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0319 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0320 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0321 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0322 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0323 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0324 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0324 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0326
-Initially set object drawer_frame to [0.1444, -0.1526, 1.0295] [0.0000, -0.0003, -1.5773]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0327
-Initially set object drawer_frame to [0.3236, -0.2203, 1.0295] [0.0000, -0.0003, -1.4948]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0328
-Initially set object drawer_frame to [0.1972, -0.1230, 1.0295] [0.0000, -0.0003, -1.5862]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0329
-Initially set object drawer_frame to [0.1660, -0.1356, 1.0295] [0.0000, -0.0003, -1.6405]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0330
-Initially set object drawer_frame to [0.2857, -0.1028, 1.0295] [0.0000, -0.0003, -1.4878]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0331
-Initially set object drawer_frame to [0.2519, -0.0935, 1.0295] [0.0000, -0.0003, -1.4934]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0332
-Initially set object drawer_frame to [0.1922, -0.0322, 1.0295] [0.0000, -0.0003, -1.4920]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0333
-Initially set object drawer_frame to [0.2335, -0.1909, 1.0295] [0.0000, -0.0003, -1.5570]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0334
-Initially set object drawer_frame to [0.2795, -0.0998, 1.0295] [0.0000, -0.0003, -1.4999]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0326 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0327 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0328 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0329 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0330 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0331 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0332 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0333 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0334 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0334 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0336
-Initially set object drawer_frame to [0.1336, -0.0423, 1.0295] [0.0000, -0.0003, -1.5350]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0337
-Initially set object drawer_frame to [0.1445, -0.1867, 1.0295] [0.0000, -0.0003, -1.5132]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0338
-Initially set object drawer_frame to [0.1343, -0.0620, 1.0295] [0.0000, -0.0003, -1.6114]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0339
-Initially set object drawer_frame to [0.1576, -0.2387, 1.0295] [0.0000, -0.0003, -1.4991]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0340
-Initially set object drawer_frame to [0.2878, -0.1452, 1.0295] [0.0000, -0.0003, -1.5295]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0341
-Initially set object drawer_frame to [0.2184, -0.0597, 1.0295] [0.0000, -0.0003, -1.5090]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0342
-Initially set object drawer_frame to [0.2495, -0.2447, 1.0295] [0.0000, -0.0003, -1.4999]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0343
-Initially set object drawer_frame to [0.1472, -0.0701, 1.0295] [0.0000, -0.0003, -1.6185]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0344
-Initially set object drawer_frame to [0.1381, -0.0394, 1.0295] [0.0000, -0.0003, -1.4877]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0345
-Initially set object drawer_frame to [0.2164, -0.1757, 1.0295] [0.0000, -0.0003, -1.5779]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0346
-Initially set object drawer_frame to [0.1386, -0.1753, 1.0295] [0.0000, -0.0003, -1.5315]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0347
-Initially set object drawer_frame to [0.1546, -0.1011, 1.0295] [0.0000, -0.0003, -1.6475]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0348
-Initially set object drawer_frame to [0.2536, -0.2206, 1.0295] [0.0000, -0.0003, -1.6071]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0349
-Initially set object drawer_frame to [0.3043, -0.2484, 1.0295] [0.0000, -0.0003, -1.4887]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0350
-Initially set object drawer_frame to [0.1593, -0.0969, 1.0295] [0.0000, -0.0003, -1.6086]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0351
-Initially set object drawer_frame to [0.2312, -0.2288, 1.0295] [0.0000, -0.0003, -1.5517]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0352
-Initially set object drawer_frame to [0.3693, -0.2595, 1.0295] [0.0000, -0.0003, -1.5926]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0353
-Initially set object drawer_frame to [0.1822, -0.1850, 1.0295] [0.0000, -0.0003, -1.5023]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0354
-Initially set object drawer_frame to [0.1378, -0.0625, 1.0295] [0.0000, -0.0003, -1.6098]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0336 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0337 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0338 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0339 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0340 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0341 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0342 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0343 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0344 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0345 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0346 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0347 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0348 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0349 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0350 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0351 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0352 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0353 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0354 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0354 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0356
-Initially set object drawer_frame to [0.2483, -0.1200, 1.0295] [0.0000, -0.0003, -1.5250]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0357
-Initially set object drawer_frame to [0.1720, -0.1147, 1.0295] [0.0000, -0.0003, -1.4897]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0358
-Initially set object drawer_frame to [0.2112, -0.1570, 1.0295] [0.0000, -0.0003, -1.6108]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0359
-Initially set object drawer_frame to [0.1892, -0.1889, 1.0295] [0.0000, -0.0003, -1.5720]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0360
-Initially set object drawer_frame to [0.1337, -0.1881, 1.0295] [0.0000, -0.0003, -1.5480]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0361
-Initially set object drawer_frame to [0.1809, -0.2107, 1.0295] [0.0000, -0.0003, -1.6172]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0362
-Initially set object drawer_frame to [0.1976, -0.1651, 1.0295] [0.0000, -0.0003, -1.5614]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0363
-Initially set object drawer_frame to [0.1377, -0.1185, 1.0295] [0.0000, -0.0003, -1.6018]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0364
-Initially set object drawer_frame to [0.2967, -0.1764, 1.0295] [0.0000, -0.0003, -1.6021]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0365
-Initially set object drawer_frame to [0.1321, -0.0910, 1.0295] [0.0000, -0.0003, -1.5019]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0366
-Initially set object drawer_frame to [0.3423, -0.2064, 1.0295] [0.0000, -0.0003, -1.5455]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0367
-Initially set object drawer_frame to [0.1777, -0.1410, 1.0295] [0.0000, -0.0003, -1.5570]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0368
-Initially set object drawer_frame to [0.1966, -0.0747, 1.0295] [0.0000, -0.0003, -1.5163]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0369
-Initially set object drawer_frame to [0.3215, -0.2312, 1.0295] [0.0000, -0.0003, -1.5384]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0370
-Initially set object drawer_frame to [0.2268, -0.2229, 1.0295] [0.0000, -0.0003, -1.5739]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0371
-Initially set object drawer_frame to [0.2730, -0.2419, 1.0295] [0.0000, -0.0003, -1.6146]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0372
-Initially set object drawer_frame to [0.2964, -0.1744, 1.0295] [0.0000, -0.0003, -1.5106]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0373
-Initially set object drawer_frame to [0.1316, -0.0302, 1.0295] [0.0000, -0.0003, -1.4943]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0374
-Initially set object drawer_frame to [0.1515, -0.0467, 1.0295] [0.0000, -0.0003, -1.5870]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0375
-Initially set object drawer_frame to [0.2691, -0.2083, 1.0295] [0.0000, -0.0003, -1.6491]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0376
-Initially set object drawer_frame to [0.1941, -0.2282, 1.0295] [0.0000, -0.0003, -1.5561]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0377
-Initially set object drawer_frame to [0.2458, -0.1247, 1.0295] [0.0000, -0.0003, -1.4957]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0378
-Initially set object drawer_frame to [0.1546, -0.1482, 1.0295] [0.0000, -0.0003, -1.6078]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0379
-Initially set object drawer_frame to [0.3455, -0.2561, 1.0295] [0.0000, -0.0003, -1.5865]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0380
-Initially set object drawer_frame to [0.3504, -0.1899, 1.0295] [0.0000, -0.0003, -1.5165]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0381
-Initially set object drawer_frame to [0.3291, -0.2039, 1.0295] [0.0000, -0.0003, -1.5177]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0382
-Initially set object drawer_frame to [0.2300, -0.2035, 1.0295] [0.0000, -0.0003, -1.6251]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0383
-Initially set object drawer_frame to [0.2701, -0.1444, 1.0295] [0.0000, -0.0003, -1.4954]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0384
-Initially set object drawer_frame to [0.1959, -0.1011, 1.0295] [0.0000, -0.0003, -1.5746]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0356 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0357 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0358 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0359 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0360 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0361 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0362 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0363 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0364 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0365 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0366 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0367 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0368 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0369 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0370 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0371 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0372 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0373 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0374 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0375 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0376 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0377 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0378 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0379 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0380 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0381 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0382 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0383 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0384 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0384 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0386
-Initially set object drawer_frame to [0.2187, -0.1221, 1.0295] [0.0000, -0.0003, -1.4999]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0387
-Initially set object drawer_frame to [0.2414, -0.1163, 1.0295] [0.0000, -0.0003, -1.5922]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0388
-Initially set object drawer_frame to [0.2475, -0.1847, 1.0295] [0.0000, -0.0003, -1.5313]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0389
-Initially set object drawer_frame to [0.1765, -0.1247, 1.0295] [0.0000, -0.0003, -1.6085]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0390
-Initially set object drawer_frame to [0.2590, -0.1997, 1.0295] [0.0000, -0.0003, -1.6203]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0391
-Initially set object drawer_frame to [0.1326, -0.0048, 1.0295] [0.0000, -0.0003, -1.5116]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0392
-Initially set object drawer_frame to [0.2675, -0.1979, 1.0295] [0.0000, -0.0003, -1.5593]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0393
-Initially set object drawer_frame to [0.2989, -0.2203, 1.0295] [0.0000, -0.0003, -1.6051]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0394
-Initially set object drawer_frame to [0.2359, -0.0836, 1.0295] [0.0000, -0.0003, -1.5021]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0395
-Initially set object drawer_frame to [0.1509, -0.1675, 1.0295] [0.0000, -0.0003, -1.6283]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0396
-Initially set object drawer_frame to [0.3535, -0.1640, 1.0295] [0.0000, -0.0003, -1.5184]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0397
-Initially set object drawer_frame to [0.1313, -0.2215, 1.0295] [0.0000, -0.0003, -1.4951]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0398
-Initially set object drawer_frame to [0.2348, -0.0754, 1.0295] [0.0000, -0.0003, -1.5270]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0399
-Initially set object drawer_frame to [0.2494, -0.1170, 1.0295] [0.0000, -0.0003, -1.5960]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0400
-Initially set object drawer_frame to [0.2295, -0.2038, 1.0295] [0.0000, -0.0003, -1.5636]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0401
-Initially set object drawer_frame to [0.1497, -0.1775, 1.0295] [0.0000, -0.0003, -1.5953]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0402
-Initially set object drawer_frame to [0.2204, -0.2394, 1.0295] [0.0000, -0.0003, -1.6264]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0403
-Initially set object drawer_frame to [0.3344, -0.2344, 1.0295] [0.0000, -0.0003, -1.6178]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0404
-Initially set object drawer_frame to [0.1523, -0.1236, 1.0295] [0.0000, -0.0003, -1.4900]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0386 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0387 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0388 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0389 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0390 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0391 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0392 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0393 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0394 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0395 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0396 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0397 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0398 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0399 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0400 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0401 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0402 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0403 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0404 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0404 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0406
-Initially set object drawer_frame to [0.2218, -0.1826, 1.0295] [0.0000, -0.0003, -1.6321]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0407
-Initially set object drawer_frame to [0.2456, -0.1333, 1.0295] [0.0000, -0.0003, -1.5922]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0408
-Initially set object drawer_frame to [0.3530, -0.1588, 1.0295] [0.0000, -0.0003, -1.5019]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0409
-Initially set object drawer_frame to [0.3192, -0.2546, 1.0295] [0.0000, -0.0003, -1.6080]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0410
-Initially set object drawer_frame to [0.1423, -0.1986, 1.0295] [0.0000, -0.0003, -1.5146]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0411
-Initially set object drawer_frame to [0.1893, -0.1007, 1.0295] [0.0000, -0.0003, -1.5576]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0412
-Initially set object drawer_frame to [0.2891, -0.1374, 1.0295] [0.0000, -0.0003, -1.4914]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0413
-Initially set object drawer_frame to [0.1318, -0.1208, 1.0295] [0.0000, -0.0003, -1.5193]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0414
-Initially set object drawer_frame to [0.2205, -0.1011, 1.0295] [0.0000, -0.0003, -1.5125]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0415
-Initially set object drawer_frame to [0.1521, -0.0701, 1.0295] [0.0000, -0.0003, -1.6008]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0416
-Initially set object drawer_frame to [0.3376, -0.2523, 1.0295] [0.0000, -0.0003, -1.6078]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0417
-Initially set object drawer_frame to [0.3501, -0.2117, 1.0295] [0.0000, -0.0003, -1.5585]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0418
-Initially set object drawer_frame to [0.2046, -0.0763, 1.0295] [0.0000, -0.0003, -1.5687]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0419
-Initially set object drawer_frame to [0.2442, -0.1896, 1.0295] [0.0000, -0.0003, -1.5944]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0420
-Initially set object drawer_frame to [0.1529, -0.1284, 1.0295] [0.0000, -0.0003, -1.6525]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0421
-Initially set object drawer_frame to [0.1350, -0.1408, 1.0295] [0.0000, -0.0003, -1.5971]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0422
-Initially set object drawer_frame to [0.1273, -0.2255, 1.0295] [0.0000, -0.0003, -1.5138]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0423
-Initially set object drawer_frame to [0.1804, -0.1316, 1.0295] [0.0000, -0.0003, -1.5968]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0424
-Initially set object drawer_frame to [0.1366, -0.0513, 1.0295] [0.0000, -0.0003, -1.4927]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0425
-Initially set object drawer_frame to [0.2080, -0.1081, 1.0295] [0.0000, -0.0003, -1.6030]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0426
-Initially set object drawer_frame to [0.2219, -0.2478, 1.0295] [0.0000, -0.0003, -1.5402]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0427
-Initially set object drawer_frame to [0.1669, -0.1295, 1.0295] [0.0000, -0.0003, -1.5202]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0428
-Initially set object drawer_frame to [0.2804, -0.1620, 1.0295] [0.0000, -0.0003, -1.5004]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0406 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0407 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0408 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0409 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0410 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0411 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0412 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0413 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0414 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0415 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0416 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0417 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0418 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0419 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0420 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0421 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0422 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0423 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0424 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0425 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0426 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0427 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0428 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0428 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0430
-Initially set object drawer_frame to [0.1507, -0.1307, 1.0295] [0.0000, -0.0003, -1.5856]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0431
-Initially set object drawer_frame to [0.2761, -0.1744, 1.0295] [0.0000, -0.0003, -1.6448]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0432
-Initially set object drawer_frame to [0.1395, -0.0418, 1.0295] [0.0000, -0.0003, -1.5884]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0433
-Initially set object drawer_frame to [0.2013, -0.2398, 1.0295] [0.0000, -0.0003, -1.5836]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0434
-Initially set object drawer_frame to [0.1619, -0.2394, 1.0295] [0.0000, -0.0003, -1.5631]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0435
-Initially set object drawer_frame to [0.2031, -0.0954, 1.0295] [0.0000, -0.0003, -1.6176]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0430 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0431 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0432 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0433 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0434 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0435 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0435 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0437
-Initially set object drawer_frame to [0.2118, -0.1805, 1.0295] [0.0000, -0.0003, -1.6106]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0438
-Initially set object drawer_frame to [0.2784, -0.1010, 1.0295] [0.0000, -0.0003, -1.4961]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0439
-Initially set object drawer_frame to [0.1563, -0.1130, 1.0295] [0.0000, -0.0003, -1.5819]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0440
-Initially set object drawer_frame to [0.1625, -0.1318, 1.0295] [0.0000, -0.0003, -1.5598]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0441
-Initially set object drawer_frame to [0.2816, -0.2212, 1.0295] [0.0000, -0.0003, -1.5766]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0442
-Initially set object drawer_frame to [0.1970, -0.0314, 1.0295] [0.0000, -0.0003, -1.5017]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0443
-Initially set object drawer_frame to [0.2605, -0.2450, 1.0295] [0.0000, -0.0003, -1.6379]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0444
-Initially set object drawer_frame to [0.3020, -0.2309, 1.0295] [0.0000, -0.0003, -1.6069]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0445
-Initially set object drawer_frame to [0.2204, -0.2474, 1.0295] [0.0000, -0.0003, -1.5513]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0446
-Initially set object drawer_frame to [0.2650, -0.2330, 1.0295] [0.0000, -0.0003, -1.6237]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0437 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0438 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0439 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0440 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0441 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0442 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0443 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0444 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0445 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0446 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0446 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0448
-Initially set object drawer_frame to [0.2274, -0.1870, 1.0295] [0.0000, -0.0003, -1.5783]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0449
-Initially set object drawer_frame to [0.1524, -0.2081, 1.0295] [0.0000, -0.0003, -1.6264]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0450
-Initially set object drawer_frame to [0.3293, -0.2641, 1.0295] [0.0000, -0.0003, -1.5650]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0451
-Initially set object drawer_frame to [0.3273, -0.1861, 1.0295] [0.0000, -0.0003, -1.4914]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0452
-Initially set object drawer_frame to [0.3297, -0.2217, 1.0295] [0.0000, -0.0003, -1.5429]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0453
-Initially set object drawer_frame to [0.2075, -0.1646, 1.0295] [0.0000, -0.0003, -1.6166]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0454
-Initially set object drawer_frame to [0.1619, -0.1239, 1.0295] [0.0000, -0.0003, -1.6243]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0455
-Initially set object drawer_frame to [0.1286, -0.2022, 1.0295] [0.0000, -0.0003, -1.5938]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0456
-Initially set object drawer_frame to [0.1811, -0.1138, 1.0295] [0.0000, -0.0003, -1.5009]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0457
-Initially set object drawer_frame to [0.1620, -0.0544, 1.0295] [0.0000, -0.0003, -1.5081]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0458
-Initially set object drawer_frame to [0.2696, -0.2030, 1.0295] [0.0000, -0.0003, -1.5291]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0459
-Initially set object drawer_frame to [0.1312, -0.0986, 1.0295] [0.0000, -0.0003, -1.5244]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0460
-Initially set object drawer_frame to [0.1887, -0.0679, 1.0295] [0.0000, -0.0003, -1.5140]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0461
-Initially set object drawer_frame to [0.2654, -0.0750, 1.0295] [0.0000, -0.0003, -1.4967]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0462
-Initially set object drawer_frame to [0.3153, -0.1868, 1.0295] [0.0000, -0.0003, -1.4981]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0463
-Initially set object drawer_frame to [0.2304, -0.1752, 1.0295] [0.0000, -0.0003, -1.5078]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0464
-Initially set object drawer_frame to [0.2883, -0.2017, 1.0295] [0.0000, -0.0003, -1.4938]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0465
-Initially set object drawer_frame to [0.1990, -0.2089, 1.0295] [0.0000, -0.0003, -1.5231]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0466
-Initially set object drawer_frame to [0.1688, -0.1400, 1.0295] [0.0000, -0.0003, -1.4849]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0467
-Initially set object drawer_frame to [0.1331, -0.1032, 1.0295] [0.0000, -0.0003, -1.5216]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0468
-Initially set object drawer_frame to [0.1927, -0.2365, 1.0295] [0.0000, -0.0003, -1.5131]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0469
-Initially set object drawer_frame to [0.1791, -0.1082, 1.0295] [0.0000, -0.0003, -1.5090]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0470
-Initially set object drawer_frame to [0.2857, -0.2539, 1.0295] [0.0000, -0.0003, -1.5158]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0471
-Initially set object drawer_frame to [0.1794, -0.2091, 1.0295] [0.0000, -0.0003, -1.5429]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0472
-Initially set object drawer_frame to [0.3107, -0.2321, 1.0295] [0.0000, -0.0003, -1.6241]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0473
-Initially set object drawer_frame to [0.3048, -0.2453, 1.0295] [0.0000, -0.0003, -1.5050]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0474
-Initially set object drawer_frame to [0.2364, -0.2443, 1.0295] [0.0000, -0.0003, -1.5470]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0475
-Initially set object drawer_frame to [0.3493, -0.1447, 1.0295] [0.0000, -0.0003, -1.4973]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0476
-Initially set object drawer_frame to [0.2748, -0.2415, 1.0295] [0.0000, -0.0003, -1.4894]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0477
-Initially set object drawer_frame to [0.1723, -0.1730, 1.0295] [0.0000, -0.0003, -1.6334]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0478
-Initially set object drawer_frame to [0.2719, -0.1662, 1.0295] [0.0000, -0.0003, -1.5306]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0479
-Initially set object drawer_frame to [0.1523, -0.0802, 1.0295] [0.0000, -0.0003, -1.6363]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0480
-Initially set object drawer_frame to [0.3334, -0.1946, 1.0295] [0.0000, -0.0003, -1.5399]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0481
-Initially set object drawer_frame to [0.2046, -0.1802, 1.0295] [0.0000, -0.0003, -1.4948]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0482
-Initially set object drawer_frame to [0.1482, -0.0643, 1.0295] [0.0000, -0.0003, -1.5121]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0483
-Initially set object drawer_frame to [0.3185, -0.2501, 1.0295] [0.0000, -0.0003, -1.5887]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0484
-Initially set object drawer_frame to [0.1246, -0.2180, 1.0295] [0.0000, -0.0003, -1.5624]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0485
-Initially set object drawer_frame to [0.1453, -0.0663, 1.0295] [0.0000, -0.0003, -1.6010]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0486
-Initially set object drawer_frame to [0.2578, -0.2426, 1.0295] [0.0000, -0.0003, -1.5199]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0487
-Initially set object drawer_frame to [0.1968, -0.0759, 1.0295] [0.0000, -0.0003, -1.5053]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0488
-Initially set object drawer_frame to [0.2638, -0.2089, 1.0295] [0.0000, -0.0003, -1.4895]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0489
-Initially set object drawer_frame to [0.2472, -0.1845, 1.0295] [0.0000, -0.0003, -1.6041]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0490
-Initially set object drawer_frame to [0.2228, -0.1730, 1.0295] [0.0000, -0.0003, -1.5699]
-Initially set joint drawer_joint_bottom to [0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0491
-Initially set object drawer_frame to [0.1535, -0.1535, 1.0295] [0.0000, -0.0003, -1.6095]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0492
-Initially set object drawer_frame to [0.3165, -0.2309, 1.0295] [0.0000, -0.0003, -1.6488]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0493
-Initially set object drawer_frame to [0.2453, -0.2144, 1.0295] [0.0000, -0.0003, -1.5260]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [-0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0494
-Initially set object drawer_frame to [0.1511, -0.1322, 1.0295] [0.0000, -0.0003, -1.6086]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0495
-Initially set object drawer_frame to [0.1290, -0.0918, 1.0295] [0.0000, -0.0003, -1.5982]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0448 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0449 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0450 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0451 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0452 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0453 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0454 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0455 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0456 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0457 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0458 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0459 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0460 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0461 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0462 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0463 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0464 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0465 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0466 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0467 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0468 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0469 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0470 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0471 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0472 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0473 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0474 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0475 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0476 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0477 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0478 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0479 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0480 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0481 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0482 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0483 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0484 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0485 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0486 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0487 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0488 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0489 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0490 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0491 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0492 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0493 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0494 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0495 as the demo files exist
 Skipping outputs/open_drawer/norobot_replay/demo_0495 as inconsistent episode length
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0497
-Initially set object drawer_frame to [0.1447, -0.2490, 1.0295] [0.0000, -0.0003, -1.5345]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0498
-Initially set object drawer_frame to [0.1428, -0.1195, 1.0295] [0.0000, -0.0003, -1.5229]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
-Replaying demo -> outputs/open_drawer/norobot_replay/demo_0499
-Initially set object drawer_frame to [0.3395, -0.2387, 1.0295] [0.0000, -0.0003, -1.6245]
-Initially set joint drawer_joint_bottom to [-0.0000]
-Initially set joint drawer_joint_middle to [-0.0000]
-Initially set joint drawer_joint_top to [0.0000]
+Skipping outputs/open_drawer/norobot_replay/demo_0497 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0498 as the demo files exist
+Skipping outputs/open_drawer/norobot_replay/demo_0499 as the demo files exist
 [CoppeliaSim:loadinfo]   done.

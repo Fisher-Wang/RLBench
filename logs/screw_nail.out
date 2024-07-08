@@ -1,914 +1,414 @@
 /home/yuyang/dev/RoboVerse/PyRep/pyrep/pyrep.py:217: UserWarning: Could not change simulation timestep. You may need to change it to "custom dt" using simulation settings dialog.
   warnings.warn('Could not change simulation timestep. You may need '
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0000
-Initially set object block to [0.2642, 0.0921, 0.8020] [0.0000, 0.0000, -1.4299]
-Initially set object screw_visual to [0.2747, 0.0178, 0.8574] [0.0001, -0.0009, -3.0020]
-Initially set object screw_driver to [0.2650, 0.1436, 0.8648] [-2.0719, 1.5705, 1.2038]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0001
-Initially set object block to [0.3700, 0.0315, 0.8020] [0.0000, 0.0000, -1.9368]
-Initially set object screw_visual to [0.3431, -0.0385, 0.8574] [0.0001, -0.0009, 2.7743]
-Initially set object screw_driver to [0.3957, 0.0762, 0.8648] [-1.9445, 1.5708, 0.9350]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0002
-Initially set object block to [0.0814, 0.2222, 0.8020] [0.0000, 0.0000, -2.8672]
-Initially set object screw_visual to [0.0092, 0.2019, 0.8574] [0.0001, -0.0009, 1.8439]
-Initially set object screw_driver to [0.1326, 0.2282, 0.8648] [1.0808, 1.5708, 2.8706]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0003
-Initially set object block to [0.2610, 0.1206, 0.8020] [0.0000, 0.0000, -0.6314]
-Initially set object screw_visual to [0.3215, 0.0763, 0.8574] [0.0001, -0.0009, -2.2035]
-Initially set object screw_driver to [0.2247, 0.1571, 0.8648] [-1.9196, 1.5708, 2.1786]
+Skipping outputs/screw_nail/norobot_replay/demo_0000 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0001 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0002 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0003 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0003 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0005
-Initially set object block to [0.2679, -0.1135, 0.8020] [0.0000, 0.0000, -2.3455]
-Initially set object screw_visual to [0.2154, -0.1670, 0.8574] [0.0001, -0.0009, 2.3656]
-Initially set object screw_driver to [0.3092, -0.0827, 0.8648] [-1.9075, 1.5708, 0.4636]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0006
-Initially set object block to [0.1638, -0.0364, 0.8020] [0.0000, 0.0000, -2.7069]
-Initially set object screw_visual to [0.0958, -0.0679, 0.8574] [0.0001, -0.0009, 2.0042]
-Initially set object screw_driver to [0.2134, -0.0222, 0.8648] [3.0172, 1.5708, -1.5708]
+Skipping outputs/screw_nail/norobot_replay/demo_0005 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0006 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0006 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0006 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0009
-Initially set object block to [0.4013, 0.1131, 0.8020] [0.0000, 0.0000, -1.3156]
-Initially set object screw_visual to [0.4202, 0.0405, 0.8574] [0.0001, -0.0009, -2.8877]
-Initially set object screw_driver to [0.3962, 0.1644, 0.8648] [-2.0245, 1.5708, 1.3666]
+Skipping outputs/screw_nail/norobot_replay/demo_0009 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0009 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0011
-Initially set object block to [0.3089, 0.0857, 0.8020] [0.0000, 0.0000, -1.2855]
-Initially set object screw_visual to [0.3300, 0.0138, 0.8574] [0.0001, -0.0009, -2.8576]
-Initially set object screw_driver to [0.3023, 0.1369, 0.8648] [-2.0608, 1.5708, 1.5708]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0012
-Initially set object block to [0.2670, 0.2513, 0.8020] [0.0000, 0.0000, -1.9867]
-Initially set object screw_visual to [0.2367, 0.1827, 0.8574] [0.0001, -0.0009, 2.7244]
-Initially set object screw_driver to [0.2950, 0.2946, 0.8648] [-1.8560, 1.5708, 0.9024]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0013
-Initially set object block to [0.1777, 0.1995, 0.8020] [0.0000, 0.0000, -1.2079]
-Initially set object screw_visual to [0.2042, 0.1294, 0.8574] [0.0001, -0.0009, -2.7800]
-Initially set object screw_driver to [0.1671, 0.2500, 0.8648] [-1.6098, 1.5708, 1.8879]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0014
-Initially set object block to [0.3348, 0.0115, 0.8020] [0.0000, 0.0000, -2.9236]
-Initially set object screw_visual to [0.2616, -0.0047, 0.8574] [0.0001, -0.0009, 1.7875]
-Initially set object screw_driver to [0.3863, 0.0147, 0.8648] [-1.9593, 1.5708, -0.1694]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0015
-Initially set object block to [0.1366, -0.2361, 0.8020] [0.0000, 0.0000, -2.9702]
-Initially set object screw_visual to [0.0627, -0.2489, 0.8574] [0.0001, -0.0009, 1.7409]
-Initially set object screw_driver to [0.1882, -0.2354, 0.8648] [-1.9693, 1.5708, -0.1954]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0016
-Initially set object block to [0.4029, 0.0905, 0.8020] [0.0000, 0.0000, -2.3938]
-Initially set object screw_visual to [0.3479, 0.0395, 0.8574] [0.0001, -0.0009, 2.3173]
-Initially set object screw_driver to [0.4458, 0.1192, 0.8648] [-2.0495, 1.5708, 0.2924]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0017
-Initially set object block to [0.2535, -0.1441, 0.8020] [0.0000, 0.0000, -2.1613]
-Initially set object screw_visual to [0.2117, -0.2064, 0.8574] [0.0001, -0.0009, 2.5498]
-Initially set object screw_driver to [0.2886, -0.1063, 0.8648] [-1.7088, 1.5708, 0.8961]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0018
-Initially set object block to [0.1978, -0.1710, 0.8020] [0.0000, 0.0000, -1.6008]
-Initially set object screw_visual to [0.1955, -0.2460, 0.8574] [0.0001, -0.0009, 3.1103]
-Initially set object screw_driver to [0.2073, -0.1203, 0.8648] [-1.9788, 1.5708, 1.1766]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0019
-Initially set object block to [0.2472, -0.2039, 0.8020] [0.0000, 0.0000, -0.9543]
-Initially set object screw_visual to [0.2905, -0.2652, 0.8574] [0.0001, -0.0009, -2.5264]
-Initially set object screw_driver to [0.2243, -0.1577, 0.8648] [-2.0974, 1.5708, 1.6926]
+Skipping outputs/screw_nail/norobot_replay/demo_0011 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0012 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0013 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0014 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0015 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0016 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0017 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0018 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0019 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0019 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0021
-Initially set object block to [0.3108, 0.1682, 0.8020] [0.0000, 0.0000, -0.5313]
-Initially set object screw_visual to [0.3755, 0.1301, 0.8574] [0.0001, -0.0009, -2.1034]
-Initially set object screw_driver to [0.2710, 0.2009, 0.8648] [-1.9770, 1.5708, 2.2517]
+Skipping outputs/screw_nail/norobot_replay/demo_0021 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0021 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0023
-Initially set object block to [0.3396, -0.0213, 0.8020] [0.0000, 0.0000, -2.7261]
-Initially set object screw_visual to [0.2710, -0.0516, 0.8574] [0.0001, -0.0009, 1.9850]
-Initially set object screw_driver to [0.3895, -0.0081, 0.8648] [-1.6038, 1.5708, 0.4481]
+Skipping outputs/screw_nail/norobot_replay/demo_0023 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0023 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0023 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0026
-Initially set object block to [0.3751, -0.1336, 0.8020] [0.0000, 0.0000, -2.7109]
-Initially set object screw_visual to [0.3069, -0.1649, 0.8574] [0.0001, -0.0009, 2.0002]
-Initially set object screw_driver to [0.4248, -0.1197, 0.8648] [2.2455, 1.5708, -2.2455]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0027
-Initially set object block to [0.2247, -0.1122, 0.8020] [0.0000, 0.0000, -2.8861]
-Initially set object screw_visual to [0.1521, -0.1311, 0.8574] [0.0001, -0.0009, 1.8249]
-Initially set object screw_driver to [0.2760, -0.1071, 0.8648] [-1.7212, 1.5708, 0.1057]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0028
-Initially set object block to [0.3701, -0.1704, 0.8020] [0.0000, 0.0000, -3.1049]
-Initially set object screw_visual to [0.2952, -0.1731, 0.8574] [0.0001, -0.0009, 1.6062]
-Initially set object screw_driver to [0.4213, -0.1766, 0.8648] [-1.8548, 1.5708, -0.2389]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0029
-Initially set object block to [0.2539, 0.0591, 0.8020] [0.0000, 0.0000, -2.3703]
-Initially set object screw_visual to [0.2001, 0.0068, 0.8574] [0.0001, -0.0009, 2.3407]
-Initially set object screw_driver to [0.2960, 0.0888, 0.8648] [-1.7837, 1.5708, 0.5918]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0030
-Initially set object block to [0.1135, -0.0728, 0.8020] [0.0000, 0.0000, -2.7279]
-Initially set object screw_visual to [0.0448, -0.1029, 0.8574] [0.0001, -0.0009, 1.9831]
-Initially set object screw_driver to [0.1634, -0.0597, 0.8648] [1.9693, 1.5708, -2.4720]
+Skipping outputs/screw_nail/norobot_replay/demo_0026 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0027 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0028 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0029 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0030 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0030 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0030 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0033
-Initially set object block to [0.4085, -0.0225, 0.8020] [0.0000, 0.0000, -1.7061]
-Initially set object screw_visual to [0.3983, -0.0968, 0.8574] [0.0001, -0.0009, 3.0050]
-Initially set object screw_driver to [0.4233, 0.0269, 0.8648] [-1.9289, 1.5708, 1.1526]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0034
-Initially set object block to [0.3379, -0.1198, 0.8020] [0.0000, 0.0000, -0.9741]
-Initially set object screw_visual to [0.3800, -0.1819, 0.8574] [0.0001, -0.0009, -2.5462]
-Initially set object screw_driver to [0.3159, -0.0732, 0.8648] [2.0344, 1.5708, -0.9420]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0035
-Initially set object block to [0.4305, 0.0559, 0.8020] [0.0000, 0.0000, -1.7051]
-Initially set object screw_visual to [0.4204, -0.0184, 0.8574] [0.0001, -0.0009, 3.0060]
-Initially set object screw_driver to [0.4453, 0.1053, 0.8648] [-1.8383, 1.5708, 1.1708]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0036
-Initially set object block to [0.3104, -0.0211, 0.8020] [0.0000, 0.0000, -2.6402]
-Initially set object screw_visual to [0.2447, -0.0572, 0.8574] [0.0001, -0.0009, 2.0708]
-Initially set object screw_driver to [0.3590, -0.0037, 0.8648] [1.8782, 1.5708, -2.3459]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0037
-Initially set object block to [0.1137, 0.2144, 0.8020] [0.0000, 0.0000, -0.4748]
-Initially set object screw_visual to [0.1804, 0.1801, 0.8574] [0.0001, -0.0009, -2.0469]
-Initially set object screw_driver to [0.0720, 0.2449, 0.8648] [-1.7748, 1.5708, 2.4228]
+Skipping outputs/screw_nail/norobot_replay/demo_0033 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0034 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0035 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0036 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0037 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0037 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0037 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0040
-Initially set object block to [0.3138, 0.0284, 0.8020] [0.0000, 0.0000, -2.6291]
-Initially set object screw_visual to [0.2484, -0.0084, 0.8574] [0.0001, -0.0009, 2.0820]
-Initially set object screw_driver to [0.3621, 0.0463, 0.8648] [-1.9828, 1.5708, 0.1362]
+Skipping outputs/screw_nail/norobot_replay/demo_0040 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0040 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0042
-Initially set object block to [0.4246, -0.1103, 0.8020] [0.0000, 0.0000, -2.8083]
-Initially set object screw_visual to [0.3537, -0.1348, 0.8574] [0.0001, -0.0009, 1.9028]
-Initially set object screw_driver to [0.4754, -0.1013, 0.8648] [-2.8306, 1.5708, -0.9828]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0043
-Initially set object block to [0.2537, -0.0726, 0.8020] [0.0000, 0.0000, -2.6012]
-Initially set object screw_visual to [0.1894, -0.1111, 0.8574] [0.0001, -0.0009, 2.1099]
-Initially set object screw_driver to [0.3015, -0.0533, 0.8648] [-1.6363, 1.5708, 0.4928]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0044
-Initially set object block to [0.1774, 0.0762, 0.8020] [0.0000, 0.0000, -1.8299]
-Initially set object screw_visual to [0.1581, 0.0037, 0.8574] [0.0001, -0.0009, 2.8812]
-Initially set object screw_driver to [0.1982, 0.1234, 0.8648] [-1.8851, 1.5708, 1.0226]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0045
-Initially set object block to [0.2177, 0.0558, 0.8020] [0.0000, 0.0000, -1.4236]
-Initially set object screw_visual to [0.2287, -0.0184, 0.8574] [0.0001, -0.0009, -2.9957]
-Initially set object screw_driver to [0.2182, 0.1074, 0.8648] [-1.9564, 1.5708, 1.3406]
+Skipping outputs/screw_nail/norobot_replay/demo_0042 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0043 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0044 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0045 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0045 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0045 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0048
-Initially set object block to [0.2942, 0.2703, 0.8020] [0.0000, 0.0000, -1.9706]
-Initially set object screw_visual to [0.2650, 0.2012, 0.8574] [0.0001, -0.0009, 2.7405]
-Initially set object screw_driver to [0.3215, 0.3140, 0.8648] [-1.9782, 1.5708, 0.7827]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0049
-Initially set object block to [0.3183, -0.1113, 0.8020] [0.0000, 0.0000, -2.0650]
-Initially set object screw_visual to [0.2827, -0.1773, 0.8574] [0.0001, -0.0009, 2.6461]
-Initially set object screw_driver to [0.3496, -0.0702, 0.8648] [-1.9973, 1.5708, 0.6660]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0050
-Initially set object block to [0.3298, 0.2325, 0.8020] [0.0000, 0.0000, -0.9576]
-Initially set object screw_visual to [0.3729, 0.1711, 0.8574] [0.0001, -0.0009, -2.5298]
-Initially set object screw_driver to [0.3070, 0.2788, 0.8648] [-2.0044, 1.5708, 1.7740]
+Skipping outputs/screw_nail/norobot_replay/demo_0048 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0049 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0050 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0050 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0052
-Initially set object block to [0.4171, -0.1100, 0.8020] [0.0000, 0.0000, -1.9189]
-Initially set object screw_visual to [0.3915, -0.1805, 0.8574] [0.0001, -0.0009, 2.7922]
-Initially set object screw_driver to [0.4420, -0.0649, 0.8648] [-1.8528, 1.5708, 0.9335]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0053
-Initially set object block to [0.1439, -0.2137, 0.8020] [0.0000, 0.0000, -2.3640]
-Initially set object screw_visual to [0.0904, -0.2663, 0.8574] [0.0001, -0.0009, 2.3471]
-Initially set object screw_driver to [0.1858, -0.1837, 0.8648] [-1.7056, 1.5708, 0.6615]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0054
-Initially set object block to [0.2492, 0.3307, 0.8020] [0.0000, 0.0000, -1.6630]
-Initially set object screw_visual to [0.2423, 0.2560, 0.8574] [0.0001, -0.0009, 3.0481]
-Initially set object screw_driver to [0.2619, 0.3807, 0.8648] [-1.8710, 1.5708, 1.2256]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0055
-Initially set object block to [0.2997, 0.0252, 0.8020] [0.0000, 0.0000, -2.9423]
-Initially set object screw_visual to [0.2262, 0.0103, 0.8574] [0.0001, -0.0009, 1.7688]
-Initially set object screw_driver to [0.3512, 0.0274, 0.8648] [-1.9445, 1.5708, -0.1831]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0056
-Initially set object block to [0.2729, -0.0822, 0.8020] [0.0000, 0.0000, -1.9855]
-Initially set object screw_visual to [0.2427, -0.1509, 0.8574] [0.0001, -0.0009, 2.7256]
-Initially set object screw_driver to [0.3008, -0.0389, 0.8648] [-1.8578, 1.5708, 0.8727]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0057
-Initially set object block to [0.3096, 0.1116, 0.8020] [0.0000, 0.0000, -2.0625]
-Initially set object screw_visual to [0.2742, 0.0455, 0.8574] [0.0001, -0.0009, 2.6485]
-Initially set object screw_driver to [0.3407, 0.1527, 0.8648] [-1.6987, 1.5708, 0.9747]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0058
-Initially set object block to [0.3775, 0.3134, 0.8020] [0.0000, 0.0000, -1.5017]
-Initially set object screw_visual to [0.3826, 0.2386, 0.8574] [0.0001, -0.0009, -3.0738]
-Initially set object screw_driver to [0.3820, 0.3648, 0.8648] [-1.8607, 1.5705, 1.3249]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0059
-Initially set object block to [0.3286, 0.1195, 0.8020] [0.0000, 0.0000, -2.6767]
-Initially set object screw_visual to [0.2616, 0.0859, 0.8574] [0.0001, -0.0009, 2.0344]
-Initially set object screw_driver to [0.3778, 0.1351, 0.8648] [-2.6779, 1.5708, -0.6435]
+Skipping outputs/screw_nail/norobot_replay/demo_0052 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0053 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0054 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0055 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0056 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0057 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0058 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0059 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0059 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0059 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0062
-Initially set object block to [0.2939, -0.0731, 0.8020] [0.0000, 0.0000, -1.8715]
-Initially set object screw_visual to [0.2717, -0.1448, 0.8574] [0.0001, -0.0009, 2.8396]
-Initially set object screw_driver to [0.3167, -0.0269, 0.8648] [-1.8381, 1.5708, 1.0050]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0063
-Initially set object block to [0.1765, -0.2029, 0.8020] [0.0000, 0.0000, -2.8268]
-Initially set object screw_visual to [0.1052, -0.2261, 0.8574] [0.0001, -0.0009, 1.8843]
-Initially set object screw_driver to [0.2275, -0.1948, 0.8648] [1.5708, 1.5708, -3.0419]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0064
-Initially set object block to [0.3719, -0.0358, 0.8020] [0.0000, 0.0000, -1.3834]
-Initially set object screw_visual to [0.3858, -0.1095, 0.8574] [0.0001, -0.0009, -2.9555]
-Initially set object screw_driver to [0.3703, 0.0158, 0.8648] [-2.0001, 1.5708, 1.3405]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0065
-Initially set object block to [0.2399, 0.1889, 0.8020] [0.0000, 0.0000, -1.4821]
-Initially set object screw_visual to [0.2465, 0.1142, 0.8574] [0.0001, -0.0009, -3.0542]
-Initially set object screw_driver to [0.2434, 0.2404, 0.8648] [-1.9192, 1.5705, 1.2971]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0066
-Initially set object block to [0.2854, -0.0582, 0.8020] [0.0000, 0.0000, -1.9961]
-Initially set object screw_visual to [0.2545, -0.1265, 0.8574] [0.0001, -0.0009, 2.7150]
-Initially set object screw_driver to [0.3138, -0.0151, 0.8648] [-1.7837, 1.5705, 0.9063]
+Skipping outputs/screw_nail/norobot_replay/demo_0062 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0063 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0064 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0065 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0066 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0066 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0068
-Initially set object block to [0.2125, 0.2580, 0.8020] [0.0000, 0.0000, -1.5056]
-Initially set object screw_visual to [0.2173, 0.1831, 0.8574] [0.0001, -0.0009, -3.0777]
-Initially set object screw_driver to [0.2172, 0.3093, 0.8648] [-1.8945, 1.5708, 1.4273]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0069
-Initially set object block to [0.3830, -0.0030, 0.8020] [0.0000, 0.0000, -2.1415]
-Initially set object screw_visual to [0.3424, -0.0661, 0.8574] [0.0001, -0.0009, 2.5695]
-Initially set object screw_driver to [0.4173, 0.0355, 0.8648] [-2.1058, 1.5708, 0.4932]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0070
-Initially set object block to [0.1946, -0.1551, 0.8020] [0.0000, 0.0000, -2.3718]
-Initially set object screw_visual to [0.1408, -0.2073, 0.8574] [0.0001, -0.0009, 2.3392]
-Initially set object screw_driver to [0.2368, -0.1254, 0.8648] [-2.0380, 1.5708, 0.3375]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0071
-Initially set object block to [0.3818, 0.2431, 0.8020] [0.0000, 0.0000, -1.5898]
-Initially set object screw_visual to [0.3803, 0.1681, 0.8574] [0.0001, -0.0009, 3.1213]
-Initially set object screw_driver to [0.3908, 0.2939, 0.8648] [-1.9185, 1.5708, 1.2119]
+Skipping outputs/screw_nail/norobot_replay/demo_0068 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0069 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0070 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0071 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0071 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0071 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0074
-Initially set object block to [0.2625, 0.1741, 0.8020] [0.0000, 0.0000, -0.5744]
-Initially set object screw_visual to [0.3255, 0.1333, 0.8574] [0.0001, -0.0009, -2.1465]
-Initially set object screw_driver to [0.2241, 0.2085, 0.8648] [-1.8214, 1.5708, 2.3508]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0075
-Initially set object block to [0.4167, 0.1630, 0.8020] [0.0000, 0.0000, -1.5217]
-Initially set object screw_visual to [0.4203, 0.0881, 0.8574] [0.0001, -0.0009, -3.0938]
-Initially set object screw_driver to [0.4222, 0.2143, 0.8648] [-2.1342, 1.5708, 1.1095]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0076
-Initially set object block to [0.3851, 0.0222, 0.8020] [0.0000, 0.0000, -2.3341]
-Initially set object screw_visual to [0.3332, -0.0320, 0.8574] [0.0001, -0.0009, 2.3770]
-Initially set object screw_driver to [0.4261, 0.0534, 0.8648] [-2.0716, 1.5708, 0.3187]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0077
-Initially set object block to [0.2315, -0.0107, 0.8020] [0.0000, 0.0000, -2.1163]
-Initially set object screw_visual to [0.1926, -0.0748, 0.8574] [0.0001, -0.0009, 2.5948]
-Initially set object screw_driver to [0.2649, 0.0287, 0.8648] [-1.8794, 1.5708, 0.7266]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0078
-Initially set object block to [0.3603, 0.1567, 0.8020] [0.0000, 0.0000, -2.0590]
-Initially set object screw_visual to [0.3251, 0.0904, 0.8574] [0.0001, -0.0009, 2.6521]
-Initially set object screw_driver to [0.3913, 0.1979, 0.8648] [-2.0232, 1.5708, 0.6317]
+Skipping outputs/screw_nail/norobot_replay/demo_0074 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0075 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0076 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0077 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0078 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0078 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0080
-Initially set object block to [0.2475, -0.1104, 0.8020] [0.0000, 0.0000, -1.3620]
-Initially set object screw_visual to [0.2631, -0.1838, 0.8574] [0.0001, -0.0009, -2.9341]
-Initially set object screw_driver to [0.2449, -0.0589, 0.8648] [-1.9289, 1.5708, 1.5708]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0081
-Initially set object block to [0.2836, 0.2761, 0.8020] [0.0000, 0.0000, -1.5164]
-Initially set object screw_visual to [0.2876, 0.2012, 0.8574] [0.0001, -0.0009, -3.0885]
-Initially set object screw_driver to [0.2888, 0.3274, 0.8648] [-2.1636, 1.5708, 1.0585]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0082
-Initially set object block to [0.3677, -0.1251, 0.8020] [0.0000, 0.0000, -3.0197]
-Initially set object screw_visual to [0.2932, -0.1341, 0.8574] [0.0001, -0.0009, 1.6914]
-Initially set object screw_driver to [0.4192, -0.1268, 0.8648] [-1.9105, 1.5708, -0.2116]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0083
-Initially set object block to [0.3432, -0.0719, 0.8020] [0.0000, 0.0000, -2.1648]
-Initially set object screw_visual to [0.3012, -0.1341, 0.8574] [0.0001, -0.0009, 2.5463]
-Initially set object screw_driver to [0.3784, -0.0342, 0.8648] [-1.6201, 1.5705, 0.9114]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0084
-Initially set object block to [0.4037, 0.2656, 0.8020] [0.0000, 0.0000, -1.5012]
-Initially set object screw_visual to [0.4088, 0.1908, 0.8574] [0.0001, -0.0009, -3.0733]
-Initially set object screw_driver to [0.4081, 0.3170, 0.8648] [-2.1612, 1.5708, 1.1213]
+Skipping outputs/screw_nail/norobot_replay/demo_0080 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0081 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0082 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0083 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0084 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0084 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0084 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0087
-Initially set object block to [0.3025, 0.1664, 0.8020] [0.0000, 0.0000, -2.3756]
-Initially set object screw_visual to [0.2484, 0.1144, 0.8574] [0.0001, -0.0009, 2.3354]
-Initially set object screw_driver to [0.3447, 0.1959, 0.8648] [-2.0799, 1.5708, 0.2754]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0088
-Initially set object block to [0.2555, -0.2000, 0.8020] [0.0000, 0.0000, -2.7346]
-Initially set object screw_visual to [0.1866, -0.2297, 0.8574] [0.0001, -0.0009, 1.9765]
-Initially set object screw_driver to [0.3054, -0.1873, 0.8648] [2.8966, 1.5708, -1.9890]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0089
-Initially set object block to [0.2151, -0.1211, 0.8020] [0.0000, 0.0000, -2.0418]
-Initially set object screw_visual to [0.1810, -0.1879, 0.8574] [0.0001, -0.0009, 2.6693]
-Initially set object screw_driver to [0.2454, -0.0794, 0.8648] [-1.8339, 1.5708, 0.8572]
+Skipping outputs/screw_nail/norobot_replay/demo_0087 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0088 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0089 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0089 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0091
-Initially set object block to [0.3707, -0.1203, 0.8020] [0.0000, 0.0000, -2.3366]
-Initially set object screw_visual to [0.3187, -0.1743, 0.8574] [0.0001, -0.0009, 2.3745]
-Initially set object screw_driver to [0.4119, -0.0892, 0.8648] [-1.9853, 1.5708, 0.3976]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0092
-Initially set object block to [0.3510, -0.0604, 0.8020] [0.0000, 0.0000, -1.3885]
-Initially set object screw_visual to [0.3646, -0.1342, 0.8574] [0.0001, -0.0009, -2.9606]
-Initially set object screw_driver to [0.3497, -0.0089, 0.8648] [0.0416, 1.5708, -3.0019]
+Skipping outputs/screw_nail/norobot_replay/demo_0091 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0092 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0092 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0092 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0092 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0096
-Initially set object block to [0.3789, 0.2837, 0.8020] [0.0000, 0.0000, -1.7732]
-Initially set object screw_visual to [0.3638, 0.2102, 0.8574] [0.0001, -0.0009, 2.9379]
-Initially set object screw_driver to [0.3970, 0.3319, 0.8648] [-2.1176, 1.5708, 0.8632]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0097
-Initially set object block to [0.4304, 0.1143, 0.8020] [0.0000, 0.0000, -1.2940]
-Initially set object screw_visual to [0.4508, 0.0421, 0.8574] [0.0001, -0.0009, -2.8661]
-Initially set object screw_driver to [0.4242, 0.1655, 0.8648] [3.0172, 1.5708, 0.1489]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0098
-Initially set object block to [0.3442, 0.1055, 0.8020] [0.0000, 0.0000, -1.9869]
-Initially set object screw_visual to [0.3138, 0.0369, 0.8574] [0.0001, -0.0009, 2.7242]
-Initially set object screw_driver to [0.3721, 0.1488, 0.8648] [-1.9461, 1.5708, 0.7980]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0099
-Initially set object block to [0.1448, -0.0325, 0.8020] [0.0000, 0.0000, -2.2405]
-Initially set object screw_visual to [0.0982, -0.0913, 0.8574] [0.0001, -0.0009, 2.4706]
-Initially set object screw_driver to [0.1827, 0.0024, 0.8648] [-1.5946, 1.5708, 0.9322]
+Skipping outputs/screw_nail/norobot_replay/demo_0096 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0097 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0098 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0099 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0099 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0099 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0102
-Initially set object block to [0.1487, -0.2496, 0.8020] [0.0000, 0.0000, -1.0209]
-Initially set object screw_visual to [0.1879, -0.3135, 0.8574] [0.0001, -0.0009, -2.5930]
-Initially set object screw_driver to [0.1290, -0.2019, 0.8648] [-1.3961, 1.5708, 2.3162]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0103
-Initially set object block to [0.1573, -0.0783, 0.8020] [0.0000, 0.0000, -2.1027]
-Initially set object screw_visual to [0.1193, -0.1429, 0.8574] [0.0001, -0.0009, 2.6084]
-Initially set object screw_driver to [0.1901, -0.0385, 0.8648] [-1.8713, 1.5708, 0.7378]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0104
-Initially set object block to [0.1492, 0.2163, 0.8020] [0.0000, 0.0000, -1.9389]
-Initially set object screw_visual to [0.1222, 0.1463, 0.8574] [0.0001, -0.0009, 2.7722]
-Initially set object screw_driver to [0.1751, 0.2609, 0.8648] [-1.8137, 1.5708, 0.9974]
+Skipping outputs/screw_nail/norobot_replay/demo_0102 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0103 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0104 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0104 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0106
-Initially set object block to [0.3749, 0.2329, 0.8020] [0.0000, 0.0000, -2.0666]
-Initially set object screw_visual to [0.3392, 0.1670, 0.8574] [0.0001, -0.0009, 2.6445]
-Initially set object screw_driver to [0.4062, 0.2739, 0.8648] [-1.9718, 1.5708, 0.6811]
+Skipping outputs/screw_nail/norobot_replay/demo_0106 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0106 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0108
-Initially set object block to [0.2609, 0.1277, 0.8020] [0.0000, 0.0000, -1.9662]
-Initially set object screw_visual to [0.2320, 0.0585, 0.8574] [0.0001, -0.0009, 2.7448]
-Initially set object screw_driver to [0.2880, 0.1716, 0.8648] [-2.0246, 1.5705, 0.6906]
+Skipping outputs/screw_nail/norobot_replay/demo_0108 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0108 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0110
-Initially set object block to [0.1895, 0.0530, 0.8020] [0.0000, 0.0000, -2.1411]
-Initially set object screw_visual to [0.1490, -0.0101, 0.8574] [0.0001, -0.0009, 2.5700]
-Initially set object screw_driver to [0.2238, 0.0916, 0.8648] [-1.7226, 1.5708, 0.8577]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0111
-Initially set object block to [0.3196, 0.2816, 0.8020] [0.0000, 0.0000, -1.1936]
-Initially set object screw_visual to [0.3472, 0.2119, 0.8574] [0.0001, -0.0009, -2.7657]
-Initially set object screw_driver to [0.3083, 0.3320, 0.8648] [2.3067, 1.5708, -0.7328]
+Skipping outputs/screw_nail/norobot_replay/demo_0110 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0111 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0111 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0113
-Initially set object block to [0.3497, 0.3007, 0.8020] [0.0000, 0.0000, -2.3399]
-Initially set object screw_visual to [0.2975, 0.2468, 0.8574] [0.0001, -0.0009, 2.3712]
-Initially set object screw_driver to [0.3909, 0.3317, 0.8648] [-1.8989, 1.5708, 0.4848]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0114
-Initially set object block to [0.2300, -0.0758, 0.8020] [0.0000, 0.0000, -2.8058]
-Initially set object screw_visual to [0.1592, -0.1005, 0.8574] [0.0001, -0.0009, 1.9053]
-Initially set object screw_driver to [0.2807, -0.0666, 0.8648] [1.3016, 1.5705, -3.0481]
+Skipping outputs/screw_nail/norobot_replay/demo_0113 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0114 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0114 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0116
-Initially set object block to [0.2444, 0.2163, 0.8020] [0.0000, 0.0000, -1.0751]
-Initially set object screw_visual to [0.2800, 0.1503, 0.8574] [0.0001, -0.0009, -2.6472]
-Initially set object screw_driver to [0.2272, 0.2650, 0.8648] [-2.4088, 1.5708, 1.4090]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0117
-Initially set object block to [0.1010, -0.1133, 0.8020] [0.0000, 0.0000, -2.7883]
-Initially set object screw_visual to [0.0306, -0.1392, 0.8574] [0.0001, -0.0009, 1.9228]
-Initially set object screw_driver to [0.1516, -0.1032, 0.8648] [1.2925, 1.5708, -3.0585]
+Skipping outputs/screw_nail/norobot_replay/demo_0116 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0117 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0117 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0119
-Initially set object block to [0.2659, 0.2709, 0.8020] [0.0000, 0.0000, -1.3878]
-Initially set object screw_visual to [0.2795, 0.1971, 0.8574] [0.0001, -0.0009, -2.9599]
-Initially set object screw_driver to [0.2645, 0.3224, 0.8648] [-1.9753, 1.5705, 1.3024]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0120
-Initially set object block to [0.2554, 0.1596, 0.8020] [0.0000, 0.0000, -2.9090]
-Initially set object screw_visual to [0.1824, 0.1424, 0.8574] [0.0001, -0.0009, 1.8021]
-Initially set object screw_driver to [0.3068, 0.1635, 0.8648] [-2.0065, 1.5708, -0.1912]
+Skipping outputs/screw_nail/norobot_replay/demo_0119 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0120 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0120 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0122
-Initially set object block to [0.4028, 0.2897, 0.8020] [0.0000, 0.0000, -2.0409]
-Initially set object screw_visual to [0.3688, 0.2228, 0.8574] [0.0001, -0.0009, 2.6701]
-Initially set object screw_driver to [0.4330, 0.3314, 0.8648] [-1.9484, 1.5708, 0.7632]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0123
-Initially set object block to [0.3040, -0.1131, 0.8020] [0.0000, 0.0000, -1.5253]
-Initially set object screw_visual to [0.3074, -0.1880, 0.8574] [0.0001, -0.0009, -3.0974]
-Initially set object screw_driver to [0.3097, -0.0618, 0.8648] [-1.9528, 1.5708, 1.2466]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0124
-Initially set object block to [0.3155, 0.1526, 0.8020] [0.0000, 0.0000, -1.7745]
-Initially set object screw_visual to [0.3003, 0.0792, 0.8574] [0.0001, -0.0009, 2.9366]
-Initially set object screw_driver to [0.3337, 0.2009, 0.8648] [-1.8375, 1.5708, 1.0841]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0125
-Initially set object block to [0.1553, 0.1766, 0.8020] [0.0000, 0.0000, -3.0124]
-Initially set object screw_visual to [0.0809, 0.1669, 0.8574] [0.0001, -0.0009, 1.6986]
-Initially set object screw_driver to [0.2068, 0.1751, 0.8648] [-1.9240, 1.5708, -0.2036]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0126
-Initially set object block to [0.1493, 0.1658, 0.8020] [0.0000, 0.0000, -2.5227]
-Initially set object screw_visual to [0.0882, 0.1223, 0.8574] [0.0001, -0.0009, 2.1884]
-Initially set object screw_driver to [0.1955, 0.1888, 0.8648] [-1.7394, 1.5705, 0.3883]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0127
-Initially set object block to [0.4065, -0.0134, 0.8020] [0.0000, 0.0000, -2.6805]
-Initially set object screw_visual to [0.3393, -0.0467, 0.8574] [0.0001, -0.0009, 2.0306]
-Initially set object screw_driver to [0.4557, 0.0021, 0.8648] [-2.7468, 1.5708, -0.7188]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0128
-Initially set object block to [0.3205, -0.1815, 0.8020] [0.0000, 0.0000, -2.5163]
-Initially set object screw_visual to [0.2597, -0.2254, 0.8574] [0.0001, -0.0009, 2.1948]
-Initially set object screw_driver to [0.3665, -0.1582, 0.8648] [-2.2455, 1.5708, -0.0333]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0129
-Initially set object block to [0.2524, -0.0582, 0.8020] [0.0000, 0.0000, -1.8304]
-Initially set object screw_visual to [0.2331, -0.1307, 0.8574] [0.0001, -0.0009, 2.8807]
-Initially set object screw_driver to [0.2733, -0.0110, 0.8648] [-1.9459, 1.5708, 0.9675]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0130
-Initially set object block to [0.1290, -0.1829, 0.8020] [0.0000, 0.0000, -2.9727]
-Initially set object screw_visual to [0.0550, -0.1955, 0.8574] [0.0001, -0.0009, 1.7384]
-Initially set object screw_driver to [0.1805, -0.1823, 0.8648] [-1.9240, 1.5708, -0.1724]
+Skipping outputs/screw_nail/norobot_replay/demo_0122 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0123 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0124 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0125 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0126 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0127 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0128 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0129 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0130 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0130 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0132
-Initially set object block to [0.3754, -0.2051, 0.8020] [0.0000, 0.0000, -2.8959]
-Initially set object screw_visual to [0.3026, -0.2233, 0.8574] [0.0001, -0.0009, 1.8152]
-Initially set object screw_driver to [0.4267, -0.2005, 0.8648] [-2.0164, 1.5703, -0.2086]
+Skipping outputs/screw_nail/norobot_replay/demo_0132 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0132 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0134
-Initially set object block to [0.1394, -0.0077, 0.8020] [0.0000, 0.0000, -2.4453]
-Initially set object screw_visual to [0.0818, -0.0558, 0.8574] [0.0001, -0.0009, 2.2658]
-Initially set object screw_driver to [0.1836, 0.0188, 0.8648] [-1.7048, 1.5708, 0.5539]
+Skipping outputs/screw_nail/norobot_replay/demo_0134 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0134 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0136
-Initially set object block to [0.2192, 0.2714, 0.8020] [0.0000, 0.0000, -2.4147]
-Initially set object screw_visual to [0.1631, 0.2216, 0.8574] [0.0001, -0.0009, 2.2964]
-Initially set object screw_driver to [0.2626, 0.2993, 0.8648] [-2.1648, 1.5708, 0.1839]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0137
-Initially set object block to [0.2067, -0.1487, 0.8020] [0.0000, 0.0000, -2.5254]
-Initially set object screw_visual to [0.1455, -0.1920, 0.8574] [0.0001, -0.0009, 2.1857]
-Initially set object screw_driver to [0.2529, -0.1258, 0.8648] [-2.0969, 1.5708, 0.1316]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0138
-Initially set object block to [0.2621, -0.2531, 0.8020] [0.0000, 0.0000, -2.1307]
-Initially set object screw_visual to [0.2223, -0.3166, 0.8574] [0.0001, -0.0009, 2.5804]
-Initially set object screw_driver to [0.2960, -0.2142, 0.8648] [-2.0925, 1.5708, 0.5015]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0139
-Initially set object block to [0.3120, -0.0387, 0.8020] [0.0000, 0.0000, -2.2915]
-Initially set object screw_visual to [0.2625, -0.0950, 0.8574] [0.0001, -0.0009, 2.4196]
-Initially set object screw_driver to [0.3517, -0.0057, 0.8648] [-2.0546, 1.5708, 0.3693]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0140
-Initially set object block to [0.3898, 0.2832, 0.8020] [0.0000, 0.0000, -2.1589]
-Initially set object screw_visual to [0.3481, 0.2208, 0.8574] [0.0001, -0.0009, 2.5521]
-Initially set object screw_driver to [0.4247, 0.3211, 0.8648] [-1.8748, 1.5708, 0.6794]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0141
-Initially set object block to [0.2412, -0.1295, 0.8020] [0.0000, 0.0000, -2.3044]
-Initially set object screw_visual to [0.1910, -0.1852, 0.8574] [0.0001, -0.0009, 2.4067]
-Initially set object screw_driver to [0.2813, -0.0970, 0.8648] [-1.7244, 1.5708, 0.6842]
+Skipping outputs/screw_nail/norobot_replay/demo_0136 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0137 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0138 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0139 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0140 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0141 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0141 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0143
-Initially set object block to [0.1321, -0.0655, 0.8020] [0.0000, 0.0000, -2.4305]
-Initially set object screw_visual to [0.0753, -0.1144, 0.8574] [0.0001, -0.0009, 2.2805]
-Initially set object screw_driver to [0.1759, -0.0383, 0.8648] [-1.9747, 1.5708, 0.3167]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0144
-Initially set object block to [0.2828, -0.3136, 0.8020] [0.0000, 0.0000, -1.2325]
-Initially set object screw_visual to [0.3077, -0.3844, 0.8574] [0.0001, -0.0009, -2.8046]
-Initially set object screw_driver to [0.2735, -0.2629, 0.8648] [-1.9890, 1.5708, 1.5708]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0145
-Initially set object block to [0.1860, 0.1847, 0.8020] [0.0000, 0.0000, -2.0713]
-Initially set object screw_visual to [0.1500, 0.1190, 0.8574] [0.0001, -0.0009, 2.6398]
-Initially set object screw_driver to [0.2175, 0.2256, 0.8648] [-2.1631, 1.5708, 0.5281]
+Skipping outputs/screw_nail/norobot_replay/demo_0143 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0144 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0145 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0145 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0147
-Initially set object block to [0.2224, -0.0113, 0.8020] [0.0000, 0.0000, -2.1315]
-Initially set object screw_visual to [0.1824, -0.0748, 0.8574] [0.0001, -0.0009, 2.5796]
-Initially set object screw_driver to [0.2563, 0.0275, 0.8648] [-1.9484, 1.5708, 0.6528]
+Skipping outputs/screw_nail/norobot_replay/demo_0147 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0147 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0147 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0150
-Initially set object block to [0.1716, 0.0093, 0.8020] [0.0000, 0.0000, -0.9149]
-Initially set object screw_visual to [0.2173, -0.0502, 0.8574] [0.0001, -0.0009, -2.4870]
-Initially set object screw_driver to [0.1469, 0.0546, 0.8648] [-1.8646, 1.5708, 1.9498]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0151
-Initially set object block to [0.2163, -0.1525, 0.8020] [0.0000, 0.0000, -1.5682]
-Initially set object screw_visual to [0.2165, -0.2275, 0.8574] [0.0001, -0.0009, -3.1403]
-Initially set object screw_driver to [0.2242, -0.1015, 0.8648] [-1.8685, 1.5708, 1.2890]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0152
-Initially set object block to [0.2175, -0.2331, 0.8020] [0.0000, 0.0000, -0.9943]
-Initially set object screw_visual to [0.2584, -0.2960, 0.8574] [0.0001, -0.0009, -2.5664]
-Initially set object screw_driver to [0.1965, -0.1860, 0.8648] [-1.3826, 1.5708, 2.6452]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0153
-Initially set object block to [0.1459, -0.2472, 0.8020] [0.0000, 0.0000, -1.7322]
-Initially set object screw_visual to [0.1338, -0.3212, 0.8574] [0.0001, -0.0009, 2.9789]
-Initially set object screw_driver to [0.1620, -0.1982, 0.8648] [-1.8472, 1.5708, 1.1331]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0154
-Initially set object block to [0.1759, 0.2304, 0.8020] [0.0000, 0.0000, -1.3137]
-Initially set object screw_visual to [0.1949, 0.1579, 0.8574] [0.0001, -0.0009, -2.8858]
-Initially set object screw_driver to [0.1707, 0.2817, 0.8648] [-2.0849, 1.5705, 1.3122]
+Skipping outputs/screw_nail/norobot_replay/demo_0150 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0151 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0152 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0153 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0154 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0154 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0156
-Initially set object block to [0.3458, -0.1122, 0.8020] [0.0000, 0.0000, -0.9138]
-Initially set object screw_visual to [0.3916, -0.1716, 0.8574] [0.0001, -0.0009, -2.4859]
-Initially set object screw_driver to [0.3211, -0.0669, 0.8648] [-1.8395, 1.5708, 1.9748]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0157
-Initially set object block to [0.2960, -0.1686, 0.8020] [0.0000, 0.0000, -1.6459]
-Initially set object screw_visual to [0.2903, -0.2433, 0.8574] [0.0001, -0.0009, 3.0652]
-Initially set object screw_driver to [0.3078, -0.1184, 0.8648] [-1.8492, 1.5708, 1.2196]
+Skipping outputs/screw_nail/norobot_replay/demo_0156 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0157 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0157 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0159
-Initially set object block to [0.2189, -0.2413, 0.8020] [0.0000, 0.0000, -2.0412]
-Initially set object screw_visual to [0.1849, -0.3082, 0.8574] [0.0001, -0.0009, 2.6699]
-Initially set object screw_driver to [0.2492, -0.1996, 0.8648] [-2.0417, 1.5708, 0.6354]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0160
-Initially set object block to [0.4405, -0.0746, 0.8020] [0.0000, 0.0000, -1.4546]
-Initially set object screw_visual to [0.4492, -0.1491, 0.8574] [0.0001, -0.0009, -3.0267]
-Initially set object screw_driver to [0.4426, -0.0230, 0.8648] [-2.0041, 1.5708, 1.3171]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0161
-Initially set object block to [0.2056, 0.2223, 0.8020] [0.0000, 0.0000, -0.8721]
-Initially set object screw_visual to [0.2538, 0.1649, 0.8574] [0.0001, -0.0009, -2.4442]
-Initially set object screw_driver to [0.1789, 0.2665, 0.8648] [-0.5764, 1.5708, -2.9997]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0162
-Initially set object block to [0.4386, -0.2141, 0.8020] [0.0000, 0.0000, -2.8797]
-Initially set object screw_visual to [0.3662, -0.2335, 0.8574] [0.0001, -0.0009, 1.8314]
-Initially set object screw_driver to [0.4899, -0.2087, 0.8648] [-1.9823, 1.5708, -0.0713]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0163
-Initially set object block to [0.3052, 0.1166, 0.8020] [0.0000, 0.0000, -1.9616]
-Initially set object screw_visual to [0.2766, 0.0472, 0.8574] [0.0001, -0.0009, 2.7495]
-Initially set object screw_driver to [0.3320, 0.1606, 0.8648] [-1.6811, 1.5708, 1.0687]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0164
-Initially set object block to [0.3687, 0.1505, 0.8020] [0.0000, 0.0000, -2.6887]
-Initially set object screw_visual to [0.3012, 0.1177, 0.8574] [0.0001, -0.0009, 2.0224]
-Initially set object screw_driver to [0.4180, 0.1655, 0.8648] [-1.3016, 1.5708, 1.1384]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0165
-Initially set object block to [0.1168, -0.0652, 0.8020] [0.0000, 0.0000, -2.6233]
-Initially set object screw_visual to [0.0516, -0.1023, 0.8574] [0.0001, -0.0009, 2.0878]
-Initially set object screw_driver to [0.1650, -0.0469, 0.8648] [-1.4237, 1.5708, 0.7045]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0166
-Initially set object block to [0.2297, 0.2730, 0.8020] [0.0000, 0.0000, -2.4167]
-Initially set object screw_visual to [0.1735, 0.2233, 0.8574] [0.0001, -0.0009, 2.2944]
-Initially set object screw_driver to [0.2732, 0.3007, 0.8648] [-2.0242, 1.5708, 0.2853]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0167
-Initially set object block to [0.2703, 0.2106, 0.8020] [0.0000, 0.0000, -2.3306]
-Initially set object screw_visual to [0.2186, 0.1562, 0.8574] [0.0001, -0.0009, 2.3805]
-Initially set object screw_driver to [0.3112, 0.2420, 0.8648] [-2.0832, 1.5708, 0.3101]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0168
-Initially set object block to [0.4370, 0.1149, 0.8020] [0.0000, 0.0000, -1.4275]
-Initially set object screw_visual to [0.4477, 0.0407, 0.8574] [0.0001, -0.0009, -2.9996]
-Initially set object screw_driver to [0.4377, 0.1665, 0.8648] [-1.9960, 1.5703, 1.2490]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0169
-Initially set object block to [0.1557, -0.1706, 0.8020] [0.0000, 0.0000, -2.0249]
-Initially set object screw_visual to [0.1228, -0.2380, 0.8574] [0.0001, -0.0009, 2.6862]
-Initially set object screw_driver to [0.1853, -0.1284, 0.8648] [-1.7234, 1.5708, 0.9775]
+Skipping outputs/screw_nail/norobot_replay/demo_0159 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0160 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0161 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0162 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0163 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0164 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0165 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0166 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0167 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0168 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0169 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0169 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0169 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0169 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0169 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0169 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0175
-Initially set object block to [0.2935, 0.0414, 0.8020] [0.0000, 0.0000, -1.9905]
-Initially set object screw_visual to [0.2629, -0.0271, 0.8574] [0.0001, -0.0009, 2.7205]
-Initially set object screw_driver to [0.3216, 0.0847, 0.8648] [-1.7515, 1.5708, 0.9803]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0176
-Initially set object block to [0.2475, 0.2226, 0.8020] [0.0000, 0.0000, -0.7121]
-Initially set object screw_visual to [0.3043, 0.1736, 0.8574] [0.0001, -0.0009, -2.2843]
-Initially set object screw_driver to [0.2142, 0.2620, 0.8648] [-1.8342, 1.5708, 2.1688]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0177
-Initially set object block to [0.3875, 0.2867, 0.8020] [0.0000, 0.0000, -1.7362]
-Initially set object screw_visual to [0.3752, 0.2128, 0.8574] [0.0001, -0.0009, 2.9749]
-Initially set object screw_driver to [0.4039, 0.3357, 0.8648] [-1.7480, 1.5708, 1.2264]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0178
-Initially set object block to [0.2211, 0.0934, 0.8020] [0.0000, 0.0000, -1.5131]
-Initially set object screw_visual to [0.2254, 0.0185, 0.8574] [0.0001, -0.0009, -3.0852]
-Initially set object screw_driver to [0.2262, 0.1447, 0.8648] [-1.9091, 1.5708, 1.3261]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0179
-Initially set object block to [0.4099, 0.0120, 0.8020] [0.0000, 0.0000, -1.8255]
-Initially set object screw_visual to [0.3910, -0.0606, 0.8574] [0.0001, -0.0009, 2.8856]
-Initially set object screw_driver to [0.4306, 0.0592, 0.8648] [-1.8723, 1.5708, 1.0687]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0180
-Initially set object block to [0.4390, -0.1041, 0.8020] [0.0000, 0.0000, -2.8552]
-Initially set object screw_visual to [0.3670, -0.1252, 0.8574] [0.0001, -0.0009, 1.8559]
-Initially set object screw_driver to [0.4901, -0.0974, 0.8648] [-2.0738, 1.5708, -0.2131]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0181
-Initially set object block to [0.3412, -0.1841, 0.8020] [0.0000, 0.0000, -2.3748]
-Initially set object screw_visual to [0.2872, -0.2361, 0.8574] [0.0001, -0.0009, 2.3363]
-Initially set object screw_driver to [0.3835, -0.1546, 0.8648] [-1.9621, 1.5708, 0.3883]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0182
-Initially set object block to [0.2233, 0.0101, 0.8020] [0.0000, 0.0000, -1.8077]
-Initially set object screw_visual to [0.2057, -0.0628, 0.8574] [0.0001, -0.0009, 2.9034]
-Initially set object screw_driver to [0.2431, 0.0577, 0.8648] [-1.9492, 1.5708, 0.9904]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0183
-Initially set object block to [0.2282, -0.1403, 0.8020] [0.0000, 0.0000, -2.4043]
-Initially set object screw_visual to [0.1727, -0.1907, 0.8574] [0.0001, -0.0009, 2.3068]
-Initially set object screw_driver to [0.2714, -0.1120, 0.8648] [-1.9731, 1.5708, 0.3730]
+Skipping outputs/screw_nail/norobot_replay/demo_0175 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0176 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0177 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0178 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0179 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0180 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0181 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0182 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0183 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0183 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0185
-Initially set object block to [0.4018, 0.2940, 0.8020] [0.0000, 0.0000, -2.1226]
-Initially set object screw_visual to [0.3625, 0.2301, 0.8574] [0.0001, -0.0009, 2.5885]
-Initially set object screw_driver to [0.4354, 0.3331, 0.8648] [-1.6275, 1.5708, 1.0427]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0186
-Initially set object block to [0.2327, -0.1004, 0.8020] [0.0000, 0.0000, -2.4117]
-Initially set object screw_visual to [0.1768, -0.1504, 0.8574] [0.0001, -0.0009, 2.2994]
-Initially set object screw_driver to [0.2760, -0.0725, 0.8648] [-1.9049, 1.5708, 0.3904]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0187
-Initially set object block to [0.1631, -0.0488, 0.8020] [0.0000, 0.0000, -0.7004]
-Initially set object screw_visual to [0.2204, -0.0971, 0.8574] [0.0001, -0.0009, -2.2725]
-Initially set object screw_driver to [0.1293, -0.0098, 0.8648] [-1.8683, 1.5708, 2.1495]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0188
-Initially set object block to [0.2514, 0.2836, 0.8020] [0.0000, 0.0000, -2.0047]
-Initially set object screw_visual to [0.2199, 0.2155, 0.8574] [0.0001, -0.0009, 2.7063]
-Initially set object screw_driver to [0.2801, 0.3264, 0.8648] [-1.8952, 1.5708, 0.8280]
+Skipping outputs/screw_nail/norobot_replay/demo_0185 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0186 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0187 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0188 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0188 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0190
-Initially set object block to [0.1524, -0.1381, 0.8020] [0.0000, 0.0000, -3.0010]
-Initially set object screw_visual to [0.0782, -0.1486, 0.8574] [0.0001, -0.0009, 1.7100]
-Initially set object screw_driver to [0.2040, -0.1389, 0.8648] [-1.9020, 1.5708, -0.1864]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0191
-Initially set object block to [0.1312, 0.2140, 0.8020] [0.0000, 0.0000, -1.6877]
-Initially set object screw_visual to [0.1224, 0.1395, 0.8574] [0.0001, -0.0009, 3.0234]
-Initially set object screw_driver to [0.1451, 0.2636, 0.8648] [-1.9523, 1.5708, 1.1520]
+Skipping outputs/screw_nail/norobot_replay/demo_0190 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0191 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0191 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0191 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0194
-Initially set object block to [0.3345, -0.0027, 0.8020] [0.0000, 0.0000, -1.9557]
-Initially set object screw_visual to [0.3063, -0.0723, 0.8574] [0.0001, -0.0009, 2.7554]
-Initially set object screw_driver to [0.3611, 0.0414, 0.8648] [-1.9442, 1.5708, 0.8545]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0195
-Initially set object block to [0.1792, -0.0772, 0.8020] [0.0000, 0.0000, -2.3236]
-Initially set object screw_visual to [0.1279, -0.1319, 0.8574] [0.0001, -0.0009, 2.3875]
-Initially set object screw_driver to [0.2199, -0.0455, 0.8648] [-2.0395, 1.5708, 0.3805]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0196
-Initially set object block to [0.2037, 0.1901, 0.8020] [0.0000, 0.0000, -1.0380]
-Initially set object screw_visual to [0.2418, 0.1255, 0.8574] [0.0001, -0.0009, -2.6101]
-Initially set object screw_driver to [0.1847, 0.2381, 0.8648] [-1.4289, 1.5708, 2.3239]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0197
-Initially set object block to [0.2153, -0.1518, 0.8020] [0.0000, 0.0000, -1.5686]
-Initially set object screw_visual to [0.2154, -0.2268, 0.8574] [0.0001, -0.0009, -3.1407]
-Initially set object screw_driver to [0.2232, -0.1008, 0.8648] [-1.8555, 1.5708, 1.3471]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0198
-Initially set object block to [0.1332, 0.0972, 0.8020] [0.0000, 0.0000, -2.9697]
-Initially set object screw_visual to [0.0593, 0.0844, 0.8574] [0.0001, -0.0009, 1.7414]
-Initially set object screw_driver to [0.1847, 0.0980, 0.8648] [-2.0222, 1.5708, -0.2355]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0199
-Initially set object block to [0.1829, 0.3253, 0.8020] [0.0000, 0.0000, -1.5132]
-Initially set object screw_visual to [0.1872, 0.2504, 0.8574] [0.0001, -0.0009, -3.0853]
-Initially set object screw_driver to [0.1880, 0.3766, 0.8648] [-1.8872, 1.5708, 1.3374]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0200
-Initially set object block to [0.1597, 0.2234, 0.8020] [0.0000, 0.0000, -1.5498]
-Initially set object screw_visual to [0.1613, 0.1484, 0.8574] [0.0001, -0.0009, -3.1219]
-Initially set object screw_driver to [0.1667, 0.2745, 0.8648] [-1.8587, 1.5708, 1.3205]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0201
-Initially set object block to [0.1007, -0.0067, 0.8020] [0.0000, 0.0000, -2.9145]
-Initially set object screw_visual to [0.0276, -0.0236, 0.8574] [0.0001, -0.0009, 1.7966]
-Initially set object screw_driver to [0.1521, -0.0031, 0.8648] [-1.3909, 1.5708, 0.5880]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0202
-Initially set object block to [0.2257, 0.1651, 0.8020] [0.0000, 0.0000, -2.6261]
-Initially set object screw_visual to [0.1605, 0.1282, 0.8574] [0.0001, -0.0009, 2.0850]
-Initially set object screw_driver to [0.2740, 0.1833, 0.8648] [-1.2793, 1.5708, 0.8199]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0203
-Initially set object block to [0.1697, 0.0227, 0.8020] [0.0000, 0.0000, -1.8505]
-Initially set object screw_visual to [0.1490, -0.0494, 0.8574] [0.0001, -0.0009, 2.8606]
-Initially set object screw_driver to [0.1915, 0.0695, 0.8648] [-1.9561, 1.5708, 0.9394]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0204
-Initially set object block to [0.2211, -0.2229, 0.8020] [0.0000, 0.0000, -1.7288]
-Initially set object screw_visual to [0.2092, -0.2970, 0.8574] [0.0001, -0.0009, 2.9823]
-Initially set object screw_driver to [0.2370, -0.1739, 0.8648] [-1.8881, 1.5708, 1.1056]
+Skipping outputs/screw_nail/norobot_replay/demo_0194 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0195 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0196 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0197 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0198 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0199 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0200 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0201 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0202 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0203 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0204 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0204 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0204 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0207
-Initially set object block to [0.2390, -0.1951, 0.8020] [0.0000, 0.0000, -2.6431]
-Initially set object screw_visual to [0.1731, -0.2309, 0.8574] [0.0001, -0.0009, 2.0680]
-Initially set object screw_driver to [0.2876, -0.1778, 0.8648] [1.5410, 1.5708, -2.7557]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0208
-Initially set object block to [0.3107, -0.1076, 0.8020] [0.0000, 0.0000, -1.9169]
-Initially set object screw_visual to [0.2852, -0.1781, 0.8574] [0.0001, -0.0009, 2.7942]
-Initially set object screw_driver to [0.3355, -0.0624, 0.8648] [-1.8614, 1.5708, 0.9579]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0209
-Initially set object block to [0.4110, 0.1157, 0.8020] [0.0000, 0.0000, -2.3265]
-Initially set object screw_visual to [0.3595, 0.0611, 0.8574] [0.0001, -0.0009, 2.3846]
-Initially set object screw_driver to [0.4518, 0.1473, 0.8648] [-1.7997, 1.5708, 0.6396]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0210
-Initially set object block to [0.2189, -0.1286, 0.8020] [0.0000, 0.0000, -2.4484]
-Initially set object screw_visual to [0.1612, -0.1765, 0.8574] [0.0001, -0.0009, 2.2627]
-Initially set object screw_driver to [0.2632, -0.1023, 0.8648] [-2.2050, 1.5708, 0.0997]
+Skipping outputs/screw_nail/norobot_replay/demo_0207 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0208 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0209 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0210 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0210 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0212
-Initially set object block to [0.3303, 0.2353, 0.8020] [0.0000, 0.0000, -0.9629]
-Initially set object screw_visual to [0.3731, 0.1737, 0.8574] [0.0001, -0.0009, -2.5350]
-Initially set object screw_driver to [0.3078, 0.2817, 0.8648] [-2.7004, 1.5708, 1.0839]
+Skipping outputs/screw_nail/norobot_replay/demo_0212 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0212 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0214
-Initially set object block to [0.4300, -0.0109, 0.8020] [0.0000, 0.0000, -1.2938]
-Initially set object screw_visual to [0.4505, -0.0830, 0.8574] [0.0001, -0.0009, -2.8659]
-Initially set object screw_driver to [0.4238, 0.0403, 0.8648] [-1.3826, 1.5708, 2.2883]
+Skipping outputs/screw_nail/norobot_replay/demo_0214 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0214 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0214 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0217
-Initially set object block to [0.2515, -0.0002, 0.8020] [0.0000, 0.0000, -2.7491]
-Initially set object screw_visual to [0.1822, -0.0289, 0.8574] [0.0001, -0.0009, 1.9620]
-Initially set object screw_driver to [0.3017, 0.0118, 0.8648] [2.3915, 1.5708, -1.9960]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0218
-Initially set object block to [0.4102, 0.0089, 0.8020] [0.0000, 0.0000, -2.8488]
-Initially set object screw_visual to [0.3384, -0.0128, 0.8574] [0.0001, -0.0009, 1.8622]
-Initially set object screw_driver to [0.4613, 0.0159, 0.8648] [-1.6952, 1.5708, 0.3110]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0219
-Initially set object block to [0.3041, -0.0551, 0.8020] [0.0000, 0.0000, -2.5178]
-Initially set object screw_visual to [0.2432, -0.0989, 0.8574] [0.0001, -0.0009, 2.1933]
-Initially set object screw_driver to [0.3501, -0.0319, 0.8648] [-2.1529, 1.5705, 0.0416]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0220
-Initially set object block to [0.3875, -0.1574, 0.8020] [0.0000, 0.0000, -2.4433]
-Initially set object screw_visual to [0.3300, -0.2056, 0.8574] [0.0001, -0.0009, 2.2678]
-Initially set object screw_driver to [0.4317, -0.1308, 0.8648] [-2.0303, 1.5708, 0.2473]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0221
-Initially set object block to [0.3553, -0.0622, 0.8020] [0.0000, 0.0000, -2.4792]
-Initially set object screw_visual to [0.2962, -0.1083, 0.8574] [0.0001, -0.0009, 2.2319]
-Initially set object screw_driver to [0.4004, -0.0372, 0.8648] [-1.3633, 1.5708, 1.0714]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0222
-Initially set object block to [0.3928, -0.0612, 0.8020] [0.0000, 0.0000, -2.0182]
-Initially set object screw_visual to [0.3604, -0.1288, 0.8574] [0.0001, -0.0009, 2.6929]
-Initially set object screw_driver to [0.4221, -0.0187, 0.8648] [-2.2219, 1.5708, 0.4782]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0223
-Initially set object block to [0.1924, 0.1436, 0.8020] [0.0000, 0.0000, -2.8139]
-Initially set object screw_visual to [0.1213, 0.1195, 0.8574] [0.0001, -0.0009, 1.8971]
-Initially set object screw_driver to [0.2432, 0.1524, 0.8648] [1.7506, 1.5708, -2.8966]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0224
-Initially set object block to [0.2676, -0.1421, 0.8020] [0.0000, 0.0000, -1.7174]
-Initially set object screw_visual to [0.2566, -0.2163, 0.8574] [0.0001, -0.0009, 2.9937]
-Initially set object screw_driver to [0.2830, -0.0928, 0.8648] [-1.9100, 1.5708, 1.0946]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0225
-Initially set object block to [0.3014, -0.2204, 0.8020] [0.0000, 0.0000, -1.9077]
-Initially set object screw_visual to [0.2765, -0.2912, 0.8574] [0.0001, -0.0009, 2.8033]
-Initially set object screw_driver to [0.3258, -0.1750, 0.8648] [-1.8302, 1.5708, 1.0752]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0226
-Initially set object block to [0.3337, -0.0310, 0.8020] [0.0000, 0.0000, -2.2571]
-Initially set object screw_visual to [0.2862, -0.0890, 0.8574] [0.0001, -0.0009, 2.4539]
-Initially set object screw_driver to [0.3722, 0.0033, 0.8648] [-1.8715, 1.5708, 0.5829]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0227
-Initially set object block to [0.2230, 0.0076, 0.8020] [0.0000, 0.0000, -2.8021]
-Initially set object screw_visual to [0.1522, -0.0174, 0.8574] [0.0001, -0.0009, 1.9089]
-Initially set object screw_driver to [0.2737, 0.0170, 0.8648] [1.2220, 1.5708, 3.1416]
+Skipping outputs/screw_nail/norobot_replay/demo_0217 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0218 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0219 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0220 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0221 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0222 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0223 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0224 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0225 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0226 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0227 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0227 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0229
-Initially set object block to [0.3717, 0.1045, 0.8020] [0.0000, 0.0000, -1.8822]
-Initially set object screw_visual to [0.3487, 0.0331, 0.8574] [0.0001, -0.0009, 2.8289]
-Initially set object screw_driver to [0.3949, 0.1505, 0.8648] [-1.8208, 1.5708, 1.0115]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0230
-Initially set object block to [0.2779, -0.0276, 0.8020] [0.0000, 0.0000, -1.9826]
-Initially set object screw_visual to [0.2479, -0.0964, 0.8574] [0.0001, -0.0009, 2.7285]
-Initially set object screw_driver to [0.3057, 0.0158, 0.8648] [-1.8110, 1.5705, 0.9063]
+Skipping outputs/screw_nail/norobot_replay/demo_0229 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0230 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0230 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0232
-Initially set object block to [0.3567, -0.0227, 0.8020] [0.0000, 0.0000, -1.0675]
-Initially set object screw_visual to [0.3929, -0.0885, 0.8574] [0.0001, -0.0009, -2.6396]
-Initially set object screw_driver to [0.3392, 0.0258, 0.8648] [-1.4502, 1.5708, 2.1058]
+Skipping outputs/screw_nail/norobot_replay/demo_0232 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0232 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0234
-Initially set object block to [0.2195, 0.2636, 0.8020] [0.0000, 0.0000, -1.6486]
-Initially set object screw_visual to [0.2136, 0.1888, 0.8574] [0.0001, -0.0009, 3.0625]
-Initially set object screw_driver to [0.2314, 0.3138, 0.8648] [-2.1739, 1.5708, 0.9605]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0235
-Initially set object block to [0.3707, 0.1340, 0.8020] [0.0000, 0.0000, -2.1246]
-Initially set object screw_visual to [0.3312, 0.0703, 0.8574] [0.0001, -0.0009, 2.5864]
-Initially set object screw_driver to [0.4043, 0.1731, 0.8648] [-1.8529, 1.5708, 0.7557]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0236
-Initially set object block to [0.1753, 0.0483, 0.8020] [0.0000, 0.0000, -1.1848]
-Initially set object screw_visual to [0.2036, -0.0212, 0.8574] [0.0001, -0.0009, -2.7569]
-Initially set object screw_driver to [0.1636, 0.0985, 0.8648] [2.4228, 1.5708, -0.6435]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0237
-Initially set object block to [0.3434, 0.0957, 0.8020] [0.0000, 0.0000, -1.9186]
-Initially set object screw_visual to [0.3178, 0.0252, 0.8574] [0.0001, -0.0009, 2.7925]
-Initially set object screw_driver to [0.3683, 0.1409, 0.8648] [-1.8975, 1.5708, 0.9059]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0238
-Initially set object block to [0.1702, 0.0846, 0.8020] [0.0000, 0.0000, -2.4506]
-Initially set object screw_visual to [0.1124, 0.0369, 0.8574] [0.0001, -0.0009, 2.2605]
-Initially set object screw_driver to [0.2146, 0.1109, 0.8648] [-2.1827, 1.5708, 0.1442]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0239
-Initially set object block to [0.3046, -0.1178, 0.8020] [0.0000, 0.0000, -1.0143]
-Initially set object screw_visual to [0.3442, -0.1816, 0.8574] [0.0001, -0.0009, -2.5865]
-Initially set object screw_driver to [0.2845, -0.0703, 0.8648] [3.0585, 1.5708, 0.6435]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0240
-Initially set object block to [0.2812, -0.0426, 0.8020] [0.0000, 0.0000, -1.3826]
-Initially set object screw_visual to [0.2952, -0.1163, 0.8574] [0.0001, -0.0009, -2.9547]
-Initially set object screw_driver to [0.2796, 0.0089, 0.8648] [-1.9986, 1.5708, 1.3511]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0241
-Initially set object block to [0.3541, 0.2828, 0.8020] [0.0000, 0.0000, -1.9094]
-Initially set object screw_visual to [0.3292, 0.2121, 0.8574] [0.0001, -0.0009, 2.8017]
-Initially set object screw_driver to [0.3786, 0.3282, 0.8648] [-1.6588, 1.5708, 1.1930]
+Skipping outputs/screw_nail/norobot_replay/demo_0234 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0235 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0236 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0237 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0238 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0239 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0240 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0241 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0241 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0243
-Initially set object block to [0.1657, 0.0428, 0.8020] [0.0000, 0.0000, -1.8581]
-Initially set object screw_visual to [0.1444, -0.0291, 0.8574] [0.0001, -0.0009, 2.8530]
-Initially set object screw_driver to [0.1878, 0.0894, 0.8648] [-1.8731, 1.5708, 0.9942]
+Skipping outputs/screw_nail/norobot_replay/demo_0243 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0243 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0245
-Initially set object block to [0.1503, 0.2039, 0.8020] [0.0000, 0.0000, -2.8997]
-Initially set object screw_visual to [0.0775, 0.1860, 0.8574] [0.0001, -0.0009, 1.8114]
-Initially set object screw_driver to [0.2017, 0.2083, 0.8648] [-2.0106, 1.5705, -0.1912]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0246
-Initially set object block to [0.3114, 0.0791, 0.8020] [0.0000, 0.0000, -1.6423]
-Initially set object screw_visual to [0.3060, 0.0043, 0.8574] [0.0001, -0.0009, 3.0688]
-Initially set object screw_driver to [0.3230, 0.1293, 0.8648] [-2.1626, 1.5708, 0.9834]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0247
-Initially set object block to [0.2073, 0.1849, 0.8020] [0.0000, 0.0000, -0.9127]
-Initially set object screw_visual to [0.2531, 0.1255, 0.8574] [0.0001, -0.0009, -2.4848]
-Initially set object screw_driver to [0.1825, 0.2301, 0.8648] [2.9968, 1.5708, 0.5028]
+Skipping outputs/screw_nail/norobot_replay/demo_0245 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0246 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0247 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0247 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0249
-Initially set object block to [0.3859, 0.2346, 0.8020] [0.0000, 0.0000, -1.2632]
-Initially set object screw_visual to [0.4085, 0.1631, 0.8574] [0.0001, -0.0009, -2.8353]
-Initially set object screw_driver to [0.3781, 0.2856, 0.8648] [-1.7837, 1.5708, 1.9996]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0250
-Initially set object block to [0.3089, -0.1645, 0.8020] [0.0000, 0.0000, -2.1609]
-Initially set object screw_visual to [0.2671, -0.2268, 0.8574] [0.0001, -0.0009, 2.5502]
-Initially set object screw_driver to [0.3439, -0.1267, 0.8648] [-2.1365, 1.5708, 0.4155]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0251
-Initially set object block to [0.2671, -0.1470, 0.8020] [0.0000, 0.0000, -1.8948]
-Initially set object screw_visual to [0.2432, -0.2181, 0.8574] [0.0001, -0.0009, 2.8163]
-Initially set object screw_driver to [0.2910, -0.1012, 0.8648] [-1.8996, 1.5708, 0.9983]
+Skipping outputs/screw_nail/norobot_replay/demo_0249 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0250 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0251 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0251 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0253
-Initially set object block to [0.3036, -0.1501, 0.8020] [0.0000, 0.0000, -0.9428]
-Initially set object screw_visual to [0.3476, -0.2108, 0.8574] [0.0001, -0.0009, -2.5149]
-Initially set object screw_driver to [0.2802, -0.1041, 0.8648] [1.2987, 1.5708, -1.2987]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0254
-Initially set object block to [0.2624, 0.0358, 0.8020] [0.0000, 0.0000, -1.7834]
-Initially set object screw_visual to [0.2465, -0.0375, 0.8574] [0.0001, -0.0009, 2.9276]
-Initially set object screw_driver to [0.2810, 0.0839, 0.8648] [-1.9964, 1.5708, 0.9466]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0255
-Initially set object block to [0.0774, -0.0073, 0.8020] [0.0000, 0.0000, -2.9297]
-Initially set object screw_visual to [0.0041, -0.0230, 0.8574] [0.0001, -0.0009, 1.7814]
-Initially set object screw_driver to [0.1289, -0.0044, 0.8648] [-2.1034, 1.5708, -0.2823]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0256
-Initially set object block to [0.3704, 0.2678, 0.8020] [0.0000, 0.0000, -1.8921]
-Initially set object screw_visual to [0.3467, 0.1966, 0.8574] [0.0001, -0.0009, 2.8190]
-Initially set object screw_driver to [0.3941, 0.3136, 0.8648] [-1.8761, 1.5708, 0.9697]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0257
-Initially set object block to [0.3021, 0.1862, 0.8020] [0.0000, 0.0000, -1.2794]
-Initially set object screw_visual to [0.3236, 0.1143, 0.8574] [0.0001, -0.0009, -2.8515]
-Initially set object screw_driver to [0.2952, 0.2373, 0.8648] [-2.0608, 1.5708, 1.5221]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0258
-Initially set object block to [0.3625, -0.2543, 0.8020] [0.0000, 0.0000, -3.1118]
-Initially set object screw_visual to [0.2875, -0.2565, 0.8574] [0.0001, -0.0009, 1.5993]
-Initially set object screw_driver to [0.4136, -0.2608, 0.8648] [-1.8650, 1.5708, -0.2637]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0259
-Initially set object block to [0.2264, -0.0949, 0.8020] [0.0000, 0.0000, -1.9861]
-Initially set object screw_visual to [0.1961, -0.1636, 0.8574] [0.0001, -0.0009, 2.7250]
-Initially set object screw_driver to [0.2543, -0.0516, 0.8648] [-1.8879, 1.5708, 0.8474]
+Skipping outputs/screw_nail/norobot_replay/demo_0253 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0254 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0255 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0256 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0257 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0258 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0259 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0259 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0261
-Initially set object block to [0.4049, 0.0962, 0.8020] [0.0000, 0.0000, -1.7870]
-Initially set object screw_visual to [0.3887, 0.0229, 0.8574] [0.0001, -0.0009, 2.9240]
-Initially set object screw_driver to [0.4237, 0.1442, 0.8648] [-1.8033, 1.5708, 1.1433]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0262
-Initially set object block to [0.3363, 0.0179, 0.8020] [0.0000, 0.0000, -2.1276]
-Initially set object screw_visual to [0.2967, -0.0458, 0.8574] [0.0001, -0.0009, 2.5834]
-Initially set object screw_driver to [0.3701, 0.0569, 0.8648] [-1.9348, 1.5708, 0.6660]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0263
-Initially set object block to [0.2162, 0.0752, 0.8020] [0.0000, 0.0000, -1.3751]
-Initially set object screw_visual to [0.2307, 0.0017, 0.8574] [0.0001, -0.0009, -2.9472]
-Initially set object screw_driver to [0.2142, 0.1268, 0.8648] [-2.1515, 1.5708, 1.2387]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0264
-Initially set object block to [0.4326, -0.0243, 0.8020] [0.0000, 0.0000, -2.8413]
-Initially set object screw_visual to [0.3610, -0.0465, 0.8574] [0.0001, -0.0009, 1.8698]
-Initially set object screw_driver to [0.4837, -0.0169, 0.8648] [-2.5143, 1.5708, -0.6340]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0265
-Initially set object block to [0.4083, -0.2213, 0.8020] [0.0000, 0.0000, -2.5918]
-Initially set object screw_visual to [0.3444, -0.2605, 0.8574] [0.0001, -0.0009, 2.1193]
-Initially set object screw_driver to [0.4560, -0.2016, 0.8648] [-2.0106, 1.5708, 0.1144]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0266
-Initially set object block to [0.2236, -0.0822, 0.8020] [0.0000, 0.0000, -2.2965]
-Initially set object screw_visual to [0.1738, -0.1382, 0.8574] [0.0001, -0.0009, 2.4146]
-Initially set object screw_driver to [0.2635, -0.0494, 0.8648] [-1.7379, 1.5708, 0.7009]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0267
-Initially set object block to [0.1613, 0.1988, 0.8020] [0.0000, 0.0000, -0.9176]
-Initially set object screw_visual to [0.2068, 0.1392, 0.8574] [0.0001, -0.0009, -2.4897]
-Initially set object screw_driver to [0.1367, 0.2441, 0.8648] [-1.2766, 1.5708, 2.6058]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0268
-Initially set object block to [0.3210, 0.0561, 0.8020] [0.0000, 0.0000, -2.3132]
-Initially set object screw_visual to [0.2703, 0.0009, 0.8574] [0.0001, -0.0009, 2.3979]
-Initially set object screw_driver to [0.3614, 0.0882, 0.8648] [1.3521, 1.5708, -2.8966]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0269
-Initially set object block to [0.4044, 0.0768, 0.8020] [0.0000, 0.0000, -1.6609]
-Initially set object screw_visual to [0.3977, 0.0021, 0.8574] [0.0001, -0.0009, 3.0502]
-Initially set object screw_driver to [0.4170, 0.1268, 0.8648] [-1.7966, 1.5708, 1.2689]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0270
-Initially set object block to [0.1687, 0.1558, 0.8020] [0.0000, 0.0000, -1.1732]
-Initially set object screw_visual to [0.1977, 0.0866, 0.8574] [0.0001, -0.0009, -2.7453]
-Initially set object screw_driver to [0.1564, 0.2059, 0.8648] [1.3156, 1.5708, -1.4877]
+Skipping outputs/screw_nail/norobot_replay/demo_0261 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0262 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0263 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0264 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0265 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0266 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0267 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0268 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0269 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0270 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0270 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0270 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0270 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0274
-Initially set object block to [0.2793, -0.0251, 0.8020] [0.0000, 0.0000, -2.3162]
-Initially set object screw_visual to [0.2284, -0.0801, 0.8574] [0.0001, -0.0009, 2.3949]
-Initially set object screw_driver to [0.3198, 0.0069, 0.8648] [-2.0115, 1.5708, 0.3869]
+Skipping outputs/screw_nail/norobot_replay/demo_0274 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0274 as inconsistent episode length
 Skipping outputs/screw_nail/norobot_replay/demo_0274 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0277
-Initially set object block to [0.1002, 0.1476, 0.8020] [0.0000, 0.0000, -3.1025]
-Initially set object screw_visual to [0.0253, 0.1447, 0.8574] [0.0001, -0.0009, 1.6086]
-Initially set object screw_driver to [0.1514, 0.1415, 0.8648] [-1.8326, 1.5708, -0.2316]
+Skipping outputs/screw_nail/norobot_replay/demo_0277 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0277 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0279
-Initially set object block to [0.2301, -0.0641, 0.8020] [0.0000, 0.0000, -2.2658]
-Initially set object screw_visual to [0.1820, -0.1217, 0.8574] [0.0001, -0.0009, 2.4453]
-Initially set object screw_driver to [0.2689, -0.0302, 0.8648] [-1.9909, 1.5708, 0.4720]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0280
-Initially set object block to [0.3741, 0.1825, 0.8020] [0.0000, 0.0000, -2.1547]
-Initially set object screw_visual to [0.3327, 0.1199, 0.8574] [0.0001, -0.0009, 2.5564]
-Initially set object screw_driver to [0.4089, 0.2206, 0.8648] [-2.2143, 1.5708, 0.4155]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0281
-Initially set object block to [0.1695, 0.2063, 0.8020] [0.0000, 0.0000, -2.1742]
-Initially set object screw_visual to [0.1269, 0.1445, 0.8574] [0.0001, -0.0009, 2.5369]
-Initially set object screw_driver to [0.2050, 0.2436, 0.8648] [-1.7926, 1.5708, 0.7722]
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0282
-Initially set object block to [0.3937, -0.1902, 0.8020] [0.0000, 0.0000, -1.9558]
-Initially set object screw_visual to [0.3655, -0.2597, 0.8574] [0.0001, -0.0009, 2.7553]
-Initially set object screw_driver to [0.4203, -0.1460, 0.8648] [-2.0218, 1.5708, 0.7344]
+Skipping outputs/screw_nail/norobot_replay/demo_0279 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0280 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0281 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0282 as the demo files exist
 Skipping outputs/screw_nail/norobot_replay/demo_0282 as inconsistent episode length
-Replaying demo -> outputs/screw_nail/norobot_replay/demo_0284
-Initially set object block to [0.2738, -0.2290, 0.8020] [0.0000, 0.0000, -2.5102]
-Initially set object screw_visual to [0.2132, -0.2733, 0.8574] [0.0001, -0.0009, 2.2009]
-Initially set object screw_driver to [0.3196, -0.2054, 0.8648] [-2.1125, 1.5705, 0.0982]
+Skipping outputs/screw_nail/norobot_replay/demo_0284 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0284 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0286 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0287 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0288 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0288 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0290 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0290 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0292 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0293 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0293 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0295 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0296 as the demo files exist
+Skipping outputs/screw_nail/norobot_replay/demo_0296 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0298
+Initially set object block to [0.1885, -0.0294, 0.8020] [0.0000, 0.0000, -0.6865]
+Initially set object screw_visual to [0.2465, -0.0770, 0.8574] [0.0001, -0.0009, -2.2586]
+Initially set object screw_driver to [0.1542, 0.0091, 0.8648] [-1.7083, 1.5708, 2.3141]
+Skipping outputs/screw_nail/norobot_replay/demo_0298 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0300
+Initially set object block to [0.3228, 0.0099, 0.8020] [0.0000, 0.0000, -1.8897]
+Initially set object screw_visual to [0.2993, -0.0613, 0.8574] [0.0001, -0.0009, 2.8214]
+Initially set object screw_driver to [0.3464, 0.0557, 0.8648] [-1.8019, 1.5708, 1.0353]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0301
+Initially set object block to [0.3948, 0.0707, 0.8020] [0.0000, 0.0000, -1.7662]
+Initially set object screw_visual to [0.3802, -0.0028, 0.8574] [0.0001, -0.0009, 2.9449]
+Initially set object screw_driver to [0.4125, 0.1191, 0.8648] [-1.8895, 1.5708, 1.1370]
+Skipping outputs/screw_nail/norobot_replay/demo_0301 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0303
+Initially set object block to [0.1959, 0.1309, 0.8020] [0.0000, 0.0000, -2.8561]
+Initially set object screw_visual to [0.1240, 0.1098, 0.8574] [0.0001, -0.0009, 1.8550]
+Initially set object screw_driver to [0.2471, 0.1376, 0.8648] [-1.5708, 1.5708, 1.5708]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0304
+Initially set object block to [0.3188, -0.1890, 0.8020] [0.0000, 0.0000, -2.1698]
+Initially set object screw_visual to [0.2765, -0.2509, 0.8574] [0.0001, -0.0009, 2.5412]
+Initially set object screw_driver to [0.3542, -0.1515, 0.8648] [-1.6582, 1.5708, 0.8938]
+Skipping outputs/screw_nail/norobot_replay/demo_0304 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0306
+Initially set object block to [0.2812, -0.1596, 0.8020] [0.0000, 0.0000, -2.6618]
+Initially set object screw_visual to [0.2146, -0.1942, 0.8574] [0.0001, -0.0009, 2.0493]
+Initially set object screw_driver to [0.3301, -0.1433, 0.8648] [1.5708, 1.5708, -2.6779]
+Skipping outputs/screw_nail/norobot_replay/demo_0306 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0306 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0309
+Initially set object block to [0.1751, 0.0519, 0.8020] [0.0000, 0.0000, -1.9505]
+Initially set object screw_visual to [0.1473, -0.0177, 0.8574] [0.0001, -0.0009, 2.7606]
+Initially set object screw_driver to [0.2015, 0.0963, 0.8648] [-1.9497, 1.5708, 0.8399]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0310
+Initially set object block to [0.4087, 0.2281, 0.8020] [0.0000, 0.0000, -2.4902]
+Initially set object screw_visual to [0.3490, 0.1826, 0.8574] [0.0001, -0.0009, 2.2209]
+Initially set object screw_driver to [0.4540, 0.2526, 0.8648] [-1.5708, 1.5708, 0.8520]
+Skipping outputs/screw_nail/norobot_replay/demo_0310 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0312
+Initially set object block to [0.1991, -0.2305, 0.8020] [0.0000, 0.0000, -2.5497]
+Initially set object screw_visual to [0.1368, -0.2723, 0.8574] [0.0001, -0.0009, 2.1614]
+Initially set object screw_driver to [0.2458, -0.2087, 0.8648] [-2.6779, 1.5708, 2.6779]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0313
+Initially set object block to [0.1559, 0.2001, 0.8020] [0.0000, 0.0000, -0.9654]
+Initially set object screw_visual to [0.1985, 0.1384, 0.8574] [0.0001, -0.0009, -2.5375]
+Initially set object screw_driver to [0.1335, 0.2466, 0.8648] [-2.1341, 1.5708, 1.6529]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0314
+Initially set object block to [0.2578, 0.2794, 0.8020] [0.0000, 0.0000, -1.6497]
+Initially set object screw_visual to [0.2519, 0.2046, 0.8574] [0.0001, -0.0009, 3.0614]
+Initially set object screw_driver to [0.2699, 0.3295, 0.8648] [-2.0408, 1.5708, 1.1006]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0315
+Initially set object block to [0.0870, 0.0732, 0.8020] [0.0000, 0.0000, -3.0182]
+Initially set object screw_visual to [0.0126, 0.0640, 0.8574] [0.0001, -0.0009, 1.6928]
+Initially set object screw_driver to [0.1385, 0.0715, 0.8648] [-1.8979, 1.5708, -0.2007]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0316
+Initially set object block to [0.3765, -0.0016, 0.8020] [0.0000, 0.0000, -2.7633]
+Initially set object screw_visual to [0.3068, -0.0293, 0.8574] [0.0001, -0.0009, 1.9478]
+Initially set object screw_driver to [0.4268, 0.0097, 0.8648] [-1.3633, 1.5705, 0.4229]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0317
+Initially set object block to [0.2331, 0.1009, 0.8020] [0.0000, 0.0000, -1.8321]
+Initially set object screw_visual to [0.2137, 0.0284, 0.8574] [0.0001, -0.0009, 2.8790]
+Initially set object screw_driver to [0.2541, 0.1480, 0.8648] [-1.9029, 1.5708, 1.0268]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0318
+Initially set object block to [0.3549, -0.0786, 0.8020] [0.0000, 0.0000, -1.3941]
+Initially set object screw_visual to [0.3681, -0.1524, 0.8574] [0.0001, -0.0009, -2.9662]
+Initially set object screw_driver to [0.3539, -0.0270, 0.8648] [-1.9443, 1.5708, 1.4022]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0319
+Initially set object block to [0.3791, 0.2517, 0.8020] [0.0000, 0.0000, -2.3967]
+Initially set object screw_visual to [0.3240, 0.2009, 0.8574] [0.0001, -0.0009, 2.3144]
+Initially set object screw_driver to [0.4220, 0.2804, 0.8648] [-1.9287, 1.5708, 0.3983]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0320
+Initially set object block to [0.2844, 0.2828, 0.8020] [0.0000, 0.0000, -1.5668]
+Initially set object screw_visual to [0.2847, 0.2078, 0.8574] [0.0001, -0.0009, -3.1389]
+Initially set object screw_driver to [0.2922, 0.3338, 0.8648] [-1.8377, 1.5708, 1.3298]
+Skipping outputs/screw_nail/norobot_replay/demo_0320 as inconsistent episode length
+Skipping outputs/screw_nail/norobot_replay/demo_0320 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0323
+Initially set object block to [0.2754, -0.0945, 0.8020] [0.0000, 0.0000, -2.6496]
+Initially set object screw_visual to [0.2093, -0.1299, 0.8574] [0.0001, -0.0009, 2.0614]
+Initially set object screw_driver to [0.3241, -0.0775, 0.8648] [-2.1157, 1.5708, 0.0935]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0324
+Initially set object block to [0.2660, -0.1236, 0.8020] [0.0000, 0.0000, -1.5606]
+Initially set object screw_visual to [0.2667, -0.1986, 0.8574] [0.0001, -0.0009, -3.1327]
+Initially set object screw_driver to [0.2735, -0.0725, 0.8648] [-1.9045, 1.5708, 1.2653]
+Skipping outputs/screw_nail/norobot_replay/demo_0324 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0326
+Initially set object block to [0.3801, 0.1543, 0.8020] [0.0000, 0.0000, -2.6640]
+Initially set object screw_visual to [0.3135, 0.1199, 0.8574] [0.0001, -0.0009, 2.0471]
+Initially set object screw_driver to [0.4291, 0.1706, 0.8648] [-2.4669, 1.5708, -0.4049]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0327
+Initially set object block to [0.3220, 0.0957, 0.8020] [0.0000, 0.0000, -1.5820]
+Initially set object screw_visual to [0.3212, 0.0207, 0.8574] [0.0001, -0.0009, 3.1291]
+Initially set object screw_driver to [0.3306, 0.1466, 0.8648] [-1.7031, 1.5708, 1.4878]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0328
+Initially set object block to [0.3403, 0.2108, 0.8020] [0.0000, 0.0000, -1.7208]
+Initially set object screw_visual to [0.3291, 0.1366, 0.8574] [0.0001, -0.0009, 2.9903]
+Initially set object screw_driver to [0.3559, 0.2599, 0.8648] [-1.8453, 1.5708, 1.1575]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0329
+Initially set object block to [0.2788, -0.0553, 0.8020] [0.0000, 0.0000, -2.0781]
+Initially set object screw_visual to [0.2424, -0.1209, 0.8574] [0.0001, -0.0009, 2.6330]
+Initially set object screw_driver to [0.3106, -0.0147, 0.8648] [-1.8898, 1.5708, 0.7575]
+Skipping outputs/screw_nail/norobot_replay/demo_0329 as inconsistent episode length
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0331
+Initially set object block to [0.2581, 0.2344, 0.8020] [0.0000, 0.0000, -0.4948]
+Initially set object screw_visual to [0.3241, 0.1987, 0.8574] [0.0001, -0.0009, -2.0669]
+Initially set object screw_driver to [0.2171, 0.2656, 0.8648] [-2.1700, 1.5708, 2.1700]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0332
+Initially set object block to [0.2271, -0.1903, 0.8020] [0.0000, 0.0000, -2.1531]
+Initially set object screw_visual to [0.1858, -0.2529, 0.8574] [0.0001, -0.0009, 2.5580]
+Initially set object screw_driver to [0.2618, -0.1521, 0.8648] [-1.6263, 1.5708, 0.9441]
+Replaying demo -> outputs/screw_nail/norobot_replay/demo_0333
+Initially set object block to [0.3641, -0.0477, 0.8020] [0.0000, 0.0000, -2.1306]
+Initially set object screw_visual to [0.3242, -0.1113, 0.8574] [0.0001, -0.0009, 2.5805]
+Initially set object screw_driver to 

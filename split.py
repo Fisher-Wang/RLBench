@@ -1,0 +1,6 @@
+all = "close_box empty_dishwasher open_drawer slide_block_to_target stack_cups put_shoes_in_box take_shoes_out_of_box basketball_in_hoop set_the_table put_books_on_bookshelf put_bottle_in_fridge place_cups empty_container put_plate_in_colored_dish_rack put_item_in_drawer take_item_out_of_drawer screw_nail stack_chairs hockey put_knife_on_chopping_board put_toilet_roll_on_stand hang_frame_on_hanger stack_wine put_knife_in_knife_block take_frame_off_hanger get_ice_from_fridge meat_off_grill meat_on_grill phone_on_base put_all_groceries_in_cupboard put_groceries_in_cupboard put_money_in_safe put_rubbish_in_bin setup_checkers setup_chess solve_puzzle".split(" ")
+maverick = "take_frame_off_hanger stack_wine take_item_out_of_drawer put_knife_in_knife_block set_the_table slide_block_to_target put_books_on_bookshelf put_groceries_in_cupboard put_money_in_safe put_rubbish_in_bin setup_chess".split(" ")
+sirius = "meat_on_grill meat_off_grill put_rubbish_in_bin screw_nail setup_checkers stack_cups close_box hockey basketball_in_hoop".split(" ")
+lupin = "take_shoes_out_of_box hang_frame_on_hanger phone_on_base place_cups put_bottle_in_fridge put_item_in_drawer put_knife_on_chopping_board put_plate_in_colored_dish_rack".split(" ")
+left = list(set(all) - set(lupin) - set(sirius) - set(maverick))
+print(" ".join(left))
