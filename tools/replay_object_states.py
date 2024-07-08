@@ -286,22 +286,22 @@ def replay_demo(
             object.set_position(object_pos)
             object.set_quaternion(wxyz_to_xyzw(object_quat))
 
-            print(
-                "[DEBUG] Set object",
-                object_name,
-                "to",
-                float_array_to_str(object_pos),
-                float_array_to_str(quat_to_euler(object_quat)),
-            )
+            # print(
+            #     "[DEBUG] Set object",
+            #     object_name,
+            #     "to",
+            #     float_array_to_str(object_pos),
+            #     float_array_to_str(quat_to_euler(object_quat)),
+            # )
 
         for joint_name in cfg["joints"]:
             joint = Joint(joint_name)
             joint.set_joint_position(object_state[f"{joint_name}_q"])
             # joint.set_joint_target_velocity(object_state[f'{joint_name}_v'])
 
-            print(
-                "[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"]
-            )
+            # print(
+            #     "[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"]
+            # )
 
         obs = get_observations(cams)
         observations.append(obs)
@@ -362,10 +362,17 @@ if __name__ == "__main__":
     for i, demo in enumerate(demo_data["demos"]["franka"]):
         env_setup = demo["env_setup"]
         object_states = demo["object_states"]
-        assert len(object_states) == demo["episode_len"]  # TODO: Check
+        if not len(object_states) == demo["episode_len"]:  # TODO: Check
+            print(f"Skipping {cur_save_dir} as inconsistent episode length")
+            continue
 
         ## Replay demo
         cur_save_dir = mkdir(pjoin(base_save_dir, f"demo_{i:04d}"))
+        if os.path.exists(os.path.join(cur_save_dir, "cam_front_rgb.mp4")):
+            print(f"Skipping {cur_save_dir} as the demo files exist")
+            continue
+        else:
+            print(f"Replaying demo -> {cur_save_dir}")
         replay_demo(cfg, object_states, cams, cur_save_dir)
 
     ## Exit CoppeliaSim

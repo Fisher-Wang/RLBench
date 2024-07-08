@@ -128,3 +128,6 @@ outputs/
 *.mp4
 *.ttm
 *.ttt
+
+logs/
+*.out

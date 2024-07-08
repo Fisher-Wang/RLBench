@@ -1,0 +1,200 @@
+/home/yuyang/dev/RoboVerse/PyRep/pyrep/pyrep.py:217: UserWarning: Could not change simulation timestep. You may need to change it to "custom dt" using simulation settings dialog.
+  warnings.warn('Could not change simulation timestep. You may need '
+Skipping outputs/setup_checkers/norobot_replay/demo_0000 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0001 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0002 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0003 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0004 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0005 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0006 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0007 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0008 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0009 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0010 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0011 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0012 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0013 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0014 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0015 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0016 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0017 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0018 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0019 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0020 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0021 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0022 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0023 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0024 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0025 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0026 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0027 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0028 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0029 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0030 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0031 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0032 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0033 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0034 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0035 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0036 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0037 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0038 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0039 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0040 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0041 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0042 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0043 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0044 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0045 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0046 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0047 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0048 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0049 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0050 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0051 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0052 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0053 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0054 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0055 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0056 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0057 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0058 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0059 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0060 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0061 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0062 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0063 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0064 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0065 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0066 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0067 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0068 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0069 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0070 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0071 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0072 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0073 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0074 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0075 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0076 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0077 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0078 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0079 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0080 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0081 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0082 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0083 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0084 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0085 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0086 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0087 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0088 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0089 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0090 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0091 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0092 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0093 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0094 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0095 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0096 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0097 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0098 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0099 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0100 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0101 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0102 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0103 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0104 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0105 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0106 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0107 as the demo files exist
+Skipping outputs/setup_checkers/norobot_replay/demo_0108 as the demo files exist
+Replaying demo -> outputs/setup_checkers/norobot_replay/demo_0110
+Initially set object chess_board_base_visual to [0.2904, 0.0464, 0.7607] [-0.0000, 0.0000, 2.9082]
+Initially set object checker0 to [0.3673, -0.1453, 0.7752] [-0.0000, 0.0000, 2.9083]
+Initially set object checker1 to [0.2749, -0.1233, 0.7752] [0.0000, 0.0000, 2.9085]
+Initially set object checker2 to [0.1817, -0.1011, 0.7752] [-0.0000, 0.0000, 2.9086]
+Initially set object checker3 to [0.0885, -0.0790, 0.7752] [-0.0000, 0.0000, 2.9085]
+Initially set object checker4 to [0.3090, -0.2856, 0.7536] [-0.0000, -0.0001, 2.9084]
+Initially set object checker5 to [0.3325, -0.0878, 0.7752] [-0.0012, -0.0011, 2.9087]
+Initially set object checker6 to [0.2393, -0.0656, 0.7752] [0.0000, 0.0000, 2.9085]
+Initially set object checker7 to [0.1461, -0.0435, 0.7752] [0.0000, 0.0000, 2.9085]
+Initially set object checker8 to [0.3902, -0.0523, 0.7752] [0.0000, 0.0000, 2.9082]
+Initially set object checker9 to [0.2970, -0.0301, 0.7752] [0.0000, 0.0000, 2.9085]
+Initially set object checker10 to [0.2038, -0.0080, 0.7752] [0.0000, 0.0000, 2.9083]
+Initially set object checker11 to [0.1106, 0.0142, 0.7751] [-0.0009, 0.0045, 2.9085]
+Initially set object checker12 to [0.4700, 0.0764, 0.7752] [0.0000, 0.0000, 2.9086]
+Initially set object checker13 to [0.3768, 0.0986, 0.7752] [-0.0000, 0.0000, 2.9084]
+Initially set object checker14 to [0.2836, 0.1207, 0.7752] [-0.0000, 0.0000, 2.9085]
+Initially set object checker15 to [0.1904, 0.1429, 0.7752] [-0.0000, 0.0000, 2.9084]
+Initially set object checker16 to [0.4345, 0.1341, 0.7752] [-0.0000, 0.0000, 2.9077]
+Initially set object checker17 to [0.3413, 0.1563, 0.7752] [0.0000, 0.0000, 2.9082]
+Initially set object checker18 to [0.2481, 0.1784, 0.7752] [-0.0000, 0.0000, 2.9084]
+Initially set object checker19 to [0.1549, 0.2006, 0.7752] [-0.0000, 0.0000, 2.9085]
+Initially set object checker20 to [0.4921, 0.1696, 0.7752] [-0.0000, 0.0000, 2.9085]
+Initially set object checker21 to [0.3990, 0.1918, 0.7752] [0.0000, 0.0000, 2.9084]
+Initially set object checker22 to [0.3058, 0.2139, 0.7752] [-0.0000, 0.0000, 2.9083]
+Initially set object checker23 to [0.2126, 0.2361, 0.7752] [-0.0000, 0.0000, 2.9084]
+Replaying demo -> outputs/setup_checkers/norobot_replay/demo_0111
+Initially set object chess_board_base_visual to [0.3358, 0.0692, 0.7607] [-0.0000, -0.0000, -3.0207]
+Initially set object checker0 to [0.4745, -0.0839, 0.7752] [-0.0000, 0.0000, -3.0204]
+Initially set object checker1 to [0.3801, -0.0954, 0.7752] [0.0000, 0.0000, -3.0205]
+Initially set object checker2 to [0.2850, -0.1069, 0.7752] [0.0000, 0.0000, -3.0210]
+Initially set object checker3 to [0.1899, -0.1185, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker4 to [0.5170, -0.0305, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker5 to [0.4219, -0.0420, 0.7752] [0.0000, 0.0000, -3.0203]
+Initially set object checker6 to [0.3268, -0.0536, 0.7752] [-0.0000, 0.0000, -3.0207]
+Initially set object checker7 to [0.2317, -0.0651, 0.7752] [0.0000, 0.0000, -3.0209]
+Initially set object checker8 to [0.4636, 0.0113, 0.7752] [-0.0000, 0.0000, -3.0207]
+Initially set object checker9 to [0.3686, -0.0003, 0.7752] [0.0000, 0.0000, -3.0209]
+Initially set object checker10 to [0.2735, -0.0118, 0.7752] [0.0000, 0.0000, -3.0209]
+Initially set object checker11 to [0.1784, -0.0234, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker12 to [0.4939, 0.1597, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker13 to [0.3988, 0.1481, 0.7752] [0.0000, 0.0000, -3.0208]
+Initially set object checker14 to [0.3037, 0.1366, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker15 to [0.2086, 0.1250, 0.7752] [-0.0000, 0.0000, -3.0208]
+Initially set object checker16 to [0.4405, 0.2014, 0.7752] [0.0000, 0.0000, -3.0207]
+Initially set object checker17 to [0.3455, 0.1899, 0.7752] [-0.0000, 0.0000, -3.0209]
+Initially set object checker18 to [0.2504, 0.1783, 0.7752] [0.0000, 0.0000, -3.0210]
+Initially set object checker19 to [0.4685, -0.2357, 0.7536] [0.0000, 0.0000, -3.0208]
+Initially set object checker20 to [0.4823, 0.2547, 0.7752] [-0.0000, 0.0000, -3.0206]
+Initially set object checker21 to [0.3872, 0.2432, 0.7752] [-0.0000, 0.0000, -3.0209]
+Initially set object checker22 to [0.2921, 0.2316, 0.7752] [0.0000, 0.0000, -3.0209]
+Initially set object checker23 to [0.1970, 0.2201, 0.7752] [0.0000, 0.0000, -3.0209]
+Replaying demo -> outputs/setup_checkers/norobot_replay/demo_0112
+Initially set object chess_board_base_visual to [0.2567, 0.0403, 0.7607] [-0.0000, 0.0000, 2.7960]
+Initially set object checker0 to [0.3117, -0.1588, 0.7752] [-0.0000, 0.0000, 2.7964]
+Initially set object checker1 to [0.2223, -0.1266, 0.7752] [-0.0000, 0.0000, 2.7962]
+Initially set object checker2 to [0.1322, -0.0942, 0.7752] [0.0000, 0.0000, 2.7965]
+Initially set object checker3 to [0.0421, -0.0617, 0.7752] [0.0000, 0.0000, 2.7964]
+Initially set object checker4 to [0.3737, -0.1302, 0.7752] [0.0003, -0.0000, 2.7962]
+Initially set object checker5 to [0.2836, -0.0977, 0.7752] [0.0000, 0.0000, 2.7959]
+Initially set object checker6 to [0.1935, -0.0653, 0.7752] [0.0000, 0.0000, 2.7963]
+Initially set object checker7 to [0.1033, -0.0329, 0.7752] [0.0000, 0.0000, 2.7964]
+Initially set object checker8 to [0.3449, -0.0689, 0.7752] [-0.0000, 0.0000, 2.7965]
+Initially set object checker9 to [0.2547, -0.0365, 0.7752] [0.0000, 0.0000, 2.7963]
+Initially set object checker10 to [0.1646, -0.0040, 0.7752] [0.0000, 0.0000, 2.7964]
+Initially set object checker11 to [0.0745, 0.0284, 0.7752] [-0.0000, 0.0000, 2.7963]
+Initially set object checker12 to [0.4386, 0.0500, 0.7752] [-0.0000, 0.0000, 2.7965]
+Initially set object checker13 to [0.3485, 0.0825, 0.7752] [0.0000, 0.0000, 2.7955]
+Initially set object checker14 to [0.2583, 0.1149, 0.7752] [0.0000, 0.0000, 2.7962]
+Initially set object checker15 to [0.2381, -0.2917, 0.7536] [-0.0000, 0.0000, 2.7962]
+Initially set object checker16 to [0.4097, 0.1113, 0.7752] [-0.0000, 0.0000, 2.7963]
+Initially set object checker17 to [0.3197, 0.1437, 0.7752] [-0.0000, 0.0000, 2.7960]
+Initially set object checker18 to [0.2295, 0.1762, 0.7752] [0.0000, 0.0000, 2.7963]
+Initially set object checker19 to [0.1394, 0.2086, 0.7752] [0.0000, 0.0000, 2.7963]
+Initially set object checker20 to [0.4710, 0.1401, 0.7752] [0.0000, 0.0000, 2.7963]
+Initially set object checker21 to [0.3809, 0.1726, 0.7752] [0.0000, 0.0000, 2.7959]
+Initially set object checker22 to [0.2908, 0.2050, 0.7752] [0.0032, 0.0021, 2.7963]
+Initially set object checker23 to [0.2007, 0.2375, 0.7752] [0.0000, 0.0000, 2.7963]
+Replaying demo -> outputs/setup_checkers/norobot_replay/demo_0113
+Initially set object chess_board_base_visual to [0.3197, -0.2021, 0.7607] [0.0000, -0.0000, -0.1845]
+Initially set object checker0 to [0.2335, -0.0145, 0.7752] [-0.0000, 0.0000, -0.1843]
+Initially set object checker1 to [0.3270, -0.0319, 0.7752] [-0.0000, 0.0000, -0.1843]
+Initially set object checker2 to [0.4211, -0.0495, 0.7752] [0.0000, 0.0000, -0.1841]
+Initially set object checker3 to [0.5153, -0.0670, 0.7752] [-0.0000, 0.0000, -0.1842]
+Initially set object checker4 to [0.1769, -0.0526, 0.7752] [-0.0000, 0.0000, -0.1843]
+Initially set object checker5 to [0.2711, -0.0702, 0.7752] [0.0000, 0.0000, -0.1840]
+Initially set object checker6 to [0.3653, -0.0878, 0.7752] [0.0000, 0.0000, -0.1843]
+Initially set object checker7 to [0.4594, -0.1053, 0.7752] [-0.0000, 0.0000, -0.1842]
+Initially set object checker8 to [0.2153, -0.1085, 0.7752] 

@@ -1,0 +1,7 @@
+/home/yuyang/dev/RoboVerse/PyRep/pyrep/pyrep.py:217: UserWarning: Could not change simulation timestep. You may need to change it to "custom dt" using simulation settings dialog.
+  warnings.warn('Could not change simulation timestep. You may need '
+Traceback (most recent call last):
+  File "/home/yuyang/dev/RoboVerse/RLBench2Unirobo/tools/replay_object_states.py", line 366, in <module>
+    print(f"Skipping {cur_save_dir} as inconsistent episode length")
+NameError: name 'cur_save_dir' is not defined. Did you mean: 'base_save_dir'?
+QMutex: destroying locked mutex
