@@ -16,9 +16,9 @@ def plot_point_cloud(pts, **kwargs):
         **kwargs
     )
 
-task_name = "basketball_in_hoop"
-traj_path = "trajectories/BasketballInHoop-v0/trajectory-unified_with_object_states.pkl"
-demo_id = 1
+task_name = "phone_on_base"
+traj_path = "trajectories/PhoneOnBase-v0/trajectory-unified_with_object_states.pkl"
+demo_id = 0
 load_dir = f"outputs/{task_name}/norobot_replay/demo_{str(demo_id).zfill(4)}"
 metadata = json.load(open(f"outputs/{task_name}/norobot_replay/metadata.json", 'r'))
 
@@ -57,7 +57,7 @@ while rgb_in['cam_front'].isOpened:
     for cam_name in ["cam_front", "cam_over_shoulder_left", "cam_over_shoulder_left"]:
         (rgb_ret, rgb_frame), (depth_ret, depth_frame) = rgb_in[cam_name].read(), depth_in[cam_name].read()
         
-        rgb_o3d = o3d.geometry.Image(np.ascontiguousarray(rgb_frame).astype(np.uint8))
+        rgb_o3d = o3d.geometry.Image(np.ascontiguousarray(rgb_frame[:, :, ::-1]).astype(np.uint8))
         depth_o3d = o3d.geometry.Image((np.ascontiguousarray(depth_frame / 65535 * (depth_max[cam_name] - depth_min[cam_name])).astype(np.float32) + depth_min[cam_name]))
         rgbd_frame = o3d.geometry.RGBDImage.create_from_color_and_depth(rgb_o3d, depth_o3d, depth_scale=1.0, convert_rgb_to_intensity=False)
         
