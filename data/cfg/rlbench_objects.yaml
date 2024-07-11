@@ -432,3 +432,121 @@ solve_puzzle:
   - solve_puzzle_piece23
   - solve_puzzle_piece24
   joints: []
+move_hanger:
+  objects:
+  - clothes_rack
+  - clothes_rack0
+  - clothes_hanger_visual0
+  joints: []
+place_hanger_on_rack:
+  objects:
+  - clothes_rack
+  - hanger_holder
+  - hanger_holder_visual
+  - clothes_hanger_visual
+  joints: []
+pour_from_cup_to_cup:
+  objects:
+  - cup_distractor_visual0
+  - cup_distractor_visual1
+  - cup_distractor_visual2
+  - cup_source_visual
+  - cup_target_visual
+  joints: []
+put_tray_in_oven:
+  objects:
+  - tray_visual
+  - oven
+  joints:
+  - oven_door_joint
+  - oven_knob_joint
+  - oven_tray_joint
+put_umbrella_in_umbrella_stand:
+  objects:
+  - umbrella_visual
+  - stand_visual
+  joints: []
+remove_cups:
+  objects:
+  - place_cups_holder_base
+  - mug_visual1
+  - mug_visual2
+  - mug_visual3
+  joints: []
+stack_blocks:
+  objects:
+  - stack_blocks_distractor0
+  - stack_blocks_distractor1
+  - stack_blocks_distractor2
+  - stack_blocks_distractor3
+  - stack_blocks_target0
+  - stack_blocks_target1
+  - stack_blocks_target2
+  - stack_blocks_target3
+  - stack_blocks_target_plane
+  joints: []
+# ## TODO: Spherical joint is not supported
+# straighten_rope:
+#   objects:
+#   - head_tail
+#   - head_target
+#   - tail
+#   joints:
+#   - Joint0
+#   - Joint1
+#   - Joint2
+#   - Joint3
+#   - Joint4
+#   - Joint5
+#   - Joint6
+#   - Joint7
+#   - Joint8
+#   - Joint9
+#   - Joint10
+#   - Joint11
+#   - Joint12
+#   - Joint13
+#   - Joint14
+#   - Joint15
+#   - Joint16
+take_tray_out_of_oven:
+  objects:
+  - tray_visual
+  - oven
+  joints:
+  - oven_door_joint
+  - oven_knob_joint
+  - oven_tray_joint
+toilet_seat_up:
+  objects:
+  - toilet_seat_up_toilet
+  - toilet_seat_up_respondable
+  joints:
+  - toilet_seat_up_revolute_joint
+turn_tap:
+  objects:
+  - tap_main
+  joints:
+  - left_joint
+  - right_joint
+tv_on:
+  objects:
+  - tv_frame
+  - tv_remote
+  joints:
+  - target_button_joint0
+  - target_button_joint1
+  - target_button_joint2
+water_plants:
+  objects:
+  - waterer_visual
+  - plant
+  joints: []
+weighing_scales:
+  objects:
+  - pepper_visual0
+  - pepper_visual1
+  - pepper_visual2
+  - scales_body
+  joints:
+  - scales_joint
