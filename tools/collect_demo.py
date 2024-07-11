@@ -321,6 +321,9 @@ class DemoGetter:
         self.scene.init_task()
     
     def _try_get_demo(self, variation_index=0, only_setup=False):
+        if self.args.record_object_states:
+            self.object_states.clear()
+        
         self.scene.reset()
         self.scene.init_episode(variation_index, max_attempts=10)
         self.writer.capture_env_setup_data(self.scene)
@@ -362,8 +365,6 @@ class DemoGetter:
         task_name = self.task.get_name()
         demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup)  # Always get the first variation
         self.writer.save_demo_data(demo, task_name, episode_index, object_states=self.object_states)
-        if self.args.record_object_states:
-            self.object_states.clear()
     
     def get_demos(self, num_episodes: int, only_setup=False):
         start_time = time.time()

@@ -129,6 +129,7 @@ def get_rgb_depth(
             if rgb_noise is not None:
                 rgb = rgb_noise.apply(rgb)
             rgb = np.clip((rgb * 255.0).astype(np.uint8), 0, 255)
+            rgb = rgb[:, :, ::-1]  # BGR -> RGB
         if get_depth or get_pcd:
             depth = sensor.capture_depth(depth_in_meters)
             if depth_noise is not None:
@@ -190,8 +191,6 @@ def save_observations(
             depth = visual_obs["depth"]  # (H, W)
             pcd = visual_obs["pcd"]  # (H*W, 3)
 
-            if rgb is not None:
-                rgb = np.clip((rgb * 255).astype(np.uint8), 0, 255)
             if depth is not None:
                 depth = np.clip((depth * 65535).astype(np.uint16), 0, 65535)
 
@@ -201,7 +200,6 @@ def save_observations(
 
             if save_frame:
                 if rgb is not None:
-                    # rgb = rgb[:, :, ::-1]
                     rgb = Image.fromarray(rgb)
                     rgb.save(
                         pjoin(frame_save_dir, f"{frame_idx:04d}_{cam_name}_rgb.png")
@@ -309,7 +307,7 @@ def replay_demo(
         sim.step()
 
     ## Save
-    save_observations(observations, save_dir, cams)
+    save_observations(observations, save_dir, cams, save_frame=args.save_frame)
 
     ## Shutdown
     sim.stop()
@@ -326,6 +324,9 @@ if __name__ == "__main__":
     parser.add_argument("--gravity", type=bool, default=False)
     parser.add_argument("--task", required=True)
     parser.add_argument("--get_pcd", action="store_true")
+    parser.add_argument("--max_demo", type=int, default=500)
+    parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument("--save_frame", action="store_true")
     args = parser.parse_args()
     cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
 
@@ -360,15 +361,23 @@ if __name__ == "__main__":
 
     ## Start replay
     for i, demo in enumerate(demo_data["demos"]["franka"]):
+        if i >= args.max_demo:
+            break
+
         env_setup = demo["env_setup"]
         object_states = demo["object_states"]
-        if not len(object_states) == demo["episode_len"]:  # TODO: Check
-            print(f"Skipping {cur_save_dir} as inconsistent episode length")
-            continue
 
         ## Replay demo
         cur_save_dir = mkdir(pjoin(base_save_dir, f"demo_{i:04d}"))
-        if os.path.exists(os.path.join(cur_save_dir, "cam_front_rgb.mp4")):
+        if not len(object_states) == demo["episode_len"]:
+            print(
+                f"Skipping {cur_save_dir} as inconsistent episode length, recorded {len(object_states)}, expected {demo['episode_len']}"
+            )
+            continue
+        if (
+            os.path.exists(os.path.join(cur_save_dir, "cam_front_rgb.mp4"))
+            and not args.overwrite
+        ):
             print(f"Skipping {cur_save_dir} as the demo files exist")
             continue
         else:
