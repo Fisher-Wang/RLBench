@@ -56,7 +56,8 @@ ttm_file = os.path.join(DIR_PATH, '../rlbench/task_ttms', f'{args.task}.ttm')
 base_object = sim.import_model(ttm_file)
 
 ## Load demo
-demo_path = os.path.join(DIR_PATH, '../outputs', args.task, f'{args.task}.pkl')
+task_pascalcase = ''.join([word.title() for word in args.task.split('_')])
+demo_path = os.path.join(DIR_PATH, "../trajectories", f'{task_pascalcase}-v0', "trajectory-unified_with_object_states.pkl")
 demo_data = read_pickle(demo_path)
 demo = demo_data['demos']['franka'][0]
 env_setup = demo['env_setup']

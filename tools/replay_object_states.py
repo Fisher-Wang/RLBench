@@ -13,6 +13,8 @@ from pyrep.const import RenderMode
 from pyrep.objects.joint import Joint
 from pyrep.objects.object import Object
 from pyrep.objects.vision_sensor import VisionSensor
+from pyrep.robots.arms.panda import Panda
+from pyrep.robots.end_effectors.panda_gripper import PandaGripper
 from utils import (
     ensure_numpy_as_list,
     mkdir,
@@ -248,7 +250,7 @@ def save_metadata(cameras: list[VisionSensor], save_dir):
 ## Replay demo
 ####################################
 def replay_demo(
-    cfg: dict, object_states: dict, cams: list[VisionSensor], save_dir: str
+    cfg: dict, object_states: dict, cams: list[VisionSensor], save_dir: str, traj=None
 ):
     ## Environment setup
     for object_name in cfg["objects"]:
@@ -270,6 +272,12 @@ def replay_demo(
         joint = Joint(joint_name)
         joint.set_joint_position(q)
         print("Initially set joint", joint_name, "to", float_array_to_str(q))
+
+    if args.with_robot:
+        arm, gripper = Panda(), PandaGripper()
+        arm.set_joint_positions(env_setup["init_q"][:7])
+        gripper.set_joint_positions(env_setup["init_q"][7:])
+        gripper.set_control_loop_enabled(True)
 
     ## Replay and capture observations
     sim.start()
@@ -301,6 +309,11 @@ def replay_demo(
             #     "[DEBUG] Set joint", joint_name, "to", object_state[f"{joint_name}_q"]
             # )
 
+        if args.with_robot:
+            q = traj["q"][i]
+            arm.set_joint_positions(q[:7], disable_dynamics=False)
+            gripper.set_joint_positions(q[7:], disable_dynamics=False)
+
         obs = get_observations(cams)
         observations.append(obs)
 
@@ -327,13 +340,17 @@ if __name__ == "__main__":
     parser.add_argument("--max_demo", type=int, default=500)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--save_frame", action="store_true")
+    parser.add_argument("--with_robot", action="store_true")
     args = parser.parse_args()
     cfg = read_yaml("data/cfg/rlbench_objects_workaround.yaml")[args.task]
 
     ## Launch PyRep
     sim = PyRep()
     DIR_PATH = os.path.dirname(os.path.abspath(__file__))
-    ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design_wo_franka.ttt")
+    if args.with_robot:
+        ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design.ttt")
+    else:
+        ttt_file = os.path.join(DIR_PATH, "../rlbench", "task_design_wo_franka.ttt")
     sim.launch(ttt_file, headless=args.headless)
     if not args.gravity:
         sim.script_call(
@@ -366,6 +383,7 @@ if __name__ == "__main__":
 
         env_setup = demo["env_setup"]
         object_states = demo["object_states"]
+        traj = demo["robot_traj"]
 
         ## Replay demo
         cur_save_dir = mkdir(pjoin(base_save_dir, f"demo_{i:04d}"))
@@ -382,7 +400,7 @@ if __name__ == "__main__":
             continue
         else:
             print(f"Replaying demo -> {cur_save_dir}")
-        replay_demo(cfg, object_states, cams, cur_save_dir)
+        replay_demo(cfg, object_states, cams, cur_save_dir, traj=traj)
 
     ## Exit CoppeliaSim
     sim.shutdown()

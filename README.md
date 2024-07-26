@@ -31,15 +31,22 @@ Note: PyRep (CoppeliaSim) will launch Qt even if in headless mode. To ensure it 
     python tools/collect_demo.py --episode_num=2 --headless --task=close_box --record_object_states
     ```
 
-- To replay demostrations in CoppeliaSim without robot arm, and capture visual observations, run
+- To replay demostrations in CoppeliaSim **without** robot arm, and capture visual observations, run
     ```
     python tools/replay_object_states.py --headless --task close_box
     ```
     The recorded data will be in `outputs` folder.
 
+- To replay demostrations in CoppeliaSim **with** robot arm, and capture visual observations, run
+    ```
+    python tools/replay_object_states.py --headless --task close_box --with_robot
+    ```
+    The recorded data will be in `outputs` folder.
+    TODO: Fix the bug for the shadow of the robot arm.
+
 - To see all available tasks, run the following command:
     ```bash
-    cat data/cfg/rlbench_objects.yaml | yq "keys[]"
+    cat data/cfg/rlbench_objects.yaml | yq -r "keys[]"
     ```
 
 - To check if all tasks have right configuration, run the following command:
