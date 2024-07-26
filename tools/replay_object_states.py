@@ -328,7 +328,7 @@ if __name__ == "__main__":
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--save_frame", action="store_true")
     args = parser.parse_args()
-    cfg = read_yaml("data/cfg/rlbench_objects.yaml")[args.task]
+    cfg = read_yaml("data/cfg/rlbench_objects_workaround.yaml")[args.task]
 
     ## Launch PyRep
     sim = PyRep()

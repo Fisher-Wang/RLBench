@@ -388,7 +388,7 @@ if __name__ == '__main__':
     parser.add_argument("--task", required=True)
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--episode_num", type=int, default=1)
-    parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects.yaml")
+    parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects_workaround.yaml")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--robot", default='panda', choices=['panda', 'sawyer', 'ur5'])
     parser.add_argument("--snapshot", action='store_true')
