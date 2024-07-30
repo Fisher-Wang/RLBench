@@ -679,18 +679,6 @@ close_microwave:
   - microwave_frame_vis
   - microwave_door_resp
   - microwave_door
-cut_vegetables:
-  joints: []
-  objects:
-  - cut_vegetables_knife1
-  - cut_vegetables_knife_visual
-  - knife_block_resp
-  - knife_block_vis
-  - objknifes__001_sub4
-  - Carrot_base
-  - Carrot_leaves
-  - Banana
-  - Banana0
 hit_ball_with_queue:
   joints: []
   objects:

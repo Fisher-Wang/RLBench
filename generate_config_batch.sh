@@ -66,7 +66,6 @@ tasks=(
 "close_jar"
 "close_laptop_lid"
 "close_microwave"
-"cut_vegetables"
 "hit_ball_with_queue"
 "insert_onto_square_peg"
 "insert_usb_in_computer"
@@ -116,7 +115,7 @@ tasks=(
 )
 
 # Start the YAML configuration file
-echo "name: tasks_traj"
+echo "name: tasks_traj2"
 echo "root: .  # Adjust this to your project's root directory if necessary"
 echo ""
 echo "# Define a separate window for each task, each running in its own session"
