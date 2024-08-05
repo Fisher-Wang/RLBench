@@ -1024,18 +1024,6 @@ scoop_with_spatula:
   - scoop_with_spatula_spatula
   - spatula_visual
   - Cuboid
-slide_cabinet_open:
-  joints:
-  - left_joint
-  - right_joint
-  objects:
-  - cabinet_base
-  - left_board0
-  - left_handle_visual
-  - left_board_visual
-  - right_board
-  - right_handle_visual
-  - right_board_visual
 slide_cabinet_open_and_place_cups:
   joints:
   - left_joint
@@ -1127,23 +1115,6 @@ take_lid_off_saucepan:
   - saucepan_lid
   - saucepan_lid_visual
   - saucepan_visual
-take_money_out_safe:
-  joints:
-  - safe_joint
-  objects:
-  - safe_body
-  - safe_door
-  - dollar_stack2
-  - dollar_back_visual2
-  - dollar_front_visual2
-  - dollar_stack1
-  - dollar_back_visual1
-  - dollar_front_visual1
-  - dollar_stack0
-  - dollar_back_visual0
-  - dollar_front_visual0
-  - money_boundary
-  - placement_boundary
 take_off_weighing_scales:
   joints:
   - scales_joint

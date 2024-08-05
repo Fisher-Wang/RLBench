@@ -96,13 +96,11 @@ tasks=(
 "reach_and_drag"
 "reach_target"
 "scoop_with_spatula"
-"slide_cabinet_open"
 "slide_cabinet_open_and_place_cups"
 "straighten_rope"
 "sweep_to_dustpan"
 "take_cup_out_from_cabinet"
 "take_lid_off_saucepan"
-"take_money_out_safe"
 "take_off_weighing_scales"
 "take_plate_off_colored_dish_rack"
 "take_toilet_roll_off_stand"
@@ -115,7 +113,7 @@ tasks=(
 )
 
 # Start the YAML configuration file
-echo "name: tasks_traj2"
+echo "name: tasks_traj3"
 echo "root: .  # Adjust this to your project's root directory if necessary"
 echo ""
 echo "# Define a separate window for each task, each running in its own session"
