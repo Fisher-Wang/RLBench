@@ -370,7 +370,7 @@ if __name__ == "__main__":
     ####################################
     ## Main
     ####################################
-    base_save_dir = mkdir(pjoin("outputs", args.task, "norobot_replay"))
+    base_save_dir = mkdir(pjoin("outputs", args.task, "robot_replay" if args.with_robot else "norobot_replay"))
 
     ## Init cameras
     cams = init_cameras()
