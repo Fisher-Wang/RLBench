@@ -7,7 +7,6 @@ from os.path import join as pjoin
 from typing import Dict, List, Tuple
 
 import numpy as np
-import quaternion
 import yaml
 from PIL import Image
 from pyrep import PyRep
@@ -76,6 +75,12 @@ class DemoWriter:
         # t = np.array([np.cos(np.pi/4), 0, np.sin(np.pi/4), 0])  # first rotate around Y axis by 90 degree
         # t = quat_multiply_numpy(np.array([np.cos(np.pi/2), np.sin(np.pi/2), 0, 0]), t)  # then rotate around X axis by 180 degree
         # init_robot_quat = quat_multiply_numpy(init_robot_quat, t)  # t is the transformation from RLBench to RoboVerse
+        
+        ## Align the panda from RLBench default pose to IsaacSim default pose
+        init_robot_pos = init_robot_pos - np.array([-0.0413, 0.0053, 0.75 + 0.0697])  # 0.82 is the position in Z axis of panda in RLBench, -0.039 is the offset of panda in IsaacSim compared to RLBench (see `~/cod/try/urdf_preview/data/usd/debug_franka.usd`)  # 0506 second version
+        t = np.array([0.051, 0.703, -0.051, 0.707])  # 0506 second version
+        t = quat_inverse_numpy(t)
+        init_robot_quat = quat_multiply_numpy(init_robot_quat, t)
         
         print(f'[DEBUG] Initial panda q: {float_array_to_str(init_q)}')
         print(f'[DEBUG] Initial panda position: {float_array_to_str(init_robot_pos)}')

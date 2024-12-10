@@ -105,6 +105,15 @@ def quat_multiply_numpy(q1, q2):
         axis=-1
     )
 
+def quat_inverse_numpy(q):
+    """
+    Invert a quaternion or an array of quaternions.
+
+    Notes:
+        The quaternions should be in the format [w, x, y, z].
+    """
+    return np.stack([q[..., 0], -q[..., 1], -q[..., 2], -q[..., 3]], axis=-1)
+
 def quat_to_euler(q):
     """
     Converts quaternion (w in first place) to euler (roll, pitch, yaw)
