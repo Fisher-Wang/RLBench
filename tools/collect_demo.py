@@ -390,7 +390,7 @@ class DemoGetter:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--task", required=True)
+    parser.add_argument("--task")
     parser.add_argument("--headless", action='store_true')
     parser.add_argument("--episode_num", type=int, default=1)
     parser.add_argument("--conf", "-c", default="data/cfg/rlbench_objects_workaround.yaml")
@@ -401,27 +401,35 @@ if __name__ == '__main__':
     parser.add_argument("--record_object_states", action='store_true')
     args = parser.parse_args()
     assert os.path.exists(args.conf), f"Config file not found: {args.conf}"
-    cfg = read_yaml(args.conf).get(args.task, {'objects': [], 'joints': []})
-    cfg['objects'] += ['diningTable']
-
-    ## Task
-    python_file = os.path.join(TASKS_PATH, f'{args.task}.py')
-    if not os.path.isfile(python_file):
-        raise RuntimeError('Could not find the task file: %s' % python_file)
     
-    ## Run task
-    np.random.seed(args.seed)
-    TaskName = ''.join([x.capitalize() for x in args.task.split('_')])
-    base_save_dir = 'trajectories'
-    # save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v{args.episode_num}'))
-    save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v0'))
-    if args.record_object_states:
-        pkl_filename = 'trajectory-unified_with_object_states.pkl'
-    elif args.only_setup:
-        pkl_filename = 'trajectory-unified_no_demo.pkl'
-    else:
-        pkl_filename = 'trajectory-unified.pkl'
-    writer = DemoWriter(cfg, os.path.join(save_dir, pkl_filename))
-    getter = DemoGetter(args, cfg, writer)
-    getter.load_task(args.task)
-    getter.get_demos(args.episode_num, only_setup=args.only_setup)
+    cfg_all = read_yaml(args.conf)
+    task_names = [args.task] if args.task else cfg_all.keys()
+    print(f'[INFO] Collecting demos for {len(task_names)}')
+    for task_name in task_names:
+        cfg = cfg_all.get(task_name, {'objects': [], 'joints': []})
+        cfg['objects'] += ['diningTable']
+
+        ## Task
+        python_file = os.path.join(TASKS_PATH, f'{task_name}.py')
+        if not os.path.isfile(python_file):
+            raise RuntimeError('Could not find the task file: %s' % python_file)
+        
+        ## Run task
+        np.random.seed(args.seed)
+        TaskName = ''.join([x.capitalize() for x in task_name.split('_')])
+        base_save_dir = 'trajectories'
+        save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v0'))
+        if args.record_object_states:
+            pkl_filename = 'trajectory-unified_with_object_states.pkl'
+        elif args.only_setup:
+            pkl_filename = 'trajectory-unified_no_demo.pkl'
+        else:
+            pkl_filename = 'trajectory-unified.pkl'
+        save_path = os.path.join(save_dir, pkl_filename)
+        if os.path.exists(save_path):
+            print(f'[INFO] Skipping task {task_name} because the file already exists: {save_path}')
+            continue
+        writer = DemoWriter(cfg, save_path)
+        getter = DemoGetter(args, cfg, writer)
+        getter.load_task(task_name)
+        getter.get_demos(args.episode_num, only_setup=args.only_setup)
