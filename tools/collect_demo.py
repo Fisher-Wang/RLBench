@@ -399,6 +399,7 @@ if __name__ == '__main__':
     parser.add_argument("--snapshot", action='store_true')
     parser.add_argument("--only_setup", action='store_true')
     parser.add_argument("--record_object_states", action='store_true')
+    parser.add_argument("--overwrite", action='store_true')
     args = parser.parse_args()
     assert os.path.exists(args.conf), f"Config file not found: {args.conf}"
     
@@ -426,7 +427,7 @@ if __name__ == '__main__':
         else:
             pkl_filename = 'trajectory-unified.pkl'
         save_path = os.path.join(save_dir, pkl_filename)
-        if os.path.exists(save_path):
+        if os.path.exists(save_path) and not args.overwrite:
             print(f'[INFO] Skipping task {task_name} because the file already exists: {save_path}')
             continue
         writer = DemoWriter(cfg, save_path)
