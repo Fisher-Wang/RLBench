@@ -19,6 +19,7 @@ from pyrep.robots.arms.ur5 import UR5
 from pyrep.robots.end_effectors.baxter_gripper import BaxterGripper
 from pyrep.robots.end_effectors.panda_gripper import PandaGripper
 from pyrep.robots.end_effectors.robotiq85_gripper import Robotiq85Gripper
+from tqdm import tqdm
 
 from rlbench.backend.const import TTT_FILE
 from rlbench.backend.myscene import MyScene as Scene
@@ -366,7 +367,7 @@ class DemoGetter:
                 print(f'[ERROR] Error: {error}')
     
     def _get_one_demo(self, episode_index: int, only_setup=False):
-        # np.random.seed(0)  # Make all the demo the same
+        np.random.seed(episode_index)  # Make all the demo the same
         task_name = self.task.get_name()
         demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup)  # Always get the first variation
         self.writer.save_demo_data(demo, task_name, episode_index, object_states=self.object_states)
@@ -374,7 +375,7 @@ class DemoGetter:
     def get_demos(self, num_episodes: int, only_setup=False):
         start_time = time.time()
         
-        for episode_index in range(num_episodes):
+        for episode_index in tqdm(range(num_episodes)):
             self._get_one_demo(episode_index, only_setup=only_setup)
             
             elapsed_time = time.time() - start_time
@@ -421,7 +422,8 @@ if __name__ == '__main__':
         base_save_dir = 'trajectories'
         save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v0'))
         if args.record_object_states:
-            pkl_filename = 'trajectory-unified_with_object_states.pkl'
+            # pkl_filename = 'trajectory-unified_with_object_states.pkl'
+            pkl_filename = 'traj_v1_2000.pkl'
         elif args.only_setup:
             pkl_filename = 'trajectory-unified_no_demo.pkl'
         else:
