@@ -28,7 +28,7 @@ from rlbench.backend.robot import Robot
 from rlbench.backend.task import TASKS_PATH, Task
 from rlbench.demo import Demo
 from rlbench.observation_config import CameraConfig, ObservationConfig
-from tools.utils import *
+from tools.utils import read_yaml, write_pickle, write_yaml, write_json, mkdir, float_array_to_str, xyzw_to_wxyz, quat_to_euler, quat_inverse_numpy, quat_multiply_numpy, ensure_numpy_float32, ensure_numpy_as_list
 
 ####################################
 ## Consts
@@ -103,6 +103,7 @@ class DemoWriter:
         for object_name in object_names:
             object = Object.get_object(object_name)
             init_object_pos = object.get_position()
+            init_object_pos = init_object_pos - np.array([0, 0, 0.75])  # 0.75 is the height of the table in RLBench
             init_object_quat = object.get_quaternion()
             init_object_quat = xyzw_to_wxyz(init_object_quat)
             object_data |= {
@@ -238,6 +239,7 @@ def get_callable_each_step(cfg: dict, object_states: list):
         for object_name in object_names:
             object = Object.get_object(object_name)
             object_pos = object.get_position()
+            object_pos = object_pos - np.array([0, 0, 0.75])  # 0.75 is the height of the table in RLBench
             object_quat = object.get_quaternion()
             # object_vel = object.get_velocity()
             object_quat = xyzw_to_wxyz(object_quat)
@@ -420,10 +422,9 @@ if __name__ == '__main__':
         np.random.seed(args.seed)
         TaskName = ''.join([x.capitalize() for x in task_name.split('_')])
         base_save_dir = 'trajectories'
-        save_dir = mkdir(pjoin(base_save_dir, f'{TaskName}-v0'))
+        save_dir = mkdir(os.path.expanduser(f'~/cod/RoboVerse/roboverse_data/trajs/rlbench/{task_name}/v2'))
         if args.record_object_states:
-            # pkl_filename = 'trajectory-unified_with_object_states.pkl'
-            pkl_filename = 'traj_v1_2000.pkl'
+            pkl_filename = 'franka_v1.pkl'
         elif args.only_setup:
             pkl_filename = 'trajectory-unified_no_demo.pkl'
         else:
