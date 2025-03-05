@@ -109,7 +109,7 @@ for task in "${tasks[@]}"; do
     echo "================================================"
     echo "Collecting demo for task $task"
     echo "================================================"
-    python tools/collect_demo.py --episode_num=10 --headless --record_object_states --overwrite --task=$task
+    python tools/collect_demo.py --episode_num=10 --headless --record_object_states --task=$task
     # break
 done
 
