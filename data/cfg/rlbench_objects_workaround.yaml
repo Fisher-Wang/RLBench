@@ -32,8 +32,8 @@ stack_cups:
 put_shoes_in_box:
   objects:
   - box_base
-  - shoe1
-  - shoe2
+  - shoe1_visual
+  - shoe2_visual
   joints:
   - box_joint
 take_shoes_out_of_box:
@@ -119,7 +119,7 @@ empty_container:
 put_plate_in_colored_dish_rack:
   objects:
   - plate_stand
-  - plate
+  - plate_visual
   - dish_rack
   joints: []
   types:
@@ -466,6 +466,7 @@ put_tray_in_oven:
   objects:
   - tray_visual
   - oven
+  - oven_base
   joints:
   - oven_door_joint
   - oven_knob_joint
@@ -522,6 +523,7 @@ take_tray_out_of_oven:
   objects:
   - tray_visual
   - oven
+  - oven_base
   joints:
   - oven_door_joint
   - oven_knob_joint
