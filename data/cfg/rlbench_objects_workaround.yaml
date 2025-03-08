@@ -81,6 +81,10 @@ place_cups:
   - mug1
   - mug2
   - mug3
+  - mug_visual0
+  - mug_visual1
+  - mug_visual2
+  - mug_visual3
   - place_cups_holder_base
   - place_cups_holder_spoke0
   - place_cups_holder_spoke1
@@ -92,6 +96,10 @@ place_cups:
     mug1: rigid
     mug2: rigid
     mug3: rigid
+    mug_visual0: rigid
+    mug_visual1: rigid
+    mug_visual2: rigid
+    mug_visual3: rigid
     place_cups_holder_base: xform 
     place_cups_holder_spoke0: xform 
     place_cups_holder_spoke1: xform 
