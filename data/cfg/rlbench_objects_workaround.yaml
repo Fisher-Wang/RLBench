@@ -60,6 +60,7 @@ set_the_table:
 put_books_on_bookshelf:
   objects:
   - bookshelf
+  - bookshelf_visual
   - book0
   - book0_visual
   - book1
