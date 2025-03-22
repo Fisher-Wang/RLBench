@@ -367,11 +367,14 @@ class DemoGetter:
                 raise error
             else:
                 print(f'[ERROR] Error: {error}')
+        return None
     
     def _get_one_demo(self, episode_index: int, only_setup=False):
         np.random.seed(episode_index)  # Make all the demo the same
         task_name = self.task.get_name()
-        demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup)  # Always get the first variation
+        demo = self.get_demo(episode_index, variation_index=0, only_setup=only_setup, raise_error=False)  # Always get the first variation
+        if demo is None:
+            return
         self.writer.save_demo_data(demo, task_name, episode_index, object_states=self.object_states)
     
     def get_demos(self, num_episodes: int, only_setup=False):
