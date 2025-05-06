@@ -1,4 +1,4 @@
-# RLBench to UniRobo
+# RLBench to RoboVerse
 
 This repository transfers RLBench tasks and demostrations into UniRobo, a framework based on NVIDIA IsaacSim. It may also inspire future migration of other tasks and demonstrations developed based on RLBench (PyRep (CoppeliaSim)).
 
